@@ -1,0 +1,19 @@
+# Buddhist Digital Ontology Tibetan translation
+# Copyright (C) 2019 Buddhist Digital Resource Center
+# This file is distributed under the same license as the Buddhist Digital Ontology:
+#     CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+#
+#, fuzzy
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Buddhist Digital Ontology e3c569c\n"
+"Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues \n"
+"Last-Translator: Buddhist Digital Resource Center\n"
+"Language-Team: Buddhist Digital Resource Center <inquiry@tbrc.org>\n"
+"Language: bo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+

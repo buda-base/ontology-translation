@@ -1,2 +1,7 @@
-# ontology-translation
-repository dealing with the translation of the Buddhist Digital Ontology
+# Localization of the Buddhist Digital Ontology
+
+## Installation
+
+```
+pip3 install -r requirements.txt
+```
