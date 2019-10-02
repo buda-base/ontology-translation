@@ -5,7 +5,14 @@
 ```
 pip3 install -r requirements.txt
 ```
-
+On the first git clone it may be necesary to:
+```
+git submodule update --init
+```
+When there is a change in the owl-schema, after the initial config above, the following may be used to sync to the head of the owl-schema repo:
+```
+git submodule update --recursive --remote
+```
 ## Copyright
 
 The Python code is:
