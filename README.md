@@ -13,6 +13,10 @@ When there is a change in the owl-schema, after the initial config above, the fo
 ```
 git submodule update --recursive --remote
 ```
+## Usage
+
+The `.po` files produced by `update-po.py` are expected to be used with a service such as [Transifex](https://www.transifex.com/).
+
 ## Copyright
 
 The Python code is:
