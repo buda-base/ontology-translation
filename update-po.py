@@ -44,6 +44,7 @@ def ewtstobo(ewtsstr):
     #    print("warnings in the EWTS to Unicode transformation:")
     #    print("transforming: %s" % ewtsstr)
     #    print(warns)
+    return res
 
 def hanttohans(hantstr):
     return CCT2S.convert(hantstr)
@@ -106,7 +107,7 @@ def add_model_to_polist(model, ttlpath, polist):
 def shorten_uri(uri):
     for longuri, prefix in PREFIXMAP.items():
         if uri.startswith(longuri):
-            return prefix+uri[len(longuri):]
+            return prefix+':'+uri[len(longuri):]
     return None
     
 
@@ -115,7 +116,7 @@ def add_res_to_polist(res, model, ttlpath, polist):
     # don't consider resources outside the common namespaces
     if not resshort:
         return
-    comment = None
+    comment = ""
     # no ontology labels
     for s,p,o in model.triples( (res, RDF.type , OWL.Ontology) ):
         return
@@ -136,9 +137,7 @@ def add_res_to_polist(res, model, ttlpath, polist):
         comment = val
         break
     for s,p,o in model.triples( (res, RDFS.seeAlso , None) ):
-        if not comment:
-            comment = ""
-        else:
+        if comment:
             comment += "\n"
         comment += "see also: %s" % o
     triplesmap = {"skos:prefLabel": [], "rdfs:label": []}
@@ -161,18 +160,19 @@ def add_res_to_polist(res, model, ttlpath, polist):
                 value = LT_TO_FILESUFFIX[lang]["fun"](value)
             podata = polist[posuffix]
             poentry = None
+            poentryalreadypresent = False
             if msgid in podata["entrymap"]:
-                if not OVERWRITE:
-                    continue
                 poentry = podata["entrymap"][msgid]
+                poentryalreadypresent = True
             else:
                 poentry = polib.POEntry(msgid=msgid)
             if comment:
                 poentry.comment = comment
-            poentry.msgstr = value
             poentry.msgctxt = res
             # removing "owl-schema/"
             poentry.occurrences = [(ttlpath[11:], "")]
+            if not poentryalreadypresent or not OVERWRITE:
+                poentry.msgstr = value
             if msgid not in podata["entrymap"]:
                 podata["entrymap"][msgid] = poentry
                 podata["pofile"].append(poentry)
