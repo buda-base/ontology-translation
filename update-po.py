@@ -168,6 +168,14 @@ def add_res_to_polist(res, model, ttlpath, polist):
     for s,p,o in model.triples( (res, SKOS.altLabel , None) ):
         otherlabels.append(o.value)
     for shortp, suffixtolabel in labelsmap.items():
+        # if all the suffixes are empty for the property, let's ignore it:
+        hasData = False
+        for suffix, labels in suffixtolabel.items():
+            if len(labels) > 0:
+                hasData = True
+                break
+        if not hasData:
+            continue
         for suffix, labels in suffixtolabel.items():
             msgid = resshort + '_' + shortp
             value = o.value
@@ -188,6 +196,8 @@ def add_res_to_polist(res, model, ttlpath, polist):
             if len(labels) > 0:
                 if not poentryalreadypresent or not OVERWRITE or not poentry.msgstr:
                     poentry.msgstr = labels[0]
+            if len(labels) > 1:
+                print("abnormal number of labels in %s for %s (%s)" % (suffix, resshort, shortp))
 
 def save_po(podata, path):
     pofile = podata["pofile"]
