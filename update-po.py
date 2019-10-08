@@ -9,7 +9,8 @@ EWTSCONV = pyewts.pyewts()
 CCT2S = OpenCC('t2s')
 
 PO_NAME_TO_TTL_PATH = {
-    "core": ["core/bdo.ttl", "core/unknown-entities.ttl", "roles/*.ttl", "types/*.ttl"]
+    "core": ["core/bdo.ttl", "core/unknown-entities.ttl", "roles/creators.ttl", "types/*.ttl"],
+    "adm": ["adm/admin.ttl", "adm/content_providers.ttl", "adm/legal_entities.ttl", "adm/types/access_types.ttl", "adm/types/license_types.ttl", "adm/types/status_types.ttl"]
 }
 
 PREFIXMAP = {
@@ -102,11 +103,25 @@ def shorten_uri(uri):
     for longuri, prefix in PREFIXMAP.items():
         if uri.startswith(longuri):
             return prefix+uri[len(longuri):]
+    return None
     
 
 def add_res_to_polist(res, model, ttlpath, polist):
     resshort = shorten_uri(res)
+    # don't consider resources outside the common namespaces
+    if not resshort:
+        return
     comment = None
+    # no ontology labels
+    for s,p,o in model.triples( (res, RDF.type , OWL.Ontology) ):
+        return
+    # no deprecated resources
+    for s,p,o in model.triples( (res, OWL.deprecated , None) ):
+        return
+    for s,p,o in model.triples( (res, ADM.translationPriority , None) ):
+        return
+    for s,p,o in model.triples( (res, OWL.equivalentClass , None) ):
+        return
     for s,p,o in model.triples( (res, RDFS.comment , None) ):
         if not o.language or o.language != "en":
             continue
