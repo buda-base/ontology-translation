@@ -49,7 +49,7 @@ def ewtstobo(ewtsstr):
 def hanttohans(hantstr):
     return CCT2S.convert(hantstr)
 
-LANGS = ["bo", "en", "zhhans"]
+SUFFIXES = ["bo", "en", "zhhans"]
 
 LT_TO_FILESUFFIX = {
     "bo": {"suffix": "bo"},
@@ -63,7 +63,7 @@ def update_all():
     for poname, ttlpathlist in PO_NAME_TO_TTL_PATH.items():
         ttlfiles = get_all_files_from_globlist(ttlpathlist)
         polist = {}
-        for l in LANGS:
+        for l in SUFFIXES:
             popath = "po/%s_%s.po"  % (poname, l)
             podata = get_podata_from_file(popath)
             polist[l] = podata
@@ -75,7 +75,7 @@ def update_all():
             add_model_to_polist(m, ttlpath, polist)
         for l, podata in polist.items():
             popath = "po/%s_%s.po"  % (poname, l)
-            save_po(podata["pofile"], popath)
+            save_po(podata, popath)
 
 def get_all_files_from_globlist(globlist):
     res = []
@@ -109,7 +109,16 @@ def shorten_uri(uri):
         if uri.startswith(longuri):
             return prefix+':'+uri[len(longuri):]
     return None
-    
+
+def addlabeltolabelmap(prop, o, labelsmap):
+    lang = o.language.lower()
+    suffix = LT_TO_FILESUFFIX[lang]["suffix"]
+    if "fun" in LT_TO_FILESUFFIX[lang]:
+        value = LT_TO_FILESUFFIX[lang]["fun"](o.value)
+        labelsmap[prop][suffix].append(value)
+    else:
+        labelsmap[prop][suffix].append(o)
+
 
 def add_res_to_polist(res, model, ttlpath, polist):
     resshort = shorten_uri(res)
@@ -140,45 +149,50 @@ def add_res_to_polist(res, model, ttlpath, polist):
         if comment:
             comment += "\n"
         comment += "see also: %s" % o
-    triplesmap = {"skos:prefLabel": [], "rdfs:label": []}
+    labelsmap = {"skos:prefLabel": {}, "rdfs:label": {}}
+    # initialize with a table containing all the interesting SUFFIXES:
+    for s in SUFFIXES:
+        for p, v in labelsmap.items():
+            v[s] = []
+    otherlabels = []
     for s,p,o in model.triples( (res, SKOS.prefLabel , None) ):
-        triplesmap["skos:prefLabel"].append(o)
+        if not o.language or o.language not in LT_TO_FILESUFFIX:
+            otherlabels.append(o.value)
+            continue
+        addlabeltolabelmap("skos:prefLabel", o, labelsmap)
     for s,p,o in model.triples( (res, RDFS.label , None) ):
-        triplesmap["rdfs:label"].append(o)
-    for shortp, olist in triplesmap.items():
-        for o in olist:
-            lang = o.language
-            if not lang:
-                continue
-            lang = lang.lower()
-            if lang not in LT_TO_FILESUFFIX:
-                continue
+        otherlabels.append(o.value)
+        if not o.language or o.language not in LT_TO_FILESUFFIX:
+            continue
+        addlabeltolabelmap("rdfs:label", o, labelsmap)
+    for s,p,o in model.triples( (res, SKOS.altLabel , None) ):
+        otherlabels.append(o.value)
+    for shortp, suffixtolabel in labelsmap.items():
+        for suffix, labels in suffixtolabel.items():
             msgid = resshort + '_' + shortp
             value = o.value
-            posuffix = LT_TO_FILESUFFIX[lang]["suffix"]
-            if "fun" in LT_TO_FILESUFFIX[lang]:
-                value = LT_TO_FILESUFFIX[lang]["fun"](value)
-            podata = polist[posuffix]
-            poentry = None
+            podata = polist[suffix]
             poentryalreadypresent = False
             if msgid in podata["entrymap"]:
                 poentry = podata["entrymap"][msgid]
                 poentryalreadypresent = True
             else:
                 poentry = polib.POEntry(msgid=msgid)
+                podata["pofile"].append(poentry)
+                podata["entrymap"][msgid] = poentry
             if comment:
                 poentry.comment = comment
             poentry.msgctxt = res
             # removing "owl-schema/"
             poentry.occurrences = [(ttlpath[11:], "")]
-            if not poentryalreadypresent or not OVERWRITE:
-                poentry.msgstr = value
-            if msgid not in podata["entrymap"]:
-                podata["entrymap"][msgid] = poentry
-                podata["pofile"].append(poentry)
+            if len(labels) > 0:
+                if not poentryalreadypresent or not OVERWRITE or not poentry.msgstr:
+                    poentry.msgstr = labels[0]
 
-def save_po(po, path):
-    po.save(path)
+def save_po(podata, path):
+    pofile = podata["pofile"]
+    print("saving %d strings in %s" % (len(podata["entrymap"]), path))
+    pofile.save(path)
 
 if __name__ == "__main__":
     update_all()
