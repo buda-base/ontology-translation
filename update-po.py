@@ -39,11 +39,11 @@ OVERWRITE = False
 
 def ewtstobo(ewtsstr):
     warns = []
-    res = EWTSCONV.toUnicode(orig, warns)
-    if warns:
-        print("warnings in the EWTS to Unicode transformation:")
-        print("transforming: %s" % ewtsstr)
-        print(warns)
+    res = EWTSCONV.toUnicode(ewtsstr, warns)
+    #if warns:
+    #    print("warnings in the EWTS to Unicode transformation:")
+    #    print("transforming: %s" % ewtsstr)
+    #    print(warns)
 
 def hanttohans(hantstr):
     return CCT2S.convert(hantstr)
@@ -92,6 +92,7 @@ def get_podata_from_file(path):
 def get_model_from_file(path):
     g = Graph()
     g.parse(path, format="ttl")
+    return g
 
 def add_model_to_polist(model, ttlpath, polist):
     resources = set()
@@ -134,6 +135,12 @@ def add_res_to_polist(res, model, ttlpath, polist):
             continue
         comment = val
         break
+    for s,p,o in model.triples( (res, RDFS.seeAlso , None) ):
+        if not comment:
+            comment = ""
+        else:
+            comment += "\n"
+        comment += "see also: %s" % o
     triplesmap = {"skos:prefLabel": [], "rdfs:label": []}
     for s,p,o in model.triples( (res, SKOS.prefLabel , None) ):
         triplesmap["skos:prefLabel"].append(o)
@@ -152,7 +159,7 @@ def add_res_to_polist(res, model, ttlpath, polist):
             posuffix = LT_TO_FILESUFFIX[lang]["suffix"]
             if "fun" in LT_TO_FILESUFFIX[lang]:
                 value = LT_TO_FILESUFFIX[lang]["fun"](value)
-            podata = polist[possufix]
+            podata = polist[posuffix]
             poentry = None
             if msgid in podata["entrymap"]:
                 if not OVERWRITE:
@@ -167,8 +174,8 @@ def add_res_to_polist(res, model, ttlpath, polist):
             # removing "owl-schema/"
             poentry.occurrences = [(ttlpath[11:], "")]
             if msgid not in podata["entrymap"]:
-                podata["entrymap"][msgid] = entry
-                podata[pofile].append(entry)
+                podata["entrymap"][msgid] = poentry
+                podata["pofile"].append(poentry)
 
 def save_po(po, path):
     po.save(path)
