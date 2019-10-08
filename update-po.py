@@ -68,19 +68,22 @@ def update_all():
             polist[l] = podata
         for ttlpath in ttlfiles:
             m = get_model_from_file(ttlpath)
+            if not m:
+                print("error: cannot get model from %s" % ttlpath)
+                continue
             add_model_to_polist(m, ttlpath, polist)
         for l, podata in polist.items():
             popath = "po/%s_%s.po"  % (poname, l)
-            save_po(podata["pofile"], path)
+            save_po(podata["pofile"], popath)
 
 def get_all_files_from_globlist(globlist):
     res = []
     for g in globlist:
-        res.append(glob.glob('owl-schema/'+g))
+        res += glob.glob('owl-schema/'+g)
     return res
 
 def get_podata_from_file(path):
-    pofile = polib.pofile('path/to/catalog.po')
+    pofile = polib.pofile(path)
     entrymap = {}
     for e in pofile:
         entrymap[e.msgid] = e
@@ -91,13 +94,13 @@ def get_model_from_file(path):
     g.parse(path, format="ttl")
 
 def add_model_to_polist(model, ttlpath, polist):
-    resources = Set()
+    resources = set()
     for s,p,o in model.triples( (None,  SKOS.prefLabel, None) ):
         resources.add(s)
     for s,p,o in model.triples( (None,  RDFS.label, None) ):
         resources.add(s)
     for res in resources:
-        add_res_to_polist(res, ttlpath, polist)
+        add_res_to_polist(res, model, ttlpath, polist)
 
 def shorten_uri(uri):
     for longuri, prefix in PREFIXMAP.items():

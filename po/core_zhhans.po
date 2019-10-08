@@ -1,7 +1,8 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Buddhist Digital Ontology e3c569c\n"
-"Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues \n"
+"Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
 "Last-Translator: Buddhist Digital Resource Center\n"
 "Language-Team: Buddhist Digital Resource Center <inquiry@tbrc.org>\n"
 "Language: zh@hans\n"
@@ -9,4 +10,3 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
