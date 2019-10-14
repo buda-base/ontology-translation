@@ -4,6 +4,7 @@ from opencc import OpenCC
 import glob
 from rdflib import URIRef, Literal, BNode, Graph
 from rdflib.namespace import RDF, RDFS, SKOS, OWL, Namespace, NamespaceManager, XSD
+from operator import itemgetter, attrgetter
 
 EWTSCONV = pyewts.pyewts()
 CCT2S = OpenCC('t2s')
@@ -84,7 +85,7 @@ def get_all_files_from_globlist(globlist):
     return res
 
 def get_podata_from_file(path):
-    pofile = polib.pofile(path)
+    pofile = polib.pofile(path, check_for_duplicates=True)
     entrymap = {}
     for e in pofile:
         entrymap[e.msgid] = e
@@ -136,19 +137,36 @@ def add_res_to_polist(res, model, ttlpath, polist):
         return
     for s,p,o in model.triples( (res, OWL.equivalentClass , None) ):
         return
+    comments = []
     for s,p,o in model.triples( (res, RDFS.comment , None) ):
         if not o.language or o.language != "en":
             continue
         val = o.value.strip()
-        # we only want single line comments
+        # we only want single line comments (do we?)
         if val.count('\n') > 0:
             continue
-        comment = val
-        break
-    for s,p,o in model.triples( (res, RDFS.seeAlso , None) ):
+        comments.append(val)
+    for s,p,o in model.triples( (res, ADM.userTooltip , None) ):
+        if not o.language or o.language != "en":
+            continue
+        val = o.value.strip()
+        # we only want single line comments (do we?)
+        if val.count('\n') > 0:
+            continue
+        comments.append(val)
+    comments = sorted(comments)
+    for comment in comments:
         if comment:
             comment += "\n"
-        comment += "see also: %s" % o
+        comment += comment
+    seealsos = []
+    for s,p,o in model.triples( (res, RDFS.seeAlso , None) ):
+        seealsos.append(o)
+    seealsos = sorted(seealsos)
+    for seealso in seealsos:
+        if comment:
+            comment += "\n"
+        comment += "see also: %s" % seealso
     labelsmap = {"skos:prefLabel": {}, "rdfs:label": {}}
     # initialize with a table containing all the interesting SUFFIXES:
     for s in SUFFIXES:
@@ -200,7 +218,10 @@ def add_res_to_polist(res, model, ttlpath, polist):
                 print("abnormal number of labels in %s for %s (%s)" % (suffix, resshort, shortp))
 
 def save_po(podata, path):
+    sortedentries = list(podata["entrymap"].values())
+    sortedentries = sorted(sortedentries, key=attrgetter('msgid'))
     pofile = podata["pofile"]
+    pofile.entries = sortedentries
     print("saving %d strings in %s" % (len(podata["entrymap"]), path))
     pofile.save(path)
 
