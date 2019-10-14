@@ -50,32 +50,36 @@ def ewtstobo(ewtsstr):
 def hanttohans(hantstr):
     return CCT2S.convert(hantstr)
 
-SUFFIXES = ["bo", "en", "zhhans"]
+SUFFIXES = ["_bo", "_en", "_zhhans", ""]
 
 LT_TO_FILESUFFIX = {
-    "bo": {"suffix": "bo"},
-    "en": {"suffix": "en"},
-    "zh-hans": {"suffix": "zhhans"},
-    "bo-x-ewts": {"suffix": "bo", "fun": lambda x: ewtstobo(x)},
-    "zh-hant": {"suffix": "zhhans", "fun": lambda x: hanttohans(x)},
+    "bo": {"suffix": "_bo"},
+    "en": {"suffix": "_en"},
+    "zh-hans": {"suffix": "_zhhans"},
+    "bo-x-ewts": {"suffix": "_bo", "fun": lambda x: ewtstobo(x)},
+    "zh-hant": {"suffix": "_zhhans", "fun": lambda x: hanttohans(x)},
 }
 
 def update_all():
     for poname, ttlpathlist in PO_NAME_TO_TTL_PATH.items():
         ttlfiles = get_all_files_from_globlist(ttlpathlist)
         polist = {}
-        for l in SUFFIXES:
-            popath = "po/%s_%s.po"  % (poname, l)
+        for s in SUFFIXES:
+            popath = "po/%s.pot" % poname
+            if s:
+                popath = "po/%s%s.po"  % (poname, s)
             podata = get_podata_from_file(popath)
-            polist[l] = podata
+            polist[s] = podata
         for ttlpath in ttlfiles:
             m = get_model_from_file(ttlpath)
             if not m:
                 print("error: cannot get model from %s" % ttlpath)
                 continue
             add_model_to_polist(m, ttlpath, polist)
-        for l, podata in polist.items():
-            popath = "po/%s_%s.po"  % (poname, l)
+        for s, podata in polist.items():
+            popath = "po/%s.pot" % poname
+            if s:
+                popath = "po/%s%s.po"  % (poname, s)
             save_po(podata, popath)
 
 def get_all_files_from_globlist(globlist):
@@ -85,6 +89,7 @@ def get_all_files_from_globlist(globlist):
     return res
 
 def get_podata_from_file(path):
+    print("get data from %s" % path)
     pofile = polib.pofile(path, check_for_duplicates=True)
     entrymap = {}
     for e in pofile:
@@ -194,11 +199,14 @@ def add_res_to_polist(res, model, ttlpath, polist):
                 break
         if not hasData:
             continue
-        for suffix, labels in suffixtolabel.items():
-            msgid = resshort + '_' + shortp
-            value = o.value
+        msgid = resshort + '::' + shortp
+        value = o.value
+        for suffix, labels in suffixtolabel.items():    
             podata = polist[suffix]
             poentryalreadypresent = False
+            if len(labels) == 0 and suffix:
+                # no untranslated strings in .po files
+                continue
             if msgid in podata["entrymap"]:
                 poentry = podata["entrymap"][msgid]
                 poentryalreadypresent = True
@@ -206,18 +214,23 @@ def add_res_to_polist(res, model, ttlpath, polist):
                 poentry = polib.POEntry(msgid=msgid)
                 podata["pofile"].append(poentry)
                 podata["entrymap"][msgid] = poentry
-            if comment:
-                poentry.comment = comment
-            poentry.msgctxt = res
-            # removing "owl-schema/"
-            poentry.occurrences = [(ttlpath[11:], "")]
-            if len(labels) > 0:
-                if not poentryalreadypresent or not OVERWRITE or not poentry.msgstr:
-                    poentry.msgstr = labels[0]
-            if len(labels) > 1:
-                print("abnormal number of labels in %s for %s (%s)" % (suffix, resshort, shortp))
+            if not suffix:
+                if comment:
+                    poentry.comment = comment
+                poentry.msgctxt = res
+                # removing "owl-schema/"
+                poentry.occurrences = [(ttlpath[11:], "")]
+                poentry.msgstr = ""
+            else:
+                if len(labels) > 0:
+                    if not poentryalreadypresent or not OVERWRITE or not poentry.msgstr:
+                        poentry.msgstr = labels[0]
+                if len(labels) > 1:
+                    print("abnormal number of labels in %s for %s (%s)" % (suffix, resshort, shortp))
 
 def save_po(podata, path):
+    #print(path)
+    #print(podata["entrymap"])
     sortedentries = list(podata["entrymap"].values())
     sortedentries = sorted(sortedentries, key=attrgetter('msgid'))
     pofile = podata["pofile"]

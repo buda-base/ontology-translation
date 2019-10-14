@@ -1,0 +1,3859 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Buddhist Digital Ontology (Admin part) e3c569c\n"
+"Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
+"Last-Translator: Buddhist Digital Resource Center\n"
+"Language-Team: Buddhist Digital Resource Center <inquiry@tbrc.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. this should be a positive integer indicating the volume of the Work
+#. referenced in this Location
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workLocationVolume"
+msgid "bdo:workLocationVolume::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasNiece"
+msgid "bdo:hasNiece::rdfs:label"
+msgstr ""
+
+#. An event associated with the transmission of a lineage, such as
+#. giving/receiving an empowerment or oral transmission, and so on
+#. see also: http://purl.bdrc.io/ontology/core/LineageHolder
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/LineageEvent"
+msgid "bdo:LineageEvent::rdfs:label"
+msgstr ""
+
+#. used to indicate the printery of a traditional artefact
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workHasSourcePrintery"
+msgid "bdo:workHasSourcePrintery::rdfs:label"
+msgstr ""
+
+#. Indicates that the event is known to have not occurred after to the
+#. year/date given, unless otherwise specified the year/date is reckoned in
+#. the Common Era
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/notAfter"
+msgid "bdo:notAfter::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workEditionStatement"
+msgid "bdo:workEditionStatement::rdfs:label"
+msgstr ""
+
+#. Identifies where the holding is shelved. The shelf code is based on a
+#. library specific taxonomy
+#. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/itemShelf"
+msgid "bdo:itemShelf::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/incarnationSpeech"
+msgid "bdo:incarnationSpeech::rdfs:label"
+msgstr ""
+
+#. Authorship statement for the Work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workAuthorshipStatement"
+msgid "bdo:workAuthorshipStatement::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasSisterInLaw"
+msgid "bdo:hasSisterInLaw::rdfs:label"
+msgstr ""
+
+#. A general note contains non-specific information about some resource
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/GeneralNote"
+msgid "bdo:GeneralNote::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/resource/ObjectTypeOCR"
+msgid "bdr:ObjectTypeOCR::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationBody"
+msgid "bdo:hasIncarnationBody::rdfs:label"
+msgstr ""
+
+#. Every :Work should have at least one :workLangScript indicating the primary
+#. laguage and script in which the language is presented. There may be more
+#. than one :workLangScript when there are multiple languages used for primary
+#. text. For example, a dictionary with entries in Chinese, Sanskrit and
+#. Tibetan would list all three languages and their corresponding scripts via
+#. three :workLangScript statements
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workLangScript"
+msgid "bdo:workLangScript::rdfs:label"
+msgstr ""
+
+#. A title bestowed on a Person who is recognized as a reincarnation of a
+#. distinguished Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonTulkuTitle"
+msgid "bdo:PersonTulkuTitle::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Volume"
+msgid "bdo:Volume::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasAunt"
+msgid "bdo:hasAunt::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasYoungerBrother"
+msgid "bdo:hasYoungerBrother::rdfs:label"
+msgstr ""
+
+#. An identifer, typically a Tibetan letter, indicating the position of the
+#. text in a sequence of texts. Conventionally appearing in a side box of the
+#. textbox. See bdr:W22080 for an example.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workSideBoxSequenceId"
+msgid "bdo:workSideBoxSequenceId::rdfs:label"
+msgstr ""
+
+#. Refers to the International Standard Book Number for the Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workIsbn"
+msgid "bdo:workIsbn::rdfs:label"
+msgstr ""
+
+#. Title on the first page of the text of the Tibetan traditional Pecha
+#. format.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkFullTitle"
+msgid "bdo:WorkFullTitle::rdfs:label"
+msgstr ""
+
+#. Title given in the colophon of a Work or text
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkColophonTitle"
+msgid "bdo:WorkColophonTitle::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/incarnationActivities"
+msgid "bdo:incarnationActivities::rdfs:label"
+msgstr ""
+
+#. A statement of the location of this Work in a containing Work or of the
+#. pagination present in the text versus the formal location in terms of page
+#. images.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workLocationStatement"
+msgid "bdo:workLocationStatement::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personEventRole"
+msgid "bdo:personEventRole::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workSourceNote"
+msgid "bdo:workSourceNote::rdfs:label"
+msgstr ""
+
+#. The name given to a Person upon their receiving final ordination
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonFinalOrdinationName"
+msgid "bdo:PersonFinalOrdinationName::rdfs:label"
+msgstr ""
+
+#. A location statement for where in the :noteWork to look for the :noteText
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/noteLocationStatement"
+msgid "bdo:noteLocationStatement::rdfs:label"
+msgstr ""
+
+#. An indication of correpondance with a line of text of a physical/image
+#. asset. Lines are counted from 1.
+#. indicates a line of text in a corresponding digitized image of a Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/EtextLine"
+msgid "bdo:EtextLine::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasChild"
+msgid "bdo:hasChild::rdfs:label"
+msgstr ""
+
+#. An event of printing a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PrintedEvent"
+msgid "bdo:PrintedEvent::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/resource/ObjectTypeTypeSet"
+msgid "bdr:ObjectTypeTypeSet::rdfs:label"
+msgstr ""
+
+#. An agent as creator establishes a given Agent performing some cretation
+#. rolw w.r.t. a Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/AgentAsCreator"
+msgid "bdo:AgentAsCreator::rdfs:label"
+msgstr ""
+
+#. The number of digitized metadata pages added by TBRC (now BDRC). Originally
+#. this was 2 pages and more recently condensed to a single non-blank page
+#. however a second blank page 2 was included to simplify processing of
+#. volumes for display and so on. The intention being to capture some relevant
+#. metadata in along with the digitized images so that the volume is
+#. essentially standalone.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/volumePagesTbrcIntro"
+msgid "bdo:volumePagesTbrcIntro::rdfs:label"
+msgstr ""
+
+#. Refers to the Library of Congress Control Number
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workLccn"
+msgid "bdo:workLccn::rdfs:label"
+msgstr ""
+
+#. An event of some type that occurred at the subject Place around some date,
+#. involving some Persons and other entities: founding, destruction etc.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PlaceEvent"
+msgid "bdo:PlaceEvent::rdfs:label"
+msgstr ""
+
+#. The event of compiling / editing a work (mostly collections)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CompiledEvent"
+msgid "bdo:CompiledEvent::rdfs:label"
+msgstr ""
+
+#. An event of work translation.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/TranslatedEvent"
+msgid "bdo:TranslatedEvent::rdfs:label"
+msgstr ""
+
+#. the title as given at the beginning of the text
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkIncipitTitle"
+msgid "bdo:WorkIncipitTitle::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personStudentOf"
+msgid "bdo:personStudentOf::rdfs:label"
+msgstr ""
+
+#. associates an event with one or more agent
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eventWho"
+msgid "bdo:eventWho::rdfs:label"
+msgstr ""
+
+#. use for the title on the copyright page when it differs from the
+#. bibliographical title.
+#. see also: http://cip.loc.gov/cipman/
+#. see also: https://www.loc.gov/publish/cip/news/lccn_art.html
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkCopyrightPageTitle"
+msgid "bdo:WorkCopyrightPageTitle::rdfs:label"
+msgstr ""
+
+#. Use this type for titles in table of contents when they differ from the
+#. bibliographical title.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkToCTitle"
+msgid "bdo:WorkToCTitle::rdfs:label"
+msgstr ""
+
+#. The subject :Person is a consort of the target :Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personConsortOf"
+msgid "bdo:personConsortOf::rdfs:label"
+msgstr ""
+
+#. Title that a work is known by other than one of the defined title types
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkOtherTitle"
+msgid "bdo:WorkOtherTitle::rdfs:label"
+msgstr ""
+
+#. Summary information about the Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workCatalogInfo"
+msgid "bdo:workCatalogInfo::rdfs:label"
+msgstr ""
+
+#. The name received by the Person upon taking their Bodhisattva vows
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonBodhisattvaVowName"
+msgid "bdo:PersonBodhisattvaVowName::rdfs:label"
+msgstr ""
+
+#. A variant label for entities such as :Place, :Corporation and so on
+#: core/bdo.ttl
+msgctxt "http://www.w3.org/2004/02/skos/core#altLabel"
+msgid "skos:altLabel::rdfs:label"
+msgstr ""
+
+#. Identifies a Place that this Place contains.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/placeContains"
+msgid "bdo:placeContains::rdfs:label"
+msgstr ""
+
+#. Virtual works are works made by assembling different other works. Examples:
+#. collections, manuscripts reconstituted from fragments in different
+#. collections, etc. The hierarchy of works displayed in an embedded reader is
+#. also a virtual work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/VirtualWork"
+msgid "bdo:VirtualWork::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/incarnationMind"
+msgid "bdo:incarnationMind::rdfs:label"
+msgstr ""
+
+#. An event of copying a work by some means such as manual enscribing,
+#. photocopying, etc.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CopyEvent"
+msgid "bdo:CopyEvent::rdfs:label"
+msgstr ""
+
+#. An etext without any associated pagination information corresponding to
+#. digitized images of a Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/EtextNonPaginated"
+msgid "bdo:EtextNonPaginated::rdfs:label"
+msgstr ""
+
+#. The :lineageRef identifies another :Lineage that is an alternative version
+#. of the current :Lineage. In gsan yig and thob yig there can be references
+#. to different versions of how a given object has been transmitted up to the
+#. time of the writing of the gsan/thob yig.
+#. see also: http://purl.bdrc.io/ontology/core/Lineage
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageRef"
+msgid "bdo:lineageRef::rdfs:label"
+msgstr ""
+
+#. links an abstract / conceptual work and one of its expressions /
+#. manifestations
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workExpressionOf"
+msgid "bdo:workExpressionOf::rdfs:label"
+msgstr ""
+
+#. Reference number in the Bon combined Kanjur and Tenjur
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaBon"
+msgid "bdo:workKaTenSiglaBon::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkTitle"
+msgid "bdo:WorkTitle::rdfs:label"
+msgstr ""
+
+#. The Event of a Person becoming married to another Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonMarriage"
+msgid "bdo:PersonMarriage::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasParent"
+msgid "bdo:hasParent::rdfs:label"
+msgstr ""
+
+#. Refers to a line of an Etext page
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/pageHasLine"
+msgid "bdo:pageHasLine::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PlaceConverted"
+msgid "bdo:PlaceConverted::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PlaceFounded"
+msgid "bdo:PlaceFounded::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasYoungerSister"
+msgid "bdo:hasYoungerSister::rdfs:label"
+msgstr ""
+
+#. An event of preparing a written manuscript of a Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/EnscribedEvent"
+msgid "bdo:EnscribedEvent::rdfs:label"
+msgstr ""
+
+#. An member of a monastic organization
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CorporationMemberMonastic"
+msgid "bdo:CorporationMemberMonastic::rdfs:label"
+msgstr ""
+
+#. position of the eText in the volume that contains it
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eTextVolumeIndex"
+msgid "bdo:eTextVolumeIndex::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Work"
+msgid "bdo:Work::rdfs:label"
+msgstr ""
+
+#. use to describe the type of binding of a work (loose leaves, bound by glue,
+#. etc.)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/binding"
+msgid "bdo:binding::rdfs:label"
+msgstr ""
+
+#. the object of :lineageHolder is a :LineageHolder that describes an
+#. individual that held the given :Lineage
+#. see also: http://purl.bdrc.io/ontology/core/LineageHolder
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageHolder"
+msgid "bdo:lineageHolder::rdfs:label"
+msgstr ""
+
+#. an entity that performs actions, e.g., creating works, teaching other
+#. agents, founding artificial places and so on
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Agent"
+msgid "bdo:Agent::rdfs:label"
+msgstr ""
+
+#. An event describing the request for a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/RequestedEvent"
+msgid "bdo:RequestedEvent::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personGender"
+msgid "bdo:personGender::rdfs:label"
+msgstr ""
+
+#. The script (Tibetan, Devanagari, etc.)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/script"
+msgid "bdo:script::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PlaceDestroyed"
+msgid "bdo:PlaceDestroyed::rdfs:label"
+msgstr ""
+
+#. Urga Kangyur reference number
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaU"
+msgid "bdo:workKaTenSiglaU::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasGranddaughter"
+msgid "bdo:hasGranddaughter::rdfs:label"
+msgstr ""
+
+#. Event indicating a Person assuming an office such as Professor, Postmaster
+#. or General
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonAssumesOffice"
+msgid "bdo:PersonAssumesOffice::rdfs:label"
+msgstr ""
+
+#. Name by which a Person is known by virtue of their position within an
+#. Organization
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonCorporateName"
+msgid "bdo:PersonCorporateName::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasInLaw"
+msgid "bdo:hasInLaw::rdfs:label"
+msgstr ""
+
+#. Used to represent a mispelling of a label that is otherwise intended to be
+#. retained in the dataset
+#: core/bdo.ttl
+msgctxt "http://www.w3.org/2004/02/skos/core#hiddenLabel"
+msgid "skos:hiddenLabel::rdfs:label"
+msgstr ""
+
+#. The rdfs:label is used in the BDRC ontology to provide a label in the
+#. :PersonName and :WorkTitle
+#: core/bdo.ttl
+msgctxt "http://www.w3.org/2000/01/rdf-schema#label"
+msgid "rdfs:label::rdfs:label"
+msgstr ""
+
+#. The line on the page that is referenced
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workLocationLine"
+msgid "bdo:workLocationLine::rdfs:label"
+msgstr ""
+
+#. An otherwise unspecified type of Person Event
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonEventNotSpecified"
+msgid "bdo:PersonEventNotSpecified::rdfs:label"
+msgstr ""
+
+#. Refers to the Library of Congress Shelf mark call number
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workLcCallNumber"
+msgid "bdo:workLcCallNumber::rdfs:label"
+msgstr ""
+
+#. This models the "down to ..." references to other Lineages. The other
+#. Lineage from the beginning to the holder with the same who as this holder
+#. is implicitly included with this lineage. The known use case is for the
+#. initial holder to include the prior holders from another lineage as the
+#. initial without having members of this lineage without having to repeat
+#. them. It may be meaningful to use this feature deeper in a lineage but that
+#. is not defined at this time. It is meaningful to include multiple from
+#. references which is interpreted as implicitly creating an alternative
+#. lineage for each from element.
+#. see also: http://purl.bdrc.io/ontology/core/LineageHolder
+#. see also: http://purl.bdrc.io/ontology/core/lineageDownFrom
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageDownTo"
+msgid "bdo:lineageDownTo::rdfs:label"
+msgstr ""
+
+#. If the subject work is part of another work, then this reflects the type of
+#. part: chapter, section, text, etc.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workPartType"
+msgid "bdo:workPartType::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasCousin"
+msgid "bdo:hasCousin::rdfs:label"
+msgstr ""
+
+#. refers to a volume description which could be a digital asset, scanned or
+#. etext; or a physical volume (part of a physical holding)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/itemHasVolume"
+msgid "bdo:itemHasVolume::rdfs:label"
+msgstr ""
+
+#. Birth Event for a Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonBirth"
+msgid "bdo:PersonBirth::rdfs:label"
+msgstr ""
+
+#. The name a Person is known by, typically at birth, independent of offices,
+#. seats, and so on
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonPersonalName"
+msgid "bdo:PersonPersonalName::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personOfSect"
+msgid "bdo:personOfSect::rdfs:label"
+msgstr ""
+
+#. Identifies a Place that this Place is located in - usually a single Place
+#. but to account for changes over time in the definitions of regions and such
+#. it may be necessary to have multiple associations.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/placeLocatedIn"
+msgid "bdo:placeLocatedIn::rdfs:label"
+msgstr ""
+
+#. The name given to a Person upon their receiving first ordination
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonFirstOrdinationName"
+msgid "bdo:PersonFirstOrdinationName::rdfs:label"
+msgstr ""
+
+#. The number of volumes in the item
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/itemVolumes"
+msgid "bdo:itemVolumes::rdfs:label"
+msgstr ""
+
+#. Lhasa Kanjur reference number
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaH"
+msgid "bdo:workKaTenSiglaH::rdfs:label"
+msgstr ""
+
+#. The preferred human-readable label for a resource. For a Work this is
+#. typically the bibliographic title and will be repeated in a WorkTitle,
+#. similarly for Persons
+#: core/bdo.ttl
+msgctxt "http://www.w3.org/2004/02/skos/core#prefLabel"
+msgid "skos:prefLabel::rdfs:label"
+msgstr ""
+
+#. The Event of a Person occupying a Seat
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonOccupiesSeat"
+msgid "bdo:PersonOccupiesSeat::rdfs:label"
+msgstr ""
+
+#. The Library (Place) that contains the physical holding
+#. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/itemLibrary"
+msgid "bdo:itemLibrary::rdfs:label"
+msgstr ""
+
+#. A note regarding a bibliographic feature of the Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workBiblioNote"
+msgid "bdo:workBiblioNote::rdfs:label"
+msgstr ""
+
+#. an otherwise unspecified type of person title
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonTitle"
+msgid "bdo:PersonTitle::rdfs:label"
+msgstr ""
+
+#. Places are geographic entities ranging from monasteries, to villages, to
+#. counties, provinces and so on. Places are modeled in terms of subclasses
+#. that indicate the type of "real world" place that is referred to
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Place"
+msgid "bdo:Place::rdfs:label"
+msgstr ""
+
+#. used to reference the number associated with the work in the series
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workHasNumber"
+msgid "bdo:workHasNumber::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasPaternalUncle"
+msgid "bdo:hasPaternalUncle::rdfs:label"
+msgstr ""
+
+#. The ending line on the ending page that is referenced
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workLocationEndLine"
+msgid "bdo:workLocationEndLine::rdfs:label"
+msgstr ""
+
+#. Indicates the direct parent in the hierarchy of the work content
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workPartOf"
+msgid "bdo:workPartOf::rdfs:label"
+msgstr ""
+
+#. Event occurring upon a divorce of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonDivorce"
+msgid "bdo:PersonDivorce::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasGrandmother"
+msgid "bdo:hasGrandmother::rdfs:label"
+msgstr ""
+
+#. Identifies an event that occurred at this Place, e.g., founded, rebuilt,
+#. deserted, etc.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/placeEvent"
+msgid "bdo:placeEvent::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/noteLocationStatementCBETA"
+msgid "bdo:noteLocationStatementCBETA::rdfs:label"
+msgstr ""
+
+#. University of Vienna, resources for Kanjur and Tanjur studies (rKTs)
+#. reference for a rnying rgyud text
+#. see also: https://www.istb.univie.ac.at/kanjur/rktsneu/sub/index.php
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workRefrKTsG"
+msgid "bdo:workRefrKTsG::rdfs:label"
+msgstr ""
+
+#. Roles include offices held as well as other positions. Roles was formerly
+#. called Office in the tbrc.org XML schema. Roles is prefered as a more
+#. commonly used concept in libraries.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Role"
+msgid "bdo:Role::rdfs:label"
+msgstr ""
+
+#. The longitude of the Place
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/placeLong"
+msgid "bdo:placeLong::rdfs:label"
+msgstr ""
+
+#. Refers to an :Etext that is contained in a particular :VolumeEtextAsset
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eTextResource"
+msgid "bdo:eTextResource::rdfs:label"
+msgstr ""
+
+#. facsimile
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/resource/ObjectTypeFacsimile"
+msgid "bdr:ObjectTypeFacsimile::rdfs:label"
+msgstr ""
+
+#. Title that is abbreviated, condensed, divided from the main title
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkTitlePortion"
+msgid "bdo:WorkTitlePortion::rdfs:label"
+msgstr ""
+
+#. Corporation defines important social institutions. For instance in Tibet
+#. those that (1) owned land and (2) had members. Examples include families
+#. and monastic institutions
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Corporation"
+msgid "bdo:Corporation::rdfs:label"
+msgstr ""
+
+#. An item comprised of digitized images of the pages of a Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ItemImageAsset"
+msgid "bdo:ItemImageAsset::rdfs:label"
+msgstr ""
+
+#. A Person resource tracks biographical metadata such as names/titles,
+#. kinship relations, birth and death events, and so on
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Person"
+msgid "bdo:Person::rdfs:label"
+msgstr ""
+
+#. Title that is explanatory. Typically following the main Title Page Title or
+#. Cover Title
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkSubtitle"
+msgid "bdo:WorkSubtitle::rdfs:label"
+msgstr ""
+
+#. The source Work for the noteContent
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/noteWork"
+msgid "bdo:noteWork::rdfs:label"
+msgstr ""
+
+#. Title that appears on the title page of a Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkTitlePageTitle"
+msgid "bdo:WorkTitlePageTitle::rdfs:label"
+msgstr ""
+
+#. An indication of correspondence with a page of a physical/image page.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/EtextPage"
+msgid "bdo:EtextPage::rdfs:label"
+msgstr ""
+
+#. Subjects and genres of works, just as in a traditional library catalog
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Topic"
+msgid "bdo:Topic::rdfs:label"
+msgstr ""
+
+#. The primary name by which a Person is known
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonPrimaryName"
+msgid "bdo:PersonPrimaryName::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eTextInVolume"
+msgid "bdo:eTextInVolume::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workHasItem"
+msgid "bdo:workHasItem::rdfs:label"
+msgstr ""
+
+#. An event describing the discovery of a work (for terma revelations)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/RevealedEvent"
+msgid "bdo:RevealedEvent::rdfs:label"
+msgstr ""
+
+#. note indicating the provenance of an information
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ProvenanceNote"
+msgid "bdo:ProvenanceNote::rdfs:label"
+msgstr ""
+
+#. personIsIncarnation records which being (Person or Topic) this individual
+#. is an incarnation of and optionally what sort of incarnation (body speech,
+#. mind, etc). There are 1,456 individuals out of 18,320, that are marked as
+#. being incarnations of some being. Of these, 18 are marked with
+#. per:incarnationOf_relation and 5 are marked with
+#. per:incarnationOf_secondary.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/isIncarnation"
+msgid "bdo:isIncarnation::rdfs:label"
+msgstr ""
+
+#. Narthang Kangyur and Tengyur reference number, from Eimer's catalogue
+#. see also: http://www.worldcat.org/oclc/718065580
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaN"
+msgid "bdo:workKaTenSiglaN::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/RevisedEvent"
+msgid "bdo:RevisedEvent::rdfs:label"
+msgstr ""
+
+#. see also: http://purl.bdrc.io/ontology/core/Lineage
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageObject"
+msgid "bdo:lineageObject::rdfs:label"
+msgstr ""
+
+#. the target :Person is a consort of the subject :Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personHasConsort"
+msgid "bdo:personHasConsort::rdfs:label"
+msgstr ""
+
+#. The event of completing a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CompletedEvent"
+msgid "bdo:CompletedEvent::rdfs:label"
+msgstr ""
+
+#. The subject is a volume of the referenced item.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/volumeOf"
+msgid "bdo:volumeOf::rdfs:label"
+msgstr ""
+
+#. In some cases volumes of a :Work are given names. For example, in Tibetan a
+#. three volume work might have volumes named O, a, huM or a 10 volume work
+#. might have volumes named: ka, kha, ga, nga, ca, cha, ja, nya, ta, a.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/volumeName"
+msgid "bdo:volumeName::rdfs:label"
+msgstr ""
+
+#. The reference to the :ItemEtext indicates the item that contains the volume
+#. that this Etext is contained in
+#. see also: http://purl.bdrc.io/ontology/core/Etext
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eTextInItem"
+msgid "bdo:eTextInItem::rdfs:label"
+msgstr ""
+
+#. This work has some parallels in another work, meaning it displays
+#. intertextuality patterns.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workHasParallelsIn"
+msgid "bdo:workHasParallelsIn::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasMotherInLaw"
+msgid "bdo:hasMotherInLaw::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationSpeech"
+msgid "bdo:hasIncarnationSpeech::rdfs:label"
+msgstr ""
+
+#. This was the description of type colophon which was used primarily
+#. (exclusively?) on <outline:node/>s. It is now part of the extended
+#. bibliographic model allowing to tag any sort of Work with a colophon
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workColophon"
+msgid "bdo:workColophon::rdfs:label"
+msgstr ""
+
+#. The subject work is a reproduction of the referenced work such as a
+#. photocopy or a an offset print of an original or photocopy and so on.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workReproductionOf"
+msgid "bdo:workReproductionOf::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasWife"
+msgid "bdo:hasWife::rdfs:label"
+msgstr ""
+
+#. An otherwise unspecified member of an organization
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CorporationMemberNotSpecified"
+msgid "bdo:CorporationMemberNotSpecified::rdfs:label"
+msgstr ""
+
+#. University of Vienna, resources for Kanjur and Tanjur studies (rKTs)
+#. reference number for Kangyur texts
+#. see also: https://www.istb.univie.ac.at/kanjur/rktsneu/sub/index.php
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workRefrKTsK"
+msgid "bdo:workRefrKTsK::rdfs:label"
+msgstr ""
+
+#. The event is known to have occurred during the year or date given, unless
+#. otherwise specified the date is reckoned in the Common Era
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/onDate"
+msgid "bdo:onDate::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workHasReproduction"
+msgid "bdo:workHasReproduction::rdfs:label"
+msgstr ""
+
+#. A name bestowed on Person upon receiving certain empowerments
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonSecretInitiatoryName"
+msgid "bdo:PersonSecretInitiatoryName::rdfs:label"
+msgstr ""
+
+#. see also: http://purl.bdrc.io/ontology/core/WorkLocation
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workLocationWork"
+msgid "bdo:workLocationWork::rdfs:label"
+msgstr ""
+
+#. this should be a positive integer indicating the ending volume (if
+#. different from the starting volume) of the Work referenced in this Location
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workLocationEndVolume"
+msgid "bdo:workLocationEndVolume::rdfs:label"
+msgstr ""
+
+#. An abstract or conceptual work is the idea of a work, as opposed to an
+#. expression or manifestation which is a specific edition or witness.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/AbstractWork"
+msgid "bdo:AbstractWork::rdfs:label"
+msgstr ""
+
+#. An item consisting of some form of searchable text
+#. see also: http://purl.bdrc.io/ontology/core/Etext
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ItemEtext"
+msgid "bdo:ItemEtext::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasHusband"
+msgid "bdo:hasHusband::rdfs:label"
+msgstr ""
+
+#. Title indicated in the margins or the page headers of a book.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkRunningTitle"
+msgid "bdo:WorkRunningTitle::rdfs:label"
+msgstr ""
+
+#. Essentially who did the holder receive this :Lineage from
+#. see also: http://purl.bdrc.io/ontology/core/LineageReceived
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageReceived"
+msgid "bdo:lineageReceived::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasParentSibling"
+msgid "bdo:hasParentSibling::rdfs:label"
+msgstr ""
+
+#. Who did this "LineageHolder receive the :Lineage from?
+#. see also: http://purl.bdrc.io/ontology/core/LineageReceived
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageFrom"
+msgid "bdo:lineageFrom::rdfs:label"
+msgstr ""
+
+#. From Paul Hackett's catalogue
+#. see also: http://www.worldcat.org/oclc/756377542
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaA"
+msgid "bdo:workKaTenSiglaA::rdfs:label"
+msgstr ""
+
+#. an otherwise unspecified type of person name
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonOtherName"
+msgid "bdo:PersonOtherName::rdfs:label"
+msgstr ""
+
+#. Shey Palace manuscript reference number
+#. see also: https://www.istb.univie.ac.at/kanjur/xml4/sub/sigla.php
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaZ"
+msgid "bdo:workKaTenSiglaZ::rdfs:label"
+msgstr ""
+
+#. The Event of a Person leaving an Office
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonLeavesOffice"
+msgid "bdo:PersonLeavesOffice::rdfs:label"
+msgstr ""
+
+#. May be used to indicate the number of introductory pages in a volume
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/volumePagesIntro"
+msgid "bdo:volumePagesIntro::rdfs:label"
+msgstr ""
+
+#. text of the note
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/noteText"
+msgid "bdo:noteText::rdfs:label"
+msgstr ""
+
+#. Title printed on the cover of a Work or text as issued
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkCoverTitle"
+msgid "bdo:WorkCoverTitle::rdfs:label"
+msgstr ""
+
+#. A bibliogrpahic status statement in the language of the Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workBiblioStatus"
+msgid "bdo:workBiblioStatus::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasSiblingInLaw"
+msgid "bdo:hasSiblingInLaw::rdfs:label"
+msgstr ""
+
+#. identifies who this :LineageHolder is, :Person or a being represented via a
+#. :Topic.
+#. see also: http://purl.bdrc.io/ontology/core/LineageHolder
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageWho"
+msgid "bdo:lineageWho::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasGrandfather"
+msgid "bdo:hasGrandfather::rdfs:label"
+msgstr ""
+
+#. An original title is literally what was printed or written on the Work.
+#. Occurs when there is a corrected title
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/OriginalTitle"
+msgid "bdo:OriginalTitle::rdfs:label"
+msgstr ""
+
+#. Asserts that the subject Work has a particular title.
+#. see also: http://purl.bdrc.io/ontology/core/WorkTitle
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workTitle"
+msgid "bdo:workTitle::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasSpouse"
+msgid "bdo:hasSpouse::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/incarnationYangtse"
+msgid "bdo:incarnationYangtse::rdfs:label"
+msgstr ""
+
+#. The event of carving a work (in woodblocks, stone, etc.)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CarvedEvent"
+msgid "bdo:CarvedEvent::rdfs:label"
+msgstr ""
+
+#. The latitude of the Place
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/placeLat"
+msgid "bdo:placeLat::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasOlderSister"
+msgid "bdo:hasOlderSister::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/incarnationBody"
+msgid "bdo:incarnationBody::rdfs:label"
+msgstr ""
+
+#. This refers to a :Work that the subject :LineageHolder authored as an
+#. element of the :Lineage - a commentary of some sort typically
+#. see also: http://purl.bdrc.io/ontology/core/LineageHolder
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageWork"
+msgid "bdo:lineageWork::rdfs:label"
+msgstr ""
+
+#. height or thickness of the physical item of a :Work in cm
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workDimHeight"
+msgid "bdo:workDimHeight::rdfs:label"
+msgstr ""
+
+#. use to indicate the material applied on a work (ink, golden leaf, etc.)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/appliedMaterial"
+msgid "bdo:appliedMaterial::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Etext"
+msgid "bdo:Etext::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workDimensions"
+msgid "bdo:workDimensions::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workHasExpression"
+msgid "bdo:workHasExpression::rdfs:label"
+msgstr ""
+
+#. The class of the various sorts of events: Persons, Places, Works, and
+#. Lineages
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Event"
+msgid "bdo:Event::rdfs:label"
+msgstr ""
+
+#. The Event of a Person leaving a Seat
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonLeavesSeat"
+msgid "bdo:PersonLeavesSeat::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaV"
+msgid "bdo:workKaTenSiglaV::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkBibliographicalTitle"
+msgid "bdo:WorkBibliographicalTitle::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasSon"
+msgid "bdo:hasSon::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasGrandChild"
+msgid "bdo:hasGrandChild::rdfs:label"
+msgstr ""
+
+#. Ganden (dga’ ldan) or “Golden Manuscript” (gser bris ma) Tengyur reference
+#. number
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaG"
+msgid "bdo:workKaTenSiglaG::rdfs:label"
+msgstr ""
+
+#. An event related to a perswon such as birth, death, ordination, founding
+#. monastery and so on
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personEvent"
+msgid "bdo:personEvent::rdfs:label"
+msgstr ""
+
+#. Roleepresents a scanned or otherwise digitized set of page images.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/VolumeImageAsset"
+msgid "bdo:VolumeImageAsset::rdfs:label"
+msgstr ""
+
+#. single agents include ahistorical and historical (human) agents
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/SingleAgent"
+msgid "bdo:SingleAgent::rdfs:label"
+msgstr ""
+
+#. An etext with associated pagination information corresponding to digitized
+#. images of a Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/EtextPaginated"
+msgid "bdo:EtextPaginated::rdfs:label"
+msgstr ""
+
+#. refers to an :EtextRef that identifies an :Etext and the position of that
+#. :Etext in a containing :VolumeEtextAsset
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/volumeHasEtext"
+msgid "bdo:volumeHasEtext::rdfs:label"
+msgstr ""
+
+#. links an etext volume to its various etexts (often 1)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/EtextRef"
+msgid "bdo:EtextRef::rdfs:label"
+msgstr ""
+
+#. A description of the what, when and where of an event in the life of a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workEvent"
+msgid "bdo:workEvent::rdfs:label"
+msgstr ""
+
+#. This is the number of this Work in a series - implies that this work is a
+#. part (member of) a series Work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workSeriesNumber"
+msgid "bdo:workSeriesNumber::rdfs:label"
+msgstr ""
+
+#. A comment about the subject resource, possibly with a source Work and a
+#. location in the Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Note"
+msgid "bdo:Note::rdfs:label"
+msgstr ""
+
+#. The ending page in the volume of the Work indicated by the other statements
+#. for this :WorkLocation
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workLocationEndPage"
+msgid "bdo:workLocationEndPage::rdfs:label"
+msgstr ""
+
+#. An event associated with the production of a :Work. Event information is
+#. gathered from colophons and publication data presented in the publishede
+#. form of texts
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkEvent"
+msgid "bdo:WorkEvent::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/note"
+msgid "bdo:note::rdfs:label"
+msgstr ""
+
+#. This is the number of volumes associated with the original work. Typically
+#. this is for a published work. The value may differ from the "actual" number
+#. of volumes in an associated Item owing to missing volumes.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workNumberOfVolumes"
+msgid "bdo:workNumberOfVolumes::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasNephew"
+msgid "bdo:hasNephew::rdfs:label"
+msgstr ""
+
+#. secondary language associated with a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workOtherLangScript"
+msgid "bdo:workOtherLangScript::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workCBCSiglaT"
+msgid "bdo:workCBCSiglaT::rdfs:label"
+msgstr ""
+
+#. This property groups together all of the various reference number
+#. properties derived from various catalogues and such. This property can be
+#. used by an editor to easily locate all of the possible reference number
+#. properties that might need to be used during cataloguing.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workRefs"
+msgid "bdo:workRefs::rdfs:label"
+msgstr ""
+
+#. University of Vienna, resources for Kanjur and Tanjur studies (rKTs)
+#. reference for a Tengyur text
+#. see also: https://www.istb.univie.ac.at/kanjur/rktsneu/sub/index.php
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workRefrKTsT"
+msgid "bdo:workRefrKTsT::rdfs:label"
+msgstr ""
+
+#. The subject work is identified as a translation of the referenced work.
+#. This will be used, for example, when the subject work is a Tibetan
+#. translation of a referenced Sanskrit work.
+#. This work is a translation of the reference work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workTranslationOf"
+msgid "bdo:workTranslationOf::rdfs:label"
+msgstr ""
+
+#. A member of an organization by marriage
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CorporationMemberByMarriage"
+msgid "bdo:CorporationMemberByMarriage::rdfs:label"
+msgstr ""
+
+#. Catalogue of the New Treasures of Chokgyur Lingpa reference used only in
+#. cataloguing parts of bdr:W22642
+#. see also:
+#. http://rywiki.tsadra.org/index.php/Catalogue_of_the_New_Treasures_of_Chokgyur_Lingpa_Part_1
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workRefChokLing"
+msgid "bdo:workRefChokLing::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasDaughter"
+msgid "bdo:hasDaughter::rdfs:label"
+msgstr ""
+
+#. An Event associated with the Person such as birth, death, ordination, and
+#. so on
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonEvent"
+msgid "bdo:PersonEvent::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/itemMissingVolumes"
+msgid "bdo:itemMissingVolumes::rdfs:label"
+msgstr ""
+
+#. A item comprised of a physical volume or volumes.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ItemPhysicalAsset"
+msgid "bdo:ItemPhysicalAsset::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasSister"
+msgid "bdo:hasSister::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workGenre"
+msgid "bdo:workGenre::rdfs:label"
+msgstr ""
+
+#. An organization is a collection of agents organized as a single entity such
+#. as a monastery, governing body, and so on
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Organization"
+msgid "bdo:Organization::rdfs:label"
+msgstr ""
+
+#. A preliminary to monastic ordination, when someone takes the five root vows
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonRabByungOrdination"
+msgid "bdo:PersonRabByungOrdination::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personEventCorporation"
+msgid "bdo:personEventCorporation::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+msgid "rdfs:seeAlso::rdfs:label"
+msgstr ""
+
+#. This is the location of the source information for this :Lineage in a
+#. specified gsan / thob yig.
+#. the :workLocation may be used with other domains and these will be added in
+#. an owl:unionOf as they are added. One such is expected to be :Note
+#. see also: http://purl.bdrc.io/ontology/core/Lineage
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workLocation"
+msgid "bdo:workLocation::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaDo"
+msgid "bdo:workKaTenSiglaDo::rdfs:label"
+msgstr ""
+
+#. A member of an organization based on some attributes of the
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CorporationMember"
+msgid "bdo:CorporationMember::rdfs:label"
+msgstr ""
+
+#. The event of authoring a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/AuthoredEvent"
+msgid "bdo:AuthoredEvent::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasMother"
+msgid "bdo:hasMother::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasGrandson"
+msgid "bdo:hasGrandson::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PlaceEventNotSpecified"
+msgid "bdo:PlaceEventNotSpecified::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/VolumeEtextAsset"
+msgid "bdo:VolumeEtextAsset::rdfs:label"
+msgstr ""
+
+#. This Item is for the referenced Work, i.e., this Item represents a physical
+#. or digital instance of the referenced Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/itemForWork"
+msgid "bdo:itemForWork::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eTextHasPage"
+msgid "bdo:eTextHasPage::rdfs:label"
+msgstr ""
+
+#. Refers to the Tradition that the place event is affiliated with.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/placeEventAffiliation"
+msgid "bdo:placeEventAffiliation::rdfs:label"
+msgstr ""
+
+#. Derge Kangyur and Tengyur reference numbers, from the Tohoku Catalogue
+#. see also: http://www.worldcat.org/oclc/976594525
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaD"
+msgid "bdo:workKaTenSiglaD::rdfs:label"
+msgstr ""
+
+#. A member of an organization by kinship
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CorporationMemberByBlood"
+msgid "bdo:CorporationMemberByBlood::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasParentInLaw"
+msgid "bdo:hasParentInLaw::rdfs:label"
+msgstr ""
+
+#. Where and by whom the Work was scanned (or requested to be scanned)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workScanInfo"
+msgid "bdo:workScanInfo::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/corporationHasMember"
+msgid "bdo:corporationHasMember::rdfs:label"
+msgstr ""
+
+#. This property is applicable to Persons and Topics (that represent deities
+#. or other ahistorical figures).
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnation"
+msgid "bdo:hasIncarnation::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://www.w3.org/2000/01/rdf-schema#comment"
+msgid "rdfs:comment::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasGrandParent"
+msgid "bdo:hasGrandParent::rdfs:label"
+msgstr ""
+
+#. A lineage holder is a Person that is considered to be an authoritative
+#. conveyer of a transmission lineage
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/LineageHolder"
+msgid "bdo:LineageHolder::rdfs:label"
+msgstr ""
+
+#. Indicates the time of the event
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eventWhen"
+msgid "bdo:eventWhen::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasFatherInLaw"
+msgid "bdo:hasFatherInLaw::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasFather"
+msgid "bdo:hasFather::rdfs:label"
+msgstr ""
+
+#. describe a name for a Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personName"
+msgid "bdo:personName::rdfs:label"
+msgstr ""
+
+#. The event is known to have occurred during the year given, unless otherwise
+#. specified the year is reckoned in the Common Era
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/onYear"
+msgid "bdo:onYear::rdfs:label"
+msgstr ""
+
+#. associates an event with at most one place
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eventWhere"
+msgid "bdo:eventWhere::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workDerivativeOf"
+msgid "bdo:workDerivativeOf::rdfs:label"
+msgstr ""
+
+#. An ahistorical agent may be a deity or other non-human agent that is said
+#. to exist outside of human history
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/AhistoricalAgent"
+msgid "bdo:AhistoricalAgent::rdfs:label"
+msgstr ""
+
+#. Common Era Year
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ceDate"
+msgid "bdo:ceDate::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personTeacherOf"
+msgid "bdo:personTeacherOf::rdfs:label"
+msgstr ""
+
+#. width of the physical item, of this :Work, that is held or scanned in cm
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workDimWidth"
+msgid "bdo:workDimWidth::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasUnknownKinship"
+msgid "bdo:hasUnknownKinship::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/incarnationQualities"
+msgid "bdo:incarnationQualities::rdfs:label"
+msgstr ""
+
+#. Identifies the type of :Lineage such as empowerment, reading transmission,
+#. various sorts of instructions and so on
+#. see also: http://purl.bdrc.io/ontology/core/Lineage
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageType"
+msgid "bdo:lineageType::rdfs:label"
+msgstr ""
+
+#. The title bestowed upon a Person who has discovered a terma
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonGterStonTitle"
+msgid "bdo:PersonGterStonTitle::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasSibling"
+msgid "bdo:hasSibling::rdfs:label"
+msgstr ""
+
+#. title indicated on the spine of a book
+#. use for titles indicated on the spine of a book when it differs from the
+#. bibliographical title.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkSpineTitle"
+msgid "bdo:WorkSpineTitle::rdfs:label"
+msgstr ""
+
+#. A unit of searchable etext
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/EtextChunk"
+msgid "bdo:EtextChunk::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasBrotherInLaw"
+msgid "bdo:hasBrotherInLaw::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/volumePhysicalDescription"
+msgid "bdo:volumePhysicalDescription::rdfs:label"
+msgstr ""
+
+#. "first fruit" printing from a set of xylographs. par phud
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/resource/ObjectTypeParPhud"
+msgid "bdr:ObjectTypeParPhud::rdfs:label"
+msgstr ""
+
+#. property linking an entity or event to the agents and roles they play
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/AgentInRole"
+msgid "bdo:AgentInRole::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/resource/ObjectTypeComputerInput"
+msgid "bdr:ObjectTypeComputerInput::rdfs:label"
+msgstr ""
+
+#. The number of the volume in the Item. There is no implied order in RDF and
+#. there may be missing volumes so it is necessary to explicitly indicate the
+#. volume number.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/volumeNumber"
+msgid "bdo:volumeNumber::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasUncle"
+msgid "bdo:hasUncle::rdfs:label"
+msgstr ""
+
+#. true if the work is complete
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workComplete"
+msgid "bdo:workComplete::rdfs:label"
+msgstr ""
+
+#. The primary or common title by which a Person is known.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonPrimaryTitle"
+msgid "bdo:PersonPrimaryTitle::rdfs:label"
+msgstr ""
+
+#. An Item captures structural and administrative metadata associated with a
+#. digital or physical asset
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Item"
+msgid "bdo:Item::rdfs:label"
+msgstr ""
+
+#. event type describing when a place was abandonned
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PlaceAbandoned"
+msgid "bdo:PlaceAbandoned::rdfs:label"
+msgstr ""
+
+#. from Mibu's catalogue
+#. see also: http://www.worldcat.org/oclc/603601029
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaC"
+msgid "bdo:workKaTenSiglaC::rdfs:label"
+msgstr ""
+
+#. Event indicating a Person assuming a seat such as Secretary to the Kashag
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonAssumesSeat"
+msgid "bdo:PersonAssumesSeat::rdfs:label"
+msgstr ""
+
+#. An event describing the publication of a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PublishedEvent"
+msgid "bdo:PublishedEvent::rdfs:label"
+msgstr ""
+
+#. The opening words of the Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workIncipit"
+msgid "bdo:workIncipit::rdfs:label"
+msgstr ""
+
+#. Death Event for a Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonDeath"
+msgid "bdo:PersonDeath::rdfs:label"
+msgstr ""
+
+#. The referenced work is a derivative of this work. This means that the
+#. referenced work may be a later edition or a version with some
+#. "corrections"/changes to the content of the referenced work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workHasDerivative"
+msgid "bdo:workHasDerivative::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasOlderBrother"
+msgid "bdo:hasOlderBrother::rdfs:label"
+msgstr ""
+
+#. see also: http://purl.bdrc.io/ontology/core/LineageHolder
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageDownFrom"
+msgid "bdo:lineageDownFrom::rdfs:label"
+msgstr ""
+
+#. Indicates that the event is known to have not occurred prior to the
+#. year/date given, unless otherwise specified the year/date is reckoned in
+#. the Common Era
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/notBefore"
+msgid "bdo:notBefore::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasBrother"
+msgid "bdo:hasBrother::rdfs:label"
+msgstr ""
+
+#. links a work and one of its part (a collection and a text in the
+#. collection, a text and one of its chapters, etc.)
+#. see also: http://purl.bdrc.io/ontology/core/workPartOf
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workHasPart"
+msgid "bdo:workHasPart::rdfs:label"
+msgstr ""
+
+#. The name by which a Person is commonly known
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonCommonName"
+msgid "bdo:PersonCommonName::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eTextTitle"
+msgid "bdo:eTextTitle::rdfs:label"
+msgstr ""
+
+#. The Etext is the entire volume
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eTextIsVolume"
+msgid "bdo:eTextIsVolume::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationQualities"
+msgid "bdo:hasIncarnationQualities::rdfs:label"
+msgstr ""
+
+#. The Event of a Person discovering a terma
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonGterMaDiscovery"
+msgid "bdo:PersonGterMaDiscovery::rdfs:label"
+msgstr ""
+
+#. identifies the agent participating in an :AgentInRole
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/agent"
+msgid "bdo:agent::rdfs:label"
+msgstr ""
+
+#. The referenced work is identified as a translation of the subject work.
+#. This will be used, for example, when the referenced work is a Tibetan
+#. translation of a subject Sanskrit work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workHasTranslation"
+msgid "bdo:workHasTranslation::rdfs:label"
+msgstr ""
+
+#. Event indicating the Person becoming affiliated with a lineage or
+#. organization
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonAffiliation"
+msgid "bdo:PersonAffiliation::rdfs:label"
+msgstr ""
+
+#. A Person Name is one of the names a Person is historically known by
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonName"
+msgid "bdo:PersonName::rdfs:label"
+msgstr ""
+
+#. Reference number from Skorupski's catalogue
+#. see also: http://www.worldcat.org/oclc/461960048
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaS"
+msgid "bdo:workKaTenSiglaS::rdfs:label"
+msgstr ""
+
+#. Buddhist Era Year dating from 543 B.C.E.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/beDate"
+msgid "bdo:beDate::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PlaceRebuilt"
+msgid "bdo:PlaceRebuilt::rdfs:label"
+msgstr ""
+
+#. name used by the author in the colophons of his works
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonPenName"
+msgid "bdo:PersonPenName::rdfs:label"
+msgstr ""
+
+#. The referenced Entity (topic, person, work, etc.) is expected to be a
+#. subject of the work - something the work is about.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workIsAbout"
+msgid "bdo:workIsAbout::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationGeneral"
+msgid "bdo:hasIncarnationGeneral::rdfs:label"
+msgstr ""
+
+#. Indicates that this Work is a member of a series. This property is used
+#. rather than :workPartOf to distinguish between the situation in which a
+#. series is typically not published all at once versus a collection of Works
+#. such as a Kanjur or gSungbum that is conventionally published and
+#. distributed all at once.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workNumberOf"
+msgid "bdo:workNumberOf::rdfs:label"
+msgstr ""
+
+#. The Event of a Person establishing residence in a Place such as a
+#. Monastery, Cave, and so on
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonInResidence"
+msgid "bdo:PersonInResidence::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/role"
+msgid "bdo:role::rdfs:label"
+msgstr ""
+
+#. The event of origin of a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/OriginatedEvent"
+msgid "bdo:OriginatedEvent::rdfs:label"
+msgstr ""
+
+#. The page in the volume of the Work indicated by the other statements for
+#. this :WorkLocation
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workLocationPage"
+msgid "bdo:workLocationPage::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasNibling"
+msgid "bdo:hasNibling::rdfs:label"
+msgstr ""
+
+#. The Title of a Person occupying a given office
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonOfficeTitle"
+msgid "bdo:PersonOfficeTitle::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationYangtse"
+msgid "bdo:hasIncarnationYangtse::rdfs:label"
+msgstr ""
+
+#. The name of a Person's family. Surname
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonFamilyName"
+msgid "bdo:PersonFamilyName::rdfs:label"
+msgstr ""
+
+#. Pecing Kangyur Reference number from the Otani catalogue
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaQ"
+msgid "bdo:workKaTenSiglaQ::rdfs:label"
+msgstr ""
+
+#. length of the physical item, of this :Work, that is held or scanned in cm
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workDimLength"
+msgid "bdo:workDimLength::rdfs:label"
+msgstr ""
+
+#. From Imaeda's catalogue
+#. see also: http://www.worldcat.org/oclc/769115653
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaJ"
+msgid "bdo:workKaTenSiglaJ::rdfs:label"
+msgstr ""
+
+#. A statement of the extent of the Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workExtentStatement"
+msgid "bdo:workExtentStatement::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasPaternalAunt"
+msgid "bdo:hasPaternalAunt::rdfs:label"
+msgstr ""
+
+#. use to indicate the base material of a work (paper, palm leaf, etc.)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/baseMaterial"
+msgid "bdo:baseMaterial::rdfs:label"
+msgstr ""
+
+#. The type of Place: monastery, river, mountain pass, etc.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/placeType"
+msgid "bdo:placeType::rdfs:label"
+msgstr ""
+
+#. The Event of a Person receiving their final ordination
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonFinalOrdination"
+msgid "bdo:PersonFinalOrdination::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/printMethod"
+msgid "bdo:printMethod::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationActivities"
+msgid "bdo:hasIncarnationActivities::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasMaternalUncle"
+msgid "bdo:hasMaternalUncle::rdfs:label"
+msgstr ""
+
+#. A :seqNum may be a page number, line number or other id as appropriate to
+#. the use of the :EtextSlice or other contexts such as the sequence of eTexts
+#. in a Volume and so on.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/seqNum"
+msgid "bdo:seqNum::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasMaternalAunt"
+msgid "bdo:hasMaternalAunt::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationMind"
+msgid "bdo:hasIncarnationMind::rdfs:label"
+msgstr ""
+
+#. Title of a publication appearing on a page or folio preceding the title
+#. page.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkHalfTitle"
+msgid "bdo:WorkHalfTitle::rdfs:label"
+msgstr ""
+
+#. A (transmission) lineage is a collectiomn of sequences of lineage holders
+#. passing a lineage through time
+#. see also:
+#. https://link.springer.com/article/10.1023%2FA%3A1004844115222?LI=true
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Lineage"
+msgid "bdo:Lineage::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/kinWith"
+msgid "bdo:kinWith::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/incarnationGeneral"
+msgid "bdo:incarnationGeneral::rdfs:label"
+msgstr ""
+
+#: core/unknown-entities.ttl
+msgctxt "http://purl.bdrc.io/resource/UNKNOWN_Lineage"
+msgid "bdr:UNKNOWN_Lineage::rdfs:label"
+msgstr ""
+
+#: core/unknown-entities.ttl
+msgctxt "http://purl.bdrc.io/resource/UNKNOWN_Corporation"
+msgid "bdr:UNKNOWN_Corporation::rdfs:label"
+msgstr ""
+
+#: core/unknown-entities.ttl
+msgctxt "http://purl.bdrc.io/resource/UNKNOWN_Product"
+msgid "bdr:UNKNOWN_Product::rdfs:label"
+msgstr ""
+
+#: core/unknown-entities.ttl
+msgctxt "http://purl.bdrc.io/resource/UNKNOWN_Topic"
+msgid "bdr:UNKNOWN_Topic::rdfs:label"
+msgstr ""
+
+#: core/unknown-entities.ttl
+msgctxt "http://purl.bdrc.io/resource/UNKNOWN_Work"
+msgid "bdr:UNKNOWN_Work::rdfs:label"
+msgstr ""
+
+#: core/unknown-entities.ttl
+msgctxt "http://purl.bdrc.io/resource/UNKNOWN_Role"
+msgid "bdr:UNKNOWN_Role::rdfs:label"
+msgstr ""
+
+#: core/unknown-entities.ttl
+msgctxt "http://purl.bdrc.io/resource/UNKNOWN_Organization"
+msgid "bdr:UNKNOWN_Organization::rdfs:label"
+msgstr ""
+
+#: core/unknown-entities.ttl
+msgctxt "http://purl.bdrc.io/resource/UNKNOWN_Person"
+msgid "bdr:UNKNOWN_Person::rdfs:label"
+msgstr ""
+
+#: core/unknown-entities.ttl
+msgctxt "http://purl.bdrc.io/resource/UNKNOWN_Place"
+msgid "bdr:UNKNOWN_Place::rdfs:label"
+msgstr ""
+
+#. An individual that author one or more parts of a Work. Used in situations
+#. where the Work has a few contributors that are singled out as properties of
+#. the Work or when only partial authorship is known, cf. W23280
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0016"
+msgid "bdr:R0ER0016::skos:prefLabel"
+msgstr ""
+
+#. a person who recites an original text (usually Indic) in an original
+#. (usually Indic) language during the process of translation; Chn. koushou
+#. 口授, tongxuan 同宣 etc., though this function can also sometimes overlap with
+#. "IndicScholar" (see below)
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0022"
+msgid "bdr:R0ER0022::skos:prefLabel"
+msgstr ""
+
+#. a person who produces a text, but then knowingly presents it as the end
+#. result of some other process of composition--usually, as a translation from
+#. an Indic language, and sometimes under the pretense that it was
+#. "translated" by a person other than the forger (i.e. with a false
+#. ascription attached).
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0027"
+msgid "bdr:R0ER0027::skos:prefLabel"
+msgstr ""
+
+#. a person who requests the author to compose the work
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0028"
+msgid "bdr:R0ER0028::skos:prefLabel"
+msgstr ""
+
+#. Most of the time Indic scholar (indicated as Pandita in the Tibetan
+#. tradition); use this also for experts in Chinese for Tibetan texts
+#. translated from Chinese. In the case of Chinese texts, the persons who
+#. function in the translation group as experts in the Indic traditions in
+#. question can sometimes be identified primarily by other function labels,
+#. such as "head translator"; we use this creator type primarily as an
+#. equivalent for persons whom the Chinese tradition states "handled the Indic
+#. text", Chn. (shou) zhi Fan (wen) [手]執梵[文], (shou) zhi Hu (ben) [手]執胡[本]
+#. etc.; this role can also overlap with that of "reciter"
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0018"
+msgid "bdr:R0ER0018::skos:prefLabel"
+msgstr ""
+
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0023"
+msgid "bdr:R0ER0023::skos:prefLabel"
+msgstr ""
+
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0015"
+msgid "bdr:R0ER0015::skos:prefLabel"
+msgstr ""
+
+#. An artist who provided illustrations and or other non-textual content such
+#. as tables, graphs, and the like
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0010"
+msgid "bdr:R0ER0010::skos:prefLabel"
+msgstr ""
+
+#. the person who writes down a translation in Chinese, in a capacity
+#. something like a scribe.
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0009"
+msgid "bdr:R0ER0009::skos:prefLabel"
+msgstr ""
+
+#. a person for whom our source or evidence tells us only that they were
+#. involved in the translation or composition process, without allowing us to
+#. further specify the specific role they played in that process. Use
+#. bdr:UNKNOWN_Person when no specific person is known
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/Unspecified"
+msgid "bdr:Unspecified::skos:prefLabel"
+msgstr ""
+
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0025"
+msgid "bdr:R0ER0025::skos:prefLabel"
+msgstr ""
+
+#. for a Work of verse a poet who composed the verse
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0012"
+msgid "bdr:R0ER0012::skos:prefLabel"
+msgstr ""
+
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0021"
+msgid "bdr:R0ER0021::skos:prefLabel"
+msgstr ""
+
+#. A creator identified by a separate source as an author of the Work
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0011"
+msgid "bdr:R0ER0011::skos:prefLabel"
+msgstr ""
+
+#. A person that provided a commentary included in a Work. Used when a Work
+#. conventionally comprises root texts and one or more commentaries.
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0014"
+msgid "bdr:R0ER0014::skos:prefLabel"
+msgstr ""
+
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0026"
+msgid "bdr:R0ER0026::skos:prefLabel"
+msgstr ""
+
+#. For a handwritten Work an individual that drew the text or carved it on
+#. wood blocks
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0013"
+msgid "bdr:R0ER0013::skos:prefLabel"
+msgstr ""
+
+#. a person who sponsors a work (most of the time a translation)
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0030"
+msgid "bdr:R0ER0030::skos:prefLabel"
+msgstr ""
+
+#. a person who actually renders a text from a foreign language into Chinese,
+#. in a manner that the tradition clearly states was spoken rather than
+#. written; Chn. chuanyu 傳語, kouxuan 口宣[...言], chuanyi 傳譯, duyu 度語 etc.
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0020"
+msgid "bdr:R0ER0020::skos:prefLabel"
+msgstr ""
+
+#. the actual author of a text, sometimes against assertions in the tradition
+#. that the text was authored by someone else or produced by processes other
+#. than direct authorship, such as translation; in numerous cases, the exact
+#. force of this role characterisation can depend upon the nature or genre of
+#. the text in question; e.g. to claim that a Chinese person is the "author"
+#. of a sutra implies that the text was composed in China, but such texts must
+#. necessarily almost universally be presented by the tradition as if they
+#. were translated from Indic originals (since sutras are buddhavacana, and
+#. the Buddha was generally understood to have been active in India); but the
+#. implications might be quite different if we identify someone as the
+#. "author" of a commentary
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0019"
+msgid "bdr:R0ER0019::skos:prefLabel"
+msgstr ""
+
+#. Individuals of class :Creator describe the various roles that :Agents play
+#. in creating a :Work
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Creator"
+msgid "bdo:Creator::rdfs:label"
+msgstr ""
+
+#. The person identified explicitly or treated by the tradition implicitly as
+#. the head of the translation group or workshop that produced a translation.
+#. Such persons may be explicitly identified by the tradition as such, but
+#. often our knowledge that this was in fact a person's role is implicit or
+#. inferred from other knowledge about the composition of the translation
+#. group.
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0017"
+msgid "bdr:R0ER0017::skos:prefLabel"
+msgstr ""
+
+#. An individual that wrote the text typically during recitation by the
+#. author. Cf., W8145
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0024"
+msgid "bdr:R0ER0024::skos:prefLabel"
+msgstr ""
+
+#: types/print_methods.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PrintMethod_Manuscript"
+msgid "bdo:PrintMethod_Manuscript::rdfs:label"
+msgstr ""
+
+#: types/print_methods.ttl
+msgctxt "http://purl.bdrc.io/resource/PrintMethod_Xerography"
+msgid "bdr:PrintMethod_Xerography::skos:prefLabel"
+msgstr ""
+
+#. manual pressing of paper or other material on a woodblock
+#: types/print_methods.ttl
+msgctxt "http://purl.bdrc.io/resource/PrintMethod_Relief_WoodBlock"
+msgid "bdr:PrintMethod_Relief_WoodBlock::skos:prefLabel"
+msgstr ""
+
+#: types/print_methods.ttl
+msgctxt "http://purl.bdrc.io/resource/PrintMethod_Manuscript"
+msgid "bdr:PrintMethod_Manuscript::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/script/Cyrl
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptCyrl"
+msgid "bdr:ScriptCyrl::skos:prefLabel"
+msgstr ""
+
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptDbuCan"
+msgid "bdr:ScriptDbuCan::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/script/Mong
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptMong"
+msgid "bdr:ScriptMong::skos:prefLabel"
+msgstr ""
+
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptKhyugYig"
+msgid "bdr:ScriptKhyugYig::skos:prefLabel"
+msgstr ""
+
+#. see also: http://www.lexvo.org/page/script/Hans
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptHans"
+msgid "bdr:ScriptHans::skos:prefLabel"
+msgstr ""
+
+#. This script is not normalized in ISO 15924
+#. Use it for Landza and Vartu
+#. see also: http://scriptsource.org/scr/Qabb
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptRanj"
+msgid "bdr:ScriptRanj::skos:prefLabel"
+msgstr ""
+
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptNepaleseHooked"
+msgid "bdr:ScriptNepaleseHooked::skos:prefLabel"
+msgstr ""
+
+#. A script in which a language is written. For example, DbuCan, DbuMed,
+#. Devanagari, Latin, etc.
+#. see also: http://lexvo.org/ontology#Script
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Script"
+msgid "bdo:Script::rdfs:label"
+msgstr ""
+
+#. ISO 15924 "Newa", 333
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptNewa"
+msgid "bdr:ScriptNewa::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/script/Latn
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptLatn"
+msgid "bdr:ScriptLatn::skos:prefLabel"
+msgstr ""
+
+#. see also: http://www.lexvo.org/page/script/Sinh
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptSinh"
+msgid "bdr:ScriptSinh::skos:prefLabel"
+msgstr ""
+
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptKhmr"
+msgid "bdr:ScriptKhmr::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/script/Deva
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptDeva"
+msgid "bdr:ScriptDeva::skos:prefLabel"
+msgstr ""
+
+#. see also: http://www.lexvo.org/page/script/Hant
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptHant"
+msgid "bdr:ScriptHant::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/script/Tibt
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptTibt"
+msgid "bdr:ScriptTibt::skos:prefLabel"
+msgstr ""
+
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptMymr"
+msgid "bdr:ScriptMymr::skos:prefLabel"
+msgstr ""
+
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptDbuMed"
+msgid "bdr:ScriptDbuMed::skos:prefLabel"
+msgstr ""
+
+#. use for undetermined Southern Indian script
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptSouthernIndia"
+msgid "bdr:ScriptSouthernIndia::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/script/Thai
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptThai"
+msgid "bdr:ScriptThai::skos:prefLabel"
+msgstr ""
+
+#. see also: http://www.lexvo.org/page/script/Beng
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptBeng"
+msgid "bdr:ScriptBeng::skos:prefLabel"
+msgstr ""
+
+#. International Alphabet of Sanskrit Transliteration, used to translitterate
+#. indic languages like Sanskrit, Pali, Hindi, etc.
+#. see also:
+#. https://en.wikipedia.org/wiki/International_Alphabet_of_Sanskrit_Transliteration
+#: types/transliterations.ttl
+msgctxt "http://purl.bdrc.io/resource/TransIAST"
+msgid "bdr:TransIAST::skos:prefLabel"
+msgstr ""
+
+#. see also: https://www.loc.gov/catdir/cpso/roman.html
+#: types/transliterations.ttl
+msgctxt "http://purl.bdrc.io/resource/TransAlalc"
+msgid "bdr:TransAlalc::skos:prefLabel"
+msgstr ""
+
+#. A transliteration used to represent a language in a non-native script. For
+#. example, Extend Wylie transliteration of Tibetan written in Latin script,
+#. or Pinyin a Romanization of Chinese
+#: types/transliterations.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Transliteration"
+msgid "bdo:Transliteration::rdfs:label"
+msgstr ""
+
+#: types/transliterations.ttl
+msgctxt "http://purl.bdrc.io/resource/TransPinyin"
+msgid "bdr:TransPinyin::skos:prefLabel"
+msgstr ""
+
+#. see also: http://www.thlib.org/reference/transliteration/#!essay=/thl/ewts/
+#: types/transliterations.ttl
+msgctxt "http://purl.bdrc.io/resource/TransEWTS"
+msgid "bdr:TransEWTS::skos:prefLabel"
+msgstr ""
+
+#: types/transliterations.ttl
+msgctxt "http://purl.bdrc.io/resource/TransSaTibt"
+msgid "bdr:TransSaTibt::skos:prefLabel"
+msgstr ""
+
+#. thermally activated glued paperback binding
+#: types/bindings.ttl
+msgctxt "http://purl.bdrc.io/resource/Binding_Codex_Perfect"
+msgid "bdr:Binding_Codex_Perfect::skos:prefLabel"
+msgstr ""
+
+#. folded and bound between front and back boards
+#: types/bindings.ttl
+msgctxt "http://purl.bdrc.io/resource/Binding_Continuous_Leporello"
+msgid "bdr:Binding_Continuous_Leporello::skos:prefLabel"
+msgstr ""
+
+#. continuous sheet written on oneside and rolled up
+#. use also for rolled palm leaves (tamsuk)
+#: types/bindings.ttl
+msgctxt "http://purl.bdrc.io/resource/Binding_Continuous_Scroll"
+msgid "bdr:Binding_Continuous_Scroll::skos:prefLabel"
+msgstr ""
+
+#. loose leaves with holes for string to keep the leaves together and wrapped
+#. in cloth
+#: types/bindings.ttl
+msgctxt "http://purl.bdrc.io/resource/Binding_LooseLeaf_Pothi"
+msgid "bdr:Binding_LooseLeaf_Pothi::skos:prefLabel"
+msgstr ""
+
+#. loose leaves bound between boards or heavy cardboard and wrapped in cloth
+#: types/bindings.ttl
+msgctxt "http://purl.bdrc.io/resource/Binding_LooseLeaf_Pecha"
+msgid "bdr:Binding_LooseLeaf_Pecha::skos:prefLabel"
+msgstr ""
+
+#. conventional hardbound book other manuscript
+#: types/bindings.ttl
+msgctxt "http://purl.bdrc.io/resource/Binding_Codex_Sewn"
+msgid "bdr:Binding_Codex_Sewn::skos:prefLabel"
+msgstr ""
+
+#: types/work_part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/WorkChapter"
+msgid "bdr:WorkChapter::skos:prefLabel"
+msgstr ""
+
+#: types/work_part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/WorkVolume"
+msgid "bdr:WorkVolume::skos:prefLabel"
+msgstr ""
+
+#: types/work_part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/WorkSection"
+msgid "bdr:WorkSection::skos:prefLabel"
+msgstr ""
+
+#. A :WorkFragment is a portion of a "whole" work. A :WorkFragment commonly
+#. occurs when some pages have been extracted from a "complete" :Work and
+#. inserted improperly into a different :Work which has then been copied. A
+#. fragment is specified as a part of a containing :Work via a :WorkLocation
+#. as with any similar :workPartOf
+#: types/work_part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/WorkFragment"
+msgid "bdr:WorkFragment::skos:prefLabel"
+msgstr ""
+
+#. represents the type of a part of a Work such as Chapter, Section and so on
+#: types/work_part_types.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkPartType"
+msgid "bdo:WorkPartType::rdfs:label"
+msgstr ""
+
+#: types/work_part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/WorkText"
+msgid "bdr:WorkText::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionBon"
+msgid "bdr:TraditionBon::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TR0003"
+msgid "bdr:TR0003::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionTsalpaKagyu"
+msgid "bdr:TraditionTsalpaKagyu::skos:prefLabel"
+msgstr ""
+
+#. one of sa ngor tsar gsum
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionNgorSakya"
+msgid "bdr:TraditionNgorSakya::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/EightMinorKagyuTraditions"
+msgid "bdr:EightMinorKagyuTraditions::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ChineseTradition"
+msgid "bdo:ChineseTradition::rdfs:label"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionTrophuKagyu"
+msgid "bdr:TraditionTrophuKagyu::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionZurmangKagyu"
+msgid "bdr:TraditionZurmangKagyu::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionKagyu"
+msgid "bdr:TraditionKagyu::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionBardrukKagyu"
+msgid "bdr:TraditionBardrukKagyu::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionTheravada"
+msgid "bdr:TraditionTheravada::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionShugsepKagyu"
+msgid "bdr:TraditionShugsepKagyu::skos:prefLabel"
+msgstr ""
+
+#. see also: https://en.wikipedia.org/wiki/Mulasarvastivada
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionMulasarvastivada"
+msgid "bdr:TraditionMulasarvastivada::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionPhagGruKagyu"
+msgid "bdr:TraditionPhagGruKagyu::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionKarmaKagyu"
+msgid "bdr:TraditionKarmaKagyu::skos:prefLabel"
+msgstr ""
+
+#. see also: https://en.wikipedia.org/wiki/Dharmaguptaka
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionDharmaguptaka"
+msgid "bdr:TraditionDharmaguptaka::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionYelpaKagyu"
+msgid "bdr:TraditionYelpaKagyu::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionKadam"
+msgid "bdr:TraditionKadam::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionNedoKagyu"
+msgid "bdr:TraditionNedoKagyu::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionMartsangKagyu"
+msgid "bdr:TraditionMartsangKagyu::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionChod"
+msgid "bdr:TraditionChod::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionMadrukKagyu"
+msgid "bdr:TraditionMadrukKagyu::skos:prefLabel"
+msgstr ""
+
+#. Individuals represent various (Tibetan) Buddhist traditions, e.g., Karma
+#. Kagyu, Bon, or Nyingma
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/TibetanTradition"
+msgid "bdo:TibetanTradition::rdfs:label"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionSarvastivada"
+msgid "bdr:TraditionSarvastivada::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionZhije"
+msgid "bdr:TraditionZhije::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/EightPracticeLineages"
+msgid "bdr:EightPracticeLineages::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TR0001"
+msgid "bdr:TR0001::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionJonang"
+msgid "bdr:TraditionJonang::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionJordruk"
+msgid "bdr:TraditionJordruk::skos:prefLabel"
+msgstr ""
+
+#. Some might not count Rime as a Tradition but since there are Works and
+#. Persons who are identified as such it is approapriate to include for
+#. purposes of classification
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionRime"
+msgid "bdr:TraditionRime::skos:prefLabel"
+msgstr ""
+
+#. subclasses record different types of tradition by culture, e.g., Tibetan or
+#. Chinese
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Tradition"
+msgid "bdo:Tradition::rdfs:label"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TR0002"
+msgid "bdr:TR0002::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionSakya"
+msgid "bdr:TraditionSakya::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionTaklungKagyu"
+msgid "bdr:TraditionTaklungKagyu::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionYazangKagyu"
+msgid "bdr:TraditionYazangKagyu::skos:prefLabel"
+msgstr ""
+
+#. one of  sa ngor tsar gsum
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionTsarSakya"
+msgid "bdr:TraditionTsarSakya::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionOrgyenNyengyu"
+msgid "bdr:TraditionOrgyenNyengyu::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/FourMainKagyuTraditions"
+msgid "bdr:FourMainKagyuTraditions::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionBodong"
+msgid "bdr:TraditionBodong::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionNyingma"
+msgid "bdr:TraditionNyingma::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionDrigungKagyu"
+msgid "bdr:TraditionDrigungKagyu::skos:prefLabel"
+msgstr ""
+
+#. see also: http://purl.bdrc.io/resource/G1180
+#. see also: http://purl.bdrc.io/resource/T1198
+#. see also: https://en.wikipedia.org/wiki/Shalu_Monastery
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionZhalu"
+msgid "bdr:TraditionZhalu::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionDrukpaKagyu"
+msgid "bdr:TraditionDrukpaKagyu::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionBaromKagyu"
+msgid "bdr:TraditionBaromKagyu::skos:prefLabel"
+msgstr ""
+
+#. Traditions that arise from Marpa, Milarepa, and Gampopa. The four greater
+#. and the minor eight.
+#. see also: http://purl.bdrc.io/resource/T1187
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionDakpoKagyu"
+msgid "bdr:TraditionDakpoKagyu::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionShangpaKagyu"
+msgid "bdr:TraditionShangpaKagyu::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionGeluk"
+msgid "bdr:TraditionGeluk::skos:prefLabel"
+msgstr ""
+
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionTodrukKagyu"
+msgid "bdr:TraditionTodrukKagyu::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/fra
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangFr"
+msgid "bdr:LangFr::skos:prefLabel"
+msgstr ""
+
+#. see also: http://www.lexvo.org/page/iso639-5/inc
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangInc"
+msgid "bdr:LangInc::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/nor
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangNo"
+msgid "bdr:LangNo::skos:prefLabel"
+msgstr ""
+
+#. The 2-letter iso code for the langauge. To be used in creating the full
+#. BCP47 language+script+encoding tags
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/langBCP47Lang"
+msgid "bdo:langBCP47Lang::rdfs:label"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/urd
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangUr"
+msgid "bdr:LangUr::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/rus
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangRu"
+msgid "bdr:LangRu::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/ita
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangIt"
+msgid "bdr:LangIt::skos:prefLabel"
+msgstr ""
+
+#. A Language code such as "bo" or "tib" for Tibetan, "zh" or "chi" for
+#. Chinese, "sa" for Sanskrit, etc.
+#. see also: http://id.loc.gov/vocabulary/languages.html
+#. see also: http://purl.bdrc.io/ontology/types/Language
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Language"
+msgid "bdo:Language::rdfs:label"
+msgstr ""
+
+#. three-character alphabetic codes for languages encode in MARC records
+#. see also: http://id.loc.gov/vocabulary/languages.html
+#. see also: http://lexvo.org/ontology#marcCode
+#. see also: https://www.loc.gov/marc/languages/
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/langMARCCode"
+msgid "bdo:langMARCCode::rdfs:label"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/new
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangNew"
+msgid "bdr:LangNew::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/pli
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangPi"
+msgid "bdr:LangPi::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/nld
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangNl"
+msgid "bdr:LangNl::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/mon
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangMn"
+msgid "bdr:LangMn::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/bod
+#. see also: https://github.com/buda-base/owl-schema/issues/98
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangBo"
+msgid "bdr:LangBo::skos:prefLabel"
+msgstr ""
+
+#. use when the language is an unidentified Prakrit language
+#. see also: http://lexvo.org/id/iso639-5/pra
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangPra"
+msgid "bdr:LangPra::skos:prefLabel"
+msgstr ""
+
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangPgd"
+msgid "bdr:LangPgd::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/san
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangSa"
+msgid "bdr:LangSa::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/khm
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangKm"
+msgid "bdr:LangKm::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/nep
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangNe"
+msgid "bdr:LangNe::skos:prefLabel"
+msgstr ""
+
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangAmdoTib"
+msgid "bdr:LangAmdoTib::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/dzo
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangDz"
+msgid "bdr:LangDz::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/eng
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangEn"
+msgid "bdr:LangEn::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/hin
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangHi"
+msgid "bdr:LangHi::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/zho
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangZh"
+msgid "bdr:LangZh::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/spa
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangEs"
+msgid "bdr:LangEs::skos:prefLabel"
+msgstr ""
+
+#: types/gender.ttl
+msgctxt "http://purl.bdrc.io/resource/GenderMale"
+msgid "bdr:GenderMale::skos:prefLabel"
+msgstr ""
+
+#: types/gender.ttl
+msgctxt "http://purl.bdrc.io/resource/GenderNotSpecified"
+msgid "bdr:GenderNotSpecified::skos:prefLabel"
+msgstr ""
+
+#: types/gender.ttl
+msgctxt "http://purl.bdrc.io/resource/GenderFemale"
+msgid "bdr:GenderFemale::skos:prefLabel"
+msgstr ""
+
+#. The Gender Type records the gender of a :Person if known. If the gender is
+#. not known, then bdr:GenderNotSpecified is used.
+#: types/gender.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Gender"
+msgid "bdo:Gender::rdfs:label"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0080"
+msgid "bdr:PT0080::skos:prefLabel"
+msgstr ""
+
+#. Various kinds of semi-formal and historical references to extended
+#. geographic areas such as administrative districts, isolated areas,
+#. premodern counties and so on.
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0063"
+msgid "bdr:PT0063::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0078"
+msgid "bdr:PT0078::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0085"
+msgid "bdr:PT0085::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0058"
+msgid "bdr:PT0058::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0032"
+msgid "bdr:PT0032::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0070"
+msgid "bdr:PT0070::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0076"
+msgid "bdr:PT0076::skos:prefLabel"
+msgstr ""
+
+#. Natural features such as rivers, caves, mountain passes and so on
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0047"
+msgid "bdr:PT0047::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0065"
+msgid "bdr:PT0065::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0031"
+msgid "bdr:PT0031::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0026"
+msgid "bdr:PT0026::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0064"
+msgid "bdr:PT0064::skos:prefLabel"
+msgstr ""
+
+#. Modern or contemporary places defined in terms of current political control
+#. such as Chinese counties, provinces and so on
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0009"
+msgid "bdr:PT0009::skos:prefLabel"
+msgstr ""
+
+#. Sites of interest such as monasteries, temples and so on
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0069"
+msgid "bdr:PT0069::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0001"
+msgid "bdr:PT0001::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0034"
+msgid "bdr:PT0034::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0059"
+msgid "bdr:PT0059::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0028"
+msgid "bdr:PT0028::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0074"
+msgid "bdr:PT0074::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0066"
+msgid "bdr:PT0066::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0004"
+msgid "bdr:PT0004::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0007"
+msgid "bdr:PT0007::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0030"
+msgid "bdr:PT0030::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0016"
+msgid "bdr:PT0016::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0020"
+msgid "bdr:PT0020::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0035"
+msgid "bdr:PT0035::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0010"
+msgid "bdr:PT0010::skos:prefLabel"
+msgstr ""
+
+#. Places of unspecified type
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0049"
+msgid "bdr:PT0049::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0048"
+msgid "bdr:PT0048::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0036"
+msgid "bdr:PT0036::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0057"
+msgid "bdr:PT0057::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0029"
+msgid "bdr:PT0029::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0055"
+msgid "bdr:PT0055::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0075"
+msgid "bdr:PT0075::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0053"
+msgid "bdr:PT0053::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0011"
+msgid "bdr:PT0011::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0079"
+msgid "bdr:PT0079::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0071"
+msgid "bdr:PT0071::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0012"
+msgid "bdr:PT0012::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0067"
+msgid "bdr:PT0067::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0013"
+msgid "bdr:PT0013::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0003"
+msgid "bdr:PT0003::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0043"
+msgid "bdr:PT0043::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0050"
+msgid "bdr:PT0050::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0083"
+msgid "bdr:PT0083::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0051"
+msgid "bdr:PT0051::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0044"
+msgid "bdr:PT0044::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0042"
+msgid "bdr:PT0042::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0084"
+msgid "bdr:PT0084::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0038"
+msgid "bdr:PT0038::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0017"
+msgid "bdr:PT0017::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0056"
+msgid "bdr:PT0056::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0081"
+msgid "bdr:PT0081::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0060"
+msgid "bdr:PT0060::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0039"
+msgid "bdr:PT0039::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0040"
+msgid "bdr:PT0040::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0019"
+msgid "bdr:PT0019::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0068"
+msgid "bdr:PT0068::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0006"
+msgid "bdr:PT0006::skos:prefLabel"
+msgstr ""
+
+#. between region and large mountain range (ex: the Alps)
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0062"
+msgid "bdr:PT0062::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0072"
+msgid "bdr:PT0072::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0015"
+msgid "bdr:PT0015::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0023"
+msgid "bdr:PT0023::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0086"
+msgid "bdr:PT0086::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0061"
+msgid "bdr:PT0061::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0037"
+msgid "bdr:PT0037::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0077"
+msgid "bdr:PT0077::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0046"
+msgid "bdr:PT0046::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0002"
+msgid "bdr:PT0002::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0027"
+msgid "bdr:PT0027::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0052"
+msgid "bdr:PT0052::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0041"
+msgid "bdr:PT0041::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0018"
+msgid "bdr:PT0018::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0022"
+msgid "bdr:PT0022::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0021"
+msgid "bdr:PT0021::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0025"
+msgid "bdr:PT0025::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0073"
+msgid "bdr:PT0073::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0033"
+msgid "bdr:PT0033::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0054"
+msgid "bdr:PT0054::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0005"
+msgid "bdr:PT0005::skos:prefLabel"
+msgstr ""
+
+#. Place types are used to indicate a conventional characterization of a
+#. Place, e.g., monastery, cave, river, and so on
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PlaceType"
+msgid "bdo:PlaceType::rdfs:label"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0082"
+msgid "bdr:PT0082::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0045"
+msgid "bdr:PT0045::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0024"
+msgid "bdr:PT0024::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0014"
+msgid "bdr:PT0014::skos:prefLabel"
+msgstr ""
+
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PT0008"
+msgid "bdr:PT0008::skos:prefLabel"
+msgstr ""
+
+#: types/lineage_types.ttl
+msgctxt "http://purl.bdrc.io/resource/LT0012"
+msgid "bdr:LT0012::skos:prefLabel"
+msgstr ""
+
+#. Tibetan lineage type records the Tibetan form of a transmission lineage
+#. such as empowerment, pith instruction, and so on
+#: types/lineage_types.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/TibetanLineageType"
+msgid "bdo:TibetanLineageType::rdfs:label"
+msgstr ""
+
+#. Subclasses record different lineage types by culture, e.g., Tibetan or
+#. Chinese
+#: types/lineage_types.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/LineageType"
+msgid "bdo:LineageType::rdfs:label"
+msgstr ""
+
+#: types/lineage_types.ttl
+msgctxt "http://purl.bdrc.io/resource/LT0007"
+msgid "bdr:LT0007::skos:prefLabel"
+msgstr ""
+
+#: types/lineage_types.ttl
+msgctxt "http://purl.bdrc.io/resource/LT0006"
+msgid "bdr:LT0006::skos:prefLabel"
+msgstr ""
+
+#: types/lineage_types.ttl
+msgctxt "http://purl.bdrc.io/resource/LT0002"
+msgid "bdr:LT0002::skos:prefLabel"
+msgstr ""
+
+#: types/lineage_types.ttl
+msgctxt "http://purl.bdrc.io/resource/LT0009"
+msgid "bdr:LT0009::skos:prefLabel"
+msgstr ""
+
+#: types/lineage_types.ttl
+msgctxt "http://purl.bdrc.io/resource/LT0005"
+msgid "bdr:LT0005::skos:prefLabel"
+msgstr ""
+
+#: types/lineage_types.ttl
+msgctxt "http://purl.bdrc.io/resource/LT0004"
+msgid "bdr:LT0004::skos:prefLabel"
+msgstr ""
+
+#: types/lineage_types.ttl
+msgctxt "http://purl.bdrc.io/resource/LT0011"
+msgid "bdr:LT0011::skos:prefLabel"
+msgstr ""
+
+#: types/lineage_types.ttl
+msgctxt "http://purl.bdrc.io/resource/LT0001"
+msgid "bdr:LT0001::skos:prefLabel"
+msgstr ""
+
+#: types/lineage_types.ttl
+msgctxt "http://purl.bdrc.io/resource/LT0008"
+msgid "bdr:LT0008::skos:prefLabel"
+msgstr ""
+
+#: types/lineage_types.ttl
+msgctxt "http://purl.bdrc.io/resource/LT0010"
+msgid "bdr:LT0010::skos:prefLabel"
+msgstr ""
+
+#: types/lineage_types.ttl
+msgctxt "http://purl.bdrc.io/resource/LT0003"
+msgid "bdr:LT0003::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/BoDbuMed"
+msgid "bdr:BoDbuMed::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/SaNewa"
+msgid "bdr:SaNewa::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/MnMong"
+msgid "bdr:MnMong::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/New"
+msgid "bdr:New::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/Inc"
+msgid "bdr:Inc::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/SaUnspecified"
+msgid "bdr:SaUnspecified::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/En"
+msgid "bdr:En::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ZhUnspecified"
+msgid "bdr:ZhUnspecified::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/NewDeva"
+msgid "bdr:NewDeva::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/SaBeng"
+msgid "bdr:SaBeng::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/Mn"
+msgid "bdr:Mn::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/DzTibt"
+msgid "bdr:DzTibt::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/Dz"
+msgid "bdr:Dz::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/Ru"
+msgid "bdr:Ru::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/Sa"
+msgid "bdr:Sa::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/HiDeva"
+msgid "bdr:HiDeva::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/Es"
+msgid "bdr:Es::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/SaEasternNagari"
+msgid "bdr:SaEasternNagari::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/SaDeva"
+msgid "bdr:SaDeva::skos:prefLabel"
+msgstr ""
+
+#. This combination is extremely rare but at least one occurence was found.
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/BoDeva"
+msgid "bdr:BoDeva::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/MnLatn"
+msgid "bdr:MnLatn::skos:prefLabel"
+msgstr ""
+
+#. rare
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/SaSinh"
+msgid "bdr:SaSinh::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/No"
+msgid "bdr:No::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/Pi"
+msgid "bdr:Pi::skos:prefLabel"
+msgstr ""
+
+#. language of a :LangScript
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/language"
+msgid "bdo:language::rdfs:label"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/Km"
+msgid "bdr:Km::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/BoEwts"
+msgid "bdr:BoEwts::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/MnCyrl"
+msgid "bdr:MnCyrl::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/PiMymr"
+msgid "bdr:PiMymr::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/SaRanj"
+msgid "bdr:SaRanj::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/De"
+msgid "bdr:De::skos:prefLabel"
+msgstr ""
+
+#. Pali in Thai script
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/PiThai"
+msgid "bdr:PiThai::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/BoTibt"
+msgid "bdr:BoTibt::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/SaNepaleseHooked"
+msgid "bdr:SaNepaleseHooked::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/BoKhyugYig"
+msgid "bdr:BoKhyugYig::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/Nl"
+msgid "bdr:Nl::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ZhHans"
+msgid "bdr:ZhHans::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/MnUnspecified"
+msgid "bdr:MnUnspecified::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/PgdKhar"
+msgid "bdr:PgdKhar::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/Zh"
+msgid "bdr:Zh::skos:prefLabel"
+msgstr ""
+
+#. The Language+Script records the combination of language, script, and
+#. transliteration in which the content is expresed
+#. see also: http://purl.bdrc.io/ontology/types/LangCode
+#. see also: http://purl.bdrc.io/ontology/types/Language
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/LangScript"
+msgid "bdo:LangScript::rdfs:label"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/NewNewa"
+msgid "bdr:NewNewa::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ZhHant"
+msgid "bdr:ZhHant::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/PiSinh"
+msgid "bdr:PiSinh::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/EnLatn"
+msgid "bdr:EnLatn::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/Bo"
+msgid "bdr:Bo::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/SaPostGupta"
+msgid "bdr:SaPostGupta::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/SaNagari"
+msgid "bdr:SaNagari::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/NeDeva"
+msgid "bdr:NeDeva::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/PiKhmr"
+msgid "bdr:PiKhmr::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/RuCyrl"
+msgid "bdr:RuCyrl::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/BoDbuCan"
+msgid "bdr:BoDbuCan::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/Hi"
+msgid "bdr:Hi::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/It"
+msgid "bdr:It::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/Fr"
+msgid "bdr:Fr::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/KmKhmr"
+msgid "bdr:KmKhmr::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/SaTibt"
+msgid "bdr:SaTibt::skos:prefLabel"
+msgstr ""
+
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/MaterialPalmLeaf"
+msgid "bdr:MaterialPalmLeaf::skos:prefLabel"
+msgstr ""
+
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/AppliedMaterial_GoldLeaf"
+msgid "bdr:AppliedMaterial_GoldLeaf::skos:prefLabel"
+msgstr ""
+
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/MaterialPaper"
+msgid "bdr:MaterialPaper::skos:prefLabel"
+msgstr ""
+
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/AppliedMaterial_SilverLeaf"
+msgid "bdr:AppliedMaterial_SilverLeaf::skos:prefLabel"
+msgstr ""
+
+#. see also: http://www.wikidata.org/entity/Q856001
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/MaterialCoryphaPalmLeaf"
+msgid "bdr:MaterialCoryphaPalmLeaf::skos:prefLabel"
+msgstr ""
+
+#. see also: http://www.wikidata.org/entity/Q310912
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/MaterialPalmyraPalmLeaf"
+msgid "bdr:MaterialPalmyraPalmLeaf::skos:prefLabel"
+msgstr ""
+
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/AppliedMaterial_RedInk"
+msgid "bdr:AppliedMaterial_RedInk::skos:prefLabel"
+msgstr ""
+
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/MaterialBirchBark"
+msgid "bdr:MaterialBirchBark::skos:prefLabel"
+msgstr ""
+
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/MaterialWood"
+msgid "bdr:MaterialWood::skos:prefLabel"
+msgstr ""
+
+#. Materials include the base material on which the printing appears and the
+#. applied material such as ink and so on
+#. see also: http://rdaregistry.info/Elements/m/P30304
+#. see also: http://rdaregistry.info/termList/RDAMaterial
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Material"
+msgid "bdo:Material::rdfs:label"
+msgstr ""
+
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/MaterialRicePaper"
+msgid "bdr:MaterialRicePaper::skos:prefLabel"
+msgstr ""
+
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/MaterialStone"
+msgid "bdr:MaterialStone::skos:prefLabel"
+msgstr ""
+
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/MaterialCloth"
+msgid "bdr:MaterialCloth::skos:prefLabel"
+msgstr ""
+
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/AppliedMaterial_BlackInk"
+msgid "bdr:AppliedMaterial_BlackInk::skos:prefLabel"
+msgstr ""
+
+#. paper made from bark of the Daphne bush (Daphne bholua and Daphne
+#. papyracea). Indeginous to Bhutan, distinct from the Lokta paper.
+#. see also:
+#. http://bhutan.ims.tuwien.ac.at/ahtcde00/c-viex/j-02-03-02-11/start.html
+#. see also: http://purl.bdrc.io/resource/MaterialLoktaPaper
+#. see also: https://www.jstor.org/stable/23657810
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/MaterialDeshog"
+msgid "bdr:MaterialDeshog::skos:prefLabel"
+msgstr ""
+
+#. paper made from bark of the Daphne bush (Daphne bholua and Daphne
+#. papyracea). Indeginous to Nepal, distinct from the Deshog paper.
+#. see also: http://purl.bdrc.io/resource/MaterialDeshog
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/MaterialLoktaPaper"
+msgid "bdr:MaterialLoktaPaper::skos:prefLabel"
+msgstr ""
+
+#. poison (usually arsenic), giving a yellow hue
+#. usually used to keep away insects and people who would want to take part of
+#. the manuscript and turn it into a magical tincture for consumption
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/AppliedMaterial_Poison"
+msgid "bdr:AppliedMaterial_Poison::skos:prefLabel"
+msgstr ""
+
+#. digital material for content which is held in digital format in the archive
+#. (:Etexts)
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/MaterialDigital"
+msgid "bdr:MaterialDigital::skos:prefLabel"
+msgstr ""
+
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/MaterialSaPaper"
+msgid "bdr:MaterialSaPaper::skos:prefLabel"
+msgstr ""
+
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/MaterialKhoiPaper"
+msgid "bdr:MaterialKhoiPaper::skos:prefLabel"
+msgstr ""

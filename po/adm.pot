@@ -1,0 +1,596 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Buddhist Digital Ontology (Admin part) e3c569c\n"
+"Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
+"Last-Translator: Buddhist Digital Resource Center\n"
+"Language-Team: Buddhist Digital Resource Center <inquiry@tbrc.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. URL used when attributing a work or images to the corresponding author or
+#. provider
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/attributionURL"
+msgid "adm:attributionURL::rdfs:label"
+msgstr ""
+
+#. Indicates the equivalent resource in BDRC
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/sameAsBDRC"
+msgid "adm:sameAsBDRC::rdfs:label"
+msgstr ""
+
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/seeOtherHA"
+msgid "adm:seeOtherHA::rdfs:label"
+msgstr ""
+
+#. When the update  described by the log entry was performed
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/logDate"
+msgid "adm:logDate::rdfs:label"
+msgstr ""
+
+#. The type of online access permitted for the etext and/or images for a Work.
+#. see also: http://purl.bdrc.io/ontology/admin/Access
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/access"
+msgid "adm:access::rdfs:label"
+msgstr ""
+
+#. Complete statement used when attributing a work or images to the
+#. corresponding author or provider
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/attributionStatement"
+msgid "adm:attributionStatement::rdfs:label"
+msgstr ""
+
+#. Explanation of the update described by the log entry
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/logMessage"
+msgid "adm:logMessage::rdfs:label"
+msgstr ""
+
+#. Log entries for :Entity updates. Includes the agent, date and message
+#. explaing the update.
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/LogEntry"
+msgid "adm:LogEntry::rdfs:label"
+msgstr ""
+
+#. this resource is about the same resource as the VIAF resource
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/sameAsVIAF"
+msgid "adm:sameAsVIAF::rdfs:label"
+msgstr ""
+
+#. this resource is about the same resource as the WorldCat resource
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/sameAsWorldCat"
+msgid "adm:sameAsWorldCat::rdfs:label"
+msgstr ""
+
+#. this resource is about the same resource as the resource in Markus
+#. Bingenheimer's Bibliography of Translations from the Chinese Buddhist Canon
+#. into Western Languages
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/sameAsMBBT"
+msgid "adm:sameAsMBBT::rdfs:label"
+msgstr ""
+
+#. Log entry for updates to resources
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/logEntry"
+msgid "adm:logEntry::rdfs:label"
+msgstr ""
+
+#. The terms of use for the metadata representation of the :Entity resource
+#. see also: http://purl.bdrc.io/ontology/admin/TermsOfUse
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/termsOfUse"
+msgid "adm:termsOfUse::rdfs:label"
+msgstr ""
+
+#. Names are represented by rdfs:label
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/Product"
+msgid "adm:Product::rdfs:label"
+msgstr ""
+
+#. this resource is about the same resource as the DILA resource
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/sameAsDILA"
+msgid "adm:sameAsDILA::rdfs:label"
+msgstr ""
+
+#. use to indicate url of the original metadata record or content (for
+#. imported records)
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/originalRecord"
+msgid "adm:originalRecord::rdfs:label"
+msgstr ""
+
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/hasLegal"
+msgid "adm:hasLegal::rdfs:label"
+msgstr ""
+
+#. records the status of the associated resource metadata
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/status"
+msgid "adm:status::rdfs:label"
+msgstr ""
+
+#. A statement of the authorship of the outline of this Work
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/outlineAuthorStatement"
+msgid "adm:outlineAuthorStatement::rdfs:label"
+msgstr ""
+
+#. A link to the html representation of the entity.
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/canonicalHtml"
+msgid "adm:canonicalHtml::rdfs:label"
+msgstr ""
+
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/seeOtherToL"
+msgid "adm:seeOtherToL::rdfs:label"
+msgstr ""
+
+#. The initial provider of the metadata representation and/or images of the
+#. :Entity resource. For example, EAP105/1 has adm:initialProvider
+#. bdo:G1KG116095 and adm:contentProvider bda:Provider_BL_EAP
+#. see also: http://purl.bdrc.io/ontology/admin/ContentProvider
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/initialProvider"
+msgid "adm:initialProvider::rdfs:label"
+msgstr ""
+
+#. this resource is about the same resource as the Treasury of Lives resource
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/sameAsToL"
+msgid "adm:sameAsToL::rdfs:label"
+msgstr ""
+
+#. who performed the update  described by the log entry
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/logWho"
+msgid "adm:logWho::rdfs:label"
+msgstr ""
+
+#. this resource is about the same resource as the CBC@ resource
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/sameAsCBCAt"
+msgid "adm:sameAsCBCAt::rdfs:label"
+msgstr ""
+
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/seeOtherSAT"
+msgid "adm:seeOtherSAT::rdfs:label"
+msgstr ""
+
+#. Has value true if the contents of the associated Work are restricted in
+#. China
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/isRestrictedInChina"
+msgid "adm:isRestrictedInChina::rdfs:label"
+msgstr ""
+
+#. this resource is about the same resource as the rKTs resource
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/sameAsrKTs"
+msgid "adm:sameAsrKTs::rdfs:label"
+msgstr ""
+
+#. Name used when attributing a work or images to the corresponding author or
+#. provider
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/attributionName"
+msgid "adm:attributionName::rdfs:label"
+msgstr ""
+
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/catalogingConvention"
+msgid "adm:catalogingConvention::rdfs:label"
+msgstr ""
+
+#. The copyright holder to the metadata representation of the :Entity resource
+#. see also: http://purl.bdrc.io/ontology/admin/Organization
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/copyrightOwner"
+msgid "adm:copyrightOwner::rdfs:label"
+msgstr ""
+
+#. Legal data about the metadata of the record
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/metadataLegal"
+msgid "adm:metadataLegal::rdfs:label"
+msgstr ""
+
+#. this resource is about the same resource as the Wikidata resource
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/sameAsWikidata"
+msgid "adm:sameAsWikidata::rdfs:label"
+msgstr ""
+
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/admindata/CP024"
+msgid "bda:CP024::skos:prefLabel"
+msgstr ""
+
+#. primarily Karma Kagyu texts
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/admindata/CP001"
+msgid "bda:CP001::skos:prefLabel"
+msgstr ""
+
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/admindata/CP025"
+msgid "bda:CP025::skos:prefLabel"
+msgstr ""
+
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/admindata/CP029"
+msgid "bda:CP029::skos:prefLabel"
+msgstr ""
+
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/admindata/CP030"
+msgid "bda:CP030::skos:prefLabel"
+msgstr ""
+
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/admindata/CP002"
+msgid "bda:CP002::skos:prefLabel"
+msgstr ""
+
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/admindata/CP004"
+msgid "bda:CP004::skos:prefLabel"
+msgstr ""
+
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/admindata/CP007"
+msgid "bda:CP007::skos:prefLabel"
+msgstr ""
+
+#. This is a non-specific content provider
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/admindata/CP011"
+msgid "bda:CP011::skos:prefLabel"
+msgstr ""
+
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/admindata/CP010"
+msgid "bda:CP010::skos:prefLabel"
+msgstr ""
+
+#. Namsel OCR used on scanned images held by BDRC
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/admindata/CP009"
+msgid "bda:CP009::skos:prefLabel"
+msgstr ""
+
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/admindata/CP008"
+msgid "bda:CP008::skos:prefLabel"
+msgstr ""
+
+#. A contemporary organization that provides metadata and/or images
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/ContentProvider"
+msgid "adm:ContentProvider::rdfs:label"
+msgstr ""
+
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/admindata/CP005"
+msgid "bda:CP005::skos:prefLabel"
+msgstr ""
+
+#. operated in Nepal 2006-2013 by BDRC
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/admindata/CP006"
+msgid "bda:CP006::skos:prefLabel"
+msgstr ""
+
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/admindata/CP003"
+msgid "bda:CP003::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_BDRC_CC0"
+msgid "bda:LD_BDRC_CC0::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_EAP_content"
+msgid "bda:LD_EAP_content::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_LOC_metadata"
+msgid "bda:LD_LOC_metadata::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_rKTs_CC0"
+msgid "bda:LD_rKTs_CC0::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_IA_PD"
+msgid "bda:LD_IA_PD::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_BDRC_Copyright"
+msgid "bda:LD_BDRC_Copyright::skos:prefLabel"
+msgstr ""
+
+#. From a private communication: "most metadata comes from others. sometimes
+#. others declare something, but we make not claims about it."
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_IA_Metadata"
+msgid "bda:LD_IA_Metadata::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/LegalData"
+msgid "adm:LegalData::rdfs:label"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_CUDL_metadata"
+msgid "bda:LD_CUDL_metadata::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_BDRC_PD"
+msgid "bda:LD_BDRC_PD::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_SAT_images"
+msgid "bda:LD_SAT_images::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_EAP_metadata"
+msgid "bda:LD_EAP_metadata::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_SBB_content"
+msgid "bda:LD_SBB_content::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_GRETIL"
+msgid "bda:LD_GRETIL::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_LOC_PD"
+msgid "bda:LD_LOC_PD::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_BNF_PD"
+msgid "bda:LD_BNF_PD::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_CUDL_content"
+msgid "bda:LD_CUDL_content::skos:prefLabel"
+msgstr ""
+
+#. The quality of the scanning or eText conversion to poor to warrant making
+#. it available online.
+#: adm/types/access_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/AccessRestrictedByQuality"
+msgid "bda:AccessRestrictedByQuality::skos:prefLabel"
+msgstr ""
+
+#. Mixed access is used on a work or Item to indicate that the access on parts
+#. may vary. E.g., some part of a work may be provided under the Fair Use
+#. exception (a contemporary introduction) and the remaining parts may be Open
+#. (for content published in the 18th century), except for a part marked as
+#. restricted by tradition.
+#: adm/types/access_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/AccessMixed"
+msgid "bda:AccessMixed::skos:prefLabel"
+msgstr ""
+
+#. The contents of the Work are freely avaiable in their entirety.
+#: adm/types/access_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/AccessOpen"
+msgid "bda:AccessOpen::skos:prefLabel"
+msgstr ""
+
+#. The Work is temporarily restricted.
+#: adm/types/access_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/AccessRestrictedTemporarily"
+msgid "bda:AccessRestrictedTemporarily::skos:prefLabel"
+msgstr ""
+
+#. Only limitted access is allowed. The typical case is a copyrighted work,
+#. for which a small portion of the contents can be made available under the
+#. exception for libraries and archives. In the US, this is rules by section
+#. 108 of the copyright law.
+#: adm/types/access_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/AccessFairUse"
+msgid "bda:AccessFairUse::skos:prefLabel"
+msgstr ""
+
+#. The Work is sealed by tradition.
+#: adm/types/access_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/AccessRestrictedSealed"
+msgid "bda:AccessRestrictedSealed::skos:prefLabel"
+msgstr ""
+
+#: adm/types/access_types.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/Access"
+msgid "adm:Access::rdfs:label"
+msgstr ""
+
+#. BDRC is restricting access to the Work.
+#: adm/types/access_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/AccessRestrictedByTbrc"
+msgid "bda:AccessRestrictedByTbrc::skos:prefLabel"
+msgstr ""
+
+#. License describes the legal standing of copyright for the Work (All rights
+#. reserved, Public domain, Creative Commons License, etc.).
+#: adm/types/license_types.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/License"
+msgid "adm:License::rdfs:label"
+msgstr ""
+
+#. see also: http://creativecommons.org/licenses/by-nc-nd/3.0/
+#: adm/types/license_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/LicenseCCBYNCND3U"
+msgid "bda:LicenseCCBYNCND3U::skos:prefLabel"
+msgstr ""
+
+#. see also: https://opendatacommons.org/licenses/by/1.0/
+#: adm/types/license_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/LicenseODCBY10"
+msgid "bda:LicenseODCBY10::skos:prefLabel"
+msgstr ""
+
+#. Use it for works under copyright that do not say anything about the
+#. copyrights or saying All Rights Reserved.
+#. see also: http://rightsstatements.org/vocab/InC/1.0/
+#: adm/types/license_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/LicenseAllRightsReserved"
+msgid "bda:LicenseAllRightsReserved::skos:prefLabel"
+msgstr ""
+
+#. see also: http://creativecommons.org/licenses/by-sa/3.0/
+#: adm/types/license_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/LicenseCCBYSA3U"
+msgid "bda:LicenseCCBYSA3U::skos:prefLabel"
+msgstr ""
+
+#. see also: http://creativecommons.org/licenses/by-sa/4.0/
+#: adm/types/license_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/LicenseCCBYSA4U"
+msgid "bda:LicenseCCBYSA4U::skos:prefLabel"
+msgstr ""
+
+#. The work is made available under Creative Commons, CC0 1.0.
+#. see also: http://creativecommons.org/publicdomain/zero/1.0/
+#: adm/types/license_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/LicenseCC0"
+msgid "bda:LicenseCC0::skos:prefLabel"
+msgstr ""
+
+#. Works in the Public Domain. Creative materials that are not protected by
+#. intellectual property laws such as copyright, trademark, or patent laws.
+#. see also: http://creativecommons.org/publicdomain/mark/1.0/
+#: adm/types/license_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/LicensePublicDomain"
+msgid "bda:LicensePublicDomain::skos:prefLabel"
+msgstr ""
+
+#. see also: http://creativecommons.org/licenses/by-nc-sa/4.0/
+#: adm/types/license_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/LicenseCCBYNCSA4U"
+msgid "bda:LicenseCCBYNCSA4U::skos:prefLabel"
+msgstr ""
+
+#. The work is made available under Creative Commons Attribution No Commercial
+#. Use version 3.0 Unported
+#. see also: http://creativecommons.org/licenses/by-nc/3.0/
+#: adm/types/license_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/LicenseCCBYNC30U"
+msgid "bda:LicenseCCBYNC30U::skos:prefLabel"
+msgstr ""
+
+#. see also: http://creativecommons.org/licenses/by-nc-sa/3.0/
+#: adm/types/license_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/LicenseCCBYNCSA3U"
+msgid "bda:LicenseCCBYNCSA3U::skos:prefLabel"
+msgstr ""
+
+#. The license varies among the different parts of the work. For example, some
+#. part of a work may be under copyright (i.e. a work containing a
+#. contemporary introduction) and the remaining parts may be in the Public
+#. Domain (i.e. an orginial 19th century work re-typed).
+#: adm/types/license_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/LicenseMixed"
+msgid "bda:LicenseMixed::skos:prefLabel"
+msgstr ""
+
+#. No Known Copyright
+#. see also: http://rightsstatements.org/vocab/NKC/1.0/
+#: adm/types/license_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/LicenseNoKnownCopyright"
+msgid "bda:LicenseNoKnownCopyright::skos:prefLabel"
+msgstr ""
+
+#: adm/types/status_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/StatusWithdrawn"
+msgid "bda:StatusWithdrawn::skos:prefLabel"
+msgstr ""
+
+#: adm/types/status_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/StatusAccessioned"
+msgid "bda:StatusAccessioned::skos:prefLabel"
+msgstr ""
+
+#: adm/types/status_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/StatusEditing"
+msgid "bda:StatusEditing::skos:prefLabel"
+msgstr ""
+
+#: adm/types/status_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/StatusAcquiring"
+msgid "bda:StatusAcquiring::skos:prefLabel"
+msgstr ""
+
+#: adm/types/status_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/StatusSeekingOut"
+msgid "bda:StatusSeekingOut::skos:prefLabel"
+msgstr ""
+
+#: adm/types/status_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/StatusProvisional"
+msgid "bda:StatusProvisional::skos:prefLabel"
+msgstr ""
+
+#. status constants for :Entity metadata: released, provisional, etc
+#: adm/types/status_types.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/Status"
+msgid "adm:Status::rdfs:label"
+msgstr ""
+
+#: adm/types/status_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/StatusOnHold"
+msgid "bda:StatusOnHold::skos:prefLabel"
+msgstr ""
+
+#. asset manager status constants for images assets
+#: adm/types/status_types.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/ImagesStatus"
+msgid "adm:ImagesStatus::rdfs:label"
+msgstr ""
+
+#: adm/types/status_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/StatusScanned"
+msgid "bda:StatusScanned::skos:prefLabel"
+msgstr ""
+
+#: adm/types/status_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/StatusReleasedPendingWithdrawal"
+msgid "bda:StatusReleasedPendingWithdrawal::skos:prefLabel"
+msgstr ""
+
+#: adm/types/status_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/StatusReleased"
+msgid "bda:StatusReleased::skos:prefLabel"
+msgstr ""
