@@ -155,10 +155,10 @@ def add_res_to_polist(res, model, ttlpath, polist):
             continue
         comments.append(val)
     comments = sorted(comments)
-    for comment in comments:
+    for c in comments:
         if comment:
             comment += "\n"
-        comment += comment
+        comment += c
     seealsos = []
     for s,p,o in model.triples( (res, RDFS.seeAlso , None) ):
         seealsos.append(o)
