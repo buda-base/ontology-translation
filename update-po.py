@@ -225,6 +225,8 @@ def add_res_to_polist(res, model, ttlpath, polist):
                 if len(labels) > 0:
                     if not poentryalreadypresent or not OVERWRITE or not poentry.msgstr:
                         poentry.msgstr = labels[0]
+                    if comment:
+                        poentry.comment = comment
                 if len(labels) > 1:
                     print("abnormal number of labels in %s for %s (%s)" % (suffix, resshort, shortp))
 
