@@ -1,12 +1,21 @@
+# baseURI: http://purl.bdrc.io/ontology/translations/TranslationsBo/
+# prefix: TranslationsBo
+
+@prefix TranslationsBo: <http://purl.bdrc.io/ontology/translations/TranslationsBo/> .
 @prefix adm: <http://purl.bdrc.io/ontology/admin/> .
 @prefix bda: <http://purl.bdrc.io/admindata/> .
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+TranslationsBo:
+  a owl:Ontology ;
+.
 
 bdo:Agent rdfs:label "mi sna/"@bo-x-ewts .
 
@@ -220,51 +229,51 @@ bdo:TranslatedEvent rdfs:label "'gyur ma/"@bo-x-ewts .
 
 bdo:Transliteration rdfs:label "sgra bsgyur/"@bo-x-ewts .
 
-bdo:VirtualWork rdfs:label "phyogs sgrig brtsam chos/"@bo-x-ewts .
+bdo:VirtualInstance rdfs:label "phyogs sgrig brtsam chos/"@bo-x-ewts .
 
 bdo:Volume rdfs:label "po ti/"@bo-x-ewts .
 
 bdo:VolumeEtextAsset rdfs:label "'phrul pod/"@bo-x-ewts .
 
-bdo:VolumeImageAsset rdfs:label "gsher pod/"@bo-x-ewts .
+bdo:ImageGroup rdfs:label "gsher pod/"@bo-x-ewts .
 
 bdo:Work rdfs:label "don spyi'i brtsam chos/"@bo-x-ewts .
 
-bdo:WorkBibliographicalTitle rdfs:label "dpe tho'i mtshan byang /"@bo-x-ewts .
+bdo:BibliographicalTitle rdfs:label "dpe tho'i mtshan byang /"@bo-x-ewts .
 
-bdo:WorkColophonTitle rdfs:label "mjug byang nang du 'khod pa'i mtshan byang /"@bo-x-ewts .
+bdo:ColophonTitle rdfs:label "mjug byang nang du 'khod pa'i mtshan byang /"@bo-x-ewts .
 
-bdo:WorkCopyrightPageTitle rdfs:label "par dbang gsal bshad nang gi mtshan byang /"@bo-x-ewts .
+bdo:CopyrightPageTitle rdfs:label "par dbang gsal bshad nang gi mtshan byang /"@bo-x-ewts .
 
-bdo:WorkCoverTitle rdfs:label "rgyab sha'i mtshan byang /"@bo-x-ewts .
+bdo:CoverTitle rdfs:label "rgyab sha'i mtshan byang /"@bo-x-ewts .
 
 bdo:WorkEvent rdfs:label "brtsams chos dang 'brel ba'i don rkyen/"@bo-x-ewts .
 
-bdo:WorkFullTitle rdfs:label "mtshan byang cha tshang /"@bo-x-ewts .
+bdo:FullTitle rdfs:label "mtshan byang cha tshang /"@bo-x-ewts .
 
-bdo:WorkHalfTitle rdfs:label "kha byang bar ma/"@bo-x-ewts .
+bdo:HalfTitle rdfs:label "kha byang bar ma/"@bo-x-ewts .
 
-bdo:WorkIncipitTitle rdfs:label "gzhung tshig bkod pa'i mtshan byang /"@bo-x-ewts .
+bdo:IncipitTitle rdfs:label "gzhung tshig bkod pa'i mtshan byang /"@bo-x-ewts .
 
-bdo:WorkLocation rdfs:label "brtsam chos bzhugs mtshams/"@bo-x-ewts .
+bdo:ContentLocation rdfs:label "brtsam chos bzhugs mtshams/"@bo-x-ewts .
 
-bdo:WorkOtherTitle rdfs:label "mtshan byang gzhan/"@bo-x-ewts .
+bdo:OtherTitle rdfs:label "mtshan byang gzhan/"@bo-x-ewts .
 
 bdo:WorkPartType rdfs:label "brtsam chos kyi nang gses rigs/"@bo-x-ewts .
 
-bdo:WorkRunningTitle rdfs:label "mtshan byang rgyun can/"@bo-x-ewts .
+bdo:RunningTitle rdfs:label "mtshan byang rgyun can/"@bo-x-ewts .
 
-bdo:WorkSpineTitle rdfs:label "dpe rgal gyi mtshan byang /"@bo-x-ewts .
+bdo:SpineTitle rdfs:label "dpe rgal gyi mtshan byang /"@bo-x-ewts .
 
-bdo:WorkSubtitle rdfs:label "gsham yig"@bo-x-ewts .
+bdo:Subtitle rdfs:label "gsham yig"@bo-x-ewts .
 
-bdo:WorkTitle rdfs:label "mtshan byang /"@bo-x-ewts .
+bdo:Title rdfs:label "mtshan byang /"@bo-x-ewts .
 
-bdo:WorkTitlePageTitle rdfs:label "dbu shog mtshan byang /"@bo-x-ewts .
+bdo:TitlePageTitle rdfs:label "dbu shog mtshan byang /"@bo-x-ewts .
 
-bdo:WorkTitlePortion rdfs:label "don bsdus mtshan byang /"@bo-x-ewts .
+bdo:TitlePortion rdfs:label "don bsdus mtshan byang /"@bo-x-ewts .
 
-bdo:WorkToCTitle rdfs:label "dkar chag nang gi mtshan byang /"@bo-x-ewts .
+bdo:ToCTitle rdfs:label "dkar chag nang gi mtshan byang /"@bo-x-ewts .
 
 bdo:abbreviationOf rdfs:label "bsdus gzhi ni/"@bo-x-ewts .
 
@@ -424,7 +433,7 @@ bdo:instanceCreator rdfs:label "mdzad mkhan ni/"@bo-x-ewts .
 
 bdo:instanceDerivativeOf rdfs:label "bshu sgrig byas pa'i khungs ni/"@bo-x-ewts .
 
-bdo:instanceDimensions rdfs:label "po ti'i che chung /"@bo-x-ewts .
+bdo:dimensionsStatement rdfs:label "po ti'i che chung /"@bo-x-ewts .
 
 bdo:instanceExtentStatement rdfs:label "shog grangs gsal bshad/"@bo-x-ewts .
 
@@ -434,7 +443,7 @@ bdo:instanceHasItem rdfs:label "bye brag gi dngos po ni/"@bo-x-ewts .
 
 bdo:instanceHasReproduction rdfs:label "bskyar skrun ni/"@bo-x-ewts .
 
-bdo:instanceHasSourcePrintery rdfs:label "par gnas/"@bo-x-ewts .
+bdo:hasSourcePrintery rdfs:label "par gnas/"@bo-x-ewts .
 
 bdo:instanceHasVolume rdfs:label "pod ni/"@bo-x-ewts .
 
@@ -490,15 +499,15 @@ bdo:notBefore rdfs:label "de rjes/"@bo-x-ewts .
 
 bdo:note rdfs:label "zin bris/"@bo-x-ewts .
 
-bdo:noteLocationStatement rdfs:label "bzhugs mtshams/"@bo-x-ewts .
+bdo:contentLocationStatement rdfs:label "bzhugs mtshams/"@bo-x-ewts .
 
-bdo:noteLocationStatementCBETA rdfs:label "rgya yig bka' bstan gyi bzhugs mtshams gsal bshad/"@bo-x-ewts .
+bdo:contentLocationStatementCBETA rdfs:label "rgya yig bka' bstan gyi bzhugs mtshams gsal bshad/"@bo-x-ewts .
 
 bdo:noteText rdfs:label "yi ge/"@bo-x-ewts .
 
 bdo:noteType rdfs:label "bzhugs mtshams/"@bo-x-ewts .
 
-bdo:noteWork rdfs:label "khungs/"@bo-x-ewts .
+bdo:noteSource rdfs:label "khungs/"@bo-x-ewts .
 
 bdo:onDate rdfs:label "dus tshigs/"@bo-x-ewts .
 
@@ -572,27 +581,27 @@ bdo:volumePagesTbrcIntro rdfs:label "[TBRC ]dpe skrun gsal bshad shog ngos grang
 
 bdo:volumePhysicalDescription rdfs:label "gzugs can po ti'i rgyas bshad/"@bo-x-ewts .
 
-bdo:workAuthorshipStatement rdfs:label "mdzad pa po gsal bshad/"@bo-x-ewts .
+bdo:authorshipStatement rdfs:label "mdzad pa po gsal bshad/"@bo-x-ewts .
 
-bdo:workBiblioNote rdfs:label "dpe tho'i zin bris/"@bo-x-ewts .
+bdo:biblioNote rdfs:label "dpe tho'i zin bris/"@bo-x-ewts .
 
-bdo:workBiblioStatus rdfs:label "dpe tho'i gnas babs/"@bo-x-ewts .
+bdo:biblioStatus rdfs:label "dpe tho'i gnas babs/"@bo-x-ewts .
 
-bdo:workCBCSiglaT rdfs:label "tI sho rgya yig bka' bstan gyi ka rtags/[ (T]rtags can[)]"@bo-x-ewts .
+bdr:CBCSiglaT rdfs:label "tI sho rgya yig bka' bstan gyi ka rtags/[ (T]rtags can[)]"@bo-x-ewts .
 
-bdo:workCatalogInfo rdfs:label "bsdus don/"@bo-x-ewts .
+bdo:catalogInfo rdfs:label "bsdus don/"@bo-x-ewts .
 
-bdo:workColophon rdfs:label "mjug byang /"@bo-x-ewts .
+bdo:colophon rdfs:label "mjug byang /"@bo-x-ewts .
 
 bdo:workDerivativeOf rdfs:label "bshu sgrig byas pa'i khungs/"@bo-x-ewts .
 
-bdo:workDimHeight rdfs:label "bam tshad/"@bo-x-ewts .
+bdo:dimHeight rdfs:label "bam tshad/"@bo-x-ewts .
 
-bdo:workDimLength rdfs:label "ring tshad/"@bo-x-ewts .
+bdo:dimLength rdfs:label "ring tshad/"@bo-x-ewts .
 
-bdo:workDimWidth rdfs:label "zheng tshad/"@bo-x-ewts .
+bdo:dimWidth rdfs:label "zheng tshad/"@bo-x-ewts .
 
-bdo:workEditionStatement rdfs:label "par skrun gsal bshad/"@bo-x-ewts .
+bdo:editionStatement rdfs:label "par skrun gsal bshad/"@bo-x-ewts .
 
 bdo:workEvent rdfs:label "don rkyen/"@bo-x-ewts .
 
@@ -604,97 +613,97 @@ bdo:workHasInstance rdfs:label "mtshan gzhi ni/"@bo-x-ewts .
 
 bdo:workHasParallelsIn rdfs:label "mthun chos/"@bo-x-ewts .
 
-bdo:workHasPart rdfs:label "nang gses ni/"@bo-x-ewts .
+bdo:hasPart rdfs:label "nang gses ni/"@bo-x-ewts .
 
 bdo:workHasTranslation rdfs:label "'gyur ni/"@bo-x-ewts .
 
-bdo:workIllustrations rdfs:label "par ris/"@bo-x-ewts .
+bdo:illustrations rdfs:label "par ris/"@bo-x-ewts .
 
-bdo:workIncipit rdfs:label "mtshan byang bar ma/"@bo-x-ewts .
+bdo:incipit rdfs:label "mtshan byang bar ma/"@bo-x-ewts .
 
 bdo:workIsAbout rdfs:label "brjod gzhi ni/"@bo-x-ewts .
 
-bdo:workIsbn rdfs:label "[ISBN ]dpe rtags/"@bo-x-ewts .
+bf:Isbn rdfs:label "[ISBN ]dpe rtags/"@bo-x-ewts .
 
-bdo:workKaTenSiglaA rdfs:label "bka' bstan dpe bsdur ma'i dkar chag ang /"@bo-x-ewts .
+bdr:KaTenSiglaA rdfs:label "bka' bstan dpe bsdur ma'i dkar chag ang /"@bo-x-ewts .
 
-bdo:workKaTenSiglaBon rdfs:label "bon bka' 'gyur dkar chag ang /"@bo-x-ewts .
+bdr:KaTenSiglaBon rdfs:label "bon bka' 'gyur dkar chag ang /"@bo-x-ewts .
 
-bdo:workKaTenSiglaC rdfs:label "co ne'i dkar chag ang /"@bo-x-ewts .
+bdr:KaTenSiglaC rdfs:label "co ne'i dkar chag ang /"@bo-x-ewts .
 
-bdo:workKaTenSiglaD rdfs:label "to ho ku slob chen gyi dkar chag ang /"@bo-x-ewts .
+bdr:KaTenSiglaD rdfs:label "to ho ku slob chen gyi dkar chag ang /"@bo-x-ewts .
 
-bdo:workKaTenSiglaDo rdfs:label "dol po'i bka' 'gyur bris ma'i dkar chag ang /"@bo-x-ewts .
+bdr:KaTenSiglaDo rdfs:label "dol po'i bka' 'gyur bris ma'i dkar chag ang /"@bo-x-ewts .
 
-bdo:workKaTenSiglaG rdfs:label "gser bris dkar chag ang /"@bo-x-ewts .
+bdr:KaTenSiglaG rdfs:label "gser bris dkar chag ang /"@bo-x-ewts .
 
-bdo:workKaTenSiglaH rdfs:label "zhol par dkar chag ang /"@bo-x-ewts .
+bdr:KaTenSiglaH rdfs:label "zhol par dkar chag ang /"@bo-x-ewts .
 
-bdo:workKaTenSiglaJ rdfs:label "'jang bka' 'gyur dkar chag ang /"@bo-x-ewts .
+bdr:KaTenSiglaJ rdfs:label "'jang bka' 'gyur dkar chag ang /"@bo-x-ewts .
 
-bdo:workKaTenSiglaN rdfs:label "snar thang bka' bstan dkar chag ang /"@bo-x-ewts .
+bdr:KaTenSiglaN rdfs:label "snar thang bka' bstan dkar chag ang /"@bo-x-ewts .
 
-bdo:workKaTenSiglaQ rdfs:label "o ta ni slob chen gyi dkar chag ang /"@bo-x-ewts .
+bdr:KaTenSiglaQ rdfs:label "o ta ni slob chen gyi dkar chag ang /"@bo-x-ewts .
 
-bdo:workKaTenSiglaS rdfs:label "la dwags stog pho brang dkar chag ang /"@bo-x-ewts .
+bdr:KaTenSiglaS rdfs:label "la dwags stog pho brang dkar chag ang /"@bo-x-ewts .
 
-bdo:workKaTenSiglaU rdfs:label "khu re'i bka' 'gyur dkar chag ang /"@bo-x-ewts .
+bdr:KaTenSiglaU rdfs:label "khu re'i bka' 'gyur dkar chag ang /"@bo-x-ewts .
 
-bdo:workKaTenSiglaV rdfs:label "them spangs ma bka' 'gyur dkar chag ang /"@bo-x-ewts .
+bdr:KaTenSiglaV rdfs:label "them spangs ma bka' 'gyur dkar chag ang /"@bo-x-ewts .
 
-bdo:workKaTenSiglaZ rdfs:label "shel mkhar bris ma'i dkar chags/"@bo-x-ewts .
+bdr:KaTenSiglaZ rdfs:label "shel mkhar bris ma'i dkar chags/"@bo-x-ewts .
 
-bdo:workLangScript rdfs:label "skad yig"@bo-x-ewts .
+bdo:langScript rdfs:label "skad yig"@bo-x-ewts .
 
-bdo:workLcCallNumber rdfs:label "[LC ]dpe sgrom ang ni/"@bo-x-ewts .
+bf:ShelfMarkLcc rdfs:label "[LC ]dpe sgrom ang ni/"@bo-x-ewts .
 
-bdo:workLccn rdfs:label "[LCCN]"@bo-x-ewts .
+bf:Lccn rdfs:label "[LCCN]"@bo-x-ewts .
 
-bdo:workLocation rdfs:label "khungs/"@bo-x-ewts .
+bdo:contentLocation rdfs:label "khungs/"@bo-x-ewts .
 
-bdo:workLocationEndLine rdfs:label "tha ma'i yig phreng /"@bo-x-ewts .
+bdo:contentLocationEndLine rdfs:label "tha ma'i yig phreng /"@bo-x-ewts .
 
-bdo:workLocationEndPage rdfs:label "shog ngos tha ma/"@bo-x-ewts .
+bdo:contentLocationEndPage rdfs:label "shog ngos tha ma/"@bo-x-ewts .
 
-bdo:workLocationLine rdfs:label "yig 'phreng /"@bo-x-ewts .
+bdo:contentLocationLine rdfs:label "yig 'phreng /"@bo-x-ewts .
 
-bdo:workLocationPage rdfs:label "shog ngos/"@bo-x-ewts .
+bdo:contentLocationPage rdfs:label "shog ngos/"@bo-x-ewts .
 
-bdo:workLocationStatement rdfs:label "bzhugs mtshams gsal bshad/"@bo-x-ewts .
+bdo:contentLocationStatement rdfs:label "bzhugs mtshams gsal bshad/"@bo-x-ewts .
 
-bdo:workLocationVolume rdfs:label "pod/"@bo-x-ewts .
+bdo:contentLocationVolume rdfs:label "pod/"@bo-x-ewts .
 
-bdo:workLocationWork rdfs:label "dpe khungs ni/"@bo-x-ewts .
+bdo:contentLocationInstance rdfs:label "dpe khungs ni/"@bo-x-ewts .
 
-bdo:workNumberOfVolumes rdfs:label "po ti'i grangs/"@bo-x-ewts .
+bdo:numberOfVolumes rdfs:label "po ti'i grangs/"@bo-x-ewts .
 
 bdo:workOtherLangScript rdfs:label "skad yig gzhan/"@bo-x-ewts .
 
-bdo:workPartOf rdfs:label "'phros gzhi/"@bo-x-ewts .
+bdo:partOf rdfs:label "'phros gzhi/"@bo-x-ewts .
 
-bdo:workPartType rdfs:label "nang gses rigs/"@bo-x-ewts .
+bdo:partType rdfs:label "nang gses rigs/"@bo-x-ewts .
 
-bdo:workRefChokLing rdfs:label "mchog gling gter gsar dkar chag ang /"@bo-x-ewts .
+bdr:RefChokLing rdfs:label "mchog gling gter gsar dkar chag ang /"@bo-x-ewts .
 
-bdo:workRefrKTsG rdfs:label "bka' bstan zhib 'jug tshogs pa'i rnying rgyud dkar chag ang /"@bo-x-ewts .
+bdr:RefrKTsG rdfs:label "bka' bstan zhib 'jug tshogs pa'i rnying rgyud dkar chag ang /"@bo-x-ewts .
 
-bdo:workRefrKTsK rdfs:label "bka' bstan zhib 'jug tshogs pa'i dkar chag ang /"@bo-x-ewts .
+bdr:RefrKTsK rdfs:label "bka' bstan zhib 'jug tshogs pa'i dkar chag ang /"@bo-x-ewts .
 
-bdo:workRefrKTsT rdfs:label "bka' bstan zhib 'jug tshogs pa'i bstan 'gyur dkar chag ang /"@bo-x-ewts .
+bdr:RefrKTsT rdfs:label "bka' bstan zhib 'jug tshogs pa'i bstan 'gyur dkar chag ang /"@bo-x-ewts .
 
 bdo:workRefs rdfs:label "dkar chag ang grangs/"@bo-x-ewts .
 
-bdo:workScanInfo rdfs:label "gsher 'beb kyi skor/"@bo-x-ewts .
+bdo:scanInfo rdfs:label "gsher 'beb kyi skor/"@bo-x-ewts .
 
 bdo:workSeriesNumber rdfs:label "deb phreng ang /"@bo-x-ewts .
 
 bdo:workSideBoxSequenceId rdfs:label "le tshan ang /"@bo-x-ewts .
 
-bdo:workSourceNote rdfs:label "ma yig dang 'brel ba'i zin bris/"@bo-x-ewts .
+bdo:sourceNote rdfs:label "ma yig dang 'brel ba'i zin bris/"@bo-x-ewts .
 
-bdo:workTitle rdfs:label "mtshan byang /"@bo-x-ewts .
+bdo:hasTitle rdfs:label "mtshan byang /"@bo-x-ewts .
 
-bdo:workTranslationOf rdfs:label "sgyur gzhi/"@bo-x-ewts .
+bdo:translationOf rdfs:label "sgyur gzhi/"@bo-x-ewts .
 
 bdo:yearOffset rdfs:label "dus skabs gnyis kyi he bag"@bo-x-ewts .
 
@@ -906,15 +915,15 @@ bdr:Nl skos:prefLabel "ho gling skad/"@bo-x-ewts .
 
 bdr:No skos:prefLabel "nor we skad/"@bo-x-ewts .
 
-bdr:ObjectTypeComputerInput rdfs:label "yi ge gtag ma/"@bo-x-ewts .
+bdr:ContentMethod_ComputerInput rdfs:label "yi ge gtag ma/"@bo-x-ewts .
 
-bdr:ObjectTypeFacsimile rdfs:label "'dra bshus/"@bo-x-ewts .
+bdr:ContentMethod_Facsimile rdfs:label "'dra bshus/"@bo-x-ewts .
 
-bdr:ObjectTypeOCR rdfs:label "yig 'dzin/[ OCR]"@bo-x-ewts .
+bdr:ContentMethod_OCR rdfs:label "yig 'dzin/[ OCR]"@bo-x-ewts .
 
 bdr:ObjectTypeParPhud rdfs:label "spar thengs dang po/"@bo-x-ewts .
 
-bdr:ObjectTypeTypeSet rdfs:label "'phrul bris/"@bo-x-ewts .
+bdr:ContentMethod_Typeset rdfs:label "'phrul bris/"@bo-x-ewts .
 
 bdr:OuiOldOui skos:prefLabel "gna' bo'i yur gur yi ger phab pa'i yur gur skad rnying /"@bo-x-ewts .
 
