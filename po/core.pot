@@ -16,6 +16,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/workLocationVolume"
 msgid "bdo:workLocationVolume::rdfs:label"
 msgstr ""
 
+#. Indicates a Niece of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasNiece"
 msgid "bdo:hasNiece::rdfs:label"
@@ -43,6 +44,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/notAfter"
 msgid "bdo:notAfter::rdfs:label"
 msgstr ""
 
+#. An Edition statement expresses information about this Work as an edition.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workEditionStatement"
 msgid "bdo:workEditionStatement::rdfs:label"
@@ -56,6 +58,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/itemShelf"
 msgid "bdo:itemShelf::rdfs:label"
 msgstr ""
 
+#. This Person is a Speech incarnation of the target Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/incarnationSpeech"
 msgid "bdo:incarnationSpeech::rdfs:label"
@@ -67,6 +70,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/workAuthorshipStatement"
 msgid "bdo:workAuthorshipStatement::rdfs:label"
 msgstr ""
 
+#. Indicates a Sister-in-law of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasSisterInLaw"
 msgid "bdo:hasSisterInLaw::rdfs:label"
@@ -83,17 +87,13 @@ msgctxt "http://purl.bdrc.io/resource/ObjectTypeOCR"
 msgid "bdr:ObjectTypeOCR::rdfs:label"
 msgstr ""
 
+#. Indicates a Body incarnation of this Person.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationBody"
 msgid "bdo:hasIncarnationBody::rdfs:label"
 msgstr ""
 
-#. Every :Work should have at least one :workLangScript indicating the primary
-#. laguage and script in which the language is presented. There may be more
-#. than one :workLangScript when there are multiple languages used for primary
-#. text. For example, a dictionary with entries in Chinese, Sanskrit and
-#. Tibetan would list all three languages and their corresponding scripts via
-#. three :workLangScript statements
+#. Indicates the primary language and script in which the Work is expressed.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workLangScript"
 msgid "bdo:workLangScript::rdfs:label"
@@ -106,24 +106,26 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonTulkuTitle"
 msgid "bdo:PersonTulkuTitle::rdfs:label"
 msgstr ""
 
+#. A volume is a self-contained set of pages/folia.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/Volume"
 msgid "bdo:Volume::rdfs:label"
 msgstr ""
 
+#. Indicates an Aunt of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasAunt"
 msgid "bdo:hasAunt::rdfs:label"
 msgstr ""
 
+#. Indicates a Younger brother of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasYoungerBrother"
 msgid "bdo:hasYoungerBrother::rdfs:label"
 msgstr ""
 
 #. An identifer, typically a Tibetan letter, indicating the position of the
-#. text in a sequence of texts. Conventionally appearing in a side box of the
-#. textbox. See bdr:W22080 for an example.
+#. text in a sequence of texts.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workSideBoxSequenceId"
 msgid "bdo:workSideBoxSequenceId::rdfs:label"
@@ -148,6 +150,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/WorkColophonTitle"
 msgid "bdo:WorkColophonTitle::rdfs:label"
 msgstr ""
 
+#. This Person is an Activities incarnation of the target Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/incarnationActivities"
 msgid "bdo:incarnationActivities::rdfs:label"
@@ -161,11 +164,14 @@ msgctxt "http://purl.bdrc.io/ontology/core/workLocationStatement"
 msgid "bdo:workLocationStatement::rdfs:label"
 msgstr ""
 
+#. Indicates a Role that is occupied by a Person associated with the
+#. PersonEvent.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/personEventRole"
 msgid "bdo:personEventRole::rdfs:label"
 msgstr ""
 
+#. A note about the origin of the form of the Work that was digitized.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workSourceNote"
 msgid "bdo:workSourceNote::rdfs:label"
@@ -177,7 +183,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonFinalOrdinationName"
 msgid "bdo:PersonFinalOrdinationName::rdfs:label"
 msgstr ""
 
-#. A location statement for where in the :noteWork to look for the :noteText
+#. A string indicating where in the :noteWork to look for the :noteText
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/noteLocationStatement"
 msgid "bdo:noteLocationStatement::rdfs:label"
@@ -191,6 +197,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/EtextLine"
 msgid "bdo:EtextLine::rdfs:label"
 msgstr ""
 
+#. Indicates a Child of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasChild"
 msgid "bdo:hasChild::rdfs:label"
@@ -250,12 +257,13 @@ msgctxt "http://purl.bdrc.io/ontology/core/TranslatedEvent"
 msgid "bdo:TranslatedEvent::rdfs:label"
 msgstr ""
 
-#. the title as given at the beginning of the text
+#. the title as given, inline, at the beginning of the text
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/WorkIncipitTitle"
 msgid "bdo:WorkIncipitTitle::rdfs:label"
 msgstr ""
 
+#. Indicates a Person this Person was a student of.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/personStudentOf"
 msgid "bdo:personStudentOf::rdfs:label"
@@ -267,8 +275,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/eventWho"
 msgid "bdo:eventWho::rdfs:label"
 msgstr ""
 
-#. use for the title on the copyright page when it differs from the
-#. bibliographical title.
+#. Title appearing on the copyright page of a Work, if present.
 #. see also: http://cip.loc.gov/cipman/
 #. see also: https://www.loc.gov/publish/cip/news/lccn_art.html
 #: core/bdo.ttl
@@ -276,14 +283,13 @@ msgctxt "http://purl.bdrc.io/ontology/core/WorkCopyrightPageTitle"
 msgid "bdo:WorkCopyrightPageTitle::rdfs:label"
 msgstr ""
 
-#. Use this type for titles in table of contents when they differ from the
-#. bibliographical title.
+#. A title for a work as it occurs in the table of contents for a Work.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/WorkToCTitle"
 msgid "bdo:WorkToCTitle::rdfs:label"
 msgstr ""
 
-#. The subject :Person is a consort of the target :Person
+#. The subject Person is a consort of the target Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/personConsortOf"
 msgid "bdo:personConsortOf::rdfs:label"
@@ -295,7 +301,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/WorkOtherTitle"
 msgid "bdo:WorkOtherTitle::rdfs:label"
 msgstr ""
 
-#. Summary information about the Work
+#. Summary information about the Instance
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workCatalogInfo"
 msgid "bdo:workCatalogInfo::rdfs:label"
@@ -319,15 +325,13 @@ msgctxt "http://purl.bdrc.io/ontology/core/placeContains"
 msgid "bdo:placeContains::rdfs:label"
 msgstr ""
 
-#. Virtual works are works made by assembling different other works. Examples:
-#. collections, manuscripts reconstituted from fragments in different
-#. collections, etc. The hierarchy of works displayed in an embedded reader is
-#. also a virtual work.
+#. Virtual works are works made by assembling different other works.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/VirtualWork"
 msgid "bdo:VirtualWork::rdfs:label"
 msgstr ""
 
+#. This Person is a Mind incarnation of the target Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/incarnationMind"
 msgid "bdo:incarnationMind::rdfs:label"
@@ -347,10 +351,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/EtextNonPaginated"
 msgid "bdo:EtextNonPaginated::rdfs:label"
 msgstr ""
 
-#. The :lineageRef identifies another :Lineage that is an alternative version
-#. of the current :Lineage. In gsan yig and thob yig there can be references
-#. to different versions of how a given object has been transmitted up to the
-#. time of the writing of the gsan/thob yig.
+#. The :lineageRef identifies an alternative version of the current Lineage
 #. see also: http://purl.bdrc.io/ontology/core/Lineage
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/lineageRef"
@@ -370,6 +371,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaBon"
 msgid "bdo:workKaTenSiglaBon::rdfs:label"
 msgstr ""
 
+#. A title by which is known or referenced.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/WorkTitle"
 msgid "bdo:WorkTitle::rdfs:label"
@@ -381,6 +383,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonMarriage"
 msgid "bdo:PersonMarriage::rdfs:label"
 msgstr ""
 
+#. Indicates a Parent of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasParent"
 msgid "bdo:hasParent::rdfs:label"
@@ -392,16 +395,20 @@ msgctxt "http://purl.bdrc.io/ontology/core/pageHasLine"
 msgid "bdo:pageHasLine::rdfs:label"
 msgstr ""
 
+#. event type describing when a place was converted from one tradition to
+#. another, e.g., from Nyingma to Gelugpa
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/PlaceConverted"
 msgid "bdo:PlaceConverted::rdfs:label"
 msgstr ""
 
+#. event type describing when a place was founded
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/PlaceFounded"
 msgid "bdo:PlaceFounded::rdfs:label"
 msgstr ""
 
+#. Indicates a Younger sister of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasYoungerSister"
 msgid "bdo:hasYoungerSister::rdfs:label"
@@ -425,13 +432,14 @@ msgctxt "http://purl.bdrc.io/ontology/core/eTextVolumeIndex"
 msgid "bdo:eTextVolumeIndex::rdfs:label"
 msgstr ""
 
+#. An abstract or conceptual work is the idea of a work, as opposed to an
+#. expression or manifestation which is a specific edition or witness.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/Work"
 msgid "bdo:Work::rdfs:label"
 msgstr ""
 
-#. use to describe the type of binding of a work (loose leaves, bound by glue,
-#. etc.)
+#. Describes the type of binding of a work (loose leaves, bound by glue, etc.)
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/binding"
 msgid "bdo:binding::rdfs:label"
@@ -458,6 +466,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/RequestedEvent"
 msgid "bdo:RequestedEvent::rdfs:label"
 msgstr ""
 
+#. The gender of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/personGender"
 msgid "bdo:personGender::rdfs:label"
@@ -469,6 +478,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/script"
 msgid "bdo:script::rdfs:label"
 msgstr ""
 
+#. event type describing when a place was destroyed
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/PlaceDestroyed"
 msgid "bdo:PlaceDestroyed::rdfs:label"
@@ -480,6 +490,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaU"
 msgid "bdo:workKaTenSiglaU::rdfs:label"
 msgstr ""
 
+#. Indicates a Granddaughter of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasGranddaughter"
 msgid "bdo:hasGranddaughter::rdfs:label"
@@ -499,6 +510,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonCorporateName"
 msgid "bdo:PersonCorporateName::rdfs:label"
 msgstr ""
 
+#. Indicates an in-law of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasInLaw"
 msgid "bdo:hasInLaw::rdfs:label"
@@ -536,15 +548,8 @@ msgctxt "http://purl.bdrc.io/ontology/core/workLcCallNumber"
 msgid "bdo:workLcCallNumber::rdfs:label"
 msgstr ""
 
-#. This models the "down to ..." references to other Lineages. The other
-#. Lineage from the beginning to the holder with the same who as this holder
-#. is implicitly included with this lineage. The known use case is for the
-#. initial holder to include the prior holders from another lineage as the
-#. initial without having members of this lineage without having to repeat
-#. them. It may be meaningful to use this feature deeper in a lineage but that
-#. is not defined at this time. It is meaningful to include multiple from
-#. references which is interpreted as implicitly creating an alternative
-#. lineage for each from element.
+#. Similar to down from this property refers to a sequence of holders from
+#. another Lineage.
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 #. see also: http://purl.bdrc.io/ontology/core/lineageDownFrom
 #: core/bdo.ttl
@@ -559,6 +564,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/workPartType"
 msgid "bdo:workPartType::rdfs:label"
 msgstr ""
 
+#. Indicates a Cousin of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasCousin"
 msgid "bdo:hasCousin::rdfs:label"
@@ -584,14 +590,13 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonPersonalName"
 msgid "bdo:PersonPersonalName::rdfs:label"
 msgstr ""
 
+#. Indicates a school, tradition, or sect that the Person is associated with.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/personOfSect"
 msgid "bdo:personOfSect::rdfs:label"
 msgstr ""
 
-#. Identifies a Place that this Place is located in - usually a single Place
-#. but to account for changes over time in the definitions of regions and such
-#. it may be necessary to have multiple associations.
+#. Identifies a Place that this Place is located in.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/placeLocatedIn"
 msgid "bdo:placeLocatedIn::rdfs:label"
@@ -648,9 +653,8 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonTitle"
 msgid "bdo:PersonTitle::rdfs:label"
 msgstr ""
 
-#. Places are geographic entities ranging from monasteries, to villages, to
-#. counties, provinces and so on. Places are modeled in terms of subclasses
-#. that indicate the type of "real world" place that is referred to
+#. Places are geographic entities such as: monasteries, villages, counties,
+#. rivers, caves and so on
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/Place"
 msgid "bdo:Place::rdfs:label"
@@ -662,6 +666,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/workHasNumber"
 msgid "bdo:workHasNumber::rdfs:label"
 msgstr ""
 
+#. Indicates a Paternal uncle of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasPaternalUncle"
 msgid "bdo:hasPaternalUncle::rdfs:label"
@@ -685,6 +690,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonDivorce"
 msgid "bdo:PersonDivorce::rdfs:label"
 msgstr ""
 
+#. Indicates a Grandmother of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasGrandmother"
 msgid "bdo:hasGrandmother::rdfs:label"
@@ -697,6 +703,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/placeEvent"
 msgid "bdo:placeEvent::rdfs:label"
 msgstr ""
 
+#. Indicates a location in the Chinese Buddhist Canon.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/noteLocationStatementCBETA"
 msgid "bdo:noteLocationStatementCBETA::rdfs:label"
@@ -710,9 +717,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/workRefrKTsG"
 msgid "bdo:workRefrKTsG::rdfs:label"
 msgstr ""
 
-#. Roles include offices held as well as other positions. Roles was formerly
-#. called Office in the tbrc.org XML schema. Roles is prefered as a more
-#. commonly used concept in libraries.
+#. Roles include offices held as well as other positions.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/Role"
 msgid "bdo:Role::rdfs:label"
@@ -800,6 +805,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonPrimaryName"
 msgid "bdo:PersonPrimaryName::rdfs:label"
 msgstr ""
 
+#. Indicates the volume in which the etext is found.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/eTextInVolume"
 msgid "bdo:eTextInVolume::rdfs:label"
@@ -822,12 +828,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/ProvenanceNote"
 msgid "bdo:ProvenanceNote::rdfs:label"
 msgstr ""
 
-#. personIsIncarnation records which being (Person or Topic) this individual
-#. is an incarnation of and optionally what sort of incarnation (body speech,
-#. mind, etc). There are 1,456 individuals out of 18,320, that are marked as
-#. being incarnations of some being. Of these, 18 are marked with
-#. per:incarnationOf_relation and 5 are marked with
-#. per:incarnationOf_secondary.
+#. This Person is an incarnation of the target Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/isIncarnation"
 msgid "bdo:isIncarnation::rdfs:label"
@@ -840,18 +841,20 @@ msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaN"
 msgid "bdo:workKaTenSiglaN::rdfs:label"
 msgstr ""
 
+#. An event describing the revision of a work
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/RevisedEvent"
 msgid "bdo:RevisedEvent::rdfs:label"
 msgstr ""
 
+#. This is a reference to what is being transmitted in the Lineage.
 #. see also: http://purl.bdrc.io/ontology/core/Lineage
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/lineageObject"
 msgid "bdo:lineageObject::rdfs:label"
 msgstr ""
 
-#. the target :Person is a consort of the subject :Person
+#. The target Person is a consort of the subject Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/personHasConsort"
 msgid "bdo:personHasConsort::rdfs:label"
@@ -892,19 +895,19 @@ msgctxt "http://purl.bdrc.io/ontology/core/workHasParallelsIn"
 msgid "bdo:workHasParallelsIn::rdfs:label"
 msgstr ""
 
+#. Indicates a Mother-in-law of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasMotherInLaw"
 msgid "bdo:hasMotherInLaw::rdfs:label"
 msgstr ""
 
+#. Indicates a Speech incarnation of this Person.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationSpeech"
 msgid "bdo:hasIncarnationSpeech::rdfs:label"
 msgstr ""
 
-#. This was the description of type colophon which was used primarily
-#. (exclusively?) on <outline:node/>s. It is now part of the extended
-#. bibliographic model allowing to tag any sort of Work with a colophon
+#. A transcription of the colophon of the Work.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workColophon"
 msgid "bdo:workColophon::rdfs:label"
@@ -917,6 +920,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/workReproductionOf"
 msgid "bdo:workReproductionOf::rdfs:label"
 msgstr ""
 
+#. Indicates a Wife of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasWife"
 msgid "bdo:hasWife::rdfs:label"
@@ -954,6 +958,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonSecretInitiatoryName"
 msgid "bdo:PersonSecretInitiatoryName::rdfs:label"
 msgstr ""
 
+#. Indicates the Work that the WorkLocation refers to.
 #. see also: http://purl.bdrc.io/ontology/core/WorkLocation
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workLocationWork"
@@ -981,24 +986,26 @@ msgctxt "http://purl.bdrc.io/ontology/core/ItemEtext"
 msgid "bdo:ItemEtext::rdfs:label"
 msgstr ""
 
+#. Indicates a Husband of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasHusband"
 msgid "bdo:hasHusband::rdfs:label"
 msgstr ""
 
-#. Title indicated in the margins or the page headers of a book.
+#. Title indicated in the margins or page headers of a Work.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/WorkRunningTitle"
 msgid "bdo:WorkRunningTitle::rdfs:label"
 msgstr ""
 
-#. Essentially who did the holder receive this :Lineage from
+#. Essentially who did the holder receive this Lineage from
 #. see also: http://purl.bdrc.io/ontology/core/LineageReceived
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/lineageReceived"
 msgid "bdo:lineageReceived::rdfs:label"
 msgstr ""
 
+#. Indicates an Parent sibling of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasParentSibling"
 msgid "bdo:hasParentSibling::rdfs:label"
@@ -1055,25 +1062,27 @@ msgctxt "http://purl.bdrc.io/ontology/core/WorkCoverTitle"
 msgid "bdo:WorkCoverTitle::rdfs:label"
 msgstr ""
 
-#. A bibliogrpahic status statement in the language of the Work
+#. A bibliographic status statement in the language of the Instance
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workBiblioStatus"
 msgid "bdo:workBiblioStatus::rdfs:label"
 msgstr ""
 
+#. Indicates a Sibling-in-law of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasSiblingInLaw"
 msgid "bdo:hasSiblingInLaw::rdfs:label"
 msgstr ""
 
-#. identifies who this :LineageHolder is, :Person or a being represented via a
-#. :Topic.
+#. identifies who this LineageHolder is, Person or a being represented via a
+#. Topic.
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/lineageWho"
 msgid "bdo:lineageWho::rdfs:label"
 msgstr ""
 
+#. Indicates a Grandfather of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasGrandfather"
 msgid "bdo:hasGrandfather::rdfs:label"
@@ -1093,11 +1102,13 @@ msgctxt "http://purl.bdrc.io/ontology/core/workTitle"
 msgid "bdo:workTitle::rdfs:label"
 msgstr ""
 
+#. Indicates a Spouse of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasSpouse"
 msgid "bdo:hasSpouse::rdfs:label"
 msgstr ""
 
+#. This Person is the next incarnation of the target Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/incarnationYangtse"
 msgid "bdo:incarnationYangtse::rdfs:label"
@@ -1115,18 +1126,19 @@ msgctxt "http://purl.bdrc.io/ontology/core/placeLat"
 msgid "bdo:placeLat::rdfs:label"
 msgstr ""
 
+#. Indicates an Older sister of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasOlderSister"
 msgid "bdo:hasOlderSister::rdfs:label"
 msgstr ""
 
+#. This Person is a Body incarnation of the target Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/incarnationBody"
 msgid "bdo:incarnationBody::rdfs:label"
 msgstr ""
 
-#. This refers to a :Work that the subject :LineageHolder authored as an
-#. element of the :Lineage - a commentary of some sort typically
+#. Refers to a Work authored by the LineageHolder about the Lineage.
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/lineageWork"
@@ -1139,7 +1151,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/workDimHeight"
 msgid "bdo:workDimHeight::rdfs:label"
 msgstr ""
 
-#. use to indicate the material applied on a work (ink, golden leaf, etc.)
+#. Indicates the material applied on a work (ink, golden leaf, etc.)
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/appliedMaterial"
 msgid "bdo:appliedMaterial::rdfs:label"
@@ -1173,6 +1185,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonLeavesSeat"
 msgid "bdo:PersonLeavesSeat::rdfs:label"
 msgstr ""
 
+#. Reference number from the Ulaanbaatar catalogue
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaV"
 msgid "bdo:workKaTenSiglaV::rdfs:label"
@@ -1183,11 +1196,13 @@ msgctxt "http://purl.bdrc.io/ontology/core/WorkBibliographicalTitle"
 msgid "bdo:WorkBibliographicalTitle::rdfs:label"
 msgstr ""
 
+#. Indicates a Son of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasSon"
 msgid "bdo:hasSon::rdfs:label"
 msgstr ""
 
+#. Indicates a Grandchild of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasGrandChild"
 msgid "bdo:hasGrandChild::rdfs:label"
@@ -1200,14 +1215,14 @@ msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaG"
 msgid "bdo:workKaTenSiglaG::rdfs:label"
 msgstr ""
 
-#. An event related to a perswon such as birth, death, ordination, founding
-#. monastery and so on
+#. An event related to a person such as birth, death, ordination, founding
+#. monastery and so on.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/personEvent"
 msgid "bdo:personEvent::rdfs:label"
 msgstr ""
 
-#. Roleepresents a scanned or otherwise digitized set of page images.
+#. Represents a scanned or otherwise digitized set of page images.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/VolumeImageAsset"
 msgid "bdo:VolumeImageAsset::rdfs:label"
@@ -1245,8 +1260,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/workEvent"
 msgid "bdo:workEvent::rdfs:label"
 msgstr ""
 
-#. This is the number of this Work in a series - implies that this work is a
-#. part (member of) a series Work.
+#. This is the number or other id of this SerialInstance in a SerialWork.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workSeriesNumber"
 msgid "bdo:workSeriesNumber::rdfs:label"
@@ -1266,27 +1280,25 @@ msgctxt "http://purl.bdrc.io/ontology/core/workLocationEndPage"
 msgid "bdo:workLocationEndPage::rdfs:label"
 msgstr ""
 
-#. An event associated with the production of a :Work. Event information is
-#. gathered from colophons and publication data presented in the publishede
-#. form of texts
+#. An event associated with the production of a Work.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/WorkEvent"
 msgid "bdo:WorkEvent::rdfs:label"
 msgstr ""
 
+#. Associates a Note containing: a comment, Work, and location in the Work.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/note"
 msgid "bdo:note::rdfs:label"
 msgstr ""
 
-#. This is the number of volumes associated with the original work. Typically
-#. this is for a published work. The value may differ from the "actual" number
-#. of volumes in an associated Item owing to missing volumes.
+#. This is the number of volumes associated with the original work.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workNumberOfVolumes"
 msgid "bdo:workNumberOfVolumes::rdfs:label"
 msgstr ""
 
+#. Indicates a Nephew of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasNephew"
 msgid "bdo:hasNephew::rdfs:label"
@@ -1298,6 +1310,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/workOtherLangScript"
 msgid "bdo:workOtherLangScript::rdfs:label"
 msgstr ""
 
+#. Indicates a CBC Sigla T, Taisho, associated with this Work.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workCBCSiglaT"
 msgid "bdo:workCBCSiglaT::rdfs:label"
@@ -1306,7 +1319,7 @@ msgstr ""
 #. This property groups together all of the various reference number
 #. properties derived from various catalogues and such. This property can be
 #. used by an editor to easily locate all of the possible reference number
-#. properties that might need to be used during cataloguing.
+#. properties that might need to be used during cataloging.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workRefs"
 msgid "bdo:workRefs::rdfs:label"
@@ -1320,9 +1333,6 @@ msgctxt "http://purl.bdrc.io/ontology/core/workRefrKTsT"
 msgid "bdo:workRefrKTsT::rdfs:label"
 msgstr ""
 
-#. The subject work is identified as a translation of the referenced work.
-#. This will be used, for example, when the subject work is a Tibetan
-#. translation of a referenced Sanskrit work.
 #. This work is a translation of the reference work.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workTranslationOf"
@@ -1344,6 +1354,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/workRefChokLing"
 msgid "bdo:workRefChokLing::rdfs:label"
 msgstr ""
 
+#. Indicates a Daughter of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasDaughter"
 msgid "bdo:hasDaughter::rdfs:label"
@@ -1356,6 +1367,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonEvent"
 msgid "bdo:PersonEvent::rdfs:label"
 msgstr ""
 
+#. A comma separated list of numbers and ranges of missing volumes
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/itemMissingVolumes"
 msgid "bdo:itemMissingVolumes::rdfs:label"
@@ -1367,11 +1379,13 @@ msgctxt "http://purl.bdrc.io/ontology/core/ItemPhysicalAsset"
 msgid "bdo:ItemPhysicalAsset::rdfs:label"
 msgstr ""
 
+#. Indicates a Sister of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasSister"
 msgid "bdo:hasSister::rdfs:label"
 msgstr ""
 
+#. The referenced Topic is interpreted as a "genre".
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workGenre"
 msgid "bdo:workGenre::rdfs:label"
@@ -1390,6 +1404,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonRabByungOrdination"
 msgid "bdo:PersonRabByungOrdination::rdfs:label"
 msgstr ""
 
+#. Indicates a Corporation that is associated with the subject Event.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/personEventCorporation"
 msgid "bdo:personEventCorporation::rdfs:label"
@@ -1402,14 +1417,13 @@ msgstr ""
 
 #. This is the location of the source information for this :Lineage in a
 #. specified gsan / thob yig.
-#. the :workLocation may be used with other domains and these will be added in
-#. an owl:unionOf as they are added. One such is expected to be :Note
 #. see also: http://purl.bdrc.io/ontology/core/Lineage
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workLocation"
 msgid "bdo:workLocation::rdfs:label"
 msgstr ""
 
+#. Reference number for this work from the Dolpo Kangyur Catalogue
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workKaTenSiglaDo"
 msgid "bdo:workKaTenSiglaDo::rdfs:label"
@@ -1427,21 +1441,25 @@ msgctxt "http://purl.bdrc.io/ontology/core/AuthoredEvent"
 msgid "bdo:AuthoredEvent::rdfs:label"
 msgstr ""
 
+#. Indicates the Mother of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasMother"
 msgid "bdo:hasMother::rdfs:label"
 msgstr ""
 
+#. Indicates a Grandson of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasGrandson"
 msgid "bdo:hasGrandson::rdfs:label"
 msgstr ""
 
+#. indicates a Place Event of unknown type!?
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/PlaceEventNotSpecified"
 msgid "bdo:PlaceEventNotSpecified::rdfs:label"
 msgstr ""
 
+#. A searchable etext volume versus a physical or digitized pzges images.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/VolumeEtextAsset"
 msgid "bdo:VolumeEtextAsset::rdfs:label"
@@ -1454,6 +1472,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/itemForWork"
 msgid "bdo:itemForWork::rdfs:label"
 msgstr ""
 
+#. Refers to a page of an eText corresponding to a physical/image page asset.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/eTextHasPage"
 msgid "bdo:eTextHasPage::rdfs:label"
@@ -1478,6 +1497,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/CorporationMemberByBlood"
 msgid "bdo:CorporationMemberByBlood::rdfs:label"
 msgstr ""
 
+#. Indicates a Parent-in-law of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasParentInLaw"
 msgid "bdo:hasParentInLaw::rdfs:label"
@@ -1489,13 +1509,13 @@ msgctxt "http://purl.bdrc.io/ontology/core/workScanInfo"
 msgid "bdo:workScanInfo::rdfs:label"
 msgstr ""
 
+#. Indicates an Entity that is a member of the corporation
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/corporationHasMember"
 msgid "bdo:corporationHasMember::rdfs:label"
 msgstr ""
 
-#. This property is applicable to Persons and Topics (that represent deities
-#. or other ahistorical figures).
+#. Indicates a Person considered to be an Incarnation of this Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnation"
 msgid "bdo:hasIncarnation::rdfs:label"
@@ -1506,6 +1526,7 @@ msgctxt "http://www.w3.org/2000/01/rdf-schema#comment"
 msgid "rdfs:comment::rdfs:label"
 msgstr ""
 
+#. Indicates a Grandparent of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasGrandParent"
 msgid "bdo:hasGrandParent::rdfs:label"
@@ -1524,11 +1545,13 @@ msgctxt "http://purl.bdrc.io/ontology/core/eventWhen"
 msgid "bdo:eventWhen::rdfs:label"
 msgstr ""
 
+#. Indicates the Father-in-law of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasFatherInLaw"
 msgid "bdo:hasFatherInLaw::rdfs:label"
 msgstr ""
 
+#. Indicates the Father of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasFather"
 msgid "bdo:hasFather::rdfs:label"
@@ -1553,6 +1576,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/eventWhere"
 msgid "bdo:eventWhere::rdfs:label"
 msgstr ""
 
+#. This work is a derivative of the referenced work.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workDerivativeOf"
 msgid "bdo:workDerivativeOf::rdfs:label"
@@ -1571,6 +1595,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/ceDate"
 msgid "bdo:ceDate::rdfs:label"
 msgstr ""
 
+#. Indicates a Person this Person was a teacher of.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/personTeacherOf"
 msgid "bdo:personTeacherOf::rdfs:label"
@@ -1582,11 +1607,13 @@ msgctxt "http://purl.bdrc.io/ontology/core/workDimWidth"
 msgid "bdo:workDimWidth::rdfs:label"
 msgstr ""
 
+#. Indicates a Person with an unknown kinship relation to the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasUnknownKinship"
 msgid "bdo:hasUnknownKinship::rdfs:label"
 msgstr ""
 
+#. This Person is a Qualities incarnation of the target Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/incarnationQualities"
 msgid "bdo:incarnationQualities::rdfs:label"
@@ -1606,14 +1633,13 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonGterStonTitle"
 msgid "bdo:PersonGterStonTitle::rdfs:label"
 msgstr ""
 
+#. Indicates a Sibling of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasSibling"
 msgid "bdo:hasSibling::rdfs:label"
 msgstr ""
 
 #. title indicated on the spine of a book
-#. use for titles indicated on the spine of a book when it differs from the
-#. bibliographical title.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/WorkSpineTitle"
 msgid "bdo:WorkSpineTitle::rdfs:label"
@@ -1625,11 +1651,13 @@ msgctxt "http://purl.bdrc.io/ontology/core/EtextChunk"
 msgid "bdo:EtextChunk::rdfs:label"
 msgstr ""
 
+#. Indicates a Brother-in-law of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasBrotherInLaw"
 msgid "bdo:hasBrotherInLaw::rdfs:label"
 msgstr ""
 
+#. A description of the physical appearance of a Volume of the Item.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/volumePhysicalDescription"
 msgid "bdo:volumePhysicalDescription::rdfs:label"
@@ -1660,6 +1688,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/volumeNumber"
 msgid "bdo:volumeNumber::rdfs:label"
 msgstr ""
 
+#. Indicates an Uncle of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasUncle"
 msgid "bdo:hasUncle::rdfs:label"
@@ -1684,7 +1713,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/Item"
 msgid "bdo:Item::rdfs:label"
 msgstr ""
 
-#. event type describing when a place was abandonned
+#. event type describing when a place was abandonded
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/PlaceAbandoned"
 msgid "bdo:PlaceAbandoned::rdfs:label"
@@ -1721,19 +1750,20 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonDeath"
 msgid "bdo:PersonDeath::rdfs:label"
 msgstr ""
 
-#. The referenced work is a derivative of this work. This means that the
-#. referenced work may be a later edition or a version with some
-#. "corrections"/changes to the content of the referenced work.
+#. The referenced Work is a derivative of this Work.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workHasDerivative"
 msgid "bdo:workHasDerivative::rdfs:label"
 msgstr ""
 
+#. Indicates an Older brother of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasOlderBrother"
 msgid "bdo:hasOlderBrother::rdfs:label"
 msgstr ""
 
+#. Down from expresses a sequence of lineage holders by reference to another
+#. Lineage.
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/lineageDownFrom"
@@ -1748,6 +1778,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/notBefore"
 msgid "bdo:notBefore::rdfs:label"
 msgstr ""
 
+#. Indicates a Brother of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasBrother"
 msgid "bdo:hasBrother::rdfs:label"
@@ -1767,6 +1798,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonCommonName"
 msgid "bdo:PersonCommonName::rdfs:label"
 msgstr ""
 
+#. Title for the etext.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/eTextTitle"
 msgid "bdo:eTextTitle::rdfs:label"
@@ -1778,6 +1810,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/eTextIsVolume"
 msgid "bdo:eTextIsVolume::rdfs:label"
 msgstr ""
 
+#. Indicates a Qualities incarnation of this Person.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationQualities"
 msgid "bdo:hasIncarnationQualities::rdfs:label"
@@ -1795,9 +1828,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/agent"
 msgid "bdo:agent::rdfs:label"
 msgstr ""
 
-#. The referenced work is identified as a translation of the subject work.
-#. This will be used, for example, when the referenced work is a Tibetan
-#. translation of a subject Sanskrit work.
+#. The referenced Work is identified as a translation of this Work.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workHasTranslation"
 msgid "bdo:workHasTranslation::rdfs:label"
@@ -1829,6 +1860,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/beDate"
 msgid "bdo:beDate::rdfs:label"
 msgstr ""
 
+#. event type describing when a place was rebuilt
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/PlaceRebuilt"
 msgid "bdo:PlaceRebuilt::rdfs:label"
@@ -1840,13 +1872,14 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonPenName"
 msgid "bdo:PersonPenName::rdfs:label"
 msgstr ""
 
-#. The referenced Entity (topic, person, work, etc.) is expected to be a
-#. subject of the work - something the work is about.
+#. The referenced Entity (topic, person, work, etc.) is a subject of the Work
+#. - something the Work is about.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workIsAbout"
 msgid "bdo:workIsAbout::rdfs:label"
 msgstr ""
 
+#. Indicates an incarnation of this Person.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationGeneral"
 msgid "bdo:hasIncarnationGeneral::rdfs:label"
@@ -1869,6 +1902,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonInResidence"
 msgid "bdo:PersonInResidence::rdfs:label"
 msgstr ""
 
+#. Associates a Role with eiher an Agents or an AgentInRole.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/role"
 msgid "bdo:role::rdfs:label"
@@ -1887,6 +1921,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/workLocationPage"
 msgid "bdo:workLocationPage::rdfs:label"
 msgstr ""
 
+#. Indicates a Nibling of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasNibling"
 msgid "bdo:hasNibling::rdfs:label"
@@ -1898,6 +1933,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonOfficeTitle"
 msgid "bdo:PersonOfficeTitle::rdfs:label"
 msgstr ""
 
+#. Indicates a young incarnation of this Person.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationYangtse"
 msgid "bdo:hasIncarnationYangtse::rdfs:label"
@@ -1934,12 +1970,13 @@ msgctxt "http://purl.bdrc.io/ontology/core/workExtentStatement"
 msgid "bdo:workExtentStatement::rdfs:label"
 msgstr ""
 
+#. Indicates a Paternal aunt of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasPaternalAunt"
 msgid "bdo:hasPaternalAunt::rdfs:label"
 msgstr ""
 
-#. use to indicate the base material of a work (paper, palm leaf, etc.)
+#. Indicates the base material of a work (paper, palm leaf, etc.)
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/baseMaterial"
 msgid "bdo:baseMaterial::rdfs:label"
@@ -1957,16 +1994,19 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonFinalOrdination"
 msgid "bdo:PersonFinalOrdination::rdfs:label"
 msgstr ""
 
+#. Indicates the printing method of the Item associated with the Work.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/printMethod"
 msgid "bdo:printMethod::rdfs:label"
 msgstr ""
 
+#. Indicates an Activities incarnation of this Person.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationActivities"
 msgid "bdo:hasIncarnationActivities::rdfs:label"
 msgstr ""
 
+#. Indicates a Maternal uncle of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasMaternalUncle"
 msgid "bdo:hasMaternalUncle::rdfs:label"
@@ -1980,11 +2020,13 @@ msgctxt "http://purl.bdrc.io/ontology/core/seqNum"
 msgid "bdo:seqNum::rdfs:label"
 msgstr ""
 
+#. Indicates a Maternal aunt of the Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasMaternalAunt"
 msgid "bdo:hasMaternalAunt::rdfs:label"
 msgstr ""
 
+#. Indicates a Minds incarnation of this Person.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationMind"
 msgid "bdo:hasIncarnationMind::rdfs:label"
@@ -2006,11 +2048,14 @@ msgctxt "http://purl.bdrc.io/ontology/core/Lineage"
 msgid "bdo:Lineage::rdfs:label"
 msgstr ""
 
+#. Root property that expresses some kinship relation between the subject and
+#. object Persons.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/kinWith"
 msgid "bdo:kinWith::rdfs:label"
 msgstr ""
 
+#. This Person is a general incarnation of the target Person
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/incarnationGeneral"
 msgid "bdo:incarnationGeneral::rdfs:label"
@@ -2237,6 +2282,7 @@ msgctxt "http://purl.bdrc.io/resource/R0ER0024"
 msgid "bdr:R0ER0024::skos:prefLabel"
 msgstr ""
 
+#. Indicates that the Work was handwritten.
 #: types/print_methods.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/PrintMethod_Manuscript"
 msgid "bdo:PrintMethod_Manuscript::rdfs:label"
@@ -2391,9 +2437,7 @@ msgctxt "http://purl.bdrc.io/resource/TransAlalc"
 msgid "bdr:TransAlalc::skos:prefLabel"
 msgstr ""
 
-#. A transliteration used to represent a language in a non-native script. For
-#. example, Extend Wylie transliteration of Tibetan written in Latin script,
-#. or Pinyin a Romanization of Chinese
+#. A transliteration used to represent a language in a non-native script.
 #: types/transliterations.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/Transliteration"
 msgid "bdo:Transliteration::rdfs:label"
@@ -2515,6 +2559,7 @@ msgctxt "http://purl.bdrc.io/resource/EightMinorKagyuTraditions"
 msgid "bdr:EightMinorKagyuTraditions::skos:prefLabel"
 msgstr ""
 
+#. A Chinese Buddhist school or tradition, e.g., Tintai
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/ChineseTradition"
 msgid "bdo:ChineseTradition::rdfs:label"
@@ -3856,4 +3901,336 @@ msgstr ""
 #: types/materials.ttl
 msgctxt "http://purl.bdrc.io/resource/MaterialKhoiPaper"
 msgid "bdr:MaterialKhoiPaper::skos:prefLabel"
+msgstr ""
+
+#. The WorkLocation describes the Work, Volume, Page and so on at which
+#. something of interest occurs, e.g., the beginning or end of a Work that is
+#. contained in another Work; or a reference to the source of a Lineage
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkLocation"
+msgid "bdo:WorkLocation::rdfs:label"
+msgstr ""
+
+#. This Item represents an occurrence of the referenced PhysicalInstance
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/itemForInstance"
+msgid "bdo:itemForInstance::rdfs:label"
+msgstr ""
+
+#. The referenced Instance is an expression of this Work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workHasInstance"
+msgid "bdo:workHasInstance::rdfs:label"
+msgstr ""
+
+#. Links an (abstract) :Work and one of its instances
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceOf"
+msgid "bdo:instanceOf::rdfs:label"
+msgstr ""
+
+#. This label is a transliteration of the object label in a form indicated in
+#. the language tag
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/transliterationOf"
+msgid "bdo:transliterationOf::rdfs:label"
+msgstr ""
+
+#. This is the year offset for an Era in terms of the Common Era.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/yearOffset"
+msgid "bdo:yearOffset::rdfs:label"
+msgstr ""
+
+#. indicates that this label is an interpretation of the object label, e.g.,
+#. this sa-iast label is an interpretation of a phonetic label
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/interpretationOf"
+msgid "bdo:interpretationOf::rdfs:label"
+msgstr ""
+
+#. This physical instance has an associated Item.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceHasItem"
+msgid "bdo:instanceHasItem::rdfs:label"
+msgstr ""
+
+#. indicates a connection between two bdo:Labels
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/labelConnection"
+msgid "bdo:labelConnection::rdfs:label"
+msgstr ""
+
+#. A string indicating where in the :noteWork to look for the :noteText
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/noteType"
+msgid "bdo:noteType::rdfs:label"
+msgstr ""
+
+#. A physical instance of an (abstract) Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PhysicalInstance"
+msgid "bdo:PhysicalInstance::rdfs:label"
+msgstr ""
+
+#. used to reference the number associated with the work in the series
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/serialHasMember"
+msgid "bdo:serialHasMember::rdfs:label"
+msgstr ""
+
+#. This label is a conversion of the object label from one orthographic form
+#. to another in the same language, e.g., Khmer
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/conversionOf"
+msgid "bdo:conversionOf::rdfs:label"
+msgstr ""
+
+#. used to indicate the printery of a traditional artefact
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceHasSourcePrintery"
+msgid "bdo:instanceHasSourcePrintery::rdfs:label"
+msgstr ""
+
+#. References an Instance that is a reproduction of this Instance.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceHasReproduction"
+msgid "bdo:instanceHasReproduction::rdfs:label"
+msgstr ""
+
+#. An Instance consisting of some form of searchable text
+#. see also: http://purl.bdrc.io/ontology/core/Etext
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/EtextInstance"
+msgid "bdo:EtextInstance::rdfs:label"
+msgstr ""
+
+#. indicates that this label is a shortened. abbreviated form of the object
+#. label
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/abbreviationOf"
+msgid "bdo:abbreviationOf::rdfs:label"
+msgstr ""
+
+#. Reverses firstname lastname to lastname, firstname
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonReversal"
+msgid "bdo:PersonReversal::rdfs:label"
+msgstr ""
+
+#. Associates a Work with an Agent and a Creator Role that participated in the
+#. creation of the Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/creator"
+msgid "bdo:creator::rdfs:label"
+msgstr ""
+
+#. A Work fo which there is at least one physical manifestation. Versus
+#. Abstract Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Instance"
+msgid "bdo:Instance::rdfs:label"
+msgstr ""
+
+#. This label is a (spelling) correction and conversion from the FEMC catalogs
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/femcConversionOf"
+msgid "bdo:femcConversionOf::rdfs:label"
+msgstr ""
+
+#. References an Instance that is a derivative of this Instance.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceHasDerivative"
+msgid "bdo:instanceHasDerivative::rdfs:label"
+msgstr ""
+
+#. This label is a translation of the object label to a language indicated in
+#. the language tag
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/translationOf"
+msgid "bdo:translationOf::rdfs:label"
+msgstr ""
+
+#. An item comprised of digitized images of the pages of a Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ImageInstance"
+msgid "bdo:ImageInstance::rdfs:label"
+msgstr ""
+
+#. The :BiblioEntity Class models the descriptive metadata about a "book" in
+#. the BUDAverse.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/BiblioEntity"
+msgid "bdo:BiblioEntity::rdfs:label"
+msgstr ""
+
+#. Associates an Instance with an Agent and a Creator Role that participated
+#. in the creation of the Instance. For example, scribe, carver and so on
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceCreator"
+msgid "bdo:instanceCreator::rdfs:label"
+msgstr ""
+
+#. true if the instance is complete
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceComplete"
+msgid "bdo:instanceComplete::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/resource/PrintMethod_Lithography"
+msgid "bdr:PrintMethod_Lithography::skos:prefLabel"
+msgstr ""
+
+#. References an Instance that this Instance is a derivative of.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceDerivativeOf"
+msgid "bdo:instanceDerivativeOf::rdfs:label"
+msgstr ""
+
+#. refers to a volume description of a digital asset, scanned or etext; or a
+#. physical volume.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceHasVolume"
+msgid "bdo:instanceHasVolume::rdfs:label"
+msgstr ""
+
+#. This label is a (spelling) correction of the object label
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/correctionOf"
+msgid "bdo:correctionOf::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/serialInstanceOf"
+msgid "bdo:serialInstanceOf::rdfs:label"
+msgstr ""
+
+#. The physical dimensions of the work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceDimensions"
+msgid "bdo:instanceDimensions::rdfs:label"
+msgstr ""
+
+#. The subject instance is a reproduction of the referenced instance such as a
+#. photocopy or an offset print of an original or photocopy and so on.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceReproductionOf"
+msgid "bdo:instanceReproductionOf::rdfs:label"
+msgstr ""
+
+#. An (abstreact) Work representing a series of volumes/numbers published over
+#. time
+#. see also: https://www.abc-clio.com/ODLIS/odlis_S.aspx?#serial
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/SerialWork"
+msgid "bdo:SerialWork::rdfs:label"
+msgstr ""
+
+#. Provides a string describing the presence of illustrations, portraits,
+#. color plates and so on.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workIllustrations"
+msgid "bdo:workIllustrations::rdfs:label"
+msgstr ""
+
+#. Indicates that this Work is a member of a series.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/serialMemberOf"
+msgid "bdo:serialMemberOf::rdfs:label"
+msgstr ""
+
+#. A statement of the extent of the Instance
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceExtentStatement"
+msgid "bdo:instanceExtentStatement::rdfs:label"
+msgstr ""
+
+#. An accepted variant writing of a name
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonVariantOrthography"
+msgid "bdo:PersonVariantOrthography::rdfs:label"
+msgstr ""
+
+#. Not in ISO 15924
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptOldOui"
+msgid "bdr:ScriptOldOui::skos:prefLabel"
+msgstr ""
+
+#. see also: http://www.lexvo.org/page/script/Hani
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptHani"
+msgid "bdr:ScriptHani::skos:prefLabel"
+msgstr ""
+
+#. Cunlasakkalat or Cunlasakkarat (‘Little Era’), used in Southeast Asia,
+#. beginning in 638 C.E.
+#. see also: http://www.worldcat.org/oclc/33047740
+#. see also: http://www.worldcat.org/oclc/7351824935
+#. see also: http://www.laomanuscripts.net/en/help#3i
+#: types/date_indications.ttl
+msgctxt "http://purl.bdrc.io/resource/EraCS"
+msgid "bdr:EraCS::skos:prefLabel"
+msgstr ""
+
+#: types/date_indications.ttl
+msgctxt "http://purl.bdrc.io/resource/EraCE"
+msgid "bdr:EraCE::skos:prefLabel"
+msgstr ""
+
+#. Nepal Sambat Era, used in Nepal, starting in 879 C.E.
+#. see also: http://www.wikidata.org/entity/Q1268741
+#: types/date_indications.ttl
+msgctxt "http://purl.bdrc.io/resource/EraNS"
+msgid "bdr:EraNS::skos:prefLabel"
+msgstr ""
+
+#. Anchatsakarat, used in Southeast Asia, starting in 691 B.C.E.
+#. see also: http://www.worldcat.org/oclc/33047740
+#: types/date_indications.ttl
+msgctxt "http://purl.bdrc.io/resource/EraAS"
+msgid "bdr:EraAS::skos:prefLabel"
+msgstr ""
+
+#. Buddhist Era (Buddhasakarat), usually starting in 545 B.C.E.
+#. see also: http://www.worldcat.org/oclc/33047740
+#: types/date_indications.ttl
+msgctxt "http://purl.bdrc.io/resource/EraBE"
+msgid "bdr:EraBE::skos:prefLabel"
+msgstr ""
+
+#. Vikram Samvat Era, used in Nepal and India, starting in 56 B.C.E.
+#. see also: http://www.wikidata.org/entity/Q1370848
+#: types/date_indications.ttl
+msgctxt "http://purl.bdrc.io/resource/EraVS"
+msgid "bdr:EraVS::skos:prefLabel"
+msgstr ""
+
+#. Mahasakarat, used in Southeast Asia, starting in 78 C.E.
+#. see also: http://www.worldcat.org/oclc/33047740
+#: types/date_indications.ttl
+msgctxt "http://purl.bdrc.io/resource/EraMS"
+msgid "bdr:EraMS::skos:prefLabel"
+msgstr ""
+
+#: types/work_part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/WorkTableOfContent"
+msgid "bdr:WorkTableOfContent::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/oui
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangOui"
+msgid "bdr:LangOui::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ZhHani"
+msgid "bdr:ZhHani::skos:prefLabel"
+msgstr ""
+
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/OuiOldOui"
+msgid "bdr:OuiOldOui::skos:prefLabel"
 msgstr ""

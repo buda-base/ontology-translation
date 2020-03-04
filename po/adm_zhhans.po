@@ -10,3 +10,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "bda:CP024::skos:prefLabel"
+msgstr "版权宣告"
+
+msgid "bda:CP048::skos:prefLabel"
+msgstr "佛学规范资料库"

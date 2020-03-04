@@ -526,7 +526,6 @@ msgctxt "http://purl.bdrc.io/admindata/LicenseMixed"
 msgid "bda:LicenseMixed::skos:prefLabel"
 msgstr ""
 
-#. No Known Copyright
 #. see also: http://rightsstatements.org/vocab/NKC/1.0/
 #: adm/types/license_types.ttl
 msgctxt "http://purl.bdrc.io/admindata/LicenseNoKnownCopyright"
@@ -593,4 +592,36 @@ msgstr ""
 #: adm/types/status_types.ttl
 msgctxt "http://purl.bdrc.io/admindata/StatusReleased"
 msgid "bda:StatusReleased::skos:prefLabel"
+msgstr ""
+
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/seeOtherSRC"
+msgid "adm:seeOtherSRC::rdfs:label"
+msgstr ""
+
+#: adm/content_providers.ttl
+msgctxt "http://purl.bdrc.io/admindata/CP048"
+msgid "bda:CP048::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_SRC_Metadata"
+msgid "bda:LD_SRC_Metadata::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_DILA_BSADP"
+msgid "bda:LD_DILA_BSADP::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_NGMCP_Metadata"
+msgid "bda:LD_NGMCP_Metadata::skos:prefLabel"
+msgstr ""
+
+#. Copyright Undetermined
+#. see also: http://rightsstatements.org/vocab/UND/1.0/
+#: adm/types/license_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/LicenseCopyrightUndetermined"
+msgid "bda:LicenseCopyrightUndetermined::skos:prefLabel"
 msgstr ""

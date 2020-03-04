@@ -10,3 +10,294 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Indicates a CBC Sigla T, Taisho, associated with this Work.
+msgid "bdo:workCBCSiglaT::rdfs:label"
+msgstr "大正藏"
+
+#. the person who writes down a translation in Chinese, in a capacity
+#. something like a scribe.
+msgid "bdr:R0ER0009::skos:prefLabel"
+msgstr "笔受"
+
+#. The person identified explicitly or treated by the tradition implicitly as
+#. the head of the translation group or workshop that produced a translation.
+#. Such persons may be explicitly identified by the tradition as such, but
+#. often our knowledge that this was in fact a person's role is implicit or
+#. inferred from other knowledge about the composition of the translation
+#. group.
+msgid "bdr:R0ER0017::skos:prefLabel"
+msgstr "译主"
+
+#. a person who produces a text, but then knowingly presents it as the end
+#. result of some other process of composition--usually, as a translation from
+#. an Indic language, and sometimes under the pretense that it was
+#. "translated" by a person other than the forger (i.e. with a false
+#. ascription attached).
+msgid "bdr:R0ER0027::skos:prefLabel"
+msgstr "伪作"
+
+msgid "bdr:TR0002::skos:prefLabel"
+msgstr "天台宗"
+
+msgid "bdr:TraditionSarvastivada::skos:prefLabel"
+msgstr "说一切有部"
+
+#. see also: https://en.wikipedia.org/wiki/Dharmaguptaka
+msgid "bdr:TraditionDharmaguptaka::skos:prefLabel"
+msgstr "法藏部"
+
+#. see also: https://en.wikipedia.org/wiki/Mulasarvastivada
+msgid "bdr:TraditionMulasarvastivada::skos:prefLabel"
+msgstr "根本说一切有部"
+
+msgid "bdr:TR0001::skos:prefLabel"
+msgstr "三阶教"
+
+msgid "bdr:TR0003::skos:prefLabel"
+msgstr "禅宗"
+
+msgid "bdr:PT0065::skos:prefLabel"
+msgstr "江河"
+
+msgid "bdr:PT0071::skos:prefLabel"
+msgstr "圣泉"
+
+msgid "bdr:PT0061::skos:prefLabel"
+msgstr "茹"
+
+msgid "bdr:PT0005::skos:prefLabel"
+msgstr "峡谷"
+
+msgid "bdr:PT0028::skos:prefLabel"
+msgstr "湖"
+
+msgid "bdr:PT0012::skos:prefLabel"
+msgstr "区"
+
+msgid "bdr:PT0073::skos:prefLabel"
+msgstr "千户区"
+
+msgid "bdr:PT0002::skos:prefLabel"
+msgstr "自治州"
+
+msgid "bdr:PT0057::skos:prefLabel"
+msgstr "传统地区"
+
+msgid "bdr:PT0037::skos:prefLabel"
+msgstr "寺院"
+
+msgid "bdr:PT0003::skos:prefLabel"
+msgstr "自治区"
+
+msgid "bdr:PT0058::skos:prefLabel"
+msgstr "郡国"
+
+msgid "bdr:PT0048::skos:prefLabel"
+msgstr "牧营"
+
+msgid "bdr:PT0025::skos:prefLabel"
+msgstr "家庭"
+
+msgid "bdr:PT0006::skos:prefLabel"
+msgstr "石经堆"
+
+msgid "bdr:PT0043::skos:prefLabel"
+msgstr "山口"
+
+msgid "bdr:PT0066::skos:prefLabel"
+msgstr "流域"
+
+msgid "bdr:PT0055::skos:prefLabel"
+msgstr "平川"
+
+msgid "bdr:PT0001::skos:prefLabel"
+msgstr "地区（古）"
+
+msgid "bdr:PT0054::skos:prefLabel"
+msgstr "石碑"
+
+msgid "bdr:PT0045::skos:prefLabel"
+msgstr "城镇"
+
+msgid "bdr:PT0014::skos:prefLabel"
+msgstr "地区（专区）"
+
+msgid "bdr:PT0039::skos:prefLabel"
+msgstr "僧舍"
+
+#. between region and large mountain range (ex: the Alps)
+msgid "bdr:PT0062::skos:prefLabel"
+msgstr "岗"
+
+msgid "bdr:PT0019::skos:prefLabel"
+msgstr "百户区"
+
+msgid "bdr:PT0011::skos:prefLabel"
+msgstr "县"
+
+msgid "bdr:PT0070::skos:prefLabel"
+msgstr "小乡"
+
+msgid "bdr:PT0029::skos:prefLabel"
+msgstr "大区"
+
+msgid "bdr:PT0023::skos:prefLabel"
+msgstr "医院"
+
+msgid "bdr:PT0083::skos:prefLabel"
+msgstr "河谷"
+
+msgid "bdr:PT0050::skos:prefLabel"
+msgstr "尼姑庵"
+
+msgid "bdr:PT0064::skos:prefLabel"
+msgstr "闭关院"
+
+msgid "bdr:PT0072::skos:prefLabel"
+msgstr "佛塔"
+
+msgid "bdr:PT0084::skos:prefLabel"
+msgstr "村（现代）"
+
+msgid "bdr:PT0016::skos:prefLabel"
+msgstr "渡口"
+
+msgid "bdr:PT0018::skos:prefLabel"
+msgstr "城堡"
+
+msgid "bdr:PT0017::skos:prefLabel"
+msgstr "森林"
+
+msgid "bdr:PT0013::skos:prefLabel"
+msgstr "文化区域"
+
+msgid "bdr:PT0032::skos:prefLabel"
+msgstr "万户区"
+
+msgid "bdr:PT0026::skos:prefLabel"
+msgstr "州"
+
+msgid "bdr:PT0080::skos:prefLabel"
+msgstr "伏藏地"
+
+msgid "bdr:PT0031::skos:prefLabel"
+msgstr "下河谷"
+
+msgid "bdr:PT0079::skos:prefLabel"
+msgstr "传统地区"
+
+msgid "bdr:PT0033::skos:prefLabel"
+msgstr "石经堆"
+
+msgid "bdr:PT0046::skos:prefLabel"
+msgstr "万户区"
+
+msgid "bdr:PT0040::skos:prefLabel"
+msgstr "扎仓（僧院）"
+
+msgid "bdr:PT0078::skos:prefLabel"
+msgstr "传统地名"
+
+msgid "bdr:PT0004::skos:prefLabel"
+msgstr "桥"
+
+msgid "bdr:PT0015::skos:prefLabel"
+msgstr "庄园"
+
+msgid "bdr:PT0051::skos:prefLabel"
+msgstr "宫殿"
+
+msgid "bdr:PT0086::skos:prefLabel"
+msgstr "县城"
+
+msgid "bdr:PT0038::skos:prefLabel"
+msgstr "讲经院"
+
+msgid "bdr:PT0076::skos:prefLabel"
+msgstr "陵墓"
+
+msgid "bdr:PT0075::skos:prefLabel"
+msgstr "寺庙"
+
+msgid "bdr:PT0035::skos:prefLabel"
+msgstr "集市（市场）"
+
+msgid "bdr:PT0052::skos:prefLabel"
+msgstr "公园"
+
+msgid "bdr:PT0060::skos:prefLabel"
+msgstr "省"
+
+msgid "bdr:PT0067::skos:prefLabel"
+msgstr "学校"
+
+msgid "bdr:PT0007::skos:prefLabel"
+msgstr "围"
+
+msgid "bdr:PT0042::skos:prefLabel"
+msgstr "山"
+
+msgid "bdr:PT0034::skos:prefLabel"
+msgstr "府邸"
+
+msgid "bdr:PT0068::skos:prefLabel"
+msgstr "氏族部落"
+
+msgid "bdr:PT0082::skos:prefLabel"
+msgstr "上河谷"
+
+msgid "bdr:PT0074::skos:prefLabel"
+msgstr "宇"
+
+msgid "bdr:PT0024::skos:prefLabel"
+msgstr "住宅"
+
+msgid "bdr:PT0044::skos:prefLabel"
+msgstr "山脉"
+
+msgid "bdr:PT0036::skos:prefLabel"
+msgstr "修行洞"
+
+msgid "bdr:PT0020::skos:prefLabel"
+msgstr "村落"
+
+msgid "bdr:PT0041::skos:prefLabel"
+msgstr "喇嘛行宫"
+
+msgid "bdr:PT0081::skos:prefLabel"
+msgstr "联盟部落"
+
+msgid "bdr:PT0008::skos:prefLabel"
+msgstr "城市"
+
+msgid "bdr:PT0022::skos:prefLabel"
+msgstr "秘境"
+
+msgid "bdr:PT0030::skos:prefLabel"
+msgstr "书馆"
+
+msgid "bdr:PT0053::skos:prefLabel"
+msgstr "圣地"
+
+msgid "bdr:PT0085::skos:prefLabel"
+msgstr "村镇"
+
+msgid "bdr:PT0059::skos:prefLabel"
+msgstr "印经院"
+
+msgid "bdr:PT0021::skos:prefLabel"
+msgstr "隐修地"
+
+msgid "bdr:PT0027::skos:prefLabel"
+msgstr "王国"
+
+msgid "bdr:PT0056::skos:prefLabel"
+msgstr "宗（旧制）"
+
+msgid "bdr:PT0010::skos:prefLabel"
+msgstr "国家"
+
+#. Places of unspecified type
+msgid "bdr:PT0049::skos:prefLabel"
+msgstr "未分类"
