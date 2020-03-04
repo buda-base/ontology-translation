@@ -842,7 +842,7 @@ bdr:LangNo skos:prefLabel "nor we skad/"@bo-x-ewts .
 
 bdr:LangOui skos:prefLabel "u gur rnying pa/"@bo-x-ewts .
 
-bdr:LangPgd skos:prefLabel "gan d+ha ri skad/"@bo-x-ewts .
+bdr:LangPgd skos:prefLabel "dri za'i skad/"@bo-x-ewts .
 
 bdr:LangPi skos:prefLabel "pa li skad/"@bo-x-ewts .
 
