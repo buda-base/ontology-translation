@@ -23,6 +23,11 @@ git submodule update --recursive --remote
 
 The `.po` files produced by `update-po.py` are expected to be used with a service such as [Transifex](https://www.transifex.com/).
 
+```
+curl -X PUT -H Content-Type:text/turtle -T transifex-output/core_bo.ttl -G http://buda1.bdrc.io:13180/fuseki/corerw/data --data-urlencode 'graph=http://purl.bdrc.io/graph/trans_core_bo'
+curl -X PUT -H Content-Type:text/turtle -T transifex-output/adm_bo.ttl -G http://buda1.bdrc.io:13180/fuseki/corerw/data --data-urlencode 'graph=http://purl.bdrc.io/graph/trans_adm_bo'
+```
+
 ## Copyright
 
 The Python code is:
