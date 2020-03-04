@@ -5,6 +5,12 @@
 ```
 pip3 install -r requirements.txt
 ```
+
+If the above gives an error you may need to:
+```
+pip3 install -U setuptools
+```
+
 On the first git clone it may be necesary to:
 ```
 git submodule update --init
