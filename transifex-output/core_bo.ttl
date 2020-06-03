@@ -428,7 +428,7 @@ bdo:incarnationSpeech rdfs:label "gsung gi sprul gzhi ni/"@bo-x-ewts .
 
 bdo:incarnationYangtse rdfs:label "sprul gzhi ni/"@bo-x-ewts .
 
-bdo:instanceComplete rdfs:label "cha tshang ba/"@bo-x-ewts .
+bdo:isComplete rdfs:label "cha tshang ba/"@bo-x-ewts .
 
 bdo:instanceCreator rdfs:label "mdzad mkhan ni/"@bo-x-ewts .
 
