@@ -230,7 +230,7 @@ msgstr ""
 "as Public Domain"
 
 msgid "bda:LD_SRC_Metadata::skos:prefLabel"
-msgstr "Provided by Sakya Research Center, Copyright Undetermined"
+msgstr "Provided by Sakya Research Centre, Copyright Undetermined"
 
 msgid "bda:LD_rKTs_CC0::skos:prefLabel"
 msgstr "Provided by rKTs under the CC0 license"
@@ -420,3 +420,20 @@ msgstr "accessioned"
 
 msgid "bda:StatusScanned::skos:prefLabel"
 msgstr "scanned"
+
+msgid "adm:seeOtherCBETA::rdfs:label"
+msgstr "see on CBETA"
+
+msgid "bda:LD_WD_Metadata::skos:prefLabel"
+msgstr "Provided by Wikidata under CC0 license"
+
+msgid "bda:LD_NGMPP_Metadata::skos:prefLabel"
+msgstr "Provided by NGMPP, Copyright Undetermined"
+
+#. asset manager status constants for images assets
+msgid "adm:ImagesStatus::adm:userTooltip"
+msgstr "asset manager status constants for images assets"
+
+#. status constants for :Entity metadata: released, provisional, etc
+msgid "adm:Status::adm:userTooltip"
+msgstr "status constants for :Entity metadata: released, provisional, etc"

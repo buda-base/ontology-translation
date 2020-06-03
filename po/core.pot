@@ -1254,7 +1254,8 @@ msgctxt "http://purl.bdrc.io/ontology/core/EtextRef"
 msgid "bdo:EtextRef::rdfs:label"
 msgstr ""
 
-#. A description of the what, when and where of an event in the life of a work
+#. A description of the what, when and where of an event in the life of a
+#. instance
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/workEvent"
 msgid "bdo:workEvent::rdfs:label"
@@ -1280,7 +1281,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/workLocationEndPage"
 msgid "bdo:workLocationEndPage::rdfs:label"
 msgstr ""
 
-#. An event associated with the production of a Work.
+#. An event associated with the creation of a Work.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/WorkEvent"
 msgid "bdo:WorkEvent::rdfs:label"
@@ -3961,7 +3962,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/labelConnection"
 msgid "bdo:labelConnection::rdfs:label"
 msgstr ""
 
-#. A string indicating where in the :noteWork to look for the :noteText
+#. A string indicating where in the :noteSource to look for the :noteText
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/noteType"
 msgid "bdo:noteType::rdfs:label"
@@ -4012,7 +4013,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/abbreviationOf"
 msgid "bdo:abbreviationOf::rdfs:label"
 msgstr ""
 
-#. Reverses firstname lastname to lastname, firstname
+#. Reverses 'firstname lastname' to 'lastname, firstname'
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/PersonReversal"
 msgid "bdo:PersonReversal::rdfs:label"
@@ -4027,6 +4028,8 @@ msgstr ""
 
 #. A Work fo which there is at least one physical manifestation. Versus
 #. Abstract Work
+#. An individual material (or electronic) embodiement, for instance a
+#. particular published form.
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/Instance"
 msgid "bdo:Instance::rdfs:label"
@@ -4233,4 +4236,2615 @@ msgstr ""
 #: types/lang_scripts.ttl
 msgctxt "http://purl.bdrc.io/resource/OuiOldOui"
 msgid "bdr:OuiOldOui::skos:prefLabel"
+msgstr ""
+
+#. A member of an organization by kinship
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CorporationMemberByBlood"
+msgid "bdo:CorporationMemberByBlood::adm:userTooltip"
+msgstr ""
+
+#. References an Instance that is a derivative of this Instance.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceHasDerivative"
+msgid "bdo:instanceHasDerivative::adm:userTooltip"
+msgstr ""
+
+#. A string indicating where in the :noteSource to look for the :noteText
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/noteType"
+msgid "bdo:noteType::adm:userTooltip"
+msgstr ""
+
+#. An instance that is a bundle of unrelated instances that were not designed
+#. to be in the same package.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/BundleInstance"
+msgid "bdo:BundleInstance::rdfs:label"
+msgstr ""
+
+#. An instance that is a bundle of unrelated instances that were not designed
+#. to be in the same package.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/BundleInstance"
+msgid "bdo:BundleInstance::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Spouse of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasSpouse"
+msgid "bdo:hasSpouse::adm:userTooltip"
+msgstr ""
+
+#. property linking an entity or event to the agents and roles they play
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/AgentInRole"
+msgid "bdo:AgentInRole::adm:userTooltip"
+msgstr ""
+
+#. The Event of a Person establishing residence in a Place such as a
+#. Monastery, Cave, and so on
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonInResidence"
+msgid "bdo:PersonInResidence::adm:userTooltip"
+msgstr ""
+
+#. describe a name for a Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personName"
+msgid "bdo:personName::adm:userTooltip"
+msgstr ""
+
+#. Title of a publication appearing on a page or folio preceding the title
+#. page.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/HalfTitle"
+msgid "bdo:HalfTitle::rdfs:label"
+msgstr ""
+
+#. Title of a publication appearing on a page or folio preceding the title
+#. page.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/HalfTitle"
+msgid "bdo:HalfTitle::adm:userTooltip"
+msgstr ""
+
+#. Refers to a line of an Etext page
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/pageHasLine"
+msgid "bdo:pageHasLine::adm:userTooltip"
+msgstr ""
+
+#. identifies the agent participating in an :AgentInRole
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/agent"
+msgid "bdo:agent::adm:userTooltip"
+msgstr ""
+
+#. Indicates the time of the event
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eventWhen"
+msgid "bdo:eventWhen::adm:userTooltip"
+msgstr ""
+
+#. identifies who this LineageHolder is, Person or a being represented via a
+#. Topic.
+#. see also: http://purl.bdrc.io/ontology/core/LineageHolder
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageWho"
+msgid "bdo:lineageWho::adm:userTooltip"
+msgstr ""
+
+#. single agents include ahistorical and historical (human) agents
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/SingleAgent"
+msgid "bdo:SingleAgent::adm:userTooltip"
+msgstr ""
+
+#. Associates a Note containing: a comment, Work, and location in the Work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/note"
+msgid "bdo:note::adm:userTooltip"
+msgstr ""
+
+#. Indicates an Aunt of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasAunt"
+msgid "bdo:hasAunt::adm:userTooltip"
+msgstr ""
+
+#. The event is known to have occurred during the year or date given, unless
+#. otherwise specified the date is reckoned in the Common Era
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/onDate"
+msgid "bdo:onDate::adm:userTooltip"
+msgstr ""
+
+#. This Person is a Speech incarnation of the target Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/incarnationSpeech"
+msgid "bdo:incarnationSpeech::adm:userTooltip"
+msgstr ""
+
+#. An abstract or conceptual work is the idea of a work, as opposed to an
+#. expression or manifestation which is a specific edition or witness.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Work"
+msgid "bdo:Work::adm:userTooltip"
+msgstr ""
+
+#. Indicates an Parent sibling of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasParentSibling"
+msgid "bdo:hasParentSibling::adm:userTooltip"
+msgstr ""
+
+#. The referenced Instance is an expression of this Work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workHasInstance"
+msgid "bdo:workHasInstance::adm:userTooltip"
+msgstr ""
+
+#. A statement of the extent of the Instance
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceExtentStatement"
+msgid "bdo:instanceExtentStatement::adm:userTooltip"
+msgstr ""
+
+#. This is the number of volumes associated with the original instance.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/numberOfVolumes"
+msgid "bdo:numberOfVolumes::rdfs:label"
+msgstr ""
+
+#. This is the number of volumes associated with the original instance.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/numberOfVolumes"
+msgid "bdo:numberOfVolumes::adm:userTooltip"
+msgstr ""
+
+#. Associates an Instance with an Agent and a Creator Role that participated
+#. in the creation of the Instance. For example, scribe, carver and so on
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceCreator"
+msgid "bdo:instanceCreator::adm:userTooltip"
+msgstr ""
+
+#. The Work metadata about a member of a :SerialWork
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/SerialMember"
+msgid "bdo:SerialMember::adm:userTooltip"
+msgstr ""
+
+#. The opening words of the Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/incipit"
+msgid "bdo:incipit::rdfs:label"
+msgstr ""
+
+#. The opening words of the Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/incipit"
+msgid "bdo:incipit::adm:userTooltip"
+msgstr ""
+
+#. The event of carving a work (in woodblocks, stone, etc.)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CarvedEvent"
+msgid "bdo:CarvedEvent::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Paternal aunt of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasPaternalAunt"
+msgid "bdo:hasPaternalAunt::adm:userTooltip"
+msgstr ""
+
+#. Refers to the Tradition that the place event is affiliated with.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/placeEventAffiliation"
+msgid "bdo:placeEventAffiliation::adm:userTooltip"
+msgstr ""
+
+#. A Person Name is one of the names a Person is historically known by
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonName"
+msgid "bdo:PersonName::adm:userTooltip"
+msgstr ""
+
+#. The referenced Work is a derivative of this Work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workHasDerivative"
+msgid "bdo:workHasDerivative::adm:userTooltip"
+msgstr ""
+
+#. A preliminary to monastic ordination, when someone takes the five root vows
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonRabByungOrdination"
+msgid "bdo:PersonRabByungOrdination::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Tradition that the Person is associated with.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personOfTradition"
+msgid "bdo:personOfTradition::adm:userTooltip"
+msgstr ""
+
+#. associates an event with at most one place
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eventWhere"
+msgid "bdo:eventWhere::adm:userTooltip"
+msgstr ""
+
+#. Indicates an in-law of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasInLaw"
+msgid "bdo:hasInLaw::adm:userTooltip"
+msgstr ""
+
+#. The physical dimensions of the instance
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/dimensionsStatement"
+msgid "bdo:dimensionsStatement::rdfs:label"
+msgstr ""
+
+#. The physical dimensions of the instance
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/dimensionsStatement"
+msgid "bdo:dimensionsStatement::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Paternal uncle of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasPaternalUncle"
+msgid "bdo:hasPaternalUncle::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Parent of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasParent"
+msgid "bdo:hasParent::adm:userTooltip"
+msgstr ""
+
+#. Virtual works are works made by assembling different other works.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/VirtualInstance"
+msgid "bdo:VirtualInstance::rdfs:label"
+msgstr ""
+
+#. Virtual works are works made by assembling different other works.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/VirtualInstance"
+msgid "bdo:VirtualInstance::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Nephew of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasNephew"
+msgid "bdo:hasNephew::adm:userTooltip"
+msgstr ""
+
+#. Title given in the colophon of a Work or text
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ColophonTitle"
+msgid "bdo:ColophonTitle::rdfs:label"
+msgstr ""
+
+#. Title given in the colophon of a Work or text
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ColophonTitle"
+msgid "bdo:ColophonTitle::adm:userTooltip"
+msgstr ""
+
+#. The event of compiling / editing a work (mostly collections)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CompiledEvent"
+msgid "bdo:CompiledEvent::adm:userTooltip"
+msgstr ""
+
+#. An organization is a collection of agents organized as a single entity such
+#. as a monastery, governing body, and so on
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Organization"
+msgid "bdo:Organization::adm:userTooltip"
+msgstr ""
+
+#. An otherwise unspecified member of an organization
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CorporationMemberNotSpecified"
+msgid "bdo:CorporationMemberNotSpecified::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Person with an unknown kinship relation to the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasUnknownKinship"
+msgid "bdo:hasUnknownKinship::adm:userTooltip"
+msgstr ""
+
+#. Title for the etext.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eTextTitle"
+msgid "bdo:eTextTitle::adm:userTooltip"
+msgstr ""
+
+#. A comma separated list of numbers and ranges of missing volumes
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/itemMissingVolumes"
+msgid "bdo:itemMissingVolumes::adm:userTooltip"
+msgstr ""
+
+#. Indicates an Older brother of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasOlderBrother"
+msgid "bdo:hasOlderBrother::adm:userTooltip"
+msgstr ""
+
+#. A comment about the subject resource, possibly with a source Work and a
+#. location in the Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Note"
+msgid "bdo:Note::adm:userTooltip"
+msgstr ""
+
+#. indicates a connection between two bdo:Labels
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/labelConnection"
+msgid "bdo:labelConnection::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Sibling-in-law of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasSiblingInLaw"
+msgid "bdo:hasSiblingInLaw::adm:userTooltip"
+msgstr ""
+
+#. A description of the what, when and where of an event in the life of a
+#. instance
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workEvent"
+msgid "bdo:workEvent::adm:userTooltip"
+msgstr ""
+
+#. indicates a Place Event of unknown type!?
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PlaceEventNotSpecified"
+msgid "bdo:PlaceEventNotSpecified::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Granddaughter of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasGranddaughter"
+msgid "bdo:hasGranddaughter::adm:userTooltip"
+msgstr ""
+
+#. The name received by the Person upon taking their Bodhisattva vows
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonBodhisattvaVowName"
+msgid "bdo:PersonBodhisattvaVowName::adm:userTooltip"
+msgstr ""
+
+#. Title printed on the cover of a Work or text as issued
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CoverTitle"
+msgid "bdo:CoverTitle::rdfs:label"
+msgstr ""
+
+#. Title printed on the cover of a Work or text as issued
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CoverTitle"
+msgid "bdo:CoverTitle::adm:userTooltip"
+msgstr ""
+
+#. The event is known to have occurred during the year given, unless otherwise
+#. specified the year is reckoned in the Common Era
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/onYear"
+msgid "bdo:onYear::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Speech incarnation of this Person.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationSpeech"
+msgid "bdo:hasIncarnationSpeech::adm:userTooltip"
+msgstr ""
+
+#. Identifies a Place that this Place contains.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/placeContains"
+msgid "bdo:placeContains::adm:userTooltip"
+msgstr ""
+
+#. An Instance consisting of some form of searchable text
+#. see also: http://purl.bdrc.io/ontology/core/Etext
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/EtextInstance"
+msgid "bdo:EtextInstance::adm:userTooltip"
+msgstr ""
+
+#. Title indicated in the margins or page headers of a Work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/RunningTitle"
+msgid "bdo:RunningTitle::rdfs:label"
+msgstr ""
+
+#. Title indicated in the margins or page headers of a Work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/RunningTitle"
+msgid "bdo:RunningTitle::adm:userTooltip"
+msgstr ""
+
+#. The name a Person is known by, typically at birth, independent of offices,
+#. seats, and so on
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonPersonalName"
+msgid "bdo:PersonPersonalName::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Wife of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasWife"
+msgid "bdo:hasWife::adm:userTooltip"
+msgstr ""
+
+#. An event associated with the creation of a Work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkEvent"
+msgid "bdo:WorkEvent::adm:userTooltip"
+msgstr ""
+
+#. The ContentLocation describes the Instance, Volume, Page and so on at which
+#. something of interest occurs, e.g., the beginning or end of a Work that is
+#. contained in another Work; or a reference to the source of a Lineage
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ContentLocation"
+msgid "bdo:ContentLocation::rdfs:label"
+msgstr ""
+
+#. The ContentLocation describes the Instance, Volume, Page and so on at which
+#. something of interest occurs, e.g., the beginning or end of a Work that is
+#. contained in another Work; or a reference to the source of a Lineage
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ContentLocation"
+msgid "bdo:ContentLocation::adm:userTooltip"
+msgstr ""
+
+#. name used by the author in the colophons of his works
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonPenName"
+msgid "bdo:PersonPenName::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Sibling of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasSibling"
+msgid "bdo:hasSibling::adm:userTooltip"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/BibliographicalTitle"
+msgid "bdo:BibliographicalTitle::rdfs:label"
+msgstr ""
+
+#. An event of preparing a written manuscript of a Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/EnscribedEvent"
+msgid "bdo:EnscribedEvent::adm:userTooltip"
+msgstr ""
+
+#. This work is a derivative of the referenced work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workDerivativeOf"
+msgid "bdo:workDerivativeOf::adm:userTooltip"
+msgstr ""
+
+#. This label is a (spelling) correction of the object label
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/correctionOf"
+msgid "bdo:correctionOf::adm:userTooltip"
+msgstr ""
+
+#. An event related to a person such as birth, death, ordination, founding
+#. monastery and so on.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personEvent"
+msgid "bdo:personEvent::adm:userTooltip"
+msgstr ""
+
+#. Refers to a page of an eText corresponding to a physical/image page asset.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eTextHasPage"
+msgid "bdo:eTextHasPage::adm:userTooltip"
+msgstr ""
+
+#. Indicates a school, tradition, or sect that the Person is associated with.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personOfSect"
+msgid "bdo:personOfSect::adm:userTooltip"
+msgstr ""
+
+#. Indicates a young incarnation of this Person.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationYangtse"
+msgid "bdo:hasIncarnationYangtse::adm:userTooltip"
+msgstr ""
+
+#. This label is a translation of the object label to a language indicated in
+#. the language tag
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/translationOf"
+msgid "bdo:translationOf::adm:userTooltip"
+msgstr ""
+
+#. Subjects and genres of works, just as in a traditional library catalog
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Topic"
+msgid "bdo:Topic::adm:userTooltip"
+msgstr ""
+
+#. An etext with associated pagination information corresponding to digitized
+#. images of a Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/EtextPaginated"
+msgid "bdo:EtextPaginated::adm:userTooltip"
+msgstr ""
+
+#. The referenced Work is identified as a translation of this Work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workHasTranslation"
+msgid "bdo:workHasTranslation::adm:userTooltip"
+msgstr ""
+
+#. An :ItemMicrofilmAsset describes the physical microfilm from which the
+#. associated Instance was digitized.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ItemMicrofilmAsset"
+msgid "bdo:ItemMicrofilmAsset::adm:userTooltip"
+msgstr ""
+
+#. Indicates the volume in which the etext is found.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eTextInVolume"
+msgid "bdo:eTextInVolume::adm:userTooltip"
+msgstr ""
+
+#. The event of completing a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CompletedEvent"
+msgid "bdo:CompletedEvent::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Maternal uncle of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasMaternalUncle"
+msgid "bdo:hasMaternalUncle::adm:userTooltip"
+msgstr ""
+
+#. This is the location of the source information for this :Lineage in a
+#. specified gsan / thob yig.
+#. see also: http://purl.bdrc.io/ontology/core/Lineage
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocation"
+msgid "bdo:contentLocation::rdfs:label"
+msgstr ""
+
+#. This is the location of the source information for this :Lineage in a
+#. specified gsan / thob yig.
+#. see also: http://purl.bdrc.io/ontology/core/Lineage
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocation"
+msgid "bdo:contentLocation::adm:userTooltip"
+msgstr ""
+
+#. Event occurring upon a divorce of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonDivorce"
+msgid "bdo:PersonDivorce::adm:userTooltip"
+msgstr ""
+
+#. An event associated with the production of an Instance.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/InstanceEvent"
+msgid "bdo:InstanceEvent::rdfs:label"
+msgstr ""
+
+#. An event associated with the production of an Instance.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/InstanceEvent"
+msgid "bdo:InstanceEvent::adm:userTooltip"
+msgstr ""
+
+#. Indicates an Activities incarnation of this Person.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationActivities"
+msgid "bdo:hasIncarnationActivities::adm:userTooltip"
+msgstr ""
+
+#. text of the note
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/noteText"
+msgid "bdo:noteText::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Grandfather of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasGrandfather"
+msgid "bdo:hasGrandfather::adm:userTooltip"
+msgstr ""
+
+#. A item comprised of a physical volume or volumes.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ItemPhysicalAsset"
+msgid "bdo:ItemPhysicalAsset::adm:userTooltip"
+msgstr ""
+
+#. This Person is a Mind incarnation of the target Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/incarnationMind"
+msgid "bdo:incarnationMind::adm:userTooltip"
+msgstr ""
+
+#. An event describing the third revision of a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ThirdRevisedEvent"
+msgid "bdo:ThirdRevisedEvent::adm:userTooltip"
+msgstr ""
+
+#. Down from expresses a sequence of lineage holders by reference to another
+#. Lineage.
+#. see also: http://purl.bdrc.io/ontology/core/LineageHolder
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageDownFrom"
+msgid "bdo:lineageDownFrom::adm:userTooltip"
+msgstr ""
+
+#. Places are geographic entities such as: monasteries, villages, counties,
+#. rivers, caves and so on
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Place"
+msgid "bdo:Place::adm:userTooltip"
+msgstr ""
+
+#. Indicates that this Work is a member of a series.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/serialMemberOf"
+msgid "bdo:serialMemberOf::adm:userTooltip"
+msgstr ""
+
+#. The Event of a Person becoming married to another Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonMarriage"
+msgid "bdo:PersonMarriage::adm:userTooltip"
+msgstr ""
+
+#. This work has some parallels in another work, meaning it displays
+#. intertextuality patterns.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workHasParallelsIn"
+msgid "bdo:workHasParallelsIn::adm:userTooltip"
+msgstr ""
+
+#. width of the physical item, of this :Work, that is held or scanned in cm
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/dimWidth"
+msgid "bdo:dimWidth::rdfs:label"
+msgstr ""
+
+#. width of the physical item, of this :Work, that is held or scanned in cm
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/dimWidth"
+msgid "bdo:dimWidth::adm:userTooltip"
+msgstr ""
+
+#. A general note contains non-specific information about some resource
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/GeneralNote"
+msgid "bdo:GeneralNote::adm:userTooltip"
+msgstr ""
+
+#. The number of digitized metadata pages added by TBRC (now BDRC). Originally
+#. this was 2 pages and more recently condensed to a single non-blank page
+#. however a second blank page 2 was included to simplify processing of
+#. volumes for display and so on. The intention being to capture some relevant
+#. metadata in along with the digitized images so that the volume is
+#. essentially standalone.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/volumePagesTbrcIntro"
+msgid "bdo:volumePagesTbrcIntro::adm:userTooltip"
+msgstr ""
+
+#. An indication of correspondence with a page of a physical/image page.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/EtextPage"
+msgid "bdo:EtextPage::adm:userTooltip"
+msgstr ""
+
+#. Asserts that the subject instance has a particular title.
+#. see also: http://purl.bdrc.io/ontology/core/Title
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasTitle"
+msgid "bdo:hasTitle::rdfs:label"
+msgstr ""
+
+#. Asserts that the subject instance has a particular title.
+#. see also: http://purl.bdrc.io/ontology/core/Title
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasTitle"
+msgid "bdo:hasTitle::adm:userTooltip"
+msgstr ""
+
+#. The name given to a Person upon their receiving final ordination
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonFinalOrdinationName"
+msgid "bdo:PersonFinalOrdinationName::adm:userTooltip"
+msgstr ""
+
+#. Who did this "LineageHolder receive the :Lineage from?
+#. see also: http://purl.bdrc.io/ontology/core/LineageReceived
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageFrom"
+msgid "bdo:lineageFrom::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Grandson of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasGrandson"
+msgid "bdo:hasGrandson::adm:userTooltip"
+msgstr ""
+
+#. Title that is abbreviated, condensed, divided from the main title
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/TitlePortion"
+msgid "bdo:TitlePortion::rdfs:label"
+msgstr ""
+
+#. Title that is abbreviated, condensed, divided from the main title
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/TitlePortion"
+msgid "bdo:TitlePortion::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Person considered to be an Incarnation of this Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnation"
+msgid "bdo:hasIncarnation::adm:userTooltip"
+msgstr ""
+
+#. Indicates an Uncle of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasUncle"
+msgid "bdo:hasUncle::adm:userTooltip"
+msgstr ""
+
+#. Indicates the material applied on a work (ink, golden leaf, etc.)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/appliedMaterial"
+msgid "bdo:appliedMaterial::adm:userTooltip"
+msgstr ""
+
+#. Reverses 'firstname lastname' to 'lastname, firstname'
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonReversal"
+msgid "bdo:PersonReversal::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Sister-in-law of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasSisterInLaw"
+msgid "bdo:hasSisterInLaw::adm:userTooltip"
+msgstr ""
+
+#. Indicates the Father-in-law of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasFatherInLaw"
+msgid "bdo:hasFatherInLaw::adm:userTooltip"
+msgstr ""
+
+#. event type describing when a place was rebuilt
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PlaceRebuilt"
+msgid "bdo:PlaceRebuilt::adm:userTooltip"
+msgstr ""
+
+#. Event indicating the Person becoming affiliated with a lineage or
+#. organization
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonAffiliation"
+msgid "bdo:PersonAffiliation::adm:userTooltip"
+msgstr ""
+
+#. The ending line on the ending page that is referenced
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocationEndLine"
+msgid "bdo:contentLocationEndLine::rdfs:label"
+msgstr ""
+
+#. The ending line on the ending page that is referenced
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocationEndLine"
+msgid "bdo:contentLocationEndLine::adm:userTooltip"
+msgstr ""
+
+#. position of the eText in the volume that contains it
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eTextVolumeIndex"
+msgid "bdo:eTextVolumeIndex::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Parent-in-law of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasParentInLaw"
+msgid "bdo:hasParentInLaw::adm:userTooltip"
+msgstr ""
+
+#. event type describing when a place was destroyed
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PlaceDestroyed"
+msgid "bdo:PlaceDestroyed::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Minds incarnation of this Person.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationMind"
+msgid "bdo:hasIncarnationMind::adm:userTooltip"
+msgstr ""
+
+#. used to reference the number associated with the work in the series
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/serialHasMember"
+msgid "bdo:serialHasMember::adm:userTooltip"
+msgstr ""
+
+#. In some cases volumes of a :Work are given names. For example, in Tibetan a
+#. three volume work might have volumes named O, a, huM or a 10 volume work
+#. might have volumes named: ka, kha, ga, nga, ca, cha, ja, nya, ta, a.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/volumeName"
+msgid "bdo:volumeName::adm:userTooltip"
+msgstr ""
+
+#. Identifies an event that occurred at this Place, e.g., founded, rebuilt,
+#. deserted, etc.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/placeEvent"
+msgid "bdo:placeEvent::adm:userTooltip"
+msgstr ""
+
+#. Name by which a Person is known by virtue of their position within an
+#. Organization
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonCorporateName"
+msgid "bdo:PersonCorporateName::adm:userTooltip"
+msgstr ""
+
+#. A description of the physical appearance of a Volume of the Item.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/volumePhysicalDescription"
+msgid "bdo:volumePhysicalDescription::adm:userTooltip"
+msgstr ""
+
+#. A volume is a self-contained set of pages/folia.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Volume"
+msgid "bdo:Volume::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Body incarnation of this Person.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationBody"
+msgid "bdo:hasIncarnationBody::adm:userTooltip"
+msgstr ""
+
+#. An Event associated with the Person such as birth, death, ordination, and
+#. so on
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonEvent"
+msgid "bdo:PersonEvent::adm:userTooltip"
+msgstr ""
+
+#. A Person resource tracks biographical metadata such as names/titles,
+#. kinship relations, birth and death events, and so on
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Person"
+msgid "bdo:Person::adm:userTooltip"
+msgstr ""
+
+#. If the subject work is part of another work, then this reflects the type of
+#. part: chapter, section, text, etc.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/partType"
+msgid "bdo:partType::rdfs:label"
+msgstr ""
+
+#. If the subject work is part of another work, then this reflects the type of
+#. part: chapter, section, text, etc.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/partType"
+msgid "bdo:partType::adm:userTooltip"
+msgstr ""
+
+#. Associates a Work with an Agent and a Creator Role that participated in the
+#. creation of the Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/creator"
+msgid "bdo:creator::adm:userTooltip"
+msgstr ""
+
+#. This physical instance has an associated Item.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceHasItem"
+msgid "bdo:instanceHasItem::adm:userTooltip"
+msgstr ""
+
+#. This is the year offset for an Era in terms of the Common Era.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/yearOffset"
+msgid "bdo:yearOffset::adm:userTooltip"
+msgstr ""
+
+#. Refers to a Work authored by the LineageHolder about the Lineage.
+#. see also: http://purl.bdrc.io/ontology/core/LineageHolder
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageWork"
+msgid "bdo:lineageWork::adm:userTooltip"
+msgstr ""
+
+#. Root property that expresses some kinship relation between the subject and
+#. object Persons.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/kinWith"
+msgid "bdo:kinWith::adm:userTooltip"
+msgstr ""
+
+#. An event associated with the transmission of a lineage, such as
+#. giving/receiving an empowerment or oral transmission, and so on
+#. see also: http://purl.bdrc.io/ontology/core/LineageHolder
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/LineageEvent"
+msgid "bdo:LineageEvent::adm:userTooltip"
+msgstr ""
+
+#. A title by which is known or referenced.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Title"
+msgid "bdo:Title::rdfs:label"
+msgstr ""
+
+#. A title by which is known or referenced.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Title"
+msgid "bdo:Title::adm:userTooltip"
+msgstr ""
+
+#. A member of an organization based on some attributes of the
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CorporationMember"
+msgid "bdo:CorporationMember::adm:userTooltip"
+msgstr ""
+
+#. Indicates an incarnation of this Person.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationGeneral"
+msgid "bdo:hasIncarnationGeneral::adm:userTooltip"
+msgstr ""
+
+#. Title that appears on the title page of a Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/TitlePageTitle"
+msgid "bdo:TitlePageTitle::rdfs:label"
+msgstr ""
+
+#. Title that appears on the title page of a Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/TitlePageTitle"
+msgid "bdo:TitlePageTitle::adm:userTooltip"
+msgstr ""
+
+#. The Event of a Person leaving a Seat
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonLeavesSeat"
+msgid "bdo:PersonLeavesSeat::adm:userTooltip"
+msgstr ""
+
+#. Indicates that the event is known to have not occurred after to the
+#. year/date given, unless otherwise specified the year/date is reckoned in
+#. the Common Era
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/notAfter"
+msgid "bdo:notAfter::adm:userTooltip"
+msgstr ""
+
+#. refers to a volume description of a digital asset, scanned or etext; or a
+#. physical volume.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceHasVolume"
+msgid "bdo:instanceHasVolume::adm:userTooltip"
+msgstr ""
+
+#. Roles include offices held as well as other positions.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Role"
+msgid "bdo:Role::adm:userTooltip"
+msgstr ""
+
+#. Provides a string describing the presence of illustrations, portraits,
+#. color plates and so on.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/illustrations"
+msgid "bdo:illustrations::rdfs:label"
+msgstr ""
+
+#. Provides a string describing the presence of illustrations, portraits,
+#. color plates and so on.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/illustrations"
+msgid "bdo:illustrations::adm:userTooltip"
+msgstr ""
+
+#. The Title of a Person occupying a given office
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonOfficeTitle"
+msgid "bdo:PersonOfficeTitle::adm:userTooltip"
+msgstr ""
+
+#. An event describing the publication of a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PublishedEvent"
+msgid "bdo:PublishedEvent::adm:userTooltip"
+msgstr ""
+
+#. A bibliographic status statement in the language of the Instance
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/biblioStatus"
+msgid "bdo:biblioStatus::rdfs:label"
+msgstr ""
+
+#. A bibliographic status statement in the language of the Instance
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/biblioStatus"
+msgid "bdo:biblioStatus::adm:userTooltip"
+msgstr ""
+
+#. The :lineageRef identifies an alternative version of the current Lineage
+#. see also: http://purl.bdrc.io/ontology/core/Lineage
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageRef"
+msgid "bdo:lineageRef::adm:userTooltip"
+msgstr ""
+
+#. The reference to the :ItemEtext indicates the item that contains the volume
+#. that this Etext is contained in
+#. see also: http://purl.bdrc.io/ontology/core/Etext
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eTextInItem"
+msgid "bdo:eTextInItem::adm:userTooltip"
+msgstr ""
+
+#. This Person is a Body incarnation of the target Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/incarnationBody"
+msgid "bdo:incarnationBody::adm:userTooltip"
+msgstr ""
+
+#. The Event of a Person leaving an Office
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonLeavesOffice"
+msgid "bdo:PersonLeavesOffice::adm:userTooltip"
+msgstr ""
+
+#. An member of a monastic organization
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CorporationMemberMonastic"
+msgid "bdo:CorporationMemberMonastic::adm:userTooltip"
+msgstr ""
+
+#. associates an event with one or more agent
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eventWho"
+msgid "bdo:eventWho::adm:userTooltip"
+msgstr ""
+
+#. event type describing when a place was converted from one tradition to
+#. another, e.g., from Nyingma to Gelugpa
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PlaceConverted"
+msgid "bdo:PlaceConverted::adm:userTooltip"
+msgstr ""
+
+#. The primary or common title by which a Person is known.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonPrimaryTitle"
+msgid "bdo:PersonPrimaryTitle::adm:userTooltip"
+msgstr ""
+
+#. The subject is a volume of the referenced item.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/volumeOf"
+msgid "bdo:volumeOf::adm:userTooltip"
+msgstr ""
+
+#. This label is a conversion of the object label from one orthographic form
+#. to another in the same language, e.g., Khmer
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/conversionOf"
+msgid "bdo:conversionOf::adm:userTooltip"
+msgstr ""
+
+#. height or thickness of the physical item of a :Work in cm
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/dimHeight"
+msgid "bdo:dimHeight::rdfs:label"
+msgstr ""
+
+#. height or thickness of the physical item of a :Work in cm
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/dimHeight"
+msgid "bdo:dimHeight::adm:userTooltip"
+msgstr ""
+
+#. Birth Event for a Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonBirth"
+msgid "bdo:PersonBirth::adm:userTooltip"
+msgstr ""
+
+#. The subject Person is a consort of the target Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personConsortOf"
+msgid "bdo:personConsortOf::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Grandparent of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasGrandParent"
+msgid "bdo:hasGrandParent::adm:userTooltip"
+msgstr ""
+
+#. An event describing the request for a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/RequestedEvent"
+msgid "bdo:RequestedEvent::adm:userTooltip"
+msgstr ""
+
+#. Title that is explanatory. Typically following the main Title Page Title or
+#. Cover Title
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Subtitle"
+msgid "bdo:Subtitle::rdfs:label"
+msgstr ""
+
+#. Title that is explanatory. Typically following the main Title Page Title or
+#. Cover Title
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Subtitle"
+msgid "bdo:Subtitle::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Brother-in-law of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasBrotherInLaw"
+msgid "bdo:hasBrotherInLaw::adm:userTooltip"
+msgstr ""
+
+#. Corporation defines important social institutions. For instance in Tibet
+#. those that (1) owned land and (2) had members. Examples include families
+#. and monastic institutions
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Corporation"
+msgid "bdo:Corporation::adm:userTooltip"
+msgstr ""
+
+#. The Event of a Person discovering a terma
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonGterMaDiscovery"
+msgid "bdo:PersonGterMaDiscovery::adm:userTooltip"
+msgstr ""
+
+#. The primary name by which a Person is known
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonPrimaryName"
+msgid "bdo:PersonPrimaryName::adm:userTooltip"
+msgstr ""
+
+#. The event of origin of a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/OriginatedEvent"
+msgid "bdo:OriginatedEvent::adm:userTooltip"
+msgstr ""
+
+#. Title on the first page of the text of the Tibetan traditional Pecha
+#. format.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/FullTitle"
+msgid "bdo:FullTitle::rdfs:label"
+msgstr ""
+
+#. Title on the first page of the text of the Tibetan traditional Pecha
+#. format.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/FullTitle"
+msgid "bdo:FullTitle::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Younger brother of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasYoungerBrother"
+msgid "bdo:hasYoungerBrother::adm:userTooltip"
+msgstr ""
+
+#. This label is a (spelling) correction and conversion from the FEMC catalogs
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/femcConversionOf"
+msgid "bdo:femcConversionOf::adm:userTooltip"
+msgstr ""
+
+#. This Person is a general incarnation of the target Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/incarnationGeneral"
+msgid "bdo:incarnationGeneral::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Person this Person was a student of.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personStudentOf"
+msgid "bdo:personStudentOf::adm:userTooltip"
+msgstr ""
+
+#. A lineage holder is a Person that is considered to be an authoritative
+#. conveyer of a transmission lineage
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/LineageHolder"
+msgid "bdo:LineageHolder::adm:userTooltip"
+msgstr ""
+
+#. A name bestowed on Person upon receiving certain empowerments
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonSecretInitiatoryName"
+msgid "bdo:PersonSecretInitiatoryName::adm:userTooltip"
+msgstr ""
+
+#. The name by which a Person is commonly known
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonCommonName"
+msgid "bdo:PersonCommonName::adm:userTooltip"
+msgstr ""
+
+#. The class of the various sorts of events: Persons, Places, Works, and
+#. Lineages
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Event"
+msgid "bdo:Event::adm:userTooltip"
+msgstr ""
+
+#. A Work fo which there is at least one physical manifestation. Versus
+#. Abstract Work
+#. An individual material (or electronic) embodiement, for instance a
+#. particular published form.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Instance"
+msgid "bdo:Instance::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Mother-in-law of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasMotherInLaw"
+msgid "bdo:hasMotherInLaw::adm:userTooltip"
+msgstr ""
+
+#. Event indicating a Person assuming a seat such as Secretary to the Kashag
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonAssumesSeat"
+msgid "bdo:PersonAssumesSeat::adm:userTooltip"
+msgstr ""
+
+#. an otherwise unspecified type of person title
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonTitle"
+msgid "bdo:PersonTitle::adm:userTooltip"
+msgstr ""
+
+#. The ending page in the volume of the Work indicated by the other statements
+#. for this :ContentLocation
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocationEndPage"
+msgid "bdo:contentLocationEndPage::rdfs:label"
+msgstr ""
+
+#. The ending page in the volume of the Work indicated by the other statements
+#. for this :ContentLocation
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocationEndPage"
+msgid "bdo:contentLocationEndPage::adm:userTooltip"
+msgstr ""
+
+#. Where and by whom the Work was scanned (or requested to be scanned)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/scanInfo"
+msgid "bdo:scanInfo::rdfs:label"
+msgstr ""
+
+#. Where and by whom the Work was scanned (or requested to be scanned)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/scanInfo"
+msgid "bdo:scanInfo::adm:userTooltip"
+msgstr ""
+
+#. The source for the noteContent
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/noteSource"
+msgid "bdo:noteSource::rdfs:label"
+msgstr ""
+
+#. The source for the noteContent
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/noteSource"
+msgid "bdo:noteSource::adm:userTooltip"
+msgstr ""
+
+#. References an Instance that this Instance is a derivative of.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceDerivativeOf"
+msgid "bdo:instanceDerivativeOf::adm:userTooltip"
+msgstr ""
+
+#. A searchable etext volume versus a physical or digitized pzges images.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/VolumeEtextAsset"
+msgid "bdo:VolumeEtextAsset::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Grandchild of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasGrandChild"
+msgid "bdo:hasGrandChild::adm:userTooltip"
+msgstr ""
+
+#. This Item represents an occurrence of the referenced PhysicalInstance
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/itemForInstance"
+msgid "bdo:itemForInstance::adm:userTooltip"
+msgstr ""
+
+#. note indicating the provenance of an information
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ProvenanceNote"
+msgid "bdo:ProvenanceNote::adm:userTooltip"
+msgstr ""
+
+#. Indicates an Entity that is a member of the corporation
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/corporationHasMember"
+msgid "bdo:corporationHasMember::adm:userTooltip"
+msgstr ""
+
+#. indicates that this label is a shortened. abbreviated form of the object
+#. label
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/abbreviationOf"
+msgid "bdo:abbreviationOf::adm:userTooltip"
+msgstr ""
+
+#. A member of an organization by marriage
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CorporationMemberByMarriage"
+msgid "bdo:CorporationMemberByMarriage::adm:userTooltip"
+msgstr ""
+
+#. The Library (Place) that contains the physical holding
+#. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/itemLibrary"
+msgid "bdo:itemLibrary::adm:userTooltip"
+msgstr ""
+
+#. This Person is an Activities incarnation of the target Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/incarnationActivities"
+msgid "bdo:incarnationActivities::adm:userTooltip"
+msgstr ""
+
+#. event type describing when a place was abandonded
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PlaceAbandoned"
+msgid "bdo:PlaceAbandoned::adm:userTooltip"
+msgstr ""
+
+#. indicates that this label is an interpretation of the object label, e.g.,
+#. this sa-iast label is an interpretation of a phonetic label
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/interpretationOf"
+msgid "bdo:interpretationOf::adm:userTooltip"
+msgstr ""
+
+#. An accepted variant writing of a name
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonVariantOrthography"
+msgid "bdo:PersonVariantOrthography::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Brother of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasBrother"
+msgid "bdo:hasBrother::adm:userTooltip"
+msgstr ""
+
+#. An Edition statement expresses information about this Instance as an
+#. edition.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/editionStatement"
+msgid "bdo:editionStatement::rdfs:label"
+msgstr ""
+
+#. An Edition statement expresses information about this Instance as an
+#. edition.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/editionStatement"
+msgid "bdo:editionStatement::adm:userTooltip"
+msgstr ""
+
+#. The event of authoring a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/AuthoredEvent"
+msgid "bdo:AuthoredEvent::adm:userTooltip"
+msgstr ""
+
+#. Indicates a location in the Chinese Buddhist Canon.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocationStatementCBETA"
+msgid "bdo:contentLocationStatementCBETA::rdfs:label"
+msgstr ""
+
+#. Indicates a location in the Chinese Buddhist Canon.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocationStatementCBETA"
+msgid "bdo:contentLocationStatementCBETA::adm:userTooltip"
+msgstr ""
+
+#. A note regarding a bibliographic feature of the Instance
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/biblioNote"
+msgid "bdo:biblioNote::rdfs:label"
+msgstr ""
+
+#. A note regarding a bibliographic feature of the Instance
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/biblioNote"
+msgid "bdo:biblioNote::adm:userTooltip"
+msgstr ""
+
+#. Indicates the printing method of the Item associated with the Work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/printMethod"
+msgid "bdo:printMethod::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Younger sister of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasYoungerSister"
+msgid "bdo:hasYoungerSister::adm:userTooltip"
+msgstr ""
+
+#. Event indicating a Person assuming an office such as Professor, Postmaster
+#. or General
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonAssumesOffice"
+msgid "bdo:PersonAssumesOffice::adm:userTooltip"
+msgstr ""
+
+#. Identifies a Place that this Place is located in.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/placeLocatedIn"
+msgid "bdo:placeLocatedIn::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Cousin of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasCousin"
+msgid "bdo:hasCousin::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Niece of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasNiece"
+msgid "bdo:hasNiece::adm:userTooltip"
+msgstr ""
+
+#. The referenced Topic is interpreted as a "genre".
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workGenre"
+msgid "bdo:workGenre::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Daughter of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasDaughter"
+msgid "bdo:hasDaughter::adm:userTooltip"
+msgstr ""
+
+#. Refers to an :Etext that is contained in a particular :VolumeEtextAsset
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eTextResource"
+msgid "bdo:eTextResource::adm:userTooltip"
+msgstr ""
+
+#. This Person is a Qualities incarnation of the target Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/incarnationQualities"
+msgid "bdo:incarnationQualities::adm:userTooltip"
+msgstr ""
+
+#. A description of the what, when and where of an event in the life of a
+#. instance
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceEvent"
+msgid "bdo:instanceEvent::rdfs:label"
+msgstr ""
+
+#. A description of the what, when and where of an event in the life of a
+#. instance
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceEvent"
+msgid "bdo:instanceEvent::adm:userTooltip"
+msgstr ""
+
+#. Represents a scanned or otherwise digitized set of page images.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ImageGroup"
+msgid "bdo:ImageGroup::rdfs:label"
+msgstr ""
+
+#. Represents a scanned or otherwise digitized set of page images.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ImageGroup"
+msgid "bdo:ImageGroup::adm:userTooltip"
+msgstr ""
+
+#. A title bestowed on a Person who is recognized as a reincarnation of a
+#. distinguished Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonTulkuTitle"
+msgid "bdo:PersonTulkuTitle::adm:userTooltip"
+msgstr ""
+
+#. A (transmission) lineage is a collectiomn of sequences of lineage holders
+#. passing a lineage through time
+#. see also:
+#. https://link.springer.com/article/10.1023%2FA%3A1004844115222?LI=true
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Lineage"
+msgid "bdo:Lineage::adm:userTooltip"
+msgstr ""
+
+#. Indicates the Father of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasFather"
+msgid "bdo:hasFather::adm:userTooltip"
+msgstr ""
+
+#. Identifies where the holding is shelved. The shelf code is based on a
+#. library specific taxonomy
+#. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/itemShelf"
+msgid "bdo:itemShelf::adm:userTooltip"
+msgstr ""
+
+#. links a work and one of its part (a collection and a text in the
+#. collection, a text and one of its chapters, etc.)
+#. see also: http://purl.bdrc.io/ontology/core/partOf
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasPart"
+msgid "bdo:hasPart::rdfs:label"
+msgstr ""
+
+#. links a work and one of its part (a collection and a text in the
+#. collection, a text and one of its chapters, etc.)
+#. see also: http://purl.bdrc.io/ontology/core/partOf
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasPart"
+msgid "bdo:hasPart::adm:userTooltip"
+msgstr ""
+
+#. The Etext is the entire volume
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eTextIsVolume"
+msgid "bdo:eTextIsVolume::adm:userTooltip"
+msgstr ""
+
+#. An otherwise unspecified type of Person Event
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonEventNotSpecified"
+msgid "bdo:PersonEventNotSpecified::adm:userTooltip"
+msgstr ""
+
+#. The name given to a Person upon their receiving first ordination
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonFirstOrdinationName"
+msgid "bdo:PersonFirstOrdinationName::adm:userTooltip"
+msgstr ""
+
+#. An event of printing a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PrintedEvent"
+msgid "bdo:PrintedEvent::adm:userTooltip"
+msgstr ""
+
+#. This is the number or other id of this SerialInstance in a SerialWork.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workSeriesNumber"
+msgid "bdo:workSeriesNumber::adm:userTooltip"
+msgstr ""
+
+#. The :BiblioEntity Class models the descriptive metadata about a "book" in
+#. the BUDAverse.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/BiblioEntity"
+msgid "bdo:BiblioEntity::adm:userTooltip"
+msgstr ""
+
+#. An agent as creator establishes a given Agent performing some cretation
+#. rolw w.r.t. a Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/AgentAsCreator"
+msgid "bdo:AgentAsCreator::adm:userTooltip"
+msgstr ""
+
+#. Identifies the type of :Lineage such as empowerment, reading transmission,
+#. various sorts of instructions and so on
+#. see also: http://purl.bdrc.io/ontology/core/Lineage
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageType"
+msgid "bdo:lineageType::adm:userTooltip"
+msgstr ""
+
+#. refers to an :EtextRef that identifies an :Etext and the position of that
+#. :Etext in a containing :VolumeEtextAsset
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/volumeHasEtext"
+msgid "bdo:volumeHasEtext::adm:userTooltip"
+msgstr ""
+
+#. An event of work translation.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/TranslatedEvent"
+msgid "bdo:TranslatedEvent::adm:userTooltip"
+msgstr ""
+
+#. length of the physical item, of this :Work, that is held or scanned in cm
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/dimLength"
+msgid "bdo:dimLength::rdfs:label"
+msgstr ""
+
+#. length of the physical item, of this :Work, that is held or scanned in cm
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/dimLength"
+msgid "bdo:dimLength::adm:userTooltip"
+msgstr ""
+
+#. the title as given, inline, at the beginning of the text
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/IncipitTitle"
+msgid "bdo:IncipitTitle::rdfs:label"
+msgstr ""
+
+#. the title as given, inline, at the beginning of the text
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/IncipitTitle"
+msgid "bdo:IncipitTitle::adm:userTooltip"
+msgstr ""
+
+#. This Person is the next incarnation of the target Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/incarnationYangtse"
+msgid "bdo:incarnationYangtse::adm:userTooltip"
+msgstr ""
+
+#. An Item captures structural and administrative metadata associated with a
+#. digital or physical asset
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Item"
+msgid "bdo:Item::adm:userTooltip"
+msgstr ""
+
+#. title indicated on the spine of a book
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/SpineTitle"
+msgid "bdo:SpineTitle::rdfs:label"
+msgstr ""
+
+#. title indicated on the spine of a book
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/SpineTitle"
+msgid "bdo:SpineTitle::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Role that is occupied by a Person associated with the
+#. PersonEvent.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personEventRole"
+msgid "bdo:personEventRole::adm:userTooltip"
+msgstr ""
+
+#. true if the instance or item is complete
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/isComplete"
+msgid "bdo:isComplete::rdfs:label"
+msgstr ""
+
+#. true if the instance or item is complete
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/isComplete"
+msgid "bdo:isComplete::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Son of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasSon"
+msgid "bdo:hasSon::adm:userTooltip"
+msgstr ""
+
+#. An event describing the discovery of a work (for terma revelations)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/RevealedEvent"
+msgid "bdo:RevealedEvent::adm:userTooltip"
+msgstr ""
+
+#. An instance that does only have one copy (ex: a manuscript, an art work,
+#. etc.)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/SingletonInstance"
+msgid "bdo:SingletonInstance::rdfs:label"
+msgstr ""
+
+#. An instance that does only have one copy (ex: a manuscript, an art work,
+#. etc.)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/SingletonInstance"
+msgid "bdo:SingletonInstance::adm:userTooltip"
+msgstr ""
+
+#. The latitude of the Place
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/placeLat"
+msgid "bdo:placeLat::adm:userTooltip"
+msgstr ""
+
+#. An identifer, typically a Tibetan letter, indicating the position of the
+#. text in a sequence of texts.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workSideBoxSequenceId"
+msgid "bdo:workSideBoxSequenceId::adm:userTooltip"
+msgstr ""
+
+#. Associates a Role with eiher an Agents or an AgentInRole.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/role"
+msgid "bdo:role::adm:userTooltip"
+msgstr ""
+
+#. The gender of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personGender"
+msgid "bdo:personGender::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Qualities incarnation of this Person.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasIncarnationQualities"
+msgid "bdo:hasIncarnationQualities::adm:userTooltip"
+msgstr ""
+
+#. A work that is made of a collection of other works (ex: gsung bum,
+#. canonical collection, etc.).
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkCollection"
+msgid "bdo:WorkCollection::rdfs:label"
+msgstr ""
+
+#. A work that is made of a collection of other works (ex: gsung bum,
+#. canonical collection, etc.).
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/WorkCollection"
+msgid "bdo:WorkCollection::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Sister of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasSister"
+msgid "bdo:hasSister::adm:userTooltip"
+msgstr ""
+
+#. May be used to indicate the number of introductory pages in a volume
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/volumePagesIntro"
+msgid "bdo:volumePagesIntro::adm:userTooltip"
+msgstr ""
+
+#. Indicates that the event is known to have not occurred prior to the
+#. year/date given, unless otherwise specified the year/date is reckoned in
+#. the Common Era
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/notBefore"
+msgid "bdo:notBefore::adm:userTooltip"
+msgstr ""
+
+#. An item comprised of digitized images of the pages of a Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ImageInstance"
+msgid "bdo:ImageInstance::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Grandmother of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasGrandmother"
+msgid "bdo:hasGrandmother::adm:userTooltip"
+msgstr ""
+
+#. Similar to down from this property refers to a sequence of holders from
+#. another Lineage.
+#. see also: http://purl.bdrc.io/ontology/core/LineageHolder
+#. see also: http://purl.bdrc.io/ontology/core/lineageDownFrom
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageDownTo"
+msgid "bdo:lineageDownTo::adm:userTooltip"
+msgstr ""
+
+#. The script (Tibetan, Devanagari, etc.)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/script"
+msgid "bdo:script::adm:userTooltip"
+msgstr ""
+
+#. an otherwise unspecified type of person name
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonOtherName"
+msgid "bdo:PersonOtherName::adm:userTooltip"
+msgstr ""
+
+#. this should be a positive integer indicating the volume of the Work
+#. referenced in this Location
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocationVolume"
+msgid "bdo:contentLocationVolume::rdfs:label"
+msgstr ""
+
+#. this should be a positive integer indicating the volume of the Work
+#. referenced in this Location
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocationVolume"
+msgid "bdo:contentLocationVolume::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Person this Person was a teacher of.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personTeacherOf"
+msgid "bdo:personTeacherOf::adm:userTooltip"
+msgstr ""
+
+#. An instance of a SeriesMember.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/SerialInstance"
+msgid "bdo:SerialInstance::adm:userTooltip"
+msgstr ""
+
+#. The referenced Entity (topic, person, work, etc.) is a subject of the Work
+#. - something the Work is about.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workIsAbout"
+msgid "bdo:workIsAbout::adm:userTooltip"
+msgstr ""
+
+#. The type of Place: monastery, river, mountain pass, etc.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/placeType"
+msgid "bdo:placeType::adm:userTooltip"
+msgstr ""
+
+#. the object of :lineageHolder is a :LineageHolder that describes an
+#. individual that held the given :Lineage
+#. see also: http://purl.bdrc.io/ontology/core/LineageHolder
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageHolder"
+msgid "bdo:lineageHolder::adm:userTooltip"
+msgstr ""
+
+#. an entity that performs actions, e.g., creating works, teaching other
+#. agents, founding artificial places and so on
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Agent"
+msgid "bdo:Agent::adm:userTooltip"
+msgstr ""
+
+#. A :seqNum may be a page number, line number or other id as appropriate to
+#. the use of the :EtextSlice or other contexts such as the sequence of eTexts
+#. in a Volume and so on.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/seqNum"
+msgid "bdo:seqNum::adm:userTooltip"
+msgstr ""
+
+#. event type describing when a place was founded
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PlaceFounded"
+msgid "bdo:PlaceFounded::adm:userTooltip"
+msgstr ""
+
+#. The longitude of the Place
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/placeLong"
+msgid "bdo:placeLong::adm:userTooltip"
+msgstr ""
+
+#. An ahistorical agent may be a deity or other non-human agent that is said
+#. to exist outside of human history
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/AhistoricalAgent"
+msgid "bdo:AhistoricalAgent::adm:userTooltip"
+msgstr ""
+
+#. An event of copying a work by some means such as manual enscribing,
+#. photocopying, etc.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CopyEvent"
+msgid "bdo:CopyEvent::adm:userTooltip"
+msgstr ""
+
+#. References an Instance that is a reproduction of this Instance.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceHasReproduction"
+msgid "bdo:instanceHasReproduction::adm:userTooltip"
+msgstr ""
+
+#. Indicates an Older sister of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasOlderSister"
+msgid "bdo:hasOlderSister::adm:userTooltip"
+msgstr ""
+
+#. An (abstreact) Work representing a series of volumes/numbers published over
+#. time
+#. see also: https://www.abc-clio.com/ODLIS/odlis_S.aspx?#serial
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/SerialWork"
+msgid "bdo:SerialWork::adm:userTooltip"
+msgstr ""
+
+#. Indicates the base material of a work (paper, palm leaf, etc.)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/baseMaterial"
+msgid "bdo:baseMaterial::adm:userTooltip"
+msgstr ""
+
+#. An event describing the revision of a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/RevisedEvent"
+msgid "bdo:RevisedEvent::adm:userTooltip"
+msgstr ""
+
+#. An indication of correpondance with a line of text of a physical/image
+#. asset. Lines are counted from 1.
+#. indicates a line of text in a corresponding digitized image of a Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/EtextLine"
+msgid "bdo:EtextLine::adm:userTooltip"
+msgstr ""
+
+#. Death Event for a Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonDeath"
+msgid "bdo:PersonDeath::adm:userTooltip"
+msgstr ""
+
+#. Title appearing on the copyright page of a Work, if present.
+#. see also: http://cip.loc.gov/cipman/
+#. see also: https://www.loc.gov/publish/cip/news/lccn_art.html
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CopyrightPageTitle"
+msgid "bdo:CopyrightPageTitle::rdfs:label"
+msgstr ""
+
+#. Title appearing on the copyright page of a Work, if present.
+#. see also: http://cip.loc.gov/cipman/
+#. see also: https://www.loc.gov/publish/cip/news/lccn_art.html
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CopyrightPageTitle"
+msgid "bdo:CopyrightPageTitle::adm:userTooltip"
+msgstr ""
+
+#. This is a reference to what is being transmitted in the Lineage.
+#. see also: http://purl.bdrc.io/ontology/core/Lineage
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageObject"
+msgid "bdo:lineageObject::adm:userTooltip"
+msgstr ""
+
+#. A transcription of the colophon of the Instance.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/colophon"
+msgid "bdo:colophon::rdfs:label"
+msgstr ""
+
+#. A transcription of the colophon of the Instance.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/colophon"
+msgid "bdo:colophon::adm:userTooltip"
+msgstr ""
+
+#. Links an (abstract) :Work and one of its instances
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceOf"
+msgid "bdo:instanceOf::adm:userTooltip"
+msgstr ""
+
+#. A note about the origin of the Instance (form of a Work) that was
+#. digitized.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/sourceNote"
+msgid "bdo:sourceNote::rdfs:label"
+msgstr ""
+
+#. A note about the origin of the Instance (form of a Work) that was
+#. digitized.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/sourceNote"
+msgid "bdo:sourceNote::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Husband of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasHusband"
+msgid "bdo:hasHusband::adm:userTooltip"
+msgstr ""
+
+#. Describes the type of binding of a work (loose leaves, bound by glue, etc.)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/binding"
+msgid "bdo:binding::adm:userTooltip"
+msgstr ""
+
+#. used to indicate the printery of a traditional artefact
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasSourcePrintery"
+msgid "bdo:hasSourcePrintery::rdfs:label"
+msgstr ""
+
+#. used to indicate the printery of a traditional artefact
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasSourcePrintery"
+msgid "bdo:hasSourcePrintery::adm:userTooltip"
+msgstr ""
+
+#. The target Person is a consort of the subject Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personHasConsort"
+msgid "bdo:personHasConsort::adm:userTooltip"
+msgstr ""
+
+#. Indicates the Instance that the ContentLocation refers to.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocationInstance"
+msgid "bdo:contentLocationInstance::rdfs:label"
+msgstr ""
+
+#. Indicates the Instance that the ContentLocation refers to.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocationInstance"
+msgid "bdo:contentLocationInstance::adm:userTooltip"
+msgstr ""
+
+#. The subject instance is a reproduction of the referenced instance such as a
+#. photocopy or an offset print of an original or photocopy and so on.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/instanceReproductionOf"
+msgid "bdo:instanceReproductionOf::adm:userTooltip"
+msgstr ""
+
+#. The page in the volume of the Instance indicated by the other statements
+#. for this :ContentLocation
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocationPage"
+msgid "bdo:contentLocationPage::rdfs:label"
+msgstr ""
+
+#. The page in the volume of the Instance indicated by the other statements
+#. for this :ContentLocation
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocationPage"
+msgid "bdo:contentLocationPage::adm:userTooltip"
+msgstr ""
+
+#. Authorship statement for the Instance.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/authorshipStatement"
+msgid "bdo:authorshipStatement::rdfs:label"
+msgstr ""
+
+#. Authorship statement for the Instance.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/authorshipStatement"
+msgid "bdo:authorshipStatement::adm:userTooltip"
+msgstr ""
+
+#. Essentially who did the holder receive this Lineage from
+#. see also: http://purl.bdrc.io/ontology/core/LineageReceived
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/lineageReceived"
+msgid "bdo:lineageReceived::adm:userTooltip"
+msgstr ""
+
+#. A statement of the location of this Instance in a containing Instance or of
+#. the pagination present in the text versus the formal location in terms of
+#. page images.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocationStatement"
+msgid "bdo:contentLocationStatement::rdfs:label"
+msgstr ""
+
+#. A statement of the location of this Instance in a containing Instance or of
+#. the pagination present in the text versus the formal location in terms of
+#. page images.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocationStatement"
+msgid "bdo:contentLocationStatement::adm:userTooltip"
+msgstr ""
+
+#. An event of some type that occurred at the subject Place around some date,
+#. involving some Persons and other entities: founding, destruction etc.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PlaceEvent"
+msgid "bdo:PlaceEvent::adm:userTooltip"
+msgstr ""
+
+#. This label is a transliteration of the object label in a form indicated in
+#. the language tag
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/transliterationOf"
+msgid "bdo:transliterationOf::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Corporation that is associated with the subject Event.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/personEventCorporation"
+msgid "bdo:personEventCorporation::adm:userTooltip"
+msgstr ""
+
+#. links an etext volume to its various etexts (often 1)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/EtextRef"
+msgid "bdo:EtextRef::adm:userTooltip"
+msgstr ""
+
+#. The Event of a Person occupying a Seat
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonOccupiesSeat"
+msgid "bdo:PersonOccupiesSeat::adm:userTooltip"
+msgstr ""
+
+#. The Event of a Person receiving their final ordination
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonFinalOrdination"
+msgid "bdo:PersonFinalOrdination::adm:userTooltip"
+msgstr ""
+
+#. The title bestowed upon a Person who has discovered a terma
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonGterStonTitle"
+msgid "bdo:PersonGterStonTitle::adm:userTooltip"
+msgstr ""
+
+#. An etext without any associated pagination information corresponding to
+#. digitized images of a Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/EtextNonPaginated"
+msgid "bdo:EtextNonPaginated::adm:userTooltip"
+msgstr ""
+
+#. An event describing the second translation of a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/SecondTranslatedEvent"
+msgid "bdo:SecondTranslatedEvent::adm:userTooltip"
+msgstr ""
+
+#. The name of a Person's family. Surname
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PersonFamilyName"
+msgid "bdo:PersonFamilyName::adm:userTooltip"
+msgstr ""
+
+#. The number of the volume in the Item. There is no implied order in RDF and
+#. there may be missing volumes so it is necessary to explicitly indicate the
+#. volume number.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/volumeNumber"
+msgid "bdo:volumeNumber::adm:userTooltip"
+msgstr ""
+
+#. An event describing the second revision of a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/SecondRevisedEvent"
+msgid "bdo:SecondRevisedEvent::adm:userTooltip"
+msgstr ""
+
+#. Indicates the Mother of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasMother"
+msgid "bdo:hasMother::adm:userTooltip"
+msgstr ""
+
+#. Indicates the direct parent in the hierarchy of the work content
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/partOf"
+msgid "bdo:partOf::rdfs:label"
+msgstr ""
+
+#. Indicates the direct parent in the hierarchy of the work content
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/partOf"
+msgid "bdo:partOf::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Child of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasChild"
+msgid "bdo:hasChild::adm:userTooltip"
+msgstr ""
+
+#. A title for a work as it occurs in the table of contents for a Work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ToCTitle"
+msgid "bdo:ToCTitle::rdfs:label"
+msgstr ""
+
+#. A title for a work as it occurs in the table of contents for a Work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ToCTitle"
+msgid "bdo:ToCTitle::adm:userTooltip"
+msgstr ""
+
+#. Title that a work is known by other than one of the defined title types
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/OtherTitle"
+msgid "bdo:OtherTitle::rdfs:label"
+msgstr ""
+
+#. Title that a work is known by other than one of the defined title types
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/OtherTitle"
+msgid "bdo:OtherTitle::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Nibling of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasNibling"
+msgid "bdo:hasNibling::adm:userTooltip"
+msgstr ""
+
+#. Summary information about the Instance
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/catalogInfo"
+msgid "bdo:catalogInfo::rdfs:label"
+msgstr ""
+
+#. Summary information about the Instance
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/catalogInfo"
+msgid "bdo:catalogInfo::adm:userTooltip"
+msgstr ""
+
+#. This Person is an incarnation of the target Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/isIncarnation"
+msgid "bdo:isIncarnation::adm:userTooltip"
+msgstr ""
+
+#. A unit of searchable etext
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/EtextChunk"
+msgid "bdo:EtextChunk::adm:userTooltip"
+msgstr ""
+
+#. The line on the page that is referenced
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocationLine"
+msgid "bdo:contentLocationLine::rdfs:label"
+msgstr ""
+
+#. The line on the page that is referenced
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/contentLocationLine"
+msgid "bdo:contentLocationLine::adm:userTooltip"
+msgstr ""
+
+#. This work is a translation of the reference work.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/workTranslationOf"
+msgid "bdo:workTranslationOf::adm:userTooltip"
+msgstr ""
+
+#. Indicates a Maternal aunt of the Person
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/hasMaternalAunt"
+msgid "bdo:hasMaternalAunt::adm:userTooltip"
+msgstr ""
+
+#. An event describing the third translation of a work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ThirdTranslatedEvent"
+msgid "bdo:ThirdTranslatedEvent::adm:userTooltip"
+msgstr ""
+
+#. A physical instance of an (abstract) Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PhysicalInstance"
+msgid "bdo:PhysicalInstance::adm:userTooltip"
+msgstr ""
+
+#. The number of volumes in the item
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/itemVolumes"
+msgid "bdo:itemVolumes::adm:userTooltip"
+msgstr ""
+
+#. Individuals of class :Creator describe the various roles that :Agents play
+#. in creating a :Work
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Creator"
+msgid "bdo:Creator::adm:userTooltip"
+msgstr ""
+
+#. Indicates the Printing Method, e.g., blockprint, manuscript, xerography,
+#. and so on
+#: types/print_methods.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PrintMethod"
+msgid "bdo:PrintMethod::adm:userTooltip"
+msgstr ""
+
+#. Indicates that the Work was handwritten.
+#: types/print_methods.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PrintMethod_Manuscript"
+msgid "bdo:PrintMethod_Manuscript::adm:userTooltip"
+msgstr ""
+
+#. see also: http://lexvo.org/id/script/Tang
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/resource/ScriptTang"
+msgid "bdr:ScriptTang::skos:prefLabel"
+msgstr ""
+
+#. A script in which a language is written. For example, DbuCan, DbuMed,
+#. Devanagari, Latin, etc.
+#. see also: http://lexvo.org/ontology#Script
+#: types/scripts.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Script"
+msgid "bdo:Script::adm:userTooltip"
+msgstr ""
+
+#. Anchatsakarat, used in Southeast Asia, starting in 691 B.C.E.
+#. see also: http://www.worldcat.org/oclc/33047740
+#: types/date_indications.ttl
+msgctxt "http://purl.bdrc.io/resource/EraAS"
+msgid "bdr:EraAS::adm:userTooltip"
+msgstr ""
+
+#. Nepal Sambat Era, used in Nepal, starting in 879 C.E.
+#. see also: http://www.wikidata.org/entity/Q1268741
+#: types/date_indications.ttl
+msgctxt "http://purl.bdrc.io/resource/EraNS"
+msgid "bdr:EraNS::adm:userTooltip"
+msgstr ""
+
+#. Buddhist Era (Buddhasakarat), usually starting in 545 B.C.E.
+#. see also: http://www.worldcat.org/oclc/33047740
+#: types/date_indications.ttl
+msgctxt "http://purl.bdrc.io/resource/EraBE"
+msgid "bdr:EraBE::adm:userTooltip"
+msgstr ""
+
+#. Cunlasakkalat or Cunlasakkarat (‘Little Era’), used in Southeast Asia,
+#. beginning in 638 C.E.
+#. see also: http://www.worldcat.org/oclc/33047740
+#. see also: http://www.worldcat.org/oclc/7351824935
+#. see also: http://www.laomanuscripts.net/en/help#3i
+#: types/date_indications.ttl
+msgctxt "http://purl.bdrc.io/resource/EraCS"
+msgid "bdr:EraCS::adm:userTooltip"
+msgstr ""
+
+#. Vikram Samvat Era, used in Nepal and India, starting in 56 B.C.E.
+#. see also: http://www.wikidata.org/entity/Q1370848
+#: types/date_indications.ttl
+msgctxt "http://purl.bdrc.io/resource/EraVS"
+msgid "bdr:EraVS::adm:userTooltip"
+msgstr ""
+
+#. Mahasakarat, used in Southeast Asia, starting in 78 C.E.
+#. see also: http://www.worldcat.org/oclc/33047740
+#: types/date_indications.ttl
+msgctxt "http://purl.bdrc.io/resource/EraMS"
+msgid "bdr:EraMS::adm:userTooltip"
+msgstr ""
+
+#. A transliteration used to represent a language in a non-native script.
+#: types/transliterations.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Transliteration"
+msgid "bdo:Transliteration::adm:userTooltip"
+msgstr ""
+
+#. A binding form in which some sort of container, cloth wrapping, box, pecha
+#. between boards, and so on
+#: types/bindings.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Binding_LooseLeaf"
+msgid "bdo:Binding_LooseLeaf::adm:userTooltip"
+msgstr ""
+
+#. The binding records how a collection of pages/folia are kept together
+#: types/bindings.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Binding"
+msgid "bdo:Binding::adm:userTooltip"
+msgstr ""
+
+#. subclasses record different types of tradition by culture, e.g., Tibetan or
+#. Chinese
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Tradition"
+msgid "bdo:Tradition::adm:userTooltip"
+msgstr ""
+
+#. A Chinese Buddhist school or tradition, e.g., Tintai
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/ChineseTradition"
+msgid "bdo:ChineseTradition::adm:userTooltip"
+msgstr ""
+
+#. Individuals represent various (Tibetan) Buddhist traditions, e.g., Karma
+#. Kagyu, Bon, or Nyingma
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/TibetanTradition"
+msgid "bdo:TibetanTradition::adm:userTooltip"
+msgstr ""
+
+#. represents the type of a part of an instance, work or item such as Chapter,
+#. Section and so on
+#: types/part_types.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PartType"
+msgid "bdo:PartType::rdfs:label"
+msgstr ""
+
+#. represents the type of a part of an instance, work or item such as Chapter,
+#. Section and so on
+#: types/part_types.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PartType"
+msgid "bdo:PartType::adm:userTooltip"
+msgstr ""
+
+#: types/part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PartTypeSection"
+msgid "bdr:PartTypeSection::skos:prefLabel"
+msgstr ""
+
+#: types/part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PartTypeText"
+msgid "bdr:PartTypeText::skos:prefLabel"
+msgstr ""
+
+#. A fragment is a portion of a "whole" instance. It commonly occurs when some
+#. pages have been extracted from a "complete" instance and inserted
+#. improperly into a different one. A fragment is specified as a part of a
+#. containing instance via a :ContentLocation as with any similar :partOf
+#: types/part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PartTypeFragment"
+msgid "bdr:PartTypeFragment::skos:prefLabel"
+msgstr ""
+
+#: types/part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PartTypeChapter"
+msgid "bdr:PartTypeChapter::skos:prefLabel"
+msgstr ""
+
+#: types/part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PartTypeVolume"
+msgid "bdr:PartTypeVolume::skos:prefLabel"
+msgstr ""
+
+#: types/part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PartTypeTableOfContent"
+msgid "bdr:PartTypeTableOfContent::skos:prefLabel"
+msgstr ""
+
+#. three-character alphabetic codes for languages encode in MARC records
+#. see also: http://id.loc.gov/vocabulary/languages.html
+#. see also: http://lexvo.org/ontology#marcCode
+#. see also: https://www.loc.gov/marc/languages/
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/langMARCCode"
+msgid "bdo:langMARCCode::adm:userTooltip"
+msgstr ""
+
+#. The 2-letter iso code for the langauge. To be used in creating the full
+#. BCP47 language+script+encoding tags
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/langBCP47Lang"
+msgid "bdo:langBCP47Lang::adm:userTooltip"
+msgstr ""
+
+#. see also: http://lexvo.org/id/iso639-3/txg
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangTxg"
+msgid "bdr:LangTxg::skos:prefLabel"
+msgstr ""
+
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangMy"
+msgid "bdr:LangMy::skos:prefLabel"
+msgstr ""
+
+#. A Language code such as "bo" or "tib" for Tibetan, "zh" or "chi" for
+#. Chinese, "sa" for Sanskrit, etc.
+#. see also: http://id.loc.gov/vocabulary/languages.html
+#. see also: http://purl.bdrc.io/ontology/types/Language
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Language"
+msgid "bdo:Language::adm:userTooltip"
+msgstr ""
+
+#. The Gender Type records the gender of a :Person if known. If the gender is
+#. not known, then bdr:GenderNotSpecified is used.
+#: types/gender.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Gender"
+msgid "bdo:Gender::adm:userTooltip"
+msgstr ""
+
+#. Place types are used to indicate a conventional characterization of a
+#. Place, e.g., monastery, cave, river, and so on
+#: types/place_types.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/PlaceType"
+msgid "bdo:PlaceType::adm:userTooltip"
+msgstr ""
+
+#. Tibetan lineage type records the Tibetan form of a transmission lineage
+#. such as empowerment, pith instruction, and so on
+#: types/lineage_types.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/TibetanLineageType"
+msgid "bdo:TibetanLineageType::adm:userTooltip"
+msgstr ""
+
+#. Subclasses record different lineage types by culture, e.g., Tibetan or
+#. Chinese
+#: types/lineage_types.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/LineageType"
+msgid "bdo:LineageType::adm:userTooltip"
+msgstr ""
+
+#. The Language+Script records the combination of language, script, and
+#. transliteration in which the content is expresed
+#. see also: http://purl.bdrc.io/ontology/types/LangCode
+#. see also: http://purl.bdrc.io/ontology/types/Language
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/LangScript"
+msgid "bdo:LangScript::adm:userTooltip"
+msgstr ""
+
+#. language of a :LangScript
+#: types/lang_scripts.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/language"
+msgid "bdo:language::adm:userTooltip"
+msgstr ""
+
+#. Materials include the base material on which the printing appears and the
+#. applied material such as ink and so on
+#. see also: http://rdaregistry.info/Elements/m/P30304
+#. see also: http://rdaregistry.info/termList/RDAMaterial
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Material"
+msgid "bdo:Material::adm:userTooltip"
+msgstr ""
+
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/MaterialParchment"
+msgid "bdr:MaterialParchment::skos:prefLabel"
+msgstr ""
+
+#: types/materials.ttl
+msgctxt "http://purl.bdrc.io/resource/MaterialCardboard"
+msgid "bdr:MaterialCardboard::skos:prefLabel"
 msgstr ""

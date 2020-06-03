@@ -10,7 +10,7 @@ EWTSCONV = pyewts.pyewts()
 CCT2S = OpenCC('t2s')
 
 PO_NAME_TO_TTL_PATH = {
-    "core": ["core/bdo.ttl", "core/unknown-entities.ttl", "roles/creators.ttl", "types/*.ttl"],
+    "core": ["core/bdo.ttl", "roles/creators.ttl", "types/*.ttl"],
     "adm": ["adm/admin.ttl", "adm/content_providers.ttl", "adm/legal_entities.ttl", "adm/types/access_types.ttl", "adm/types/license_types.ttl", "adm/types/status_types.ttl"]
 }
 
@@ -172,7 +172,7 @@ def add_res_to_polist(res, model, ttlpath, polist):
         if comment:
             comment += "\n"
         comment += "see also: %s" % seealso
-    labelsmap = {"skos:prefLabel": {}, "rdfs:label": {}}
+    labelsmap = {"skos:prefLabel": {}, "rdfs:label": {}, "adm:userTooltip": {}}
     # initialize with a table containing all the interesting SUFFIXES:
     for s in SUFFIXES:
         for p, v in labelsmap.items():
@@ -188,6 +188,11 @@ def add_res_to_polist(res, model, ttlpath, polist):
         if not o.language or o.language not in LT_TO_FILESUFFIX:
             continue
         addlabeltolabelmap("rdfs:label", o, labelsmap)
+    for s,p,o in model.triples( (res, ADM.userTooltip , None) ):
+        otherlabels.append(o.value)
+        if not o.language or o.language not in LT_TO_FILESUFFIX:
+            continue
+        addlabeltolabelmap("adm:userTooltip", o, labelsmap)
     for s,p,o in model.triples( (res, SKOS.altLabel , None) ):
         otherlabels.append(o.value)
     for shortp, suffixtolabel in labelsmap.items():

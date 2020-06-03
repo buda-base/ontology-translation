@@ -63,13 +63,13 @@ msgstr "བཀའ་བརྒྱུད།"
 #. and the minor eight.
 #. see also: http://purl.bdrc.io/resource/T1187
 msgid "bdr:TraditionDakpoKagyu::skos:prefLabel"
-msgstr "དཝགས་པོ་བཀའ་བརྒྱུད།"
+msgstr "དྭགས་པོ་བཀའ་བརྒྱུད།"
 
 #. see also: http://purl.bdrc.io/resource/G1180
 #. see also: http://purl.bdrc.io/resource/T1198
 #. see also: https://en.wikipedia.org/wiki/Shalu_Monastery
 msgid "bdr:TraditionZhalu::skos:prefLabel"
-msgstr "ཞཝ་ལུ།"
+msgstr "ཞྭ་ལུ།"
 
 #. see also: http://lexvo.org/id/iso639-3/dzo
 msgid "bdr:LangDz::skos:prefLabel"
@@ -189,7 +189,7 @@ msgid "bdr:PT0050::skos:prefLabel"
 msgstr "བཙུན་དགོན།"
 
 msgid "bdr:PT0064::skos:prefLabel"
-msgstr "སྒྲུབ་གརཝ།"
+msgstr "སྒྲུབ་གྲྭ།"
 
 msgid "bdr:PT0072::skos:prefLabel"
 msgstr "མཆོད་རྟེན།"
@@ -239,7 +239,7 @@ msgid "bdr:PT0046::skos:prefLabel"
 msgstr "ཁྲི་སྐོར།"
 
 msgid "bdr:PT0040::skos:prefLabel"
-msgstr "གརཝ་ཚང་།"
+msgstr "གྲྭ་ཚང་།"
 
 msgid "bdr:PT0078::skos:prefLabel"
 msgstr "སྲོལ་རྒྱུན་ས་མིང་།"
@@ -257,7 +257,7 @@ msgid "bdr:PT0086::skos:prefLabel"
 msgstr "རྫོང་སྲིད་གཞུང་གནས་ས།"
 
 msgid "bdr:PT0038::skos:prefLabel"
-msgstr "བཤད་གརཝ།"
+msgstr "བཤད་གྲྭ།"
 
 msgid "bdr:PT0076::skos:prefLabel"
 msgstr "བང་སོ།"
@@ -279,7 +279,7 @@ msgid "bdr:PT0060::skos:prefLabel"
 msgstr "ཞིང་ཆེན།"
 
 msgid "bdr:PT0067::skos:prefLabel"
-msgstr "སློབ་གརཝ།"
+msgstr "སློབ་གྲྭ།"
 
 msgid "bdr:PT0007::skos:prefLabel"
 msgstr "སྐོར།"
@@ -410,3 +410,6 @@ msgstr "དབུ་ཅན"
 
 msgid "bdr:Bo::skos:prefLabel"
 msgstr "བོད་ཡིག"
+
+msgid "bdr:PartTypeTableOfContent::skos:prefLabel"
+msgstr "དཀར་ཆག"

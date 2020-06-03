@@ -625,3 +625,30 @@ msgstr ""
 msgctxt "http://purl.bdrc.io/admindata/LicenseCopyrightUndetermined"
 msgid "bda:LicenseCopyrightUndetermined::skos:prefLabel"
 msgstr ""
+
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/seeOtherCBETA"
+msgid "adm:seeOtherCBETA::rdfs:label"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_WD_Metadata"
+msgid "bda:LD_WD_Metadata::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_NGMPP_Metadata"
+msgid "bda:LD_NGMPP_Metadata::skos:prefLabel"
+msgstr ""
+
+#. asset manager status constants for images assets
+#: adm/types/status_types.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/ImagesStatus"
+msgid "adm:ImagesStatus::adm:userTooltip"
+msgstr ""
+
+#. status constants for :Entity metadata: released, provisional, etc
+#: adm/types/status_types.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/Status"
+msgid "adm:Status::adm:userTooltip"
+msgstr ""
