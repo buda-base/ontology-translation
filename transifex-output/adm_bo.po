@@ -1,12 +1,14 @@
+# 
 # Translators:
 # Ngawang Trinley <ngawangtrinley@gmail.com>, 2020
 # Kunga Rinchen <Kuinchen1p@gmail.com>, 2020
+# Tashi Dhondup <dhonduptiger658@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Buddhist Digital Ontology (Admin part) e3c569c\n"
 "Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
-"Last-Translator: Kunga Rinchen <Kuinchen1p@gmail.com>, 2020\n"
+"Last-Translator: Tashi Dhondup <dhonduptiger658@gmail.com>, 2020\n"
 "Language-Team: Tibetan (https://www.transifex.com/bdrc/teams/103997/bo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,7 +39,7 @@ msgstr "DILA སློབ་ཆེན་དང་མཚུངས།"
 #. use to indicate url of the original metadata record or content (for
 #. imported records)
 msgid "adm:originalRecord::rdfs:label"
-msgstr "ཁུངས་ཀྱི་དྲྭ་ཚིགས་ལ་གཟིགས།"
+msgstr "ཡོང་ཁུངས་ཀྱི་དྲྭ་ཚིགས་ལ་གཟིགས།"
 
 #. this resource is about the same resource as the Wikidata resource
 msgid "adm:sameAsWikidata::rdfs:label"
@@ -61,7 +63,7 @@ msgstr "འགོད་མཁན།"
 #. The copyright holder to the metadata representation of the :Entity resource
 #. see also: http://purl.bdrc.io/ontology/admin/Organization
 msgid "adm:copyrightOwner::rdfs:label"
-msgstr "དན་གྲངས་གོང་མའི་བདག་དབང་བཟུང་མཁན།"
+msgstr "དན་གྲངས་གོང་མའི་བདག་དབང་འཛིན་མཁན།"
 
 #. Indicates the equivalent resource in BDRC
 msgid "adm:sameAsBDRC::rdfs:label"
@@ -75,7 +77,7 @@ msgstr "རྣམ་ཐར་མཛོད་ལ་གཟིགས།"
 #. bdo:G1KG116095 and adm:contentProvider bda:Provider_BL_EAP
 #. see also: http://purl.bdrc.io/ontology/admin/ContentProvider
 msgid "adm:initialProvider::rdfs:label"
-msgstr "དན་གྲངས་གོང་མ་དང་པོར་མཐུན་སྦྱོར་བྱེད་མཁན།"
+msgstr "དན་གྲངས་གོང་མ་ཐོག་མར་མཁོ་སྤྲོད་བྱེད་མཁན།"
 
 #. URL used when attributing a work or images to the corresponding author or
 #. provider
@@ -101,7 +103,7 @@ msgid "adm:logDate::rdfs:label"
 msgstr "ཟླ་ཚེས།"
 
 msgid "adm:seeOtherHA::rdfs:label"
-msgstr "ཧི་མ་ལ་ཡི་རྒྱུ་རྩལ་དྲྭ་ཚིགས་སུ་གཟིགས།"
+msgstr "ཧི་མ་ལ་ཡའི་སྒྱུ་རྩལ་དྲྭ་ཚིགས་སུ་གཟིགས།"
 
 #. this resource is about the same resource as the CBC@ resource
 msgid "adm:sameAsCBCAt::rdfs:label"
@@ -113,10 +115,10 @@ msgstr "བཀའ་བསྟན་ཞིབ་འཇུག་ཚོགས་པ
 
 #. records the status of the associated resource metadata
 msgid "adm:status::rdfs:label"
-msgstr "གནས་བབས་ནི།"
+msgstr "གནས་བབས།"
 
 msgid "adm:seeOtherSRC::rdfs:label"
-msgstr "ས་སྐྱ་ཞིབ་འཇུག་དྲྭ་ཚིགས་དང་མཚུངས།"
+msgstr "ས་སྐྱ་ཞིབ་འཇུག་དྲྭ་ཚིགས་ལ་གཟིགས།"
 
 #. Names are represented by rdfs:label
 msgid "adm:Product::rdfs:label"
@@ -215,65 +217,65 @@ msgid "bda:LD_BNF_PD::skos:prefLabel"
 msgstr "ཧྥ་རན་སི་རྒྱལ་ཡོངས་དཔེ་མཛོད་ནས་མཐུན་སྦྱོར་བྱས་པ། སྤྱི་སྤྱོད་ཆབ་ཁོངས།"
 
 msgid "bda:LD_IA_PD::skos:prefLabel"
-msgstr "འཛམ་གླིང་དྲྭ་མཛོད་ཀྱིས་མཐུན་སྦྱོར་བྱས་པ། སྤྱི་སྤྱོད་ཁྱབ་ཁོང་།"
+msgstr "འཛམ་གླིང་དྲྭ་མཛོད་ཀྱིས་མཐུན་སྦྱོར་བྱས་པ། སྤྱི་སྤྱོད་ཁྱབ་ཁོངས།"
 
 msgid "bda:LD_BDRC_CC0::skos:prefLabel"
-msgstr "ནང་བསྟན་དཔེ་ཚོགས་བསྟི་གནས་ཀྱིས་མཐུན་སྦྱོར་བྱས་པ། CC0 བཀའ་ཁྲོལ་ཅན།"
+msgstr "ནང་བསྟན་དཔེ་ཚོགས་ལྟེ་གནས་ཀྱིས་མཐུན་སྦྱོར་བྱས་པ། CC0 བཀའ་འཁྲོལ་ཅན།"
 
 msgid "bda:LD_EAP_metadata::skos:prefLabel"
-msgstr "EAP མཐུན་སྦྱོར་བྱས་པ། CC0བཀའ་ཁྲོལ་ཅན།"
+msgstr "EAP མཐུན་སྦྱོར་བྱས་པ། CC0བཀའ་འཁྲོལ་ཅན།"
 
 msgid "bda:LD_EAP_content::skos:prefLabel"
 msgstr "EAP ཀྱིས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་གསལ་ཁ་མེད། སྤྱོད་ཁྲིམས་ལ་གཟིགས།"
 
 msgid "bda:LD_SBB_content::skos:prefLabel"
 msgstr ""
-"ཇར་མན་རྒྱལ་ཡོངས་དཔེ་མཛོད་ཀྱིས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་གསལ་ཁ་མེད། "
-"སྤྱི་སྤྱོད་ཁྱབས་ཁོངས་སུ་ཚུད་ཤག"
+"འཇར་མན་རྒྱལ་ཡོངས་དཔེ་མཛོད་ཀྱིས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་གསལ་ཁ་མེད། "
+"སྤྱི་སྤྱོད་ཁྱབས་ཁོངས་སུ་ཚུད་ཡོད།"
 
 msgid "bda:LD_SRC_Metadata::skos:prefLabel"
-msgstr "ས་སྐྱ་ཞིབ་འཇུག་ཚོགས་པས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་གཏན་ཁེལ་མེད།"
+msgstr "རྒྱལ་ཡོངས་ས་ཆེན་གྱིས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་ཐག་གཅོད་མེད་པ།"
 
 msgid "bda:LD_rKTs_CC0::skos:prefLabel"
-msgstr "བཀའ་བསྟན་ཞིབ་འཇུག་ཚོགས་པས་མཐུན་སྦྱོར་བྱས། CC0བཀའ་ཁྲོལ་ཅན།"
+msgstr "བཀའ་བསྟན་ཞིབ་འཇུག་ཚོགས་པས་མཐུན་སྦྱོར་བྱས། CC0བཀའ་འཁྲོལ་ཅན།"
 
 msgid "bda:LD_BDRC_Copyright::skos:prefLabel"
-msgstr "BDRC ནས་མཐུན་སྦྱོར་བྱས་པ། ཐམས་ཅད་བདག་དབང་གིས་ཟིན་ཡོད།"
+msgstr "BDRC ནས་མཐུན་སྦྱོར་བྱས་པ། ཚང་མར་བདག་དབང་ཡོད།"
 
 msgid "bda:LD_GRETIL::skos:prefLabel"
-msgstr "GRETIL ནས་མཐུན་སྦྱོར་བྱས་པ། CC0བཀའ་ཁྲོལ་ཅན།"
+msgstr "GRETIL ནས་མཐུན་སྦྱོར་བྱས་པ། CC0བཀའ་འཁྲོལ་ཅན།"
 
 #. From a private communication: "most metadata comes from others. sometimes
 #. others declare something, but we make not claims about it."
 msgid "bda:LD_IA_Metadata::skos:prefLabel"
-msgstr "འཛམ་གླིང་དྲྭ་མཛོད་ནས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་གསལ་བཤད་མེད་པ།"
+msgstr "འཛམ་གླིང་དྲྭ་མཛོད་ནས་མཐུན་སྦྱོར་བྱས། བདག་དབང་གསལ་བཤད་མེད་པ།"
 
 msgid "bda:LD_CUDL_content::skos:prefLabel"
 msgstr ""
-"CUDL ནས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་ཅན་གྱི་གཤེར་པར། སྤྱོད་ཁྲིམས་སྐོར་ལ་གཟིགས།"
+"CUDL ནས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་ཅན་གྱི་གཤེར་པར། སྤྱོད་ཁྲིམས་ལ་གཟིགས།"
 
 msgid "bda:LD_BDRC_PD::skos:prefLabel"
-msgstr "ནང་བསྟན་དཔེ་ཚོགས་བསྟི་གནས་ཀྱིས་མཐུན་སྦྱོར་བྱས་པ། སྤྱི་སྤྱོད་ཁྱབ་ཁོངས།"
+msgstr "ནང་བསྟན་དཔེ་ཚོགས་ལྟེ་གནས་ཀྱིས་མཐུན་སྦྱོར་བྱས། སྤྱི་སྤྱོད་ཁྱབ་ཁོངས།"
 
 msgid "bda:LD_DILA_BSADP::skos:prefLabel"
 msgstr ""
-"དྷི་ལ་ནས་མཐུན་སྦྱོར་བྱས་པ། BY-NC-SA 3.0བཀའ་ཁྲོལ་ཅན། "
+"དྷི་ལ་ནས་མཐུན་སྦྱོར་བྱས་པ། BY-NC-SA 3.0བཀའ་འཁྲོལ "
 "རྒྱལ་ཁབ་བྱེ་བྲག་པར་བཅོས་བསྟུན་མ་བྱས་པ།"
 
 msgid "bda:LD_CUDL_metadata::skos:prefLabel"
 msgstr ""
-"CUDL མཐུན་སྦྱོར་བྱས་པ། CC BY-NC 3.0བཀའ་ཁྲོལ་ཅན། "
-"ཞིབ་གཟིགས་འདོད་ན་མ་ཁུངས་དན་གྲངས་གོང་མར་གཟིགས།"
+"CUDL མཐུན་སྦྱོར་བྱས་པ། CC BY-NC 3.0བཀའ་འཁྲོལ། "
+"གནས་ཚུལ་ཞིབ་ཕྲ་མ་ཕྱིའི་དན་གྲངས་གོང་མར་གཟིགས།"
 
 msgid "bda:LD_LOC_metadata::skos:prefLabel"
 msgstr ""
-"ཨ་རིའི་གྲོས་ཚོགས་གོང་མའི་དཔེ་མཛོད་ནས་མཐུན་སྦྱོར་བྱས་པ། CC0བཀའ་ཁྲོལ་ཅན།"
+"ཨ་རིའི་གྲོས་ཚོགས་གོང་མའི་དཔེ་མཛོད་ནས་མཐུན་སྦྱོར་བྱས་པ། CC0བཀའ་འཁྲོལ་ཅན།"
 
 msgid "adm:LegalData::rdfs:label"
 msgstr "ཁྲིམས་མཐུན་དན་གྲངས།"
 
 msgid "bda:LD_SAT_images::skos:prefLabel"
-msgstr "SAT ནས་མཐུན་སྦྱོར་བྱས་པ། CC BY-NC-SA 4.0བཀའ་ཁྲོལ་ཅན།"
+msgstr "SAT ནས་མཐུན་སྦྱོར་བྱས་པ། CC BY-NC-SA 4.0བཀའ་འཁྲོལ་ཅན།"
 
 msgid "bda:LD_NGMCP_Metadata::skos:prefLabel"
 msgstr "NGMCP ནས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་གསལ་བཤད་མེད་པ།"
@@ -290,7 +292,7 @@ msgid "bda:AccessFairUse::skos:prefLabel"
 msgstr "ཚུལ་མཐུན་བཀོལ་སྤྱོད།"
 
 msgid "adm:Access::rdfs:label"
-msgstr "ཆོག་མཆན་རིགས།"
+msgstr "ཆོག་མཆན་གྱི་རིགས།"
 
 #. The Work is sealed by tradition.
 msgid "bda:AccessRestrictedSealed::skos:prefLabel"
@@ -298,20 +300,20 @@ msgstr "བཀའ་རྒྱ་མ།"
 
 #. BDRC is restricting access to the Work.
 msgid "bda:AccessRestrictedByTbrc::skos:prefLabel"
-msgstr "BDRC བཀའ་རྒྱ་ཅན།"
+msgstr "ནང་བསྟན་དཔེ་ཚོགས་ལྟེ་གནས་ཀྱི་བཀག་རྒྱ་ཅན།"
 
 #. The contents of the Work are freely avaiable in their entirety.
 msgid "bda:AccessOpen::skos:prefLabel"
-msgstr "ཆོག་མཆན་ཀུན་ལྡན།"
+msgstr "བཀག་རྒྱ་མེད་པ།"
 
 #. The quality of the scanning or eText conversion to poor to warrant making
 #. it available online.
 msgid "bda:AccessRestrictedByQuality::skos:prefLabel"
-msgstr "སྤུས་ཚད་ཞན་པའི་བཀའ་རྒྱ་ཅན།"
+msgstr "སྤུས་ཚད་ཞན་པའི་བཀག་རྒྱ་ཅན།"
 
 #. The Work is temporarily restricted.
 msgid "bda:AccessRestrictedTemporarily::skos:prefLabel"
-msgstr "འཕྲལ་གྱི་བཀའ་རྒྱ་ཅན།"
+msgstr "གནས་སྐབས་རིང་གི་བཀག་རྒྱ་ཅན།"
 
 #. Mixed access is used on a work or Item to indicate that the access on parts
 #. may vary. E.g., some part of a work may be provided under the Fair Use
@@ -319,17 +321,17 @@ msgstr "འཕྲལ་གྱི་བཀའ་རྒྱ་ཅན།"
 #. (for content published in the 18th century), except for a part marked as
 #. restricted by tradition.
 msgid "bda:AccessMixed::skos:prefLabel"
-msgstr "ཕྱེད་ཕྱེད་ཆོག་མཆན་ཅན།"
+msgstr "ཆོག་མཆན་ཡོད་མེད་བསྲེས་མ་ཅན།"
 
 #. The work is made available under Creative Commons, CC0 1.0.
 #. see also: http://creativecommons.org/publicdomain/zero/1.0/
 msgid "bda:LicenseCC0::skos:prefLabel"
-msgstr "སྤྱི་ལ་དབང་བའི་གསར་སྐྲུན། (CC0)"
+msgstr "སྤྱི་སྤྱོད་གསར་སྐྲུན་ཀླད་གོར། (CC0) "
 
 #. see also: http://creativecommons.org/licenses/by-nc-sa/3.0/
 msgid "bda:LicenseCCBYNCSA3U::skos:prefLabel"
 msgstr ""
-"སྤྱི་ལ་དབང་བའི་གསར་སྐྲུན་བཀའ་ཁྲོལ། CC BY-NC-SA 3.0 བཅོས་བསྟུན་མ་བྱས་པ།"
+"སྤྱི་ལ་དབང་བའི་གསར་སྐྲུན་བཀའ་འཁྲོལ། CC BY-NC-SA 3.0 བཅོས་བསྟུན་མ་བྱས་པ།"
 
 #. Copyright Undetermined
 #. see also: http://rightsstatements.org/vocab/UND/1.0/
@@ -338,7 +340,7 @@ msgstr "བདག་དབང་གསལ་བཤད་མེད་པ།"
 
 #. see also: http://creativecommons.org/licenses/by-sa/3.0/
 msgid "bda:LicenseCCBYSA3U::skos:prefLabel"
-msgstr "སྤྱི་ལ་དབང་བའི་གསར་སྐྲུན་བཀའ་ཁྲོལ། CC BY-SA 3.0 བཅོས་བསྟུན་མ་བྱས་པ།"
+msgstr "སྤྱི་སྤྱོད་གསར་སྐྲུན་བཀའ་འཁྲོལ། CC BY-SA 3.0 བཅོས་བསྟུན་མ་བྱས་པ།"
 
 #. Works in the Public Domain. Creative materials that are not protected by
 #. intellectual property laws such as copyright, trademark, or patent laws.
@@ -352,33 +354,33 @@ msgstr "བདག་དབང་མེད་ཤས་ཆེ།"
 
 #. see also: https://opendatacommons.org/licenses/by/1.0/
 msgid "bda:LicenseODCBY10::skos:prefLabel"
-msgstr "སྤྱི་ལ་དབང་བའི་དན་གྲངས་བཀའ་ཁྲོལ། (ODC-By) v1.0"
+msgstr "སྤྱི་ལ་དབང་བའི་དན་གྲངས་བཀའ་འཁྲོལ། (ODC-By) v1.0"
 
 #. License describes the legal standing of copyright for the Work (All rights
 #. reserved, Public domain, Creative Commons License, etc.).
 msgid "adm:License::rdfs:label"
-msgstr "བཀའ་ཁྲོལ་ནི།"
+msgstr "བཀའ་འཁྲོལ།"
 
 #. see also: http://creativecommons.org/licenses/by-nc-nd/3.0/
 msgid "bda:LicenseCCBYNCND3U::skos:prefLabel"
-msgstr "སྤྱི་ལ་དབང་བའི་གསར་སྐྲུན་བཀའ་ཁྲོལ། BY-NC-ND 3.0 བཀའ་ཁྲོལ་ཅན།"
+msgstr "སྤྱི་སྤྱོད་གསར་སྐྲུན་བཀའ་འཁྲོལ། BY-NC-ND 3.0 བཀའ་འཁྲོལ་ཅན།"
 
 #. see also: http://creativecommons.org/licenses/by-nc-sa/4.0/
 msgid "bda:LicenseCCBYNCSA4U::skos:prefLabel"
-msgstr "སྤྱི་ལ་དབང་བའི་གསར་སྐྲུན་བཀའ་ཁྲོལ། BY-NC-SA 4.0 བཀའ་ཁྲོལ་ཅན།"
+msgstr "སྤྱི་སྤྱོད་གསར་སྐྲུན་བཀའ་འཁྲོལ། BY-NC-SA 4.0 བཀའ་འཁྲོལ་ཅན།"
 
 #. The license varies among the different parts of the work. For example, some
 #. part of a work may be under copyright (i.e. a work containing a
 #. contemporary introduction) and the remaining parts may be in the Public
 #. Domain (i.e. an orginial 19th century work re-typed).
 msgid "bda:LicenseMixed::skos:prefLabel"
-msgstr "ཕྱེད་ཕྱེད་བཀའ་ཁྲོལ་ཅན།"
+msgstr "བཀའ་འཁྲོལ་ཡོད་མེད་བསྲེས་མ་ཅན།"
 
 #. Use it for works under copyright that do not say anything about the
 #. copyrights or saying All Rights Reserved.
 #. see also: http://rightsstatements.org/vocab/InC/1.0/
 msgid "bda:LicenseAllRightsReserved::skos:prefLabel"
-msgstr "ཐམས་ཅད་བདག་དབང་གིས་ཟིན་པ།"
+msgstr "ཚང་མར་བདག་དབང་ཡོད།"
 
 #. The work is made available under Creative Commons Attribution No Commercial
 #. Use version 3.0 Unported
@@ -388,7 +390,7 @@ msgstr "CCBYNC30U"
 
 #. see also: http://creativecommons.org/licenses/by-sa/4.0/
 msgid "bda:LicenseCCBYSA4U::skos:prefLabel"
-msgstr "སྤྱི་ལ་དབང་བའི་གསར་སྐྲུན་བཀའ་ཁྲོལ། BY-SA 4.0 བཅོས་བསྟུན་མ་བྱས་པ།"
+msgstr "སྤྱི་སྤྱོད་གསར་སྐྲུན་བཀའ་འཁྲོལ། BY-SA 4.0 བཅོས་བསྟུན་མ་བྱས་པ།"
 
 #. status constants for :Entity metadata: released, provisional, etc
 msgid "adm:Status::rdfs:label"
@@ -420,10 +422,29 @@ msgid "bda:StatusReleased::skos:prefLabel"
 msgstr "འགྲེམ་སྤེལ་ཟིན་པ།"
 
 msgid "bda:StatusWithdrawn::skos:prefLabel"
-msgstr "ཕྱིར་འཐེན་པ།"
+msgstr "ཕྱིར་འཐེན།"
 
 msgid "bda:StatusAccessioned::skos:prefLabel"
 msgstr "ཐོ་རུ་བཀོད་ཟིན་པ།"
 
 msgid "bda:StatusScanned::skos:prefLabel"
-msgstr "གཤེར་འབེབ་ཟིན་པ།"
+msgstr "གཤེར་འབེབས་ཟིན་པ།"
+
+msgid "adm:seeOtherCBETA::rdfs:label"
+msgstr "CBETA དྲྭ་ཚིགས་ལ་གཟིགས།"
+
+msgid "bda:LD_WD_Metadata::skos:prefLabel"
+msgstr ""
+"ཝི་གི་དན་གྲངས་ཀྱིས་མཐུན་སྦྱོར་བྱས་པ། སྤྱི་སྤྱོད་གསར་སྐྲུན་ཀླད་གོར་(CC0) "
+"གྱི་བཀའ་འཁྲོལ་ཅན།"
+
+msgid "bda:LD_NGMPP_Metadata::skos:prefLabel"
+msgstr "NGMPP ཡིས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་གསལ་བཤད་མེད།"
+
+#. asset manager status constants for images assets
+msgid "adm:ImagesStatus::adm:userTooltip"
+msgstr ""
+
+#. status constants for :Entity metadata: released, provisional, etc
+msgid "adm:Status::adm:userTooltip"
+msgstr ""
