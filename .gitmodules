@@ -1,0 +1,3 @@
+[submodule "owl-schema"]
+	path = owl-schema
+	url = https://github.com/buda-base/owl-schema.git
