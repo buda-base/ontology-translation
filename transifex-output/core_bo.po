@@ -1,15 +1,16 @@
 # 
 # Translators:
-# Tashi Dhondup <dhonduptiger658@gmail.com>, 2020
 # Elie Roux <roux.elie@gmail.com>, 2020
-# Ngawang Trinley <ngawangtrinley@gmail.com>, 2020
 # Kunga Rinchen <Kuinchen1p@gmail.com>, 2020
+# Ngawang Trinley <ngawangtrinley@gmail.com>, 2020
+# jee huajian <drongbulobsang@gmail.com>, 2020
+# Tashi Dhondup <dhonduptiger658@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Buddhist Digital Ontology e3c569c\n"
 "Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
-"Last-Translator: Kunga Rinchen <Kuinchen1p@gmail.com>, 2020\n"
+"Last-Translator: Tashi Dhondup <dhonduptiger658@gmail.com>, 2020\n"
 "Language-Team: Tibetan (https://www.transifex.com/bdrc/teams/103997/bo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -220,7 +221,7 @@ msgstr "ས་གནས་དང་འབྲེལ་བའི་གནས་ཚ
 
 #. Death Event for a Person
 msgid "bdo:PersonDeath::rdfs:label"
-msgstr "འདས་ལོ།"
+msgstr "འདས་གྲོངས།"
 
 #. Refers to the Library of Congress Control Number
 msgid "bdo:workLccn::rdfs:label"
@@ -279,7 +280,7 @@ msgid "bdo:hasWife::rdfs:label"
 msgstr "བདག་མོ།"
 
 msgid "skos:altLabel::rdfs:label"
-msgstr "མིང་བྱང་གི་རྣམ་གྲངས།"
+msgstr "མཚན་གྱི་རྣམ་གྲངས།"
 
 #. An agent as creator establishes a given Agent performing some cretation
 #. rolw w.r.t. a Work
@@ -367,7 +368,7 @@ msgstr "ISBN རྒྱལ་སྤྱིའི་དཔེ་རྟགས།"
 
 #. event type describing when a place was abandonded
 msgid "bdo:PlaceAbandoned::rdfs:label"
-msgstr "བདག་མེད་དུ་སྐྱུར་བའི་ལོ་དུས།"
+msgstr "བདག་མེད་གྱུར་བ།"
 
 #. associates an event with one or more agent
 msgid "bdo:eventWho::rdfs:label"
@@ -428,7 +429,7 @@ msgstr "བརྗོད་གཞི།"
 
 #. This physical instance has an associated Item.
 msgid "bdo:instanceHasItem::rdfs:label"
-msgstr "བྱེ་བྲག་གི་དངོས་པོ།"
+msgstr "དཔེ་ཆ།"
 
 #. Indicates a young incarnation of this Person.
 msgid "bdo:hasIncarnationYangtse::rdfs:label"
@@ -720,7 +721,7 @@ msgstr "བཀའ་བསྟན་ཞིབ་འཇུག་ཚོགས་པ
 
 #. Birth Event for a Person
 msgid "bdo:PersonBirth::rdfs:label"
-msgstr "འཁྲུངས་ལོ།"
+msgstr "འཁྲུངས་པ།"
 
 #. References an Instance that is a derivative of this Instance.
 msgid "bdo:instanceHasDerivative::rdfs:label"
@@ -768,7 +769,7 @@ msgstr "སྐུའི་སྤྲུལ་གཞི།"
 
 #. Event indicating a Person assuming a seat such as Secretary to the Kashag
 msgid "bdo:PersonAssumesSeat::rdfs:label"
-msgstr "ཁྲི་རུ་འཁོད་ལོ།"
+msgstr "ཁྲི་རུ་འཁོད་པ།"
 
 #. Indicates a Cousin of the Person
 msgid "bdo:hasCousin::rdfs:label"
@@ -998,7 +999,7 @@ msgstr "ཞེང་ཚད།"
 
 #. event type describing when a place was destroyed
 msgid "bdo:PlaceDestroyed::rdfs:label"
-msgstr "གཏོར་བཅོམ་བྱས་ལོ།"
+msgstr "གཏོར་བཅོམ།"
 
 #. Associates an Instance with an Agent and a Creator Role that participated
 #. in the creation of the Instance. For example, scribe, carver and so on
@@ -1128,7 +1129,7 @@ msgstr "ཡོངས་གྲགས་མཚན།"
 #. The event is known to have occurred during the year given, unless otherwise
 #. specified the year is reckoned in the Common Era
 msgid "bdo:onYear::rdfs:label"
-msgstr "བྱུང་བའི་ལོ།"
+msgstr "ལོ་ཚིགས།"
 
 #. Indicates a Nibling of the Person
 msgid "bdo:hasNibling::rdfs:label"
@@ -2909,7 +2910,7 @@ msgstr ""
 
 #. The physical dimensions of the instance
 msgid "bdo:dimensionsStatement::adm:userTooltip"
-msgstr ""
+msgstr "པོ་ཏིའི་ཆེ་ཆུང་།"
 
 #. Indicates a Paternal uncle of the Person
 msgid "bdo:hasPaternalUncle::adm:userTooltip"
