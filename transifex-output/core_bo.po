@@ -3,14 +3,14 @@
 # Elie Roux <roux.elie@gmail.com>, 2020
 # Kunga Rinchen <Kuinchen1p@gmail.com>, 2020
 # Ngawang Trinley <ngawangtrinley@gmail.com>, 2020
-# jee huajian <drongbulobsang@gmail.com>, 2020
 # Tashi Dhondup <dhonduptiger658@gmail.com>, 2020
+# jee huajian <drongbulobsang@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Buddhist Digital Ontology e3c569c\n"
 "Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
-"Last-Translator: Tashi Dhondup <dhonduptiger658@gmail.com>, 2020\n"
+"Last-Translator: jee huajian <drongbulobsang@gmail.com>, 2020\n"
 "Language-Team: Tibetan (https://www.transifex.com/bdrc/teams/103997/bo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -455,9 +455,9 @@ msgstr "སྙིད་པོ།"
 msgid "bdo:labelConnection::rdfs:label"
 msgstr "མིང་བྱང་གི་འབྲེལ་བ།"
 
-#. A string indicating where in the :noteSource to look for the :noteText
+#. A string indicating a kind of Note. Used only w FEMC taxonomy notes
 msgid "bdo:noteType::rdfs:label"
-msgstr "ཡོད་སའི་མཚམས།"
+msgstr ""
 
 #. A physical instance of an (abstract) Work
 msgid "bdo:PhysicalInstance::rdfs:label"
@@ -1641,8 +1641,7 @@ msgstr "སྒོ་ཁ་འགྲིམ་པའི་གླུ་པ།"
 
 #. a person for whom our source or evidence tells us only that they were
 #. involved in the translation or composition process, without allowing us to
-#. further specify the specific role they played in that process. Use
-#. bdr:UNKNOWN_Person when no specific person is known
+#. further specify the specific role they played in that process.
 msgid "bdr:Unspecified::skos:prefLabel"
 msgstr "ལས་འགན་གསལ་ཁ་མེད་པ།"
 
@@ -2746,7 +2745,7 @@ msgstr ""
 msgid "bdo:instanceHasDerivative::adm:userTooltip"
 msgstr ""
 
-#. A string indicating where in the :noteSource to look for the :noteText
+#. A string indicating a kind of Note. Used only w FEMC taxonomy notes
 msgid "bdo:noteType::adm:userTooltip"
 msgstr ""
 
@@ -3941,13 +3940,13 @@ msgstr ""
 msgid "bdo:RevealedEvent::adm:userTooltip"
 msgstr ""
 
-#. An instance that does only have one copy (ex: a manuscript, an art work,
-#. etc.)
+#. An instance that has only one copy (ex: a manuscript, an art work, etc.). A
+#. singleton instance may have reproductions
 msgid "bdo:SingletonInstance::rdfs:label"
 msgstr ""
 
-#. An instance that does only have one copy (ex: a manuscript, an art work,
-#. etc.)
+#. An instance that has only one copy (ex: a manuscript, an art work, etc.). A
+#. singleton instance may have reproductions
 msgid "bdo:SingletonInstance::adm:userTooltip"
 msgstr ""
 
@@ -4544,4 +4543,35 @@ msgid "bdr:MaterialParchment::skos:prefLabel"
 msgstr ""
 
 msgid "bdr:MaterialCardboard::skos:prefLabel"
+msgstr ""
+
+#. The reference to the instance the etext is in
+#. see also: http://purl.bdrc.io/ontology/core/Etext
+msgid "bdo:eTextInInstance::rdfs:label"
+msgstr ""
+
+#. The reference to the instance the etext is in
+#. see also: http://purl.bdrc.io/ontology/core/Etext
+msgid "bdo:eTextInInstance::adm:userTooltip"
+msgstr ""
+
+#. Loction of the publisher of the form of the Instance that has been
+#. digitized.
+msgid "bdo:publisherLocation::rdfs:label"
+msgstr "པར་གནས།"
+
+#. Loction of the publisher of the form of the Instance that has been
+#. digitized.
+msgid "bdo:publisherLocation::adm:userTooltip"
+msgstr ""
+
+msgid "skos:closeMatch::rdfs:label"
+msgstr ""
+
+#. The name of the publisher transcribed from the Work
+msgid "bdo:publisherName::rdfs:label"
+msgstr "པར་མཁན།"
+
+#. The name of the publisher transcribed from the Work
+msgid "bdo:publisherName::adm:userTooltip"
 msgstr ""

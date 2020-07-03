@@ -2180,8 +2180,7 @@ msgstr ""
 
 #. a person for whom our source or evidence tells us only that they were
 #. involved in the translation or composition process, without allowing us to
-#. further specify the specific role they played in that process. Use
-#. bdr:UNKNOWN_Person when no specific person is known
+#. further specify the specific role they played in that process.
 #: roles/creators.ttl
 msgctxt "http://purl.bdrc.io/resource/Unspecified"
 msgid "bdr:Unspecified::skos:prefLabel"
@@ -3962,7 +3961,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/labelConnection"
 msgid "bdo:labelConnection::rdfs:label"
 msgstr ""
 
-#. A string indicating where in the :noteSource to look for the :noteText
+#. A string indicating a kind of Note. Used only w FEMC taxonomy notes
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/noteType"
 msgid "bdo:noteType::rdfs:label"
@@ -4250,7 +4249,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/instanceHasDerivative"
 msgid "bdo:instanceHasDerivative::adm:userTooltip"
 msgstr ""
 
-#. A string indicating where in the :noteSource to look for the :noteText
+#. A string indicating a kind of Note. Used only w FEMC taxonomy notes
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/noteType"
 msgid "bdo:noteType::adm:userTooltip"
@@ -5989,15 +5988,15 @@ msgctxt "http://purl.bdrc.io/ontology/core/RevealedEvent"
 msgid "bdo:RevealedEvent::adm:userTooltip"
 msgstr ""
 
-#. An instance that does only have one copy (ex: a manuscript, an art work,
-#. etc.)
+#. An instance that has only one copy (ex: a manuscript, an art work, etc.). A
+#. singleton instance may have reproductions
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/SingletonInstance"
 msgid "bdo:SingletonInstance::rdfs:label"
 msgstr ""
 
-#. An instance that does only have one copy (ex: a manuscript, an art work,
-#. etc.)
+#. An instance that has only one copy (ex: a manuscript, an art work, etc.). A
+#. singleton instance may have reproductions
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/SingletonInstance"
 msgid "bdo:SingletonInstance::adm:userTooltip"
@@ -6847,4 +6846,49 @@ msgstr ""
 #: types/materials.ttl
 msgctxt "http://purl.bdrc.io/resource/MaterialCardboard"
 msgid "bdr:MaterialCardboard::skos:prefLabel"
+msgstr ""
+
+#. The reference to the instance the etext is in
+#. see also: http://purl.bdrc.io/ontology/core/Etext
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eTextInInstance"
+msgid "bdo:eTextInInstance::rdfs:label"
+msgstr ""
+
+#. The reference to the instance the etext is in
+#. see also: http://purl.bdrc.io/ontology/core/Etext
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/eTextInInstance"
+msgid "bdo:eTextInInstance::adm:userTooltip"
+msgstr ""
+
+#. Loction of the publisher of the form of the Instance that has been
+#. digitized.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/publisherLocation"
+msgid "bdo:publisherLocation::rdfs:label"
+msgstr ""
+
+#. Loction of the publisher of the form of the Instance that has been
+#. digitized.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/publisherLocation"
+msgid "bdo:publisherLocation::adm:userTooltip"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://www.w3.org/2004/02/skos/core#closeMatch"
+msgid "skos:closeMatch::rdfs:label"
+msgstr ""
+
+#. The name of the publisher transcribed from the Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/publisherName"
+msgid "bdo:publisherName::rdfs:label"
+msgstr ""
+
+#. The name of the publisher transcribed from the Work
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/publisherName"
+msgid "bdo:publisherName::adm:userTooltip"
 msgstr ""

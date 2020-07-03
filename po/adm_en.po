@@ -437,3 +437,8 @@ msgstr "asset manager status constants for images assets"
 #. status constants for :Entity metadata: released, provisional, etc
 msgid "adm:Status::adm:userTooltip"
 msgstr "status constants for :Entity metadata: released, provisional, etc"
+
+#. Has value true if the contents of the associated Work are restricted in
+#. China
+msgid "adm:restrictedInChina::rdfs:label"
+msgstr "is restricted in China"

@@ -652,3 +652,10 @@ msgstr ""
 msgctxt "http://purl.bdrc.io/ontology/admin/Status"
 msgid "adm:Status::adm:userTooltip"
 msgstr ""
+
+#. Has value true if the contents of the associated Work are restricted in
+#. China
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/restrictedInChina"
+msgid "adm:restrictedInChina::rdfs:label"
+msgstr ""

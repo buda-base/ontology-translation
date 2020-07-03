@@ -1,20 +1,19 @@
-# 
 # Translators:
 # Tashi Dhondup <dhonduptiger658@gmail.com>, 2020
 # Elie Roux <roux.elie@gmail.com>, 2020
 # Ngawang Trinley <ngawangtrinley@gmail.com>, 2020
 # Kunga Rinchen <Kuinchen1p@gmail.com>, 2020
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Buddhist Digital Ontology e3c569c\n"
 "Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
 "Last-Translator: Kunga Rinchen <Kuinchen1p@gmail.com>, 2020\n"
 "Language-Team: Tibetan (https://www.transifex.com/bdrc/teams/103997/bo/)\n"
+"Language: bo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. The name by which a Person is commonly known
@@ -536,7 +535,7 @@ msgstr "བསྐྱར་སྐྲུན།"
 
 #. A preliminary to monastic ordination, when someone takes the five root vows
 msgid "bdo:PersonRabByungOrdination::rdfs:label"
-msgstr "ཡོངས་རྫོགས་དགེ་བསྙེན།"
+msgstr "རབ་བྱུང"
 
 #. An Instance consisting of some form of searchable text
 #. see also: http://purl.bdrc.io/ontology/core/Etext
@@ -1549,7 +1548,7 @@ msgstr "རྩོམ་རོགས།"
 #. An individual that wrote the text typically during recitation by the
 #. author. Cf., W8145
 msgid "bdr:R0ER0024::skos:prefLabel"
-msgstr "ཡི་གེ་པ།"
+msgstr "ཡི་གེ་བ།"
 
 #. For a handwritten Work an individual that drew the text or carved it on
 #. wood blocks
@@ -1726,7 +1725,7 @@ msgstr "རྒྱ་གར་ལྷོ་ཕྱོགས་ཡི་གེ།"
 #. Use it for Landza and Vartu
 #. see also: http://scriptsource.org/scr/Qabb
 msgid "bdr:ScriptRanj::skos:prefLabel"
-msgstr "ལཉྫ།"
+msgstr "ལཉྫ"
 
 #. see also: http://www.lexvo.org/page/script/Sinh
 msgid "bdr:ScriptSinh::skos:prefLabel"
@@ -1922,7 +1921,7 @@ msgid "bdr:TraditionBodong::skos:prefLabel"
 msgstr "བོ་དོང་།"
 
 msgid "bdr:TraditionTrophuKagyu::skos:prefLabel"
-msgstr "ཁྲོ་ཕུ་བཀའ་བརྒྱུད།"
+msgstr "ཁྲོ་ཕུ་བཀའ་བརྒྱུད"
 
 msgid "bdr:EightPracticeLineages::skos:prefLabel"
 msgstr "སྒྲུབ་བརྒྱུད་ཤིང་རྟ་ཆེན་པོ་བརྒྱད།"
@@ -2083,7 +2082,7 @@ msgstr "ཨུ་གུར་རྙིང་པ།"
 
 #. see also: http://lexvo.org/id/iso639-3/urd
 msgid "bdr:LangUr::skos:prefLabel"
-msgstr "འུར་ཏུའུ་སྐད།"
+msgstr "ཝུའུ་ཏུའུ་སྐད"
 
 #. see also: http://lexvo.org/id/iso639-3/fra
 msgid "bdr:LangFr::skos:prefLabel"
@@ -2164,17 +2163,17 @@ msgid "bdr:PT0061::skos:prefLabel"
 msgstr "རུ།"
 
 msgid "bdr:PT0005::skos:prefLabel"
-msgstr "གཅོང་རོང་།"
+msgstr "རོང་།"
 
 msgid "bdr:PT0028::skos:prefLabel"
 msgstr "མཚོ།"
 
 #. Natural features such as rivers, caves, mountain passes and so on
 msgid "bdr:PT0047::skos:prefLabel"
-msgstr "ས་བཀོད།"
+msgstr "རང་བྱུང་འཁོར་ཡུག"
 
 msgid "bdr:PT0012::skos:prefLabel"
-msgstr "རྫོང། (ཡུལ་ཤོག)"
+msgstr "ཆུས།"
 
 msgid "bdr:PT0073::skos:prefLabel"
 msgstr "སྟོང་སྡེ།"
@@ -2192,13 +2191,13 @@ msgid "bdr:PT0003::skos:prefLabel"
 msgstr "རང་སྐྱོང་ལྗོངས།"
 
 msgid "bdr:PT0058::skos:prefLabel"
-msgstr "རྒྱལ་ཕྲན།"
+msgstr "སྡེ་དཔོན་མངའ་རིས།"
 
 #. Various kinds of semi-formal and historical references to extended
 #. geographic areas such as administrative districts, isolated areas,
 #. premodern counties and so on.
 msgid "bdr:PT0063::skos:prefLabel"
-msgstr "ཡུལ་ལུང་།"
+msgstr "རྟེན་གཞི་ཡུལ་ལུང་།"
 
 msgid "bdr:PT0048::skos:prefLabel"
 msgstr "འབྲོག་སྡེ།"
@@ -2213,7 +2212,7 @@ msgid "bdr:PT0043::skos:prefLabel"
 msgstr "ལ་ཁ།"
 
 msgid "bdr:PT0066::skos:prefLabel"
-msgstr "ཆུ་གཤོང་།"
+msgstr "ཆུ་རྒྱུད།"
 
 msgid "bdr:PT0055::skos:prefLabel"
 msgstr "ཐང་།"
@@ -2238,10 +2237,10 @@ msgid "bdr:PT0062::skos:prefLabel"
 msgstr "སྒང་།"
 
 msgid "bdr:PT0019::skos:prefLabel"
-msgstr "བརྒྱ་ཤོག།"
+msgstr "བེ་ཧུ།"
 
 msgid "bdr:PT0011::skos:prefLabel"
-msgstr "རྫོང་། (ཡུལ་ཤོག)"
+msgstr "རྫོང།"
 
 msgid "bdr:PT0070::skos:prefLabel"
 msgstr "ཡུལ་ཕྲན།"
@@ -2297,10 +2296,10 @@ msgid "bdr:PT0080::skos:prefLabel"
 msgstr "གཏེར་གནས།"
 
 msgid "bdr:PT0031::skos:prefLabel"
-msgstr "ལུང་མདའ།"
+msgstr "མདའ།"
 
 msgid "bdr:PT0079::skos:prefLabel"
-msgstr "གནའ་དུས་ས་མཚམས།"
+msgstr "སྲོལ་རྒྱུན་ས་ཁུལ།"
 
 msgid "bdr:PT0033::skos:prefLabel"
 msgstr "མ་ཎི་རྡོ་ཕུང་།"
@@ -2312,19 +2311,19 @@ msgid "bdr:PT0040::skos:prefLabel"
 msgstr "གྲྭ་ཚང་།"
 
 msgid "bdr:PT0078::skos:prefLabel"
-msgstr "ས་མིང་རྙིང་པ།"
+msgstr "སྲོལ་རྒྱུན་ས་མིང་།"
 
 msgid "bdr:PT0004::skos:prefLabel"
 msgstr "ཟམ་པ།"
 
 msgid "bdr:PT0015::skos:prefLabel"
-msgstr "གཞིས་ཀ"
+msgstr "གཞིས་ཀ།"
 
 msgid "bdr:PT0051::skos:prefLabel"
 msgstr "ཕོ་བྲང་།"
 
 msgid "bdr:PT0086::skos:prefLabel"
-msgstr "རྫོང་།"
+msgstr "རྫོང་སྲིད་གཞུང་གནས་ས།"
 
 msgid "bdr:PT0038::skos:prefLabel"
 msgstr "བཤད་གྲྭ།"
@@ -2334,10 +2333,10 @@ msgstr "བང་སོ།"
 
 #. Sites of interest such as monasteries, temples and so on
 msgid "bdr:PT0069::skos:prefLabel"
-msgstr "གནས་ཆེན།"
+msgstr "བརྟེན་པ་གནས་ཁང་།"
 
 msgid "bdr:PT0075::skos:prefLabel"
-msgstr "དགོན་པ།"
+msgstr "གཙུག་ལག་ཁང་།"
 
 msgid "bdr:PT0035::skos:prefLabel"
 msgstr "ཚོང་འདུས།"
@@ -2355,10 +2354,10 @@ msgid "bdr:PT0007::skos:prefLabel"
 msgstr "སྐོར།"
 
 msgid "bdr:PT0042::skos:prefLabel"
-msgstr "རི།"
+msgstr "རི་བོ།"
 
 msgid "bdr:PT0034::skos:prefLabel"
-msgstr "མཁར།"
+msgstr "གཟིམས་ཤག"
 
 msgid "bdr:PT0068::skos:prefLabel"
 msgstr "ཚོ་བ།"
@@ -2370,7 +2369,7 @@ msgid "bdr:PT0074::skos:prefLabel"
 msgstr "ལྷ་ཁང་།"
 
 msgid "bdr:PT0024::skos:prefLabel"
-msgstr "ཁང་ཁྱིམ།"
+msgstr "གཟིམས་ཁང་།"
 
 msgid "bdr:PT0044::skos:prefLabel"
 msgstr "རི་རྒྱུད།"
@@ -2379,10 +2378,10 @@ msgid "bdr:PT0036::skos:prefLabel"
 msgstr "སྒྲུབ་ཕུག"
 
 msgid "bdr:PT0020::skos:prefLabel"
-msgstr "ཚོ་ཆུང་།"
+msgstr "སྡེ་ཚོ།"
 
 msgid "bdr:PT0041::skos:prefLabel"
-msgstr "གྲྭ་ཤག"
+msgstr "བླ་བྲང་།"
 
 msgid "bdr:PT0081::skos:prefLabel"
 msgstr "རུ་སྡེ།"
@@ -2409,7 +2408,7 @@ msgid "bdr:PT0021::skos:prefLabel"
 msgstr "རི་ཁྲོད།"
 
 msgid "bdr:PT0027::skos:prefLabel"
-msgstr "རྒྱལ་ཁམས།"
+msgstr "རྒྱལ་ཕྲན།"
 
 #. Place types are used to indicate a conventional characterization of a
 #. Place, e.g., monastery, cave, river, and so on
@@ -2417,26 +2416,26 @@ msgid "bdo:PlaceType::rdfs:label"
 msgstr "ས་གནས་རིགས།"
 
 msgid "bdr:PT0056::skos:prefLabel"
-msgstr "གནའ་དུས་ཀྱི་རྫོང་།"
+msgstr "སྔར་གྱི་རྫོང་།"
 
 msgid "bdr:PT0010::skos:prefLabel"
 msgstr "རྒྱལ་ཁབ།"
 
 #. Places of unspecified type
 msgid "bdr:PT0049::skos:prefLabel"
-msgstr "རིགས་མ་ཕྱེས་པ།"
+msgstr "རིགས་དབྱེ་བྱས་མེད་པ།"
 
 msgid "bdr:LT0003::skos:prefLabel"
 msgstr "གདམས་ངག"
 
 msgid "bdr:LT0008::skos:prefLabel"
-msgstr "ཉེ་བརྒྱུད།"
+msgstr "ཉེ་བརྒྱུད"
 
 msgid "bdr:LT0009::skos:prefLabel"
-msgstr "རིང་བརྒྱུད།"
+msgstr "རིང་བརྒྱུད"
 
 msgid "bdr:LT0012::skos:prefLabel"
-msgstr "སྙན་བརྒྱུད།"
+msgstr "སྙན་བརྒྱུད"
 
 #. Tibetan lineage type records the Tibetan form of a transmission lineage
 #. such as empowerment, pith instruction, and so on
@@ -2444,7 +2443,7 @@ msgid "bdo:TibetanLineageType::rdfs:label"
 msgstr "བོད་ཀྱི་ཆོས་བརྒྱུད་བྱེ་བྲག"
 
 msgid "bdr:LT0007::skos:prefLabel"
-msgstr "གསལ་ཁ་མེད་པ།"
+msgstr "གསལ་ཁ་མ"
 
 #. Subclasses record different lineage types by culture, e.g., Tibetan or
 #. Chinese
@@ -2452,25 +2451,25 @@ msgid "bdo:LineageType::rdfs:label"
 msgstr "བརྒྱུད་པའི་བྱེ་བྲག"
 
 msgid "bdr:LT0004::skos:prefLabel"
-msgstr "ཁྲིད།"
+msgstr "ཁྲིད"
 
 msgid "bdr:LT0001::skos:prefLabel"
-msgstr "དབང་།"
+msgstr "དབང"
 
 msgid "bdr:LT0010::skos:prefLabel"
-msgstr "རྗེས་གནང་།"
+msgstr "རྗེས་གནང"
 
 msgid "bdr:LT0006::skos:prefLabel"
 msgstr "མན་ངག"
 
 msgid "bdr:LT0011::skos:prefLabel"
-msgstr "སྡོམ་རྒྱུན།"
+msgstr "སྡོམ་བརྒྱུད"
 
 msgid "bdr:LT0002::skos:prefLabel"
-msgstr "དམར་ཁྲིད།"
+msgstr "དམར་ཁྲིད"
 
 msgid "bdr:LT0005::skos:prefLabel"
-msgstr "ལུང་།"
+msgstr "ལུང"
 
 msgid "bdr:BoKhyugYig::skos:prefLabel"
 msgstr "འཁྱུག་ཡིག"
@@ -2529,7 +2528,7 @@ msgid "bdr:Inc::skos:prefLabel"
 msgstr "རྒྱ་གར་ཡུལ་གྱི་སྐད་རིགས།"
 
 msgid "bdr:BoTibt::skos:prefLabel"
-msgstr "བོད་སྐད།"
+msgstr "བོད་ཡིག"
 
 msgid "bdr:ZhHani::skos:prefLabel"
 msgstr "རྒྱ་སྐད།"
@@ -2575,7 +2574,7 @@ msgid "bdr:ZhHant::skos:prefLabel"
 msgstr "རྒྱ་སྐད། (སྲོལ་རྒྱུན།)"
 
 msgid "bdr:BoEwts::skos:prefLabel"
-msgstr "ཝའི་ལི།"
+msgstr "ཝའི་ལི"
 
 msgid "bdr:KmKhmr::skos:prefLabel"
 msgstr "ཀམྦོ་ཌི་ཡ་སྐད།"
@@ -2630,7 +2629,7 @@ msgid "bdr:It::skos:prefLabel"
 msgstr "ཨི་ཊ་ལི་སྐད།"
 
 msgid "bdr:BoDbuCan::skos:prefLabel"
-msgstr "དབུ་ཅན།"
+msgstr "དབུ་ཅན"
 
 msgid "bdr:Mn::skos:prefLabel"
 msgstr "སོག་སྐད།"

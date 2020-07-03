@@ -448,9 +448,9 @@ msgstr "has brother in-law"
 msgid "bdo:labelConnection::rdfs:label"
 msgstr "label connection"
 
-#. A string indicating where in the :noteSource to look for the :noteText
+#. A string indicating a kind of Note. Used only w FEMC taxonomy notes
 msgid "bdo:noteType::rdfs:label"
-msgstr "location"
+msgstr "note type"
 
 #. A physical instance of an (abstract) Work
 msgid "bdo:PhysicalInstance::rdfs:label"
@@ -1634,8 +1634,7 @@ msgstr "bard"
 
 #. a person for whom our source or evidence tells us only that they were
 #. involved in the translation or composition process, without allowing us to
-#. further specify the specific role they played in that process. Use
-#. bdr:UNKNOWN_Person when no specific person is known
+#. further specify the specific role they played in that process.
 msgid "bdr:Unspecified::skos:prefLabel"
 msgstr "unspecified"
 
@@ -2739,10 +2738,9 @@ msgstr "A member of an organization by kinship"
 msgid "bdo:instanceHasDerivative::adm:userTooltip"
 msgstr "References an Instance that is a derivative of this Instance."
 
-#. A string indicating where in the :noteSource to look for the :noteText
+#. A string indicating a kind of Note. Used only w FEMC taxonomy notes
 msgid "bdo:noteType::adm:userTooltip"
-msgstr ""
-"A string indicating where in the :noteSource to look for the :noteText"
+msgstr "A string indicating a kind of Note. Used only w FEMC taxonomy notes"
 
 #. An instance that is a bundle of unrelated instances that were not designed
 #. to be in the same package.
@@ -3714,8 +3712,8 @@ msgstr ""
 #. particular published form.
 msgid "bdo:Instance::adm:userTooltip"
 msgstr ""
-"A Work fo which there is at least one physical manifestation. Versus "
-"Abstract Work"
+"An individual material (or electronic) embodiement, for instance a "
+"particular published form."
 
 #. Indicates a Mother-in-law of the Person
 msgid "bdo:hasMotherInLaw::adm:userTooltip"
@@ -4073,17 +4071,17 @@ msgstr "Indicates a Son of the Person"
 msgid "bdo:RevealedEvent::adm:userTooltip"
 msgstr "An event describing the discovery of a work (for terma revelations)"
 
-#. An instance that does only have one copy (ex: a manuscript, an art work,
-#. etc.)
+#. An instance that has only one copy (ex: a manuscript, an art work, etc.). A
+#. singleton instance may have reproductions
 msgid "bdo:SingletonInstance::rdfs:label"
 msgstr "singleton instance"
 
-#. An instance that does only have one copy (ex: a manuscript, an art work,
-#. etc.)
+#. An instance that has only one copy (ex: a manuscript, an art work, etc.). A
+#. singleton instance may have reproductions
 msgid "bdo:SingletonInstance::adm:userTooltip"
 msgstr ""
-"An instance that does only have one copy (ex: a manuscript, an art work, "
-"etc.)"
+"An instance that has only one copy (ex: a manuscript, an art work, etc.). A "
+"singleton instance may have reproductions"
 
 #. The latitude of the Place
 msgid "bdo:placeLat::adm:userTooltip"
@@ -4757,3 +4755,36 @@ msgstr "parchment"
 
 msgid "bdr:MaterialCardboard::skos:prefLabel"
 msgstr "cardboard"
+
+#. The reference to the instance the etext is in
+#. see also: http://purl.bdrc.io/ontology/core/Etext
+msgid "bdo:eTextInInstance::rdfs:label"
+msgstr "in instance"
+
+#. The reference to the instance the etext is in
+#. see also: http://purl.bdrc.io/ontology/core/Etext
+msgid "bdo:eTextInInstance::adm:userTooltip"
+msgstr "The reference to the instance the etext is in"
+
+#. Loction of the publisher of the form of the Instance that has been
+#. digitized.
+msgid "bdo:publisherLocation::rdfs:label"
+msgstr "publisher location"
+
+#. Loction of the publisher of the form of the Instance that has been
+#. digitized.
+msgid "bdo:publisherLocation::adm:userTooltip"
+msgstr ""
+"Loction of the publisher of the form of the Instance that has been "
+"digitized."
+
+msgid "skos:closeMatch::rdfs:label"
+msgstr "close match"
+
+#. The name of the publisher transcribed from the Work
+msgid "bdo:publisherName::rdfs:label"
+msgstr "publisher name"
+
+#. The name of the publisher transcribed from the Work
+msgid "bdo:publisherName::adm:userTooltip"
+msgstr "The name of the publisher transcribed from the Work"
