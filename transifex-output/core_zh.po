@@ -1,13 +1,13 @@
 # 
 # Translators:
 # Elie Roux <roux.elie@gmail.com>, 2020
-# Penghao Sun <rinchenbzangpo@gmail.com>, 2020
+# Penghao Sun <rinchenbzangpo@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Buddhist Digital Ontology e3c569c\n"
 "Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
-"Last-Translator: Penghao Sun <rinchenbzangpo@gmail.com>, 2020\n"
+"Last-Translator: Penghao Sun <rinchenbzangpo@gmail.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/bdrc/teams/103997/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,7 +57,7 @@ msgstr "抄写于"
 
 #. An otherwise unspecified type of Person Event
 msgid "bdo:PersonEventNotSpecified::rdfs:label"
-msgstr "未归类生平事件"
+msgstr "未归类的生平事件"
 
 #. The referenced Topic is interpreted as a "genre".
 msgid "bdo:workGenre::rdfs:label"
@@ -238,134 +238,134 @@ msgstr "该实例所属作品"
 
 #. The Event of a Person receiving their final ordination
 msgid "bdo:PersonFinalOrdination::rdfs:label"
-msgstr ""
+msgstr "比丘戒"
 
 #. Indicates a Minds incarnation of this Person.
 msgid "bdo:hasIncarnationMind::rdfs:label"
-msgstr ""
+msgstr "意化身（转世）"
 
 #. This label is a transliteration of the object label in a form indicated in
 #. the language tag
 msgid "bdo:transliterationOf::rdfs:label"
-msgstr ""
+msgstr "转写为"
 
 #. single agents include ahistorical and historical (human) agents
 msgid "bdo:SingleAgent::rdfs:label"
-msgstr ""
+msgstr "单一行动主体"
 
 #. Indicates a Parent of the Person
 msgid "bdo:hasParent::rdfs:label"
-msgstr ""
+msgstr "父母"
 
 #. The :lineageRef identifies an alternative version of the current Lineage
 #. see also: http://purl.bdrc.io/ontology/core/Lineage
 msgid "bdo:lineageRef::rdfs:label"
-msgstr ""
+msgstr "另一版本的该世系"
 
 #. Derge Kangyur and Tengyur reference numbers, from the Tohoku Catalogue
 #. see also: http://www.worldcat.org/oclc/976594525
 msgid "bdo:workKaTenSiglaD::rdfs:label"
-msgstr ""
+msgstr "大正藏目录号"
 
 #. This is a reference to what is being transmitted in the Lineage.
 #. see also: http://purl.bdrc.io/ontology/core/Lineage
 msgid "bdo:lineageObject::rdfs:label"
-msgstr ""
+msgstr "传承内容"
 
 #. Indicates a Wife of the Person
 msgid "bdo:hasWife::rdfs:label"
-msgstr ""
+msgstr "配偶"
 
 msgid "skos:altLabel::rdfs:label"
-msgstr ""
+msgstr "标签异体"
 
 #. An agent as creator establishes a given Agent performing some cretation
 #. rolw w.r.t. a Work
 msgid "bdo:AgentAsCreator::rdfs:label"
-msgstr ""
+msgstr "作为创造者的行动主体"
 
 #. The subject Person is a consort of the target Person
 msgid "bdo:personConsortOf::rdfs:label"
-msgstr ""
+msgstr "修行伴侣"
 
 #. A bibliographic status statement in the language of the Instance
 msgid "bdo:workBiblioStatus::rdfs:label"
-msgstr ""
+msgstr "实例所描述的书目状况"
 
 #. An event of copying a work by some means such as manual enscribing,
 #. photocopying, etc.
 msgid "bdo:CopyEvent::rdfs:label"
-msgstr ""
+msgstr "抄写"
 
 msgid "rdfs:comment::rdfs:label"
-msgstr ""
+msgstr "注解"
 
 #. The gender of the Person
 msgid "bdo:personGender::rdfs:label"
-msgstr ""
+msgstr "性别"
 
 #. identifies who this LineageHolder is, Person or a being represented via a
 #. Topic.
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 msgid "bdo:lineageWho::rdfs:label"
-msgstr ""
+msgstr "传承人"
 
 #. A description of the physical appearance of a Volume of the Item.
 msgid "bdo:volumePhysicalDescription::rdfs:label"
-msgstr ""
+msgstr "物理描述"
 
 msgid "skos:hiddenLabel::rdfs:label"
-msgstr ""
+msgstr "隐藏标签"
 
 #. The target Person is a consort of the subject Person
 msgid "bdo:personHasConsort::rdfs:label"
-msgstr ""
+msgstr "其修行伴侣为"
 
 #. note indicating the provenance of an information
 msgid "bdo:ProvenanceNote::rdfs:label"
-msgstr ""
+msgstr "来源说明"
 
 #. A comma separated list of numbers and ranges of missing volumes
 msgid "bdo:itemMissingVolumes::rdfs:label"
-msgstr ""
+msgstr "缺失卷"
 
 #. A member of an organization by marriage
 msgid "bdo:CorporationMemberByMarriage::rdfs:label"
-msgstr ""
+msgstr "通过婚姻关系加入"
 
 #. Indicates the material applied on a work (ink, golden leaf, etc.)
 msgid "bdo:appliedMaterial::rdfs:label"
-msgstr ""
+msgstr "所用材料"
 
 #. The number of the volume in the Item. There is no implied order in RDF and
 #. there may be missing volumes so it is necessary to explicitly indicate the
 #. volume number.
 msgid "bdo:volumeNumber::rdfs:label"
-msgstr ""
+msgstr "卷号"
 
 #. This is the year offset for an Era in terms of the Common Era.
 msgid "bdo:yearOffset::rdfs:label"
-msgstr ""
+msgstr "年数差异"
 
 #. This property groups together all of the various reference number
 #. properties derived from various catalogues and such. This property can be
 #. used by an editor to easily locate all of the possible reference number
 #. properties that might need to be used during cataloging.
 msgid "bdo:workRefs::rdfs:label"
-msgstr ""
+msgstr "编号"
 
 #. A description of the what, when and where of an event in the life of a
 #. instance
 msgid "bdo:workEvent::rdfs:label"
-msgstr ""
+msgstr "事件"
 
 #. Refers to the International Standard Book Number for the Work
 msgid "bdo:workIsbn::rdfs:label"
-msgstr ""
+msgstr "国际标准书号"
 
 #. event type describing when a place was abandonded
 msgid "bdo:PlaceAbandoned::rdfs:label"
-msgstr ""
+msgstr "废弃"
 
 #. associates an event with one or more agent
 msgid "bdo:eventWho::rdfs:label"
@@ -375,381 +375,381 @@ msgstr "由谁添加"
 #. that this Etext is contained in
 #. see also: http://purl.bdrc.io/ontology/core/Etext
 msgid "bdo:eTextInItem::rdfs:label"
-msgstr ""
+msgstr "其隶属的单件"
 
 #. Shey Palace manuscript reference number
 #. see also: https://www.istb.univie.ac.at/kanjur/xml4/sub/sigla.php
 msgid "bdo:workKaTenSiglaZ::rdfs:label"
-msgstr ""
+msgstr "谢（Shey）寺编号"
 
 #. secondary language associated with a work
 msgid "bdo:workOtherLangScript::rdfs:label"
-msgstr ""
+msgstr "其他语言"
 
 #. The Title of a Person occupying a given office
 msgid "bdo:PersonOfficeTitle::rdfs:label"
-msgstr ""
+msgstr "职务称号"
 
 #. This Person is a Speech incarnation of the target Person
 msgid "bdo:incarnationSpeech::rdfs:label"
-msgstr ""
+msgstr "是...的语化身（转世）"
 
 #. An event describing the publication of a work
 msgid "bdo:PublishedEvent::rdfs:label"
-msgstr ""
+msgstr "发表"
 
 #. indicates that this label is an interpretation of the object label, e.g.,
 #. this sa-iast label is an interpretation of a phonetic label
 msgid "bdo:interpretationOf::rdfs:label"
-msgstr ""
+msgstr "对...的解释"
 
 msgid "rdfs:label::rdfs:label"
-msgstr ""
+msgstr "标签"
 
 #. indicates a Place Event of unknown type!?
 msgid "bdo:PlaceEventNotSpecified::rdfs:label"
-msgstr ""
+msgstr "未指定的"
 
 #. refers to an :EtextRef that identifies an :Etext and the position of that
 #. :Etext in a containing :VolumeEtextAsset
 msgid "bdo:volumeHasEtext::rdfs:label"
-msgstr ""
+msgstr "电子档"
 
 #. event type describing when a place was founded
 msgid "bdo:PlaceFounded::rdfs:label"
-msgstr ""
+msgstr "建立时间"
 
 #. The referenced Entity (topic, person, work, etc.) is a subject of the Work
 #. - something the Work is about.
 msgid "bdo:workIsAbout::rdfs:label"
-msgstr ""
+msgstr "主题"
 
 #. This physical instance has an associated Item.
 msgid "bdo:instanceHasItem::rdfs:label"
-msgstr ""
+msgstr "包含单件"
 
 #. Indicates a young incarnation of this Person.
 msgid "bdo:hasIncarnationYangtse::rdfs:label"
-msgstr ""
+msgstr "其年轻化身（转世）"
 
 #. Indicates a Body incarnation of this Person.
 msgid "bdo:hasIncarnationBody::rdfs:label"
-msgstr ""
+msgstr "身化身（转世）"
 
 #. Indicates a Younger brother of the Person
 msgid "bdo:hasYoungerBrother::rdfs:label"
-msgstr ""
+msgstr "弟弟"
 
 #. The source Work for the noteContent
 msgid "bdo:noteWork::rdfs:label"
-msgstr ""
+msgstr "来源"
 
 #. Indicates a Brother-in-law of the Person
 msgid "bdo:hasBrotherInLaw::rdfs:label"
-msgstr ""
+msgstr "姐夫"
 
 #. indicates a connection between two bdo:Labels
 msgid "bdo:labelConnection::rdfs:label"
-msgstr ""
+msgstr "标签间的联系"
 
 #. A string indicating a kind of Note. Used only w FEMC taxonomy notes
 msgid "bdo:noteType::rdfs:label"
-msgstr ""
+msgstr "注释（note）类型"
 
 #. A physical instance of an (abstract) Work
 msgid "bdo:PhysicalInstance::rdfs:label"
-msgstr ""
+msgstr "实例实体"
 
 #. Indicates a Daughter of the Person
 msgid "bdo:hasDaughter::rdfs:label"
-msgstr ""
+msgstr "女儿"
 
 #. This work is a derivative of the referenced work.
 msgid "bdo:workDerivativeOf::rdfs:label"
-msgstr ""
+msgstr "衍生自"
 
 #. Title that is explanatory. Typically following the main Title Page Title or
 #. Cover Title
 msgid "bdo:WorkSubtitle::rdfs:label"
-msgstr ""
+msgstr "副标题"
 
 #. Similar to down from this property refers to a sequence of holders from
 #. another Lineage.
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 #. see also: http://purl.bdrc.io/ontology/core/lineageDownFrom
 msgid "bdo:lineageDownTo::rdfs:label"
-msgstr ""
+msgstr "传承直到"
 
 #. Indicates a Paternal uncle of the Person
 msgid "bdo:hasPaternalUncle::rdfs:label"
-msgstr ""
+msgstr "叔/伯父"
 
 msgid "bdr:ObjectTypeOCR::rdfs:label"
-msgstr ""
+msgstr "光学字符识别(OCR)"
 
 #. An ahistorical agent may be a deity or other non-human agent that is said
 #. to exist outside of human history
 msgid "bdo:AhistoricalAgent::rdfs:label"
-msgstr ""
+msgstr "非历史的行动主体"
 
 #. Indicates an in-law of the Person
 msgid "bdo:hasInLaw::rdfs:label"
-msgstr ""
+msgstr "姻亲"
 
 #. An identifer, typically a Tibetan letter, indicating the position of the
 #. text in a sequence of texts.
 msgid "bdo:workSideBoxSequenceId::rdfs:label"
-msgstr ""
+msgstr "文集中的作品编号"
 
 #. used to reference the number associated with the work in the series
 msgid "bdo:serialHasMember::rdfs:label"
-msgstr ""
+msgstr "作品序列号"
 
 #. Indicates the Mother of the Person
 msgid "bdo:hasMother::rdfs:label"
-msgstr ""
+msgstr "母亲"
 
 #. This label is a conversion of the object label from one orthographic form
 #. to another in the same language, e.g., Khmer
 msgid "bdo:conversionOf::rdfs:label"
-msgstr ""
+msgstr "转写自"
 
 #. used to indicate the printery of a traditional artefact
 msgid "bdo:instanceHasSourcePrintery::rdfs:label"
-msgstr ""
+msgstr "印刷于"
 
 #. A volume is a self-contained set of pages/folia.
 msgid "bdo:Volume::rdfs:label"
-msgstr ""
+msgstr "卷"
 
 #. Identifies where the holding is shelved. The shelf code is based on a
 #. library specific taxonomy
 #. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
 msgid "bdo:itemShelf::rdfs:label"
-msgstr ""
+msgstr "书架号"
 
 #. References an Instance that is a reproduction of this Instance.
 msgid "bdo:instanceHasReproduction::rdfs:label"
-msgstr ""
+msgstr "复制品"
 
 #. A preliminary to monastic ordination, when someone takes the five root vows
 msgid "bdo:PersonRabByungOrdination::rdfs:label"
-msgstr ""
+msgstr "居士戒"
 
 #. An Instance consisting of some form of searchable text
 #. see also: http://purl.bdrc.io/ontology/core/Etext
 msgid "bdo:EtextInstance::rdfs:label"
-msgstr ""
+msgstr "电子档实例"
 
 #. Indicates that the event is known to have not occurred prior to the
 #. year/date given, unless otherwise specified the year/date is reckoned in
 #. the Common Era
 msgid "bdo:notBefore::rdfs:label"
-msgstr ""
+msgstr "不早于"
 
 #. indicates that this label is a shortened. abbreviated form of the object
 #. label
 msgid "bdo:abbreviationOf::rdfs:label"
-msgstr ""
+msgstr "是...的简称"
 
 #. An event related to a person such as birth, death, ordination, founding
 #. monastery and so on.
 msgid "bdo:personEvent::rdfs:label"
-msgstr ""
+msgstr "事件"
 
 #. event type describing when a place was rebuilt
 msgid "bdo:PlaceRebuilt::rdfs:label"
-msgstr ""
+msgstr "重建"
 
 #. Indicates a Person this Person was a teacher of.
 msgid "bdo:personTeacherOf::rdfs:label"
-msgstr ""
+msgstr "是...的老师"
 
 #. A title for a work as it occurs in the table of contents for a Work.
 msgid "bdo:WorkToCTitle::rdfs:label"
-msgstr ""
+msgstr "在目录中的标题"
 
 #. Lhasa Kanjur reference number
 msgid "bdo:workKaTenSiglaH::rdfs:label"
-msgstr ""
+msgstr "拉萨版甘珠儿编号"
 
 #. Reverses 'firstname lastname' to 'lastname, firstname'
 msgid "bdo:PersonReversal::rdfs:label"
-msgstr ""
+msgstr "按照姓先名后次序"
 
 #. The referenced Work is identified as a translation of this Work.
 msgid "bdo:workHasTranslation::rdfs:label"
-msgstr ""
+msgstr "译本"
 
 msgid "rdfs:seeAlso::rdfs:label"
-msgstr ""
+msgstr "另见"
 
 #. Event occurring upon a divorce of the Person
 msgid "bdo:PersonDivorce::rdfs:label"
-msgstr ""
+msgstr "离婚"
 
 #. Indicates the printing method of the Item associated with the Work.
 msgid "bdo:printMethod::rdfs:label"
-msgstr ""
+msgstr "印刷方式"
 
 #. Indicates a Grandson of the Person
 msgid "bdo:hasGrandson::rdfs:label"
-msgstr ""
+msgstr "孙辈"
 
 #. Title that appears on the title page of a Work
 msgid "bdo:WorkTitlePageTitle::rdfs:label"
-msgstr ""
+msgstr "标题页所示标题"
 
 #. Associates a Work with an Agent and a Creator Role that participated in the
 #. creation of the Work
 msgid "bdo:creator::rdfs:label"
-msgstr ""
+msgstr "创作者"
 
 #. Identifies the type of :Lineage such as empowerment, reading transmission,
 #. various sorts of instructions and so on
 #. see also: http://purl.bdrc.io/ontology/core/Lineage
 msgid "bdo:lineageType::rdfs:label"
-msgstr ""
+msgstr "传承类型"
 
 #. Ganden (dga’ ldan) or “Golden Manuscript” (gser bris ma) Tengyur reference
 #. number
 msgid "bdo:workKaTenSiglaG::rdfs:label"
-msgstr ""
+msgstr "金写丹珠尔编号"
 
 #. property linking an entity or event to the agents and roles they play
 msgid "bdo:AgentInRole::rdfs:label"
-msgstr ""
+msgstr "行动主体"
 
 #. Indicates a Speech incarnation of this Person.
 msgid "bdo:hasIncarnationSpeech::rdfs:label"
-msgstr ""
+msgstr "语化身（转世）"
 
 #. This Person is an incarnation of the target Person
 msgid "bdo:isIncarnation::rdfs:label"
-msgstr ""
+msgstr "是...的化身（转世）"
 
 #. Indicates a Person with an unknown kinship relation to the Person
 msgid "bdo:hasUnknownKinship::rdfs:label"
-msgstr ""
+msgstr "与...亲属关系不详"
 
 #. Refers to a page of an eText corresponding to a physical/image page asset.
 msgid "bdo:eTextHasPage::rdfs:label"
-msgstr ""
+msgstr "页"
 
 #. Indicates a Sibling of the Person
 msgid "bdo:hasSibling::rdfs:label"
-msgstr ""
+msgstr "兄弟姐妹"
 
 #. Event indicating the Person becoming affiliated with a lineage or
 #. organization
 msgid "bdo:PersonAffiliation::rdfs:label"
-msgstr ""
+msgstr "加入组织"
 
 #. A name bestowed on Person upon receiving certain empowerments
 msgid "bdo:PersonSecretInitiatoryName::rdfs:label"
-msgstr ""
+msgstr "灌顶密名"
 
 #. an entity that performs actions, e.g., creating works, teaching other
 #. agents, founding artificial places and so on
 msgid "bdo:Agent::rdfs:label"
-msgstr ""
+msgstr "行动主体"
 
 #. A Work fo which there is at least one physical manifestation. Versus
 #. Abstract Work
 #. An individual material (or electronic) embodiement, for instance a
 #. particular published form.
 msgid "bdo:Instance::rdfs:label"
-msgstr ""
+msgstr "实例"
 
 #. A (transmission) lineage is a collectiomn of sequences of lineage holders
 #. passing a lineage through time
 #. see also:
 #. https://link.springer.com/article/10.1023%2FA%3A1004844115222?LI=true
 msgid "bdo:Lineage::rdfs:label"
-msgstr ""
+msgstr "传承"
 
 #. The Event of a Person discovering a terma
 msgid "bdo:PersonGterMaDiscovery::rdfs:label"
-msgstr ""
+msgstr "掘藏"
 
 #. Associates a Role with eiher an Agents or an AgentInRole.
 msgid "bdo:role::rdfs:label"
-msgstr ""
+msgstr "角色"
 
 #. The class of the various sorts of events: Persons, Places, Works, and
 #. Lineages
 msgid "bdo:Event::rdfs:label"
-msgstr ""
+msgstr "事件"
 
 #. Where and by whom the Work was scanned (or requested to be scanned)
 msgid "bdo:workScanInfo::rdfs:label"
-msgstr ""
+msgstr "扫描信息"
 
 #. A title by which is known or referenced.
 msgid "bdo:WorkTitle::rdfs:label"
-msgstr ""
+msgstr "标题"
 
 #. This label is a (spelling) correction and conversion from the FEMC catalogs
 msgid "bdo:femcConversionOf::rdfs:label"
-msgstr ""
+msgstr "转写自柬埔寨出版基金(FEMC)目录"
 
 #. Identifies an event that occurred at this Place, e.g., founded, rebuilt,
 #. deserted, etc.
 msgid "bdo:placeEvent::rdfs:label"
-msgstr ""
+msgstr "事件"
 
 #. Indicates a Grandfather of the Person
 msgid "bdo:hasGrandfather::rdfs:label"
-msgstr ""
+msgstr "祖父"
 
 #. Indicates a Maternal aunt of the Person
 msgid "bdo:hasMaternalAunt::rdfs:label"
-msgstr ""
+msgstr "姑妈"
 
 #. May be used to indicate the number of introductory pages in a volume
 msgid "bdo:volumePagesIntro::rdfs:label"
-msgstr ""
+msgstr "介绍页页码"
 
 #. University of Vienna, resources for Kanjur and Tanjur studies (rKTs)
 #. reference number for Kangyur texts
 #. see also: https://www.istb.univie.ac.at/kanjur/rktsneu/sub/index.php
 msgid "bdo:workRefrKTsK::rdfs:label"
-msgstr ""
+msgstr "维也纳大学甘珠儿编号"
 
 #. Birth Event for a Person
 msgid "bdo:PersonBirth::rdfs:label"
-msgstr ""
+msgstr "出生"
 
 #. References an Instance that is a derivative of this Instance.
 msgid "bdo:instanceHasDerivative::rdfs:label"
-msgstr ""
+msgstr "衍生"
 
 #. Indicates that the event is known to have not occurred after to the
 #. year/date given, unless otherwise specified the year/date is reckoned in
 #. the Common Era
 msgid "bdo:notAfter::rdfs:label"
-msgstr ""
+msgstr "不晚于"
 
 #. A :seqNum may be a page number, line number or other id as appropriate to
 #. the use of the :EtextSlice or other contexts such as the sequence of eTexts
 #. in a Volume and so on.
 msgid "bdo:seqNum::rdfs:label"
-msgstr ""
+msgstr "顺序号"
 
 #. An event associated with the transmission of a lineage, such as
 #. giving/receiving an empowerment or oral transmission, and so on
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 msgid "bdo:LineageEvent::rdfs:label"
-msgstr ""
+msgstr "事件"
 
 #. The page in the volume of the Work indicated by the other statements for
 #. this :WorkLocation
 msgid "bdo:workLocationPage::rdfs:label"
-msgstr ""
+msgstr "页"
 
 #. Urga Kangyur reference number
 msgid "bdo:workKaTenSiglaU::rdfs:label"
-msgstr ""
+msgstr "库伦甘珠儿编号"
 
 #. The number of digitized metadata pages added by TBRC (now BDRC). Originally
 #. this was 2 pages and more recently condensed to a single non-blank page
@@ -758,158 +758,158 @@ msgstr ""
 #. metadata in along with the digitized images so that the volume is
 #. essentially standalone.
 msgid "bdo:volumePagesTbrcIntro::rdfs:label"
-msgstr ""
+msgstr "藏传佛教资源中心（TBRC，今BDRC）目录页编号"
 
 #. This Person is a Body incarnation of the target Person
 msgid "bdo:incarnationBody::rdfs:label"
-msgstr ""
+msgstr "是...的身化身（转世）"
 
 #. Event indicating a Person assuming a seat such as Secretary to the Kashag
 msgid "bdo:PersonAssumesSeat::rdfs:label"
-msgstr ""
+msgstr "就职"
 
 #. Indicates a Cousin of the Person
 msgid "bdo:hasCousin::rdfs:label"
-msgstr ""
+msgstr "堂兄弟姐妹"
 
 #. A Person resource tracks biographical metadata such as names/titles,
 #. kinship relations, birth and death events, and so on
 msgid "bdo:Person::rdfs:label"
-msgstr ""
+msgstr "人物"
 
 #. event type describing when a place was converted from one tradition to
 #. another, e.g., from Nyingma to Gelugpa
 msgid "bdo:PlaceConverted::rdfs:label"
-msgstr ""
+msgstr "改宗"
 
 #. Indicates a Sister-in-law of the Person
 msgid "bdo:hasSisterInLaw::rdfs:label"
-msgstr ""
+msgstr "嫂子/弟媳"
 
 #. An otherwise unspecified member of an organization
 msgid "bdo:CorporationMemberNotSpecified::rdfs:label"
-msgstr ""
+msgstr "成员（未指定类型）"
 
 #. A member of an organization by kinship
 msgid "bdo:CorporationMemberByBlood::rdfs:label"
-msgstr ""
+msgstr "有血缘关系"
 
 #. An etext with associated pagination information corresponding to digitized
 #. images of a Work
 msgid "bdo:EtextPaginated::rdfs:label"
-msgstr ""
+msgstr "标识对应扫描页码的电子档"
 
 #. An event of work translation.
 msgid "bdo:TranslatedEvent::rdfs:label"
-msgstr ""
+msgstr "翻译"
 
 #. title indicated on the spine of a book
 msgid "bdo:WorkSpineTitle::rdfs:label"
-msgstr ""
+msgstr "书脊标题"
 
 #. Places are geographic entities such as: monasteries, villages, counties,
 #. rivers, caves and so on
 msgid "bdo:Place::rdfs:label"
-msgstr ""
+msgstr "地点"
 
 #. Indicates a Grandchild of the Person
 msgid "bdo:hasGrandChild::rdfs:label"
-msgstr ""
+msgstr "孙辈"
 
 #. Title of a publication appearing on a page or folio preceding the title
 #. page.
 msgid "bdo:WorkHalfTitle::rdfs:label"
-msgstr ""
+msgstr "简标题"
 
 #. A title bestowed on a Person who is recognized as a reincarnation of a
 #. distinguished Person
 msgid "bdo:PersonTulkuTitle::rdfs:label"
-msgstr ""
+msgstr "认定转世（化身）时授予之名号"
 
 #. Corporation defines important social institutions. For instance in Tibet
 #. those that (1) owned land and (2) had members. Examples include families
 #. and monastic institutions
 msgid "bdo:Corporation::rdfs:label"
-msgstr ""
+msgstr "组织"
 
 #. An event of printing a work
 msgid "bdo:PrintedEvent::rdfs:label"
-msgstr ""
+msgstr "印刷"
 
 #. This label is a translation of the object label to a language indicated in
 #. the language tag
 msgid "bdo:translationOf::rdfs:label"
-msgstr ""
+msgstr "翻译自"
 
 #. Catalogue of the New Treasures of Chokgyur Lingpa reference used only in
 #. cataloguing parts of bdr:W22642
 #. see also:
 #. http://rywiki.tsadra.org/index.php/Catalogue_of_the_New_Treasures_of_Chokgyur_Lingpa_Part_1
 msgid "bdo:workRefChokLing::rdfs:label"
-msgstr ""
+msgstr "秋吉林巴新宝藏编号"
 
 #. Indicates a Child of the Person
 msgid "bdo:hasChild::rdfs:label"
-msgstr ""
+msgstr "子女"
 
 #. An item comprised of digitized images of the pages of a Work
 msgid "bdo:ImageInstance::rdfs:label"
-msgstr ""
+msgstr "图像格式的单件"
 
 #. The event of compiling / editing a work (mostly collections)
 msgid "bdo:CompiledEvent::rdfs:label"
-msgstr ""
+msgstr "编纂"
 
 #. The Event of a Person occupying a Seat
 msgid "bdo:PersonOccupiesSeat::rdfs:label"
-msgstr ""
+msgstr "执掌法座"
 
 #. Authorship statement for the Work.
 msgid "bdo:workAuthorshipStatement::rdfs:label"
-msgstr ""
+msgstr "著作者身份说明"
 
 #. height or thickness of the physical item of a :Work in cm
 msgid "bdo:workDimHeight::rdfs:label"
-msgstr ""
+msgstr "厚度"
 
 msgid "bdr:ObjectTypeTypeSet::rdfs:label"
-msgstr ""
+msgstr "排版"
 
 #. Indicates a Brother of the Person
 msgid "bdo:hasBrother::rdfs:label"
-msgstr ""
+msgstr "兄弟"
 
 #. Indicates the time of the event
 msgid "bdo:eventWhen::rdfs:label"
-msgstr ""
+msgstr "时间"
 
 #. Event indicating a Person assuming an office such as Professor, Postmaster
 #. or General
 msgid "bdo:PersonAssumesOffice::rdfs:label"
-msgstr ""
+msgstr "就职"
 
 #. The :BiblioEntity Class models the descriptive metadata about a "book" in
 #. the BUDAverse.
 msgid "bdo:BiblioEntity::rdfs:label"
-msgstr ""
+msgstr "BiblioEntity"
 
 #. Down from expresses a sequence of lineage holders by reference to another
 #. Lineage.
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 msgid "bdo:lineageDownFrom::rdfs:label"
-msgstr ""
+msgstr "传承始自"
 
 #. Identifies a Place that this Place is located in.
 msgid "bdo:placeLocatedIn::rdfs:label"
-msgstr ""
+msgstr "位于"
 
 #. Pecing Kangyur Reference number from the Otani catalogue
 msgid "bdo:workKaTenSiglaQ::rdfs:label"
-msgstr ""
+msgstr "北京甘珠儿大谷大学编号"
 
 #. Refers to the Library of Congress Shelf mark call number
 msgid "bdo:workLcCallNumber::rdfs:label"
-msgstr ""
+msgstr "国会图书馆索书号"
 
 #. Refers to a line of an Etext page
 msgid "bdo:pageHasLine::rdfs:label"
@@ -918,333 +918,333 @@ msgstr "行"
 #. From Paul Hackett's catalogue
 #. see also: http://www.worldcat.org/oclc/756377542
 msgid "bdo:workKaTenSiglaA::rdfs:label"
-msgstr ""
+msgstr "对勘本大藏经编号（基于Hackett）"
 
 #. Indicates a Son of the Person
 msgid "bdo:hasSon::rdfs:label"
-msgstr ""
+msgstr "儿子"
 
 #. A general note contains non-specific information about some resource
 msgid "bdo:GeneralNote::rdfs:label"
-msgstr ""
+msgstr "一般注释"
 
 msgid "bdr:ObjectTypeComputerInput::rdfs:label"
-msgstr ""
+msgstr "机器录入"
 
 #. Title printed on the cover of a Work or text as issued
 msgid "bdo:WorkCoverTitle::rdfs:label"
-msgstr ""
+msgstr "封面标题"
 
 #. The number of volumes in the item
 msgid "bdo:itemVolumes::rdfs:label"
-msgstr ""
+msgstr "卷数"
 
 #. Indicates a Person considered to be an Incarnation of this Person
 msgid "bdo:hasIncarnation::rdfs:label"
-msgstr ""
+msgstr "化身（转世）"
 
 #. Indicates a Paternal aunt of the Person
 msgid "bdo:hasPaternalAunt::rdfs:label"
-msgstr ""
+msgstr "姑妈"
 
 #. Refers to an :Etext that is contained in a particular :VolumeEtextAsset
 msgid "bdo:eTextResource::rdfs:label"
-msgstr ""
+msgstr "电子档资源"
 
 #. In some cases volumes of a :Work are given names. For example, in Tibetan a
 #. three volume work might have volumes named O, a, huM or a 10 volume work
 #. might have volumes named: ka, kha, ga, nga, ca, cha, ja, nya, ta, a.
 msgid "bdo:volumeName::rdfs:label"
-msgstr ""
+msgstr "卷名"
 
 #. The name given to a Person upon their receiving final ordination
 msgid "bdo:PersonFinalOrdinationName::rdfs:label"
-msgstr ""
+msgstr "授比丘戒时所得名"
 
 #. Indicates a Grandparent of the Person
 msgid "bdo:hasGrandParent::rdfs:label"
-msgstr ""
+msgstr "祖父母"
 
 #. the title as given, inline, at the beginning of the text
 msgid "bdo:WorkIncipitTitle::rdfs:label"
-msgstr ""
+msgstr "文内所用标题"
 
 #. A unit of searchable etext
 msgid "bdo:EtextChunk::rdfs:label"
-msgstr ""
+msgstr "电子档的一部分"
 
 #. The ending page in the volume of the Work indicated by the other statements
 #. for this :WorkLocation
 msgid "bdo:workLocationEndPage::rdfs:label"
-msgstr ""
+msgstr "末页"
 
 #. Indicates an Entity that is a member of the corporation
 msgid "bdo:corporationHasMember::rdfs:label"
-msgstr ""
+msgstr "成员"
 
 #. An Edition statement expresses information about this Work as an edition.
 msgid "bdo:workEditionStatement::rdfs:label"
-msgstr ""
+msgstr "版本说明"
 
 #. This Person is a general incarnation of the target Person
 msgid "bdo:incarnationGeneral::rdfs:label"
-msgstr ""
+msgstr "是...的化身（转世）"
 
 #. width of the physical item, of this :Work, that is held or scanned in cm
 msgid "bdo:workDimWidth::rdfs:label"
-msgstr ""
+msgstr "宽度"
 
 #. event type describing when a place was destroyed
 msgid "bdo:PlaceDestroyed::rdfs:label"
-msgstr ""
+msgstr "毁坏"
 
 #. Associates an Instance with an Agent and a Creator Role that participated
 #. in the creation of the Instance. For example, scribe, carver and so on
 msgid "bdo:instanceCreator::rdfs:label"
-msgstr ""
+msgstr "创作者"
 
 #. Indicates a Niece of the Person
 msgid "bdo:hasNiece::rdfs:label"
-msgstr ""
+msgstr "侄女"
 
 #. Indicates an Uncle of the Person
 msgid "bdo:hasUncle::rdfs:label"
-msgstr ""
+msgstr "叔伯"
 
 #. true if the instance is complete
 msgid "bdo:instanceComplete::rdfs:label"
-msgstr ""
+msgstr "完整与否"
 
 #. Describes the type of binding of a work (loose leaves, bound by glue, etc.)
 msgid "bdo:binding::rdfs:label"
-msgstr ""
+msgstr "装订方式"
 
 #. This is the number of volumes associated with the original work.
 msgid "bdo:workNumberOfVolumes::rdfs:label"
-msgstr ""
+msgstr "总卷数"
 
 #. Indicates a Younger sister of the Person
 msgid "bdo:hasYoungerSister::rdfs:label"
-msgstr ""
+msgstr "妹妹"
 
 #. Virtual works are works made by assembling different other works.
 msgid "bdo:VirtualWork::rdfs:label"
-msgstr ""
+msgstr "虚拟作品（由不同作品组合而成）"
 
 #. Indicates a Corporation that is associated with the subject Event.
 msgid "bdo:personEventCorporation::rdfs:label"
-msgstr ""
+msgstr "有关组织"
 
 #. Refers to a Work authored by the LineageHolder about the Lineage.
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 msgid "bdo:lineageWork::rdfs:label"
-msgstr ""
+msgstr "作品"
 
 #. Indicates an Activities incarnation of this Person.
 msgid "bdo:hasIncarnationActivities::rdfs:label"
-msgstr ""
+msgstr "事业化身（转世）"
 
 #. Asserts that the subject Work has a particular title.
 #. see also: http://purl.bdrc.io/ontology/core/WorkTitle
 msgid "bdo:workTitle::rdfs:label"
-msgstr ""
+msgstr "标题"
 
 #. The script (Tibetan, Devanagari, etc.)
 msgid "bdo:script::rdfs:label"
-msgstr ""
+msgstr "字体"
 
 #. This is the number or other id of this SerialInstance in a SerialWork.
 msgid "bdo:workSeriesNumber::rdfs:label"
-msgstr ""
+msgstr "系列中的编号"
 
 #. An abstract or conceptual work is the idea of a work, as opposed to an
 #. expression or manifestation which is a specific edition or witness.
 msgid "bdo:Work::rdfs:label"
-msgstr ""
+msgstr "作品"
 
 msgid "bdr:PrintMethod_Lithography::skos:prefLabel"
-msgstr ""
+msgstr "石版印刷"
 
 #. identifies the agent participating in an :AgentInRole
 msgid "bdo:agent::rdfs:label"
-msgstr ""
+msgstr "行动主体"
 
 #. This work has some parallels in another work, meaning it displays
 #. intertextuality patterns.
 msgid "bdo:workHasParallelsIn::rdfs:label"
-msgstr ""
+msgstr "平行段落"
 
 #. Reference number from Skorupski's catalogue
 #. see also: http://www.worldcat.org/oclc/461960048
 msgid "bdo:workKaTenSiglaS::rdfs:label"
-msgstr ""
+msgstr "朵宫甘珠儿目录编号"
 
 #. describe a name for a Person
 msgid "bdo:personName::rdfs:label"
-msgstr ""
+msgstr "名字"
 
 #. links an etext volume to its various etexts (often 1)
 msgid "bdo:EtextRef::rdfs:label"
-msgstr ""
+msgstr "电子档"
 
 #. The event of origin of a work
 msgid "bdo:OriginatedEvent::rdfs:label"
-msgstr ""
+msgstr "起源"
 
 #. Essentially who did the holder receive this Lineage from
 #. see also: http://purl.bdrc.io/ontology/core/LineageReceived
 msgid "bdo:lineageReceived::rdfs:label"
-msgstr ""
+msgstr "传承自"
 
 #. The name of a Person's family. Surname
 msgid "bdo:PersonFamilyName::rdfs:label"
-msgstr ""
+msgstr "家族名"
 
 #. length of the physical item, of this :Work, that is held or scanned in cm
 msgid "bdo:workDimLength::rdfs:label"
-msgstr ""
+msgstr "长度"
 
 #. Indicates a Parent-in-law of the Person
 msgid "bdo:hasParentInLaw::rdfs:label"
-msgstr ""
+msgstr "岳父母"
 
 #. The event of authoring a work
 msgid "bdo:AuthoredEvent::rdfs:label"
-msgstr ""
+msgstr "写作"
 
 #. A item comprised of a physical volume or volumes.
 msgid "bdo:ItemPhysicalAsset::rdfs:label"
-msgstr ""
+msgstr "实体单件"
 
 msgid "skos:prefLabel::rdfs:label"
-msgstr ""
+msgstr "首选标签"
 
 #. A Person Name is one of the names a Person is historically known by
 msgid "bdo:PersonName::rdfs:label"
-msgstr ""
+msgstr "人物名字"
 
 #. The event is known to have occurred during the year given, unless otherwise
 #. specified the year is reckoned in the Common Era
 msgid "bdo:onYear::rdfs:label"
-msgstr ""
+msgstr "公元年"
 
 #. Indicates a Nibling of the Person
 msgid "bdo:hasNibling::rdfs:label"
-msgstr ""
+msgstr "侄儿女"
 
 #. References an Instance that this Instance is a derivative of.
 msgid "bdo:instanceDerivativeOf::rdfs:label"
-msgstr ""
+msgstr "实例来源"
 
 #. Summary information about the Instance
 msgid "bdo:workCatalogInfo::rdfs:label"
-msgstr ""
+msgstr "摘要"
 
 #. Reference number for this work from the Dolpo Kangyur Catalogue
 msgid "bdo:workKaTenSiglaDo::rdfs:label"
-msgstr ""
+msgstr "朵波甘珠儿目录编号"
 
 #. University of Vienna, resources for Kanjur and Tanjur studies (rKTs)
 #. reference for a rnying rgyud text
 #. see also: https://www.istb.univie.ac.at/kanjur/rktsneu/sub/index.php
 msgid "bdo:workRefrKTsG::rdfs:label"
-msgstr ""
+msgstr "维也纳大学宁玛续典编号"
 
 #. The Event of a Person leaving an Office
 msgid "bdo:PersonLeavesOffice::rdfs:label"
-msgstr ""
+msgstr "离开职位"
 
 #. Indicates a Sister of the Person
 msgid "bdo:hasSister::rdfs:label"
-msgstr ""
+msgstr "姐妹"
 
 #. Indicates a Granddaughter of the Person
 msgid "bdo:hasGranddaughter::rdfs:label"
-msgstr ""
+msgstr "孙女"
 
 #. Indicates a Husband of the Person
 msgid "bdo:hasHusband::rdfs:label"
-msgstr ""
+msgstr "丈夫"
 
 #. Refers to the Tradition that the place event is affiliated with.
 msgid "bdo:placeEventAffiliation::rdfs:label"
-msgstr ""
+msgstr "所属传统"
 
 #. This work is a translation of the reference work.
 msgid "bdo:workTranslationOf::rdfs:label"
-msgstr ""
+msgstr "翻译自"
 
 #. Title that is abbreviated, condensed, divided from the main title
 msgid "bdo:WorkTitlePortion::rdfs:label"
-msgstr ""
+msgstr "简化标题"
 
 #. refers to a volume description of a digital asset, scanned or etext; or a
 #. physical volume.
 msgid "bdo:instanceHasVolume::rdfs:label"
-msgstr ""
+msgstr "总卷数"
 
 #. Indicates the Father-in-law of the Person
 msgid "bdo:hasFatherInLaw::rdfs:label"
-msgstr ""
+msgstr "岳父"
 
 #. Who did this "LineageHolder receive the :Lineage from?
 #. see also: http://purl.bdrc.io/ontology/core/LineageReceived
 msgid "bdo:lineageFrom::rdfs:label"
-msgstr ""
+msgstr "传承自"
 
 #. This label is a (spelling) correction of the object label
 msgid "bdo:correctionOf::rdfs:label"
-msgstr ""
+msgstr "修正了"
 
 #. Indicates a Qualities incarnation of this Person.
 msgid "bdo:hasIncarnationQualities::rdfs:label"
-msgstr ""
+msgstr "功德化身（转世）"
 
 #. Indicates an incarnation of this Person.
 msgid "bdo:hasIncarnationGeneral::rdfs:label"
-msgstr ""
+msgstr "化身（转世）"
 
 #. Reference number in the Bon combined Kanjur and Tenjur
 msgid "bdo:workKaTenSiglaBon::rdfs:label"
-msgstr ""
+msgstr "苯教甘珠儿目录编号"
 
 #. The primary name by which a Person is known
 msgid "bdo:PersonPrimaryName::rdfs:label"
-msgstr ""
+msgstr "主要名字"
 
 msgid "bdo:serialInstanceOf::rdfs:label"
-msgstr ""
+msgstr "是某作品的系列实例"
 
 #. A statement of the location of this Work in a containing Work or of the
 #. pagination present in the text versus the formal location in terms of page
 #. images.
 msgid "bdo:workLocationStatement::rdfs:label"
-msgstr ""
+msgstr "位置说明"
 
 #. The subject is a volume of the referenced item.
 msgid "bdo:volumeOf::rdfs:label"
-msgstr ""
+msgstr "作为…的一卷"
 
 #. an otherwise unspecified type of person name
 msgid "bdo:PersonOtherName::rdfs:label"
-msgstr ""
+msgstr "其他名字"
 
 #. The event of carving a work (in woodblocks, stone, etc.)
 msgid "bdo:CarvedEvent::rdfs:label"
-msgstr ""
+msgstr "刻印"
 
 #. The name a Person is known by, typically at birth, independent of offices,
 #. seats, and so on
 msgid "bdo:PersonPersonalName::rdfs:label"
-msgstr ""
+msgstr "俗名"
 
 #. Reference number from the Ulaanbaatar catalogue
 msgid "bdo:workKaTenSiglaV::rdfs:label"
-msgstr ""
+msgstr "乌兰巴托编号"
 
 #. Indicates an Older brother of the Person
 msgid "bdo:hasOlderBrother::rdfs:label"
-msgstr ""
+msgstr "兄长"
 
 #. The line on the page that is referenced
 msgid "bdo:workLocationLine::rdfs:label"
@@ -1252,315 +1252,315 @@ msgstr "行"
 
 #. associates an event with at most one place
 msgid "bdo:eventWhere::rdfs:label"
-msgstr ""
+msgstr "地点"
 
 #. Indicates the Father of the Person
 msgid "bdo:hasFather::rdfs:label"
-msgstr ""
+msgstr "父亲"
 
 #. The name given to a Person upon their receiving first ordination
 msgid "bdo:PersonFirstOrdinationName::rdfs:label"
-msgstr ""
+msgstr "沙弥戒名"
 
 #. An indication of correspondence with a page of a physical/image page.
 msgid "bdo:EtextPage::rdfs:label"
-msgstr ""
+msgstr "页"
 
 #. This Person is the next incarnation of the target Person
 msgid "bdo:incarnationYangtse::rdfs:label"
-msgstr ""
+msgstr "是…的转世"
 
 #. The opening words of the Work
 msgid "bdo:workIncipit::rdfs:label"
-msgstr ""
+msgstr "文本开端内容"
 
 #. A comment about the subject resource, possibly with a source Work and a
 #. location in the Work
 msgid "bdo:Note::rdfs:label"
-msgstr ""
+msgstr "说明"
 
 #. Indicates a Spouse of the Person
 msgid "bdo:hasSpouse::rdfs:label"
-msgstr ""
+msgstr "伴侣"
 
 #. The physical dimensions of the work
 msgid "bdo:instanceDimensions::rdfs:label"
-msgstr ""
+msgstr "物理尺寸"
 
 #. A searchable etext volume versus a physical or digitized pzges images.
 msgid "bdo:VolumeEtextAsset::rdfs:label"
-msgstr ""
+msgstr "电子档卷号"
 
 #. Subjects and genres of works, just as in a traditional library catalog
 msgid "bdo:Topic::rdfs:label"
-msgstr ""
+msgstr "主题"
 
 #. Indicates an Aunt of the Person
 msgid "bdo:hasAunt::rdfs:label"
-msgstr ""
+msgstr "姑妈/姨妈"
 
 #. This Person is an Activities incarnation of the target Person
 msgid "bdo:incarnationActivities::rdfs:label"
-msgstr ""
+msgstr "是...的事业化身（转世）"
 
 #. Indicates a Maternal uncle of the Person
 msgid "bdo:hasMaternalUncle::rdfs:label"
-msgstr ""
+msgstr "舅舅"
 
 #. Root property that expresses some kinship relation between the subject and
 #. object Persons.
 msgid "bdo:kinWith::rdfs:label"
-msgstr ""
+msgstr "有亲属关系"
 
 #. An event associated with the creation of a Work.
 msgid "bdo:WorkEvent::rdfs:label"
-msgstr ""
+msgstr "作品相关的事件"
 
 #. position of the eText in the volume that contains it
 msgid "bdo:eTextVolumeIndex::rdfs:label"
-msgstr ""
+msgstr "电子档卷号索引"
 
 #. The subject instance is a reproduction of the referenced instance such as a
 #. photocopy or an offset print of an original or photocopy and so on.
 msgid "bdo:instanceReproductionOf::rdfs:label"
-msgstr ""
+msgstr "实例属于某作品的重制"
 
 #. The referenced Work is a derivative of this Work.
 msgid "bdo:workHasDerivative::rdfs:label"
-msgstr ""
+msgstr "衍生"
 
 #. A transcription of the colophon of the Work.
 msgid "bdo:workColophon::rdfs:label"
-msgstr ""
+msgstr "跋文"
 
 #. The type of Place: monastery, river, mountain pass, etc.
 msgid "bdo:placeType::rdfs:label"
-msgstr ""
+msgstr "类型"
 
 #. Title that a work is known by other than one of the defined title types
 msgid "bdo:WorkOtherTitle::rdfs:label"
-msgstr ""
+msgstr "其他标题"
 
 #. From Imaeda's catalogue
 #. see also: http://www.worldcat.org/oclc/769115653
 msgid "bdo:workKaTenSiglaJ::rdfs:label"
-msgstr ""
+msgstr "丽江大藏经编号"
 
 #. The Etext is the entire volume
 msgid "bdo:eTextIsVolume::rdfs:label"
-msgstr ""
+msgstr "电子档即该卷"
 
 msgid "bdo:Etext::rdfs:label"
-msgstr ""
+msgstr "电子档"
 
 #. Title given in the colophon of a Work or text
 msgid "bdo:WorkColophonTitle::rdfs:label"
-msgstr ""
+msgstr "跋文中的标题"
 
 #. This Person is a Mind incarnation of the target Person
 msgid "bdo:incarnationMind::rdfs:label"
-msgstr ""
+msgstr "是...的意化身（转世）"
 
 #. A member of an organization based on some attributes of the
 msgid "bdo:CorporationMember::rdfs:label"
-msgstr ""
+msgstr "隶属于"
 
 #. Narthang Kangyur and Tengyur reference number, from Eimer's catalogue
 #. see also: http://www.worldcat.org/oclc/718065580
 msgid "bdo:workKaTenSiglaN::rdfs:label"
-msgstr ""
+msgstr "纳塘大藏经编号"
 
 #. An (abstreact) Work representing a series of volumes/numbers published over
 #. time
 #. see also: https://www.abc-clio.com/ODLIS/odlis_S.aspx?#serial
 msgid "bdo:SerialWork::rdfs:label"
-msgstr ""
+msgstr "系列作品"
 
 #. Title appearing on the copyright page of a Work, if present.
 #. see also: http://cip.loc.gov/cipman/
 #. see also: https://www.loc.gov/publish/cip/news/lccn_art.html
 msgid "bdo:WorkCopyrightPageTitle::rdfs:label"
-msgstr ""
+msgstr "版权页标题"
 
 #. The longitude of the Place
 msgid "bdo:placeLong::rdfs:label"
-msgstr ""
+msgstr "经度"
 
 #. If the subject work is part of another work, then this reflects the type of
 #. part: chapter, section, text, etc.
 msgid "bdo:workPartType::rdfs:label"
-msgstr ""
+msgstr "与来源作品的关系的类型"
 
 #. Indicates a Sibling-in-law of the Person
 msgid "bdo:hasSiblingInLaw::rdfs:label"
-msgstr ""
+msgstr "基于姻亲关系的兄弟姐妹"
 
 #. "first fruit" printing from a set of xylographs. par phud
 msgid "bdr:ObjectTypeParPhud::rdfs:label"
-msgstr ""
+msgstr "首次印刷"
 
 #. An member of a monastic organization
 msgid "bdo:CorporationMemberMonastic::rdfs:label"
-msgstr ""
+msgstr "隶属寺院"
 
 #. This Person is a Qualities incarnation of the target Person
 msgid "bdo:incarnationQualities::rdfs:label"
-msgstr ""
+msgstr "是...的功德化身（转世）"
 
 #. Provides a string describing the presence of illustrations, portraits,
 #. color plates and so on.
 msgid "bdo:workIllustrations::rdfs:label"
-msgstr ""
+msgstr "插图"
 
 #. Indicates a Nephew of the Person
 msgid "bdo:hasNephew::rdfs:label"
-msgstr ""
+msgstr "侄儿女"
 
 #. A lineage holder is a Person that is considered to be an authoritative
 #. conveyer of a transmission lineage
 msgid "bdo:LineageHolder::rdfs:label"
-msgstr ""
+msgstr "传承人"
 
 #. The Event of a Person establishing residence in a Place such as a
 #. Monastery, Cave, and so on
 msgid "bdo:PersonInResidence::rdfs:label"
-msgstr ""
+msgstr "居住于"
 
 #. An event describing the request for a work
 msgid "bdo:RequestedEvent::rdfs:label"
-msgstr ""
+msgstr "请求写作"
 
 #. Indicates that this Work is a member of a series.
 msgid "bdo:serialMemberOf::rdfs:label"
-msgstr ""
+msgstr "系列作品的编号"
 
 #. An event describing the revision of a work
 msgid "bdo:RevisedEvent::rdfs:label"
-msgstr ""
+msgstr "修订"
 
 #. A statement of the extent of the Instance
 msgid "bdo:instanceExtentStatement::rdfs:label"
-msgstr ""
+msgstr "范围说明"
 
 #. An accepted variant writing of a name
 msgid "bdo:PersonVariantOrthography::rdfs:label"
-msgstr ""
+msgstr "异体字"
 
 #. Roles include offices held as well as other positions.
 msgid "bdo:Role::rdfs:label"
-msgstr ""
+msgstr "身份"
 
 #. Indicates the direct parent in the hierarchy of the work content
 msgid "bdo:workPartOf::rdfs:label"
-msgstr ""
+msgstr "属于"
 
 #. The event is known to have occurred during the year or date given, unless
 #. otherwise specified the date is reckoned in the Common Era
 msgid "bdo:onDate::rdfs:label"
-msgstr ""
+msgstr "发生时间"
 
 #. An etext without any associated pagination information corresponding to
 #. digitized images of a Work
 msgid "bdo:EtextNonPaginated::rdfs:label"
-msgstr ""
+msgstr "无页码的电子档"
 
 #. An organization is a collection of agents organized as a single entity such
 #. as a monastery, governing body, and so on
 msgid "bdo:Organization::rdfs:label"
-msgstr ""
+msgstr "机构"
 
 #. Associates a Note containing: a comment, Work, and location in the Work.
 msgid "bdo:note::rdfs:label"
-msgstr ""
+msgstr "说明"
 
 #. this should be a positive integer indicating the volume of the Work
 #. referenced in this Location
 msgid "bdo:workLocationVolume::rdfs:label"
-msgstr ""
+msgstr "卷"
 
 #. Title on the first page of the text of the Tibetan traditional Pecha
 #. format.
 msgid "bdo:WorkFullTitle::rdfs:label"
-msgstr ""
+msgstr "完整标题"
 
 #. Title for the etext.
 msgid "bdo:eTextTitle::rdfs:label"
-msgstr ""
+msgstr "标题"
 
 #. Indicates the primary language and script in which the Work is expressed.
 msgid "bdo:workLangScript::rdfs:label"
-msgstr ""
+msgstr "语言"
 
 #. University of Vienna, resources for Kanjur and Tanjur studies (rKTs)
 #. reference for a Tengyur text
 #. see also: https://www.istb.univie.ac.at/kanjur/rktsneu/sub/index.php
 msgid "bdo:workRefrKTsT::rdfs:label"
-msgstr ""
+msgstr "维也纳大学丹珠尔编号"
 
 #. Indicates a Mother-in-law of the Person
 msgid "bdo:hasMotherInLaw::rdfs:label"
-msgstr ""
+msgstr "岳母/婆婆"
 
 msgid "bdr:UNKNOWN_Role::rdfs:label"
-msgstr ""
+msgstr "身份不明"
 
 msgid "bdr:UNKNOWN_Product::rdfs:label"
-msgstr ""
+msgstr "产品不明"
 
 msgid "bdr:UNKNOWN_Topic::rdfs:label"
-msgstr ""
+msgstr "主题不明"
 
 msgid "bdr:UNKNOWN_Work::rdfs:label"
-msgstr ""
+msgstr "作品不明"
 
 msgid "bdr:UNKNOWN_Lineage::rdfs:label"
-msgstr ""
+msgstr "传承不明"
 
 msgid "bdr:UNKNOWN_Corporation::rdfs:label"
-msgstr ""
+msgstr "组织不明"
 
 msgid "bdr:UNKNOWN_Person::rdfs:label"
-msgstr ""
+msgstr "人物不明"
 
 msgid "bdr:UNKNOWN_Organization::rdfs:label"
-msgstr ""
+msgstr "组织不明"
 
 msgid "bdr:UNKNOWN_Place::rdfs:label"
-msgstr ""
+msgstr "地点不明"
 
 #. a person who actually renders a text from a foreign language into Chinese,
 #. in a manner that the tradition clearly states was spoken rather than
 #. written; Chn. chuanyu 傳語, kouxuan 口宣[...言], chuanyi 傳譯, duyu 度語 etc.
 msgid "bdr:R0ER0020::skos:prefLabel"
-msgstr ""
+msgstr "口译人员"
 
 #. a person who requests the author to compose the work
 msgid "bdr:R0ER0028::skos:prefLabel"
-msgstr ""
+msgstr "请求写作者"
 
 #. An individual that author one or more parts of a Work. Used in situations
 #. where the Work has a few contributors that are singled out as properties of
 #. the Work or when only partial authorship is known, cf. W23280
 msgid "bdr:R0ER0016::skos:prefLabel"
-msgstr ""
+msgstr "参与写作者"
 
 #. An individual that wrote the text typically during recitation by the
 #. author. Cf., W8145
 msgid "bdr:R0ER0024::skos:prefLabel"
-msgstr ""
+msgstr "缮写者"
 
 #. For a handwritten Work an individual that drew the text or carved it on
 #. wood blocks
 msgid "bdr:R0ER0013::skos:prefLabel"
-msgstr ""
+msgstr "雕版者"
 
 msgid "bdr:R0ER0025::skos:prefLabel"
-msgstr ""
+msgstr "掘藏师"
 
 #. Individuals of class :Creator describe the various roles that :Agents play
 #. in creating a :Work
 msgid "bdo:Creator::rdfs:label"
-msgstr ""
+msgstr "创建者"
 
 #. the person who writes down a translation in Chinese, in a capacity
 #. something like a scribe.
@@ -1569,15 +1569,15 @@ msgstr "笔受"
 
 #. A creator identified by a separate source as an author of the Work
 msgid "bdr:R0ER0011::skos:prefLabel"
-msgstr ""
+msgstr "被认为的作者"
 
 msgid "bdr:R0ER0023::skos:prefLabel"
-msgstr ""
+msgstr "修订者"
 
 #. An artist who provided illustrations and or other non-textual content such
 #. as tables, graphs, and the like
 msgid "bdr:R0ER0010::skos:prefLabel"
-msgstr ""
+msgstr "艺术作品的作者"
 
 #. the actual author of a text, sometimes against assertions in the tradition
 #. that the text was authored by someone else or produced by processes other
@@ -1591,7 +1591,7 @@ msgstr ""
 #. implications might be quite different if we identify someone as the
 #. "author" of a commentary
 msgid "bdr:R0ER0019::skos:prefLabel"
-msgstr ""
+msgstr "主要作者"
 
 #. The person identified explicitly or treated by the tradition implicitly as
 #. the head of the translation group or workshop that produced a translation.
@@ -1607,13 +1607,13 @@ msgstr "译主"
 #. 口授, tongxuan 同宣 etc., though this function can also sometimes overlap with
 #. "IndicScholar" (see below)
 msgid "bdr:R0ER0022::skos:prefLabel"
-msgstr ""
+msgstr "口授者"
 
 msgid "bdr:R0ER0021::skos:prefLabel"
-msgstr ""
+msgstr "被咨询的对象"
 
 msgid "bdr:R0ER0026::skos:prefLabel"
-msgstr ""
+msgstr "译者"
 
 #. Most of the time Indic scholar (indicated as Pandita in the Tibetan
 #. tradition); use this also for experts in Chinese for Tibetan texts
@@ -1625,29 +1625,29 @@ msgstr ""
 #. text", Chn. (shou) zhi Fan (wen) [手]執梵[文], (shou) zhi Hu (ben) [手]執胡[本]
 #. etc.; this role can also overlap with that of "reciter"
 msgid "bdr:R0ER0018::skos:prefLabel"
-msgstr ""
+msgstr "负责翻译来源语言方面的学者"
 
 #. A person that provided a commentary included in a Work. Used when a Work
 #. conventionally comprises root texts and one or more commentaries.
 msgid "bdr:R0ER0014::skos:prefLabel"
-msgstr ""
+msgstr "注释者"
 
 #. for a Work of verse a poet who composed the verse
 msgid "bdr:R0ER0012::skos:prefLabel"
-msgstr ""
+msgstr "游吟诗人"
 
 #. a person for whom our source or evidence tells us only that they were
 #. involved in the translation or composition process, without allowing us to
 #. further specify the specific role they played in that process.
 msgid "bdr:Unspecified::skos:prefLabel"
-msgstr ""
+msgstr "未详"
 
 msgid "bdr:R0ER0015::skos:prefLabel"
-msgstr ""
+msgstr "编辑者"
 
 #. a person who sponsors a work (most of the time a translation)
 msgid "bdr:R0ER0030::skos:prefLabel"
-msgstr ""
+msgstr "资助者"
 
 #. a person who produces a text, but then knowingly presents it as the end
 #. result of some other process of composition--usually, as a translation from
@@ -1658,104 +1658,104 @@ msgid "bdr:R0ER0027::skos:prefLabel"
 msgstr "伪作"
 
 msgid "bdr:PrintMethod_Manuscript::skos:prefLabel"
-msgstr ""
+msgstr "写本"
 
 #. Indicates that the Work was handwritten.
 msgid "bdo:PrintMethod_Manuscript::rdfs:label"
-msgstr ""
+msgstr "制作方式：写本"
 
 msgid "bdr:PrintMethod_Xerography::skos:prefLabel"
-msgstr ""
+msgstr "静电复印"
 
 #. manual pressing of paper or other material on a woodblock
 msgid "bdr:PrintMethod_Relief_WoodBlock::skos:prefLabel"
-msgstr ""
+msgstr "雕版"
 
 #. see also: http://www.lexvo.org/page/script/Hans
 msgid "bdr:ScriptHans::skos:prefLabel"
-msgstr ""
+msgstr "简体中文"
 
 #. Not in ISO 15924
 msgid "bdr:ScriptOldOui::skos:prefLabel"
-msgstr ""
+msgstr "回鹘体"
 
 msgid "bdr:ScriptMymr::skos:prefLabel"
-msgstr ""
+msgstr "缅甸文"
 
 msgid "bdr:ScriptDbuMed::skos:prefLabel"
-msgstr ""
+msgstr "无头体藏文"
 
 #. see also: http://www.lexvo.org/page/script/Beng
 msgid "bdr:ScriptBeng::skos:prefLabel"
-msgstr ""
+msgstr "孟加拉文"
 
 #. see also: http://www.lexvo.org/page/script/Hani
 msgid "bdr:ScriptHani::skos:prefLabel"
-msgstr ""
+msgstr "中文"
 
 #. see also: http://lexvo.org/id/script/Mong
 msgid "bdr:ScriptMong::skos:prefLabel"
-msgstr ""
+msgstr "古典蒙古文"
 
 msgid "bdr:ScriptKhmr::skos:prefLabel"
-msgstr ""
+msgstr "高棉文"
 
 msgid "bdr:ScriptKhyugYig::skos:prefLabel"
-msgstr ""
+msgstr "Kyug yig体藏文"
 
 #. see also: http://lexvo.org/id/script/Latn
 msgid "bdr:ScriptLatn::skos:prefLabel"
-msgstr ""
+msgstr "拉丁文"
 
 #. see also: http://lexvo.org/id/script/Tibt
 msgid "bdr:ScriptTibt::skos:prefLabel"
-msgstr ""
+msgstr "藏文字体"
 
 #. see also: http://www.lexvo.org/page/script/Hant
 msgid "bdr:ScriptHant::skos:prefLabel"
-msgstr ""
+msgstr "繁体中文"
 
 #. use for undetermined Southern Indian script
 msgid "bdr:ScriptSouthernIndia::skos:prefLabel"
-msgstr ""
+msgstr "南印度某字体"
 
 #. This script is not normalized in ISO 15924
 #. Use it for Landza and Vartu
 #. see also: http://scriptsource.org/scr/Qabb
 msgid "bdr:ScriptRanj::skos:prefLabel"
-msgstr ""
+msgstr "兰札体"
 
 #. see also: http://www.lexvo.org/page/script/Sinh
 msgid "bdr:ScriptSinh::skos:prefLabel"
-msgstr ""
+msgstr "僧伽罗文"
 
 #. see also: http://lexvo.org/id/script/Cyrl
 msgid "bdr:ScriptCyrl::skos:prefLabel"
-msgstr ""
+msgstr "西里尔文"
 
 msgid "bdr:ScriptNepaleseHooked::skos:prefLabel"
-msgstr ""
+msgstr "尼泊尔钩体字"
 
 #. see also: http://lexvo.org/id/script/Deva
 msgid "bdr:ScriptDeva::skos:prefLabel"
-msgstr ""
+msgstr "天城体"
 
 #. ISO 15924 "Newa", 333
 msgid "bdr:ScriptNewa::skos:prefLabel"
-msgstr ""
+msgstr "Pracalit字体"
 
 msgid "bdr:ScriptDbuCan::skos:prefLabel"
-msgstr ""
+msgstr "乌金体藏文"
 
 #. A script in which a language is written. For example, DbuCan, DbuMed,
 #. Devanagari, Latin, etc.
 #. see also: http://lexvo.org/ontology#Script
 msgid "bdo:Script::rdfs:label"
-msgstr ""
+msgstr "字体"
 
 #. see also: http://lexvo.org/id/script/Thai
 msgid "bdr:ScriptThai::skos:prefLabel"
-msgstr ""
+msgstr "泰文字体"
 
 #. Cunlasakkalat or Cunlasakkarat (‘Little Era’), used in Southeast Asia,
 #. beginning in 638 C.E.
@@ -1763,98 +1763,98 @@ msgstr ""
 #. see also: http://www.worldcat.org/oclc/7351824935
 #. see also: http://www.laomanuscripts.net/en/help#3i
 msgid "bdr:EraCS::skos:prefLabel"
-msgstr ""
+msgstr "Cunlasakkarat纪年 (C.S.)"
 
 msgid "bdr:EraCE::skos:prefLabel"
-msgstr ""
+msgstr "公元纪年 (C.E.)"
 
 #. Nepal Sambat Era, used in Nepal, starting in 879 C.E.
 #. see also: http://www.wikidata.org/entity/Q1268741
 msgid "bdr:EraNS::skos:prefLabel"
-msgstr ""
+msgstr "尼瓦历纪年 (N.S.)"
 
 #. Anchatsakarat, used in Southeast Asia, starting in 691 B.C.E.
 #. see also: http://www.worldcat.org/oclc/33047740
 msgid "bdr:EraAS::skos:prefLabel"
-msgstr ""
+msgstr "Anchatsakarat纪年 (A.S.)"
 
 #. Buddhist Era (Buddhasakarat), usually starting in 545 B.C.E.
 #. see also: http://www.worldcat.org/oclc/33047740
 msgid "bdr:EraBE::skos:prefLabel"
-msgstr ""
+msgstr "佛陀纪年 (B.E.)"
 
 #. Vikram Samvat Era, used in Nepal and India, starting in 56 B.C.E.
 #. see also: http://www.wikidata.org/entity/Q1370848
 msgid "bdr:EraVS::skos:prefLabel"
-msgstr ""
+msgstr "Vikram Samvat纪年 (V.S. or B.S.)"
 
 #. Mahasakarat, used in Southeast Asia, starting in 78 C.E.
 #. see also: http://www.worldcat.org/oclc/33047740
 msgid "bdr:EraMS::skos:prefLabel"
-msgstr ""
+msgstr "Mahasakarat纪年 (M.S.)"
 
 msgid "bdr:TransSaTibt::skos:prefLabel"
-msgstr ""
+msgstr "藏文转写的梵文"
 
 msgid "bdr:TransPinyin::skos:prefLabel"
-msgstr ""
+msgstr "拼音"
 
 #. see also: https://www.loc.gov/catdir/cpso/roman.html
 msgid "bdr:TransAlalc::skos:prefLabel"
-msgstr ""
+msgstr "ALA-LC（美国图书馆协会-国会图书馆）转写"
 
 #. A transliteration used to represent a language in a non-native script.
 msgid "bdo:Transliteration::rdfs:label"
-msgstr ""
+msgstr "转写"
 
 #. International Alphabet of Sanskrit Transliteration, used to translitterate
 #. indic languages like Sanskrit, Pali, Hindi, etc.
 #. see also:
 #. https://en.wikipedia.org/wiki/International_Alphabet_of_Sanskrit_Transliteration
 msgid "bdr:TransIAST::skos:prefLabel"
-msgstr ""
+msgstr "IAST转写"
 
 #. see also: http://www.thlib.org/reference/transliteration/#!essay=/thl/ewts/
 msgid "bdr:TransEWTS::skos:prefLabel"
-msgstr ""
+msgstr "扩展威利转写"
 
 #. thermally activated glued paperback binding
 msgid "bdr:Binding_Codex_Perfect::skos:prefLabel"
-msgstr ""
+msgstr "热熔胶装"
 
 #. loose leaves bound between boards or heavy cardboard and wrapped in cloth
 msgid "bdr:Binding_LooseLeaf_Pecha::skos:prefLabel"
-msgstr ""
+msgstr "藏式长版书"
 
 #. conventional hardbound book other manuscript
 msgid "bdr:Binding_Codex_Sewn::skos:prefLabel"
-msgstr ""
+msgstr "手工缝纫装"
 
 #. folded and bound between front and back boards
 msgid "bdr:Binding_Continuous_Leporello::skos:prefLabel"
-msgstr ""
+msgstr "首尾折叠装"
 
 #. continuous sheet written on oneside and rolled up
 #. use also for rolled palm leaves (tamsuk)
 msgid "bdr:Binding_Continuous_Scroll::skos:prefLabel"
-msgstr ""
+msgstr "卷轴装"
 
 #. loose leaves with holes for string to keep the leaves together and wrapped
 #. in cloth
 msgid "bdr:Binding_LooseLeaf_Pothi::skos:prefLabel"
-msgstr ""
+msgstr "pothi装"
 
 msgid "bdr:WorkText::skos:prefLabel"
 msgstr "文本"
 
 msgid "bdr:WorkSection::skos:prefLabel"
-msgstr ""
+msgstr "段落"
 
 msgid "bdr:WorkTableOfContent::skos:prefLabel"
-msgstr ""
+msgstr "目录"
 
 msgid "bdr:WorkChapter::skos:prefLabel"
-msgstr ""
+msgstr "章"
 
 #. A :WorkFragment is a portion of a "whole" work. A :WorkFragment commonly
 #. occurs when some pages have been extracted from a "complete" :Work and
@@ -1862,294 +1862,294 @@ msgstr ""
 #. fragment is specified as a part of a containing :Work via a :WorkLocation
 #. as with any similar :workPartOf
 msgid "bdr:WorkFragment::skos:prefLabel"
-msgstr ""
+msgstr "片段"
 
 msgid "bdr:WorkVolume::skos:prefLabel"
-msgstr ""
+msgstr "卷"
 
 #. represents the type of a part of a Work such as Chapter, Section and so on
 msgid "bdo:WorkPartType::rdfs:label"
-msgstr ""
+msgstr "部分-整体关系的类型"
 
 msgid "bdr:TraditionShugsepKagyu::skos:prefLabel"
-msgstr ""
+msgstr "修赛噶举"
 
 msgid "bdr:TraditionTheravada::skos:prefLabel"
-msgstr ""
+msgstr "上座部"
 
 msgid "bdr:TraditionYazangKagyu::skos:prefLabel"
-msgstr ""
+msgstr "亚桑噶举"
 
 msgid "bdr:TraditionBaromKagyu::skos:prefLabel"
-msgstr ""
+msgstr "巴绒噶举"
 
 #. subclasses record different types of tradition by culture, e.g., Tibetan or
 #. Chinese
 msgid "bdo:Tradition::rdfs:label"
-msgstr ""
+msgstr "文化传统的类型"
 
 msgid "bdr:EightMinorKagyuTraditions::skos:prefLabel"
-msgstr ""
+msgstr "噶举派八小分支"
 
 msgid "bdr:TraditionShangpaKagyu::skos:prefLabel"
-msgstr ""
+msgstr "香巴噶举"
 
 msgid "bdr:TraditionOrgyenNyengyu::skos:prefLabel"
-msgstr ""
+msgstr "三金刚"
 
 msgid "bdr:TR0002::skos:prefLabel"
 msgstr "天台宗"
 
 msgid "bdr:TraditionJonang::skos:prefLabel"
-msgstr ""
+msgstr "觉囊"
 
 msgid "bdr:TraditionDrigungKagyu::skos:prefLabel"
-msgstr ""
+msgstr "止贡噶举"
 
 msgid "bdr:TraditionDrukpaKagyu::skos:prefLabel"
-msgstr ""
+msgstr "主巴噶举"
 
 msgid "bdr:TraditionZurmangKagyu::skos:prefLabel"
-msgstr ""
+msgstr "苏芒噶举"
 
 msgid "bdr:TraditionKadam::skos:prefLabel"
-msgstr ""
+msgstr "噶当"
 
 msgid "bdr:TraditionBodong::skos:prefLabel"
-msgstr ""
+msgstr "博东"
 
 msgid "bdr:TraditionTrophuKagyu::skos:prefLabel"
-msgstr ""
+msgstr "绰普噶举"
 
 msgid "bdr:EightPracticeLineages::skos:prefLabel"
-msgstr ""
+msgstr "八大修行传轨"
 
 msgid "bdr:TraditionJordruk::skos:prefLabel"
-msgstr ""
+msgstr "时轮"
 
 #. A Chinese Buddhist school or tradition, e.g., Tintai
 msgid "bdo:ChineseTradition::rdfs:label"
-msgstr ""
+msgstr "汉传佛教传统"
 
 msgid "bdr:TraditionKarmaKagyu::skos:prefLabel"
-msgstr ""
+msgstr "噶玛噶举"
 
 msgid "bdr:TraditionChod::skos:prefLabel"
-msgstr ""
+msgstr "觉域"
 
 msgid "bdr:TraditionMadrukKagyu::skos:prefLabel"
-msgstr ""
+msgstr "麦竹噶举"
 
 msgid "bdr:TraditionNedoKagyu::skos:prefLabel"
-msgstr ""
+msgstr "聂多噶举"
 
 msgid "bdr:TraditionZhije::skos:prefLabel"
-msgstr ""
+msgstr "息解"
 
 msgid "bdr:TraditionKagyu::skos:prefLabel"
-msgstr ""
+msgstr "噶举"
 
 #. see also: https://en.wikipedia.org/wiki/Dharmaguptaka
 msgid "bdr:TraditionDharmaguptaka::skos:prefLabel"
 msgstr "法藏部"
 
 msgid "bdr:TraditionBardrukKagyu::skos:prefLabel"
-msgstr ""
+msgstr "巴尔竹噶举"
 
 msgid "bdr:TraditionTsalpaKagyu::skos:prefLabel"
-msgstr ""
+msgstr "蔡巴噶举"
 
 #. Some might not count Rime as a Tradition but since there are Works and
 #. Persons who are identified as such it is approapriate to include for
 #. purposes of classification
 msgid "bdr:TraditionRime::skos:prefLabel"
-msgstr ""
+msgstr "利美（不分派）"
 
 msgid "bdr:TraditionTaklungKagyu::skos:prefLabel"
-msgstr ""
+msgstr "达隆噶举"
 
 msgid "bdr:TraditionTodrukKagyu::skos:prefLabel"
-msgstr ""
+msgstr "陀竹噶举"
 
 #. Traditions that arise from Marpa, Milarepa, and Gampopa. The four greater
 #. and the minor eight.
 #. see also: http://purl.bdrc.io/resource/T1187
 msgid "bdr:TraditionDakpoKagyu::skos:prefLabel"
-msgstr ""
+msgstr "达波噶举"
 
 msgid "bdr:TraditionGeluk::skos:prefLabel"
-msgstr ""
+msgstr "格鲁"
 
 msgid "bdr:TR0001::skos:prefLabel"
 msgstr "三阶教"
 
 msgid "bdr:TraditionSakya::skos:prefLabel"
-msgstr ""
+msgstr "萨迦"
 
 #. Individuals represent various (Tibetan) Buddhist traditions, e.g., Karma
 #. Kagyu, Bon, or Nyingma
 msgid "bdo:TibetanTradition::rdfs:label"
-msgstr ""
+msgstr "藏传佛教传统"
 
 #. one of  sa ngor tsar gsum
 msgid "bdr:TraditionTsarSakya::skos:prefLabel"
-msgstr ""
+msgstr "擦尔派萨迦"
 
 msgid "bdr:TraditionBon::skos:prefLabel"
-msgstr ""
+msgstr "苯"
 
 msgid "bdr:FourMainKagyuTraditions::skos:prefLabel"
-msgstr ""
+msgstr "主要的达波噶举流派"
 
 msgid "bdr:TraditionNyingma::skos:prefLabel"
-msgstr ""
+msgstr "宁玛"
 
 #. see also: http://purl.bdrc.io/resource/G1180
 #. see also: http://purl.bdrc.io/resource/T1198
 #. see also: https://en.wikipedia.org/wiki/Shalu_Monastery
 msgid "bdr:TraditionZhalu::skos:prefLabel"
-msgstr ""
+msgstr "夏鲁"
 
 msgid "bdr:TraditionPhagGruKagyu::skos:prefLabel"
-msgstr ""
+msgstr "帕竹噶举"
 
 #. one of sa ngor tsar gsum
 msgid "bdr:TraditionNgorSakya::skos:prefLabel"
-msgstr ""
+msgstr "俄尔派萨迦"
 
 msgid "bdr:TraditionMartsangKagyu::skos:prefLabel"
-msgstr ""
+msgstr "玛仓噶举"
 
 msgid "bdr:TraditionYelpaKagyu::skos:prefLabel"
-msgstr ""
+msgstr "也巴噶举"
 
 msgid "bdr:TR0003::skos:prefLabel"
 msgstr "禅宗"
 
 #. see also: http://lexvo.org/id/iso639-3/san
 msgid "bdr:LangSa::skos:prefLabel"
-msgstr ""
+msgstr "梵文"
 
 #. see also: http://lexvo.org/id/iso639-3/rus
 msgid "bdr:LangRu::skos:prefLabel"
-msgstr ""
+msgstr "俄文"
 
 msgid "bdr:LangPgd::skos:prefLabel"
-msgstr ""
+msgstr "健驮逻语"
 
 #. see also: http://lexvo.org/id/iso639-3/khm
 msgid "bdr:LangKm::skos:prefLabel"
-msgstr ""
+msgstr "高棉文"
 
 #. see also: http://lexvo.org/id/iso639-3/dzo
 msgid "bdr:LangDz::skos:prefLabel"
-msgstr ""
+msgstr "不丹宗喀语"
 
 #. see also: http://lexvo.org/id/iso639-3/nld
 msgid "bdr:LangNl::skos:prefLabel"
-msgstr ""
+msgstr "荷兰语"
 
 #. see also: http://lexvo.org/id/iso639-3/nep
 msgid "bdr:LangNe::skos:prefLabel"
-msgstr ""
+msgstr "尼泊尔文"
 
 #. see also: http://lexvo.org/id/iso639-3/hin
 msgid "bdr:LangHi::skos:prefLabel"
-msgstr ""
+msgstr "印地语"
 
 #. see also: http://lexvo.org/id/iso639-3/zho
 msgid "bdr:LangZh::skos:prefLabel"
-msgstr ""
+msgstr "中文"
 
 #. see also: http://lexvo.org/id/iso639-3/spa
 msgid "bdr:LangEs::skos:prefLabel"
-msgstr ""
+msgstr "西班牙文"
 
 #. see also: http://lexvo.org/id/iso639-3/ita
 msgid "bdr:LangIt::skos:prefLabel"
-msgstr ""
+msgstr "意大利文"
 
 #. see also: http://lexvo.org/id/iso639-3/bod
 #. see also: https://github.com/buda-base/owl-schema/issues/98
 msgid "bdr:LangBo::skos:prefLabel"
-msgstr ""
+msgstr "藏文"
 
 #. see also: http://lexvo.org/id/iso639-3/oui
 msgid "bdr:LangOui::skos:prefLabel"
-msgstr ""
+msgstr "回鹘语"
 
 #. see also: http://lexvo.org/id/iso639-3/urd
 msgid "bdr:LangUr::skos:prefLabel"
-msgstr ""
+msgstr "乌尔都语"
 
 #. see also: http://lexvo.org/id/iso639-3/fra
 msgid "bdr:LangFr::skos:prefLabel"
-msgstr ""
+msgstr "法语"
 
 #. see also: http://lexvo.org/id/iso639-3/eng
 msgid "bdr:LangEn::skos:prefLabel"
-msgstr ""
+msgstr "英语"
 
 #. see also: http://lexvo.org/id/iso639-3/new
 msgid "bdr:LangNew::skos:prefLabel"
-msgstr ""
+msgstr "尼瓦尔语"
 
 #. see also: http://lexvo.org/id/iso639-3/pli
 msgid "bdr:LangPi::skos:prefLabel"
-msgstr ""
+msgstr "巴利文"
 
 #. A Language code such as "bo" or "tib" for Tibetan, "zh" or "chi" for
 #. Chinese, "sa" for Sanskrit, etc.
 #. see also: http://id.loc.gov/vocabulary/languages.html
 #. see also: http://purl.bdrc.io/ontology/types/Language
 msgid "bdo:Language::rdfs:label"
-msgstr ""
+msgstr "语种代码"
 
 #. use when the language is an unidentified Prakrit language
 #. see also: http://lexvo.org/id/iso639-5/pra
 msgid "bdr:LangPra::skos:prefLabel"
-msgstr ""
+msgstr "普拉克里特诸语言"
 
 msgid "bdr:LangAmdoTib::skos:prefLabel"
-msgstr ""
+msgstr "安多藏语"
 
 #. see also: http://www.lexvo.org/page/iso639-5/inc
 msgid "bdr:LangInc::skos:prefLabel"
-msgstr ""
+msgstr "印度諸語言"
 
 #. The 2-letter iso code for the langauge. To be used in creating the full
 #. BCP47 language+script+encoding tags
 msgid "bdo:langBCP47Lang::rdfs:label"
-msgstr ""
+msgstr "lang BCP47Lang 语种代码"
 
 #. three-character alphabetic codes for languages encode in MARC records
 #. see also: http://id.loc.gov/vocabulary/languages.html
 #. see also: http://lexvo.org/ontology#marcCode
 #. see also: https://www.loc.gov/marc/languages/
 msgid "bdo:langMARCCode::rdfs:label"
-msgstr ""
+msgstr "MARC语种代码"
 
 #. see also: http://lexvo.org/id/iso639-3/nor
 msgid "bdr:LangNo::skos:prefLabel"
-msgstr ""
+msgstr "挪威文"
 
 #. see also: http://lexvo.org/id/iso639-3/mon
 msgid "bdr:LangMn::skos:prefLabel"
-msgstr ""
+msgstr " 蒙古文"
 
 msgid "bdr:GenderFemale::skos:prefLabel"
-msgstr ""
+msgstr "女性"
 
 #. The Gender Type records the gender of a :Person if known. If the gender is
 #. not known, then bdr:GenderNotSpecified is used.
 msgid "bdo:Gender::rdfs:label"
-msgstr ""
+msgstr "性别"
 
 msgid "bdr:GenderMale::skos:prefLabel"
-msgstr ""
+msgstr "男性"
 
 msgid "bdr:GenderNotSpecified::skos:prefLabel"
-msgstr ""
+msgstr "性别未详"
 
 msgid "bdr:PT0065::skos:prefLabel"
 msgstr "江河"
@@ -2168,7 +2168,7 @@ msgstr "湖"
 
 #. Natural features such as rivers, caves, mountain passes and so on
 msgid "bdr:PT0047::skos:prefLabel"
-msgstr ""
+msgstr "自然景观特征"
 
 msgid "bdr:PT0012::skos:prefLabel"
 msgstr "区"
@@ -2195,7 +2195,7 @@ msgstr "郡国"
 #. geographic areas such as administrative districts, isolated areas,
 #. premodern counties and so on.
 msgid "bdr:PT0063::skos:prefLabel"
-msgstr ""
+msgstr "地区"
 
 msgid "bdr:PT0048::skos:prefLabel"
 msgstr "牧营"
@@ -2277,12 +2277,12 @@ msgid "bdr:PT0013::skos:prefLabel"
 msgstr "文化区域"
 
 msgid "bdr:PT0077::skos:prefLabel"
-msgstr ""
+msgstr "乡镇"
 
 #. Modern or contemporary places defined in terms of current political control
 #. such as Chinese counties, provinces and so on
 msgid "bdr:PT0009::skos:prefLabel"
-msgstr ""
+msgstr "当代地方归属"
 
 msgid "bdr:PT0032::skos:prefLabel"
 msgstr "万户区"
@@ -2331,7 +2331,7 @@ msgstr "陵墓"
 
 #. Sites of interest such as monasteries, temples and so on
 msgid "bdr:PT0069::skos:prefLabel"
-msgstr ""
+msgstr "场所"
 
 msgid "bdr:PT0075::skos:prefLabel"
 msgstr "寺庙"
@@ -2411,7 +2411,7 @@ msgstr "王国"
 #. Place types are used to indicate a conventional characterization of a
 #. Place, e.g., monastery, cave, river, and so on
 msgid "bdo:PlaceType::rdfs:label"
-msgstr ""
+msgstr "地点类型"
 
 msgid "bdr:PT0056::skos:prefLabel"
 msgstr "宗（旧制）"
@@ -2421,285 +2421,285 @@ msgstr "国家"
 
 #. Places of unspecified type
 msgid "bdr:PT0049::skos:prefLabel"
-msgstr "未分类"
+msgstr "未归类"
 
 msgid "bdr:LT0003::skos:prefLabel"
-msgstr ""
+msgstr "口传教授"
 
 msgid "bdr:LT0008::skos:prefLabel"
-msgstr ""
+msgstr "直传"
 
 msgid "bdr:LT0009::skos:prefLabel"
-msgstr ""
+msgstr "嫡系传人"
 
 msgid "bdr:LT0012::skos:prefLabel"
-msgstr ""
+msgstr "口头传承"
 
 #. Tibetan lineage type records the Tibetan form of a transmission lineage
 #. such as empowerment, pith instruction, and so on
 msgid "bdo:TibetanLineageType::rdfs:label"
-msgstr ""
+msgstr "西藏传承类型"
 
 msgid "bdr:LT0007::skos:prefLabel"
-msgstr ""
+msgstr "未详"
 
 #. Subclasses record different lineage types by culture, e.g., Tibetan or
 #. Chinese
 msgid "bdo:LineageType::rdfs:label"
-msgstr ""
+msgstr "传承的类型"
 
 msgid "bdr:LT0004::skos:prefLabel"
-msgstr ""
+msgstr "指导"
 
 msgid "bdr:LT0001::skos:prefLabel"
-msgstr ""
+msgstr "灌顶"
 
 msgid "bdr:LT0010::skos:prefLabel"
-msgstr ""
+msgstr "简短灌顶"
 
 msgid "bdr:LT0006::skos:prefLabel"
-msgstr ""
+msgstr "要门"
 
 msgid "bdr:LT0011::skos:prefLabel"
-msgstr ""
+msgstr "戒律传承"
 
 msgid "bdr:LT0002::skos:prefLabel"
-msgstr ""
+msgstr "精髓教授"
 
 msgid "bdr:LT0005::skos:prefLabel"
-msgstr ""
+msgstr "诵读传承"
 
 msgid "bdr:BoKhyugYig::skos:prefLabel"
-msgstr ""
+msgstr "草书藏文"
 
 #. rare
 msgid "bdr:SaSinh::skos:prefLabel"
-msgstr ""
+msgstr "僧伽罗文书写的梵语"
 
 msgid "bdr:No::skos:prefLabel"
-msgstr ""
+msgstr "挪威文"
 
 msgid "bdr:Km::skos:prefLabel"
-msgstr ""
+msgstr "高棉文"
 
 #. Pali in Thai script
 msgid "bdr:PiThai::skos:prefLabel"
-msgstr ""
+msgstr "泰文书写的巴利语"
 
 msgid "bdr:SaBeng::skos:prefLabel"
-msgstr ""
+msgstr "孟加拉文书写的梵语"
 
 msgid "bdr:SaRanj::skos:prefLabel"
-msgstr ""
+msgstr "兰札体梵文"
 
 msgid "bdr:ZhUnspecified::skos:prefLabel"
-msgstr ""
+msgstr "中文（字体未详）"
 
 msgid "bdr:PiSinh::skos:prefLabel"
-msgstr ""
+msgstr "僧伽罗体巴利文"
 
 msgid "bdr:SaUnspecified::skos:prefLabel"
-msgstr ""
+msgstr "梵文（字体未详）"
 
 msgid "bdr:RuCyrl::skos:prefLabel"
-msgstr ""
+msgstr "西里尔体俄文"
 
 msgid "bdr:NewNewa::skos:prefLabel"
-msgstr ""
+msgstr "Pracalit体尼瓦尔文"
 
 msgid "bdr:MnLatn::skos:prefLabel"
-msgstr ""
+msgstr "蒙古文 (拉丁转写)"
 
 msgid "bdr:En::skos:prefLabel"
-msgstr ""
+msgstr "英语"
 
 msgid "bdr:PiMymr::skos:prefLabel"
-msgstr ""
+msgstr "巴利文 (缅甸文字母)"
 
 msgid "bdr:Fr::skos:prefLabel"
-msgstr ""
+msgstr "法语"
 
 msgid "bdr:BoDbuMed::skos:prefLabel"
-msgstr ""
+msgstr "无头体藏文"
 
 msgid "bdr:Inc::skos:prefLabel"
-msgstr ""
+msgstr "印度諸語言"
 
 msgid "bdr:BoTibt::skos:prefLabel"
-msgstr ""
+msgstr "藏文"
 
 msgid "bdr:ZhHani::skos:prefLabel"
-msgstr ""
+msgstr "中文"
 
 msgid "bdr:New::skos:prefLabel"
-msgstr ""
+msgstr "尼瓦尔文"
 
 msgid "bdr:SaPostGupta::skos:prefLabel"
-msgstr ""
+msgstr "梵文 (后笈多字母)"
 
 msgid "bdr:Dz::skos:prefLabel"
-msgstr ""
+msgstr "不丹宗喀语"
 
 msgid "bdr:NeDeva::skos:prefLabel"
-msgstr ""
+msgstr "天城体尼泊尔文"
 
 #. language of a :LangScript
 msgid "bdo:language::rdfs:label"
-msgstr ""
+msgstr "语言"
 
 msgid "bdr:HiDeva::skos:prefLabel"
-msgstr ""
+msgstr "印地语 (天城体)"
 
 msgid "bdr:Pi::skos:prefLabel"
-msgstr ""
+msgstr "巴利文"
 
 msgid "bdr:ZhHans::skos:prefLabel"
-msgstr ""
+msgstr "中文 (简体)"
 
 msgid "bdr:PiKhmr::skos:prefLabel"
-msgstr ""
+msgstr "巴利文 (高棉体)"
 
 msgid "bdr:Es::skos:prefLabel"
-msgstr ""
+msgstr "西班牙语"
 
 msgid "bdr:PgdKhar::skos:prefLabel"
-msgstr ""
+msgstr "健驮逻语 (佉卢文书写)"
 
 msgid "bdr:SaNepaleseHooked::skos:prefLabel"
-msgstr ""
+msgstr "梵文 (Bhujimol体书写)"
 
 msgid "bdr:ZhHant::skos:prefLabel"
-msgstr ""
+msgstr "中文 (繁体)"
 
 msgid "bdr:BoEwts::skos:prefLabel"
-msgstr ""
+msgstr "扩展威利转写的藏文"
 
 msgid "bdr:KmKhmr::skos:prefLabel"
-msgstr ""
+msgstr "高棉文"
 
 msgid "bdr:MnUnspecified::skos:prefLabel"
-msgstr ""
+msgstr "蒙文（否则未详）"
 
 msgid "bdr:SaDeva::skos:prefLabel"
-msgstr ""
+msgstr "天城体梵文"
 
 msgid "bdr:Ru::skos:prefLabel"
-msgstr ""
+msgstr "俄文"
 
 msgid "bdr:NewDeva::skos:prefLabel"
-msgstr ""
+msgstr "天城体尼瓦尔文"
 
 msgid "bdr:SaNagari::skos:prefLabel"
-msgstr ""
+msgstr "城体梵文"
 
 msgid "bdr:SaEasternNagari::skos:prefLabel"
-msgstr ""
+msgstr "东部城体梵文"
 
 msgid "bdr:Hi::skos:prefLabel"
-msgstr ""
+msgstr "印地语"
 
 #. This combination is extremely rare but at least one occurence was found.
 msgid "bdr:BoDeva::skos:prefLabel"
-msgstr ""
+msgstr "天城体藏文"
 
 msgid "bdr:Sa::skos:prefLabel"
-msgstr ""
+msgstr "梵文"
 
 msgid "bdr:OuiOldOui::skos:prefLabel"
-msgstr ""
+msgstr "回鹘体书写的回鹘语"
 
 msgid "bdr:DzTibt::skos:prefLabel"
-msgstr ""
+msgstr "不丹宗喀语"
 
 msgid "bdr:Zh::skos:prefLabel"
-msgstr ""
+msgstr "中文"
 
 msgid "bdr:MnCyrl::skos:prefLabel"
-msgstr ""
+msgstr "蒙古文 (西里尔文转写)"
 
 msgid "bdr:SaNewa::skos:prefLabel"
-msgstr ""
+msgstr "Pracalit体梵文"
 
 msgid "bdr:MnMong::skos:prefLabel"
-msgstr ""
+msgstr "蒙古文 (回鹘体)"
 
 msgid "bdr:It::skos:prefLabel"
-msgstr ""
+msgstr "意大利文"
 
 msgid "bdr:BoDbuCan::skos:prefLabel"
-msgstr ""
+msgstr "乌金体藏文"
 
 msgid "bdr:Mn::skos:prefLabel"
-msgstr ""
+msgstr " 蒙古文"
 
 msgid "bdr:Bo::skos:prefLabel"
-msgstr ""
+msgstr "藏文"
 
 msgid "bdr:De::skos:prefLabel"
-msgstr ""
+msgstr "德文"
 
 msgid "bdr:SaTibt::skos:prefLabel"
-msgstr ""
+msgstr "藏文转写的梵文"
 
 #. The Language+Script records the combination of language, script, and
 #. transliteration in which the content is expresed
 #. see also: http://purl.bdrc.io/ontology/types/LangCode
 #. see also: http://purl.bdrc.io/ontology/types/Language
 msgid "bdo:LangScript::rdfs:label"
-msgstr ""
+msgstr "语言+字体"
 
 msgid "bdr:Nl::skos:prefLabel"
-msgstr ""
+msgstr "荷兰语"
 
 msgid "bdr:EnLatn::skos:prefLabel"
-msgstr ""
+msgstr "英文（罗马字）"
 
 msgid "bdr:MaterialRicePaper::skos:prefLabel"
-msgstr ""
+msgstr "米纸"
 
 msgid "bdr:MaterialBirchBark::skos:prefLabel"
-msgstr ""
+msgstr "桦树皮"
 
 msgid "bdr:AppliedMaterial_RedInk::skos:prefLabel"
-msgstr ""
+msgstr "朱墨"
 
 #. see also: http://www.wikidata.org/entity/Q310912
 msgid "bdr:MaterialPalmyraPalmLeaf::skos:prefLabel"
-msgstr ""
+msgstr "贝叶（棕榈叶）"
 
 #. paper made from bark of the Daphne bush (Daphne bholua and Daphne
 #. papyracea). Indeginous to Nepal, distinct from the Deshog paper.
 #. see also: http://purl.bdrc.io/resource/MaterialDeshog
 msgid "bdr:MaterialLoktaPaper::skos:prefLabel"
-msgstr ""
+msgstr "糯米纸"
 
 msgid "bdr:MaterialSaPaper::skos:prefLabel"
-msgstr ""
+msgstr "？"
 
 msgid "bdr:MaterialStone::skos:prefLabel"
-msgstr ""
+msgstr "石"
 
 #. Materials include the base material on which the printing appears and the
 #. applied material such as ink and so on
 #. see also: http://rdaregistry.info/Elements/m/P30304
 #. see also: http://rdaregistry.info/termList/RDAMaterial
 msgid "bdo:Material::rdfs:label"
-msgstr ""
+msgstr "材质"
 
 #. digital material for content which is held in digital format in the archive
 #. (:Etexts)
 msgid "bdr:MaterialDigital::skos:prefLabel"
-msgstr ""
+msgstr "数字材质"
 
 msgid "bdr:MaterialCloth::skos:prefLabel"
-msgstr ""
+msgstr "布"
 
 #. see also: http://www.wikidata.org/entity/Q856001
 msgid "bdr:MaterialCoryphaPalmLeaf::skos:prefLabel"
-msgstr ""
+msgstr "贝叶（corypha）"
 
 msgid "bdr:AppliedMaterial_SilverLeaf::skos:prefLabel"
-msgstr ""
+msgstr "银箔"
 
 #. paper made from bark of the Daphne bush (Daphne bholua and Daphne
 #. papyracea). Indeginous to Bhutan, distinct from the Lokta paper.
@@ -2708,102 +2708,102 @@ msgstr ""
 #. see also: http://purl.bdrc.io/resource/MaterialLoktaPaper
 #. see also: https://www.jstor.org/stable/23657810
 msgid "bdr:MaterialDeshog::skos:prefLabel"
-msgstr ""
+msgstr "deshog纸"
 
 msgid "bdr:AppliedMaterial_BlackInk::skos:prefLabel"
-msgstr ""
+msgstr "黑墨"
 
 msgid "bdr:MaterialKhoiPaper::skos:prefLabel"
-msgstr ""
+msgstr "khoi纸"
 
 msgid "bdr:MaterialWood::skos:prefLabel"
-msgstr ""
+msgstr "木"
 
 msgid "bdr:MaterialPalmLeaf::skos:prefLabel"
-msgstr ""
+msgstr "贝叶"
 
 #. poison (usually arsenic), giving a yellow hue
 #. usually used to keep away insects and people who would want to take part of
 #. the manuscript and turn it into a magical tincture for consumption
 msgid "bdr:AppliedMaterial_Poison::skos:prefLabel"
-msgstr ""
+msgstr "狼毒草"
 
 msgid "bdr:MaterialPaper::skos:prefLabel"
-msgstr ""
+msgstr "纸"
 
 msgid "bdr:AppliedMaterial_GoldLeaf::skos:prefLabel"
-msgstr ""
+msgstr "金箔"
 
 #. A member of an organization by kinship
 msgid "bdo:CorporationMemberByBlood::adm:userTooltip"
-msgstr ""
+msgstr "因血缘而进入某组织"
 
 #. References an Instance that is a derivative of this Instance.
 msgid "bdo:instanceHasDerivative::adm:userTooltip"
-msgstr ""
+msgstr "指向由此实例派生而来的另一个实例"
 
 #. A string indicating a kind of Note. Used only w FEMC taxonomy notes
 msgid "bdo:noteType::adm:userTooltip"
-msgstr ""
+msgstr "一种表示注释类型的的字符串。仅仅用于柬埔寨出版基金(FEMC)的分类注释。"
 
 #. An instance that is a bundle of unrelated instances that were not designed
 #. to be in the same package.
 msgid "bdo:BundleInstance::rdfs:label"
-msgstr ""
+msgstr "一组无关的实例"
 
 #. An instance that is a bundle of unrelated instances that were not designed
 #. to be in the same package.
 msgid "bdo:BundleInstance::adm:userTooltip"
-msgstr ""
+msgstr "不相关的一些实例因不明原因而捆绑在一起所构成的一个实例"
 
 #. Indicates a Spouse of the Person
 msgid "bdo:hasSpouse::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的配偶"
 
 #. property linking an entity or event to the agents and roles they play
 msgid "bdo:AgentInRole::adm:userTooltip"
-msgstr ""
+msgstr "该属性连接实体或事件的行动主体及其身份"
 
 #. The Event of a Person establishing residence in a Place such as a
 #. Monastery, Cave, and so on
 msgid "bdo:PersonInResidence::adm:userTooltip"
-msgstr ""
+msgstr "某人物在寺院、山洞等地方建立住所的事件"
 
 #. describe a name for a Person
 msgid "bdo:personName::adm:userTooltip"
-msgstr ""
+msgstr "对某人物的名字的描述"
 
 #. Title of a publication appearing on a page or folio preceding the title
 #. page.
 msgid "bdo:HalfTitle::rdfs:label"
-msgstr ""
+msgstr "简标题"
 
 #. Title of a publication appearing on a page or folio preceding the title
 #. page.
 msgid "bdo:HalfTitle::adm:userTooltip"
-msgstr ""
+msgstr "出现在扉页之前的一页或对开页上的出版物的标题。"
 
 #. Refers to a line of an Etext page
 msgid "bdo:pageHasLine::adm:userTooltip"
-msgstr ""
+msgstr "指电子档页面的某一行"
 
 #. identifies the agent participating in an :AgentInRole
 msgid "bdo:agent::adm:userTooltip"
-msgstr ""
+msgstr "识别参与的行动主体：AgentInRole"
 
 #. Indicates the time of the event
 msgid "bdo:eventWhen::adm:userTooltip"
-msgstr ""
+msgstr "表明事件发生的时间"
 
 #. identifies who this LineageHolder is, Person or a being represented via a
 #. Topic.
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 msgid "bdo:lineageWho::adm:userTooltip"
-msgstr ""
+msgstr "识别此LineageHolder是谁，某人物或通过某Topic代表的人"
 
 #. single agents include ahistorical and historical (human) agents
 msgid "bdo:SingleAgent::adm:userTooltip"
-msgstr ""
+msgstr "单一的行动主体包括非历史的和历史的（人类的）行动主体"
 
 #. Associates a Note containing: a comment, Work, and location in the Work.
 msgid "bdo:note::adm:userTooltip"
@@ -2816,11 +2816,11 @@ msgstr ""
 #. The event is known to have occurred during the year or date given, unless
 #. otherwise specified the date is reckoned in the Common Era
 msgid "bdo:onDate::adm:userTooltip"
-msgstr ""
+msgstr "已知该事件是在所示年份或日期内发生，除另有说明的，日期按公元计算。"
 
 #. This Person is a Speech incarnation of the target Person
 msgid "bdo:incarnationSpeech::adm:userTooltip"
-msgstr ""
+msgstr "该人物是目标人物的语化身（转世）"
 
 #. An abstract or conceptual work is the idea of a work, as opposed to an
 #. expression or manifestation which is a specific edition or witness.
@@ -2833,24 +2833,24 @@ msgstr ""
 
 #. The referenced Instance is an expression of this Work.
 msgid "bdo:workHasInstance::adm:userTooltip"
-msgstr ""
+msgstr "所指的实例是对此作品的一个呈现"
 
 #. A statement of the extent of the Instance
 msgid "bdo:instanceExtentStatement::adm:userTooltip"
-msgstr ""
+msgstr "关于实例范围的说明"
 
 #. This is the number of volumes associated with the original instance.
 msgid "bdo:numberOfVolumes::rdfs:label"
-msgstr ""
+msgstr "卷数"
 
 #. This is the number of volumes associated with the original instance.
 msgid "bdo:numberOfVolumes::adm:userTooltip"
-msgstr ""
+msgstr "与原始实例相关的卷的数量。"
 
 #. Associates an Instance with an Agent and a Creator Role that participated
 #. in the creation of the Instance. For example, scribe, carver and so on
 msgid "bdo:instanceCreator::adm:userTooltip"
-msgstr ""
+msgstr "将实例与一个参与创建该实例的行动主体和创造角色联系起来。例如，抄写员、雕刻师等等。"
 
 #. The Work metadata about a member of a :SerialWork
 msgid "bdo:SerialMember::adm:userTooltip"
@@ -2858,7 +2858,7 @@ msgstr ""
 
 #. The opening words of the Work
 msgid "bdo:incipit::rdfs:label"
-msgstr ""
+msgstr "文本开端内容"
 
 #. The opening words of the Work
 msgid "bdo:incipit::adm:userTooltip"
@@ -2902,11 +2902,11 @@ msgstr ""
 
 #. The physical dimensions of the instance
 msgid "bdo:dimensionsStatement::rdfs:label"
-msgstr ""
+msgstr "尺寸"
 
 #. The physical dimensions of the instance
 msgid "bdo:dimensionsStatement::adm:userTooltip"
-msgstr ""
+msgstr "实例的物理尺寸"
 
 #. Indicates a Paternal uncle of the Person
 msgid "bdo:hasPaternalUncle::adm:userTooltip"
@@ -2918,7 +2918,7 @@ msgstr ""
 
 #. Virtual works are works made by assembling different other works.
 msgid "bdo:VirtualInstance::rdfs:label"
-msgstr ""
+msgstr "虚拟作品（由不同作品组合而成）"
 
 #. Virtual works are works made by assembling different other works.
 msgid "bdo:VirtualInstance::adm:userTooltip"
@@ -2930,7 +2930,7 @@ msgstr ""
 
 #. Title given in the colophon of a Work or text
 msgid "bdo:ColophonTitle::rdfs:label"
-msgstr ""
+msgstr "跋文所记标题"
 
 #. Title given in the colophon of a Work or text
 msgid "bdo:ColophonTitle::adm:userTooltip"
@@ -2943,11 +2943,11 @@ msgstr ""
 #. An organization is a collection of agents organized as a single entity such
 #. as a monastery, governing body, and so on
 msgid "bdo:Organization::adm:userTooltip"
-msgstr ""
+msgstr "一个组织是指作为单一实体的行动主体的集合，如寺院、管理机构等。"
 
 #. An otherwise unspecified member of an organization
 msgid "bdo:CorporationMemberNotSpecified::adm:userTooltip"
-msgstr ""
+msgstr "仅此处表明是该组织成员"
 
 #. Indicates a Person with an unknown kinship relation to the Person
 msgid "bdo:hasUnknownKinship::adm:userTooltip"
@@ -2981,7 +2981,7 @@ msgstr ""
 #. A description of the what, when and where of an event in the life of a
 #. instance
 msgid "bdo:workEvent::adm:userTooltip"
-msgstr ""
+msgstr "对某一实例的一个事件的内容、时间和地点的描述。"
 
 #. indicates a Place Event of unknown type!?
 msgid "bdo:PlaceEventNotSpecified::adm:userTooltip"
@@ -2997,7 +2997,7 @@ msgstr ""
 
 #. Title printed on the cover of a Work or text as issued
 msgid "bdo:CoverTitle::rdfs:label"
-msgstr ""
+msgstr "封面标题"
 
 #. Title printed on the cover of a Work or text as issued
 msgid "bdo:CoverTitle::adm:userTooltip"
@@ -3006,7 +3006,7 @@ msgstr ""
 #. The event is known to have occurred during the year given, unless otherwise
 #. specified the year is reckoned in the Common Era
 msgid "bdo:onYear::adm:userTooltip"
-msgstr ""
+msgstr "已知该事件是在所示年份或日期之内发生，除另有说明的，日期按公元计算。"
 
 #. Indicates a Speech incarnation of this Person.
 msgid "bdo:hasIncarnationSpeech::adm:userTooltip"
@@ -3019,7 +3019,7 @@ msgstr ""
 #. An Instance consisting of some form of searchable text
 #. see also: http://purl.bdrc.io/ontology/core/Etext
 msgid "bdo:EtextInstance::adm:userTooltip"
-msgstr ""
+msgstr "一个由某种形式的可搜索文本组成的实例"
 
 #. Title indicated in the margins or page headers of a Work.
 msgid "bdo:RunningTitle::rdfs:label"
@@ -3053,6 +3053,7 @@ msgstr ""
 #. contained in another Work; or a reference to the source of a Lineage
 msgid "bdo:ContentLocation::adm:userTooltip"
 msgstr ""
+"内容位置（ContentLocation）描述的是有意义的事情发生的所在如实例、卷、页等。例如，包含在另一作品中的某一作品的开头或结尾；或对某一世系来源的参考。"
 
 #. name used by the author in the colophons of his works
 msgid "bdo:PersonPenName::adm:userTooltip"
@@ -3139,7 +3140,7 @@ msgstr "位置"
 #. specified gsan / thob yig.
 #. see also: http://purl.bdrc.io/ontology/core/Lineage
 msgid "bdo:contentLocation::adm:userTooltip"
-msgstr ""
+msgstr "源信息的位置：某闻法录（gsan / thob yig）中的该传承世系。"
 
 #. Event occurring upon a divorce of the Person
 msgid "bdo:PersonDivorce::adm:userTooltip"
@@ -3151,7 +3152,7 @@ msgstr ""
 
 #. An event associated with the production of an Instance.
 msgid "bdo:InstanceEvent::adm:userTooltip"
-msgstr ""
+msgstr "该事件与作品实例的制造有关"
 
 #. Indicates an Activities incarnation of this Person.
 msgid "bdo:hasIncarnationActivities::adm:userTooltip"
@@ -3171,7 +3172,7 @@ msgstr ""
 
 #. This Person is a Mind incarnation of the target Person
 msgid "bdo:incarnationMind::adm:userTooltip"
-msgstr ""
+msgstr "该人物是目标人物的意化身（转世）"
 
 #. An event describing the third revision of a work
 msgid "bdo:ThirdRevisedEvent::adm:userTooltip"
@@ -3203,7 +3204,7 @@ msgstr ""
 
 #. width of the physical item, of this :Work, that is held or scanned in cm
 msgid "bdo:dimWidth::rdfs:label"
-msgstr ""
+msgstr "宽度"
 
 #. width of the physical item, of this :Work, that is held or scanned in cm
 msgid "bdo:dimWidth::adm:userTooltip"
@@ -3229,7 +3230,7 @@ msgstr ""
 #. Asserts that the subject instance has a particular title.
 #. see also: http://purl.bdrc.io/ontology/core/Title
 msgid "bdo:hasTitle::rdfs:label"
-msgstr ""
+msgstr "标题"
 
 #. Asserts that the subject instance has a particular title.
 #. see also: http://purl.bdrc.io/ontology/core/Title
@@ -3251,7 +3252,7 @@ msgstr ""
 
 #. Title that is abbreviated, condensed, divided from the main title
 msgid "bdo:TitlePortion::rdfs:label"
-msgstr ""
+msgstr "简化标题"
 
 #. Title that is abbreviated, condensed, divided from the main title
 msgid "bdo:TitlePortion::adm:userTooltip"
@@ -3359,7 +3360,7 @@ msgstr ""
 #. If the subject work is part of another work, then this reflects the type of
 #. part: chapter, section, text, etc.
 msgid "bdo:partType::rdfs:label"
-msgstr ""
+msgstr "与来源作品的关系的类型"
 
 #. If the subject work is part of another work, then this reflects the type of
 #. part: chapter, section, text, etc.
@@ -3369,7 +3370,7 @@ msgstr ""
 #. Associates a Work with an Agent and a Creator Role that participated in the
 #. creation of the Work
 msgid "bdo:creator::adm:userTooltip"
-msgstr ""
+msgstr "将作品与一个参与创建该作品的行动主体和创造角色联系起来"
 
 #. This physical instance has an associated Item.
 msgid "bdo:instanceHasItem::adm:userTooltip"
@@ -3397,7 +3398,7 @@ msgstr ""
 
 #. A title by which is known or referenced.
 msgid "bdo:Title::rdfs:label"
-msgstr ""
+msgstr "题目"
 
 #. A title by which is known or referenced.
 msgid "bdo:Title::adm:userTooltip"
@@ -3413,7 +3414,7 @@ msgstr ""
 
 #. Title that appears on the title page of a Work
 msgid "bdo:TitlePageTitle::rdfs:label"
-msgstr ""
+msgstr "标题页所示标题"
 
 #. Title that appears on the title page of a Work
 msgid "bdo:TitlePageTitle::adm:userTooltip"
@@ -3427,7 +3428,7 @@ msgstr ""
 #. year/date given, unless otherwise specified the year/date is reckoned in
 #. the Common Era
 msgid "bdo:notAfter::adm:userTooltip"
-msgstr ""
+msgstr "表示该事件是在所示年份或日期之后发生的，除另有说明的，日期按公元计算。"
 
 #. refers to a volume description of a digital asset, scanned or etext; or a
 #. physical volume.
@@ -3441,7 +3442,7 @@ msgstr ""
 #. Provides a string describing the presence of illustrations, portraits,
 #. color plates and so on.
 msgid "bdo:illustrations::rdfs:label"
-msgstr ""
+msgstr "插图"
 
 #. Provides a string describing the presence of illustrations, portraits,
 #. color plates and so on.
@@ -3458,7 +3459,7 @@ msgstr ""
 
 #. A bibliographic status statement in the language of the Instance
 msgid "bdo:biblioStatus::rdfs:label"
-msgstr ""
+msgstr "实例所描述的书目状况"
 
 #. A bibliographic status statement in the language of the Instance
 msgid "bdo:biblioStatus::adm:userTooltip"
@@ -3477,7 +3478,7 @@ msgstr ""
 
 #. This Person is a Body incarnation of the target Person
 msgid "bdo:incarnationBody::adm:userTooltip"
-msgstr ""
+msgstr "该人物是目标人物的身化身（转世）"
 
 #. The Event of a Person leaving an Office
 msgid "bdo:PersonLeavesOffice::adm:userTooltip"
@@ -3511,7 +3512,7 @@ msgstr ""
 
 #. height or thickness of the physical item of a :Work in cm
 msgid "bdo:dimHeight::rdfs:label"
-msgstr ""
+msgstr "厚度"
 
 #. height or thickness of the physical item of a :Work in cm
 msgid "bdo:dimHeight::adm:userTooltip"
@@ -3523,7 +3524,7 @@ msgstr ""
 
 #. The subject Person is a consort of the target Person
 msgid "bdo:personConsortOf::adm:userTooltip"
-msgstr ""
+msgstr "该主题人物是目标人物的修行伴侣"
 
 #. Indicates a Grandparent of the Person
 msgid "bdo:hasGrandParent::adm:userTooltip"
@@ -3536,7 +3537,7 @@ msgstr ""
 #. Title that is explanatory. Typically following the main Title Page Title or
 #. Cover Title
 msgid "bdo:Subtitle::rdfs:label"
-msgstr ""
+msgstr "副标题"
 
 #. Title that is explanatory. Typically following the main Title Page Title or
 #. Cover Title
@@ -3551,7 +3552,7 @@ msgstr ""
 #. those that (1) owned land and (2) had members. Examples include families
 #. and monastic institutions
 msgid "bdo:Corporation::adm:userTooltip"
-msgstr ""
+msgstr "组织是指重要的社会机构，拥有（1）土地和（2）成员，例如家族或寺院。"
 
 #. The Event of a Person discovering a terma
 msgid "bdo:PersonGterMaDiscovery::adm:userTooltip"
@@ -3568,7 +3569,7 @@ msgstr ""
 #. Title on the first page of the text of the Tibetan traditional Pecha
 #. format.
 msgid "bdo:FullTitle::rdfs:label"
-msgstr ""
+msgstr "完整题目"
 
 #. Title on the first page of the text of the Tibetan traditional Pecha
 #. format.
@@ -3581,11 +3582,11 @@ msgstr ""
 
 #. This label is a (spelling) correction and conversion from the FEMC catalogs
 msgid "bdo:femcConversionOf::adm:userTooltip"
-msgstr ""
+msgstr "此标签基于柬埔寨出版基金(FEMC)目录的修订版"
 
 #. This Person is a general incarnation of the target Person
 msgid "bdo:incarnationGeneral::adm:userTooltip"
-msgstr ""
+msgstr "该人物是目标人物的化身（转世）"
 
 #. Indicates a Person this Person was a student of.
 msgid "bdo:personStudentOf::adm:userTooltip"
@@ -3626,12 +3627,12 @@ msgstr ""
 
 #. an otherwise unspecified type of person title
 msgid "bdo:PersonTitle::adm:userTooltip"
-msgstr ""
+msgstr "他处未详的人物称号类型"
 
 #. The ending page in the volume of the Work indicated by the other statements
 #. for this :ContentLocation
 msgid "bdo:contentLocationEndPage::rdfs:label"
-msgstr ""
+msgstr "末页"
 
 #. The ending page in the volume of the Work indicated by the other statements
 #. for this :ContentLocation
@@ -3640,7 +3641,7 @@ msgstr ""
 
 #. Where and by whom the Work was scanned (or requested to be scanned)
 msgid "bdo:scanInfo::rdfs:label"
-msgstr ""
+msgstr "扫描信息"
 
 #. Where and by whom the Work was scanned (or requested to be scanned)
 msgid "bdo:scanInfo::adm:userTooltip"
@@ -3648,7 +3649,7 @@ msgstr ""
 
 #. The source for the noteContent
 msgid "bdo:noteSource::rdfs:label"
-msgstr ""
+msgstr "来源"
 
 #. The source for the noteContent
 msgid "bdo:noteSource::adm:userTooltip"
@@ -3676,7 +3677,7 @@ msgstr ""
 
 #. Indicates an Entity that is a member of the corporation
 msgid "bdo:corporationHasMember::adm:userTooltip"
-msgstr ""
+msgstr "指属于机构成员的一个实体"
 
 #. indicates that this label is a shortened. abbreviated form of the object
 #. label
@@ -3694,7 +3695,7 @@ msgstr ""
 
 #. This Person is an Activities incarnation of the target Person
 msgid "bdo:incarnationActivities::adm:userTooltip"
-msgstr ""
+msgstr "该人物是目标人物的事业化身（转世）"
 
 #. event type describing when a place was abandonded
 msgid "bdo:PlaceAbandoned::adm:userTooltip"
@@ -3716,7 +3717,7 @@ msgstr ""
 #. An Edition statement expresses information about this Instance as an
 #. edition.
 msgid "bdo:editionStatement::rdfs:label"
-msgstr ""
+msgstr "版本说明"
 
 #. An Edition statement expresses information about this Instance as an
 #. edition.
@@ -3782,17 +3783,17 @@ msgstr ""
 
 #. This Person is a Qualities incarnation of the target Person
 msgid "bdo:incarnationQualities::adm:userTooltip"
-msgstr ""
+msgstr "该人物是目标人物的功德化身（转世）"
 
 #. A description of the what, when and where of an event in the life of a
 #. instance
 msgid "bdo:instanceEvent::rdfs:label"
-msgstr ""
+msgstr "事件"
 
 #. A description of the what, when and where of an event in the life of a
 #. instance
 msgid "bdo:instanceEvent::adm:userTooltip"
-msgstr ""
+msgstr "对某一实例的一个事件的内容、时间和地点的描述。"
 
 #. Represents a scanned or otherwise digitized set of page images.
 msgid "bdo:ImageGroup::rdfs:label"
@@ -3842,7 +3843,7 @@ msgstr ""
 
 #. An otherwise unspecified type of Person Event
 msgid "bdo:PersonEventNotSpecified::adm:userTooltip"
-msgstr ""
+msgstr "他处未详的人物事件类型"
 
 #. The name given to a Person upon their receiving first ordination
 msgid "bdo:PersonFirstOrdinationName::adm:userTooltip"
@@ -3859,7 +3860,7 @@ msgstr ""
 #. The :BiblioEntity Class models the descriptive metadata about a "book" in
 #. the BUDAverse.
 msgid "bdo:BiblioEntity::adm:userTooltip"
-msgstr ""
+msgstr ":BiblioEntity Class 在 BUDAverse 中模拟了关于“书”的描述性元数据"
 
 #. An agent as creator establishes a given Agent performing some cretation
 #. rolw w.r.t. a Work
@@ -3883,7 +3884,7 @@ msgstr ""
 
 #. length of the physical item, of this :Work, that is held or scanned in cm
 msgid "bdo:dimLength::rdfs:label"
-msgstr ""
+msgstr "长度"
 
 #. length of the physical item, of this :Work, that is held or scanned in cm
 msgid "bdo:dimLength::adm:userTooltip"
@@ -3891,7 +3892,7 @@ msgstr ""
 
 #. the title as given, inline, at the beginning of the text
 msgid "bdo:IncipitTitle::rdfs:label"
-msgstr ""
+msgstr "文内所用标题"
 
 #. the title as given, inline, at the beginning of the text
 msgid "bdo:IncipitTitle::adm:userTooltip"
@@ -3899,7 +3900,7 @@ msgstr ""
 
 #. This Person is the next incarnation of the target Person
 msgid "bdo:incarnationYangtse::adm:userTooltip"
-msgstr ""
+msgstr "该人物是目标人物的下一代化身（转世）"
 
 #. An Item captures structural and administrative metadata associated with a
 #. digital or physical asset
@@ -3908,7 +3909,7 @@ msgstr ""
 
 #. title indicated on the spine of a book
 msgid "bdo:SpineTitle::rdfs:label"
-msgstr ""
+msgstr "书脊标题"
 
 #. title indicated on the spine of a book
 msgid "bdo:SpineTitle::adm:userTooltip"
@@ -3921,7 +3922,7 @@ msgstr ""
 
 #. true if the instance or item is complete
 msgid "bdo:isComplete::rdfs:label"
-msgstr ""
+msgstr "完整与否"
 
 #. true if the instance or item is complete
 msgid "bdo:isComplete::adm:userTooltip"
@@ -3943,7 +3944,7 @@ msgstr ""
 #. An instance that has only one copy (ex: a manuscript, an art work, etc.). A
 #. singleton instance may have reproductions
 msgid "bdo:SingletonInstance::adm:userTooltip"
-msgstr ""
+msgstr "该实例只有一份（如一份写本、一份画作等）。但是单一实例可以有复制品。"
 
 #. The latitude of the Place
 msgid "bdo:placeLat::adm:userTooltip"
@@ -3988,7 +3989,7 @@ msgstr ""
 #. year/date given, unless otherwise specified the year/date is reckoned in
 #. the Common Era
 msgid "bdo:notBefore::adm:userTooltip"
-msgstr ""
+msgstr "表示该事件是在所示年份或日期之前发生的，除另有说明的，日期按公元计算。"
 
 #. An item comprised of digitized images of the pages of a Work
 msgid "bdo:ImageInstance::adm:userTooltip"
@@ -4007,16 +4008,16 @@ msgstr ""
 
 #. The script (Tibetan, Devanagari, etc.)
 msgid "bdo:script::adm:userTooltip"
-msgstr ""
+msgstr "字体（藏文乌金体、天城体、等等）"
 
 #. an otherwise unspecified type of person name
 msgid "bdo:PersonOtherName::adm:userTooltip"
-msgstr ""
+msgstr "他处未详的人物名字类型"
 
 #. this should be a positive integer indicating the volume of the Work
 #. referenced in this Location
 msgid "bdo:contentLocationVolume::rdfs:label"
-msgstr ""
+msgstr "卷"
 
 #. this should be a positive integer indicating the volume of the Work
 #. referenced in this Location
@@ -4034,7 +4035,7 @@ msgstr ""
 #. The referenced Entity (topic, person, work, etc.) is a subject of the Work
 #. - something the Work is about.
 msgid "bdo:workIsAbout::adm:userTooltip"
-msgstr ""
+msgstr "所指的实体（主题、人物、作品等等）是某作品的题材。"
 
 #. The type of Place: monastery, river, mountain pass, etc.
 msgid "bdo:placeType::adm:userTooltip"
@@ -4049,7 +4050,7 @@ msgstr ""
 #. an entity that performs actions, e.g., creating works, teaching other
 #. agents, founding artificial places and so on
 msgid "bdo:Agent::adm:userTooltip"
-msgstr ""
+msgstr "一个执行行动的实体，例如，创造作品、教导其他个体、建立一个人造场所等"
 
 #. A :seqNum may be a page number, line number or other id as appropriate to
 #. the use of the :EtextSlice or other contexts such as the sequence of eTexts
@@ -4077,7 +4078,7 @@ msgstr ""
 
 #. References an Instance that is a reproduction of this Instance.
 msgid "bdo:instanceHasReproduction::adm:userTooltip"
-msgstr ""
+msgstr "指向该实例的复制品"
 
 #. Indicates an Older sister of the Person
 msgid "bdo:hasOlderSister::adm:userTooltip"
@@ -4091,7 +4092,7 @@ msgstr ""
 
 #. Indicates the base material of a work (paper, palm leaf, etc.)
 msgid "bdo:baseMaterial::adm:userTooltip"
-msgstr ""
+msgstr "标识作品的基本材质（纸、贝叶等）"
 
 #. An event describing the revision of a work
 msgid "bdo:RevisedEvent::adm:userTooltip"
@@ -4111,7 +4112,7 @@ msgstr ""
 #. see also: http://cip.loc.gov/cipman/
 #. see also: https://www.loc.gov/publish/cip/news/lccn_art.html
 msgid "bdo:CopyrightPageTitle::rdfs:label"
-msgstr ""
+msgstr "版权页标题"
 
 #. Title appearing on the copyright page of a Work, if present.
 #. see also: http://cip.loc.gov/cipman/
@@ -4126,7 +4127,7 @@ msgstr ""
 
 #. A transcription of the colophon of the Instance.
 msgid "bdo:colophon::rdfs:label"
-msgstr ""
+msgstr "跋文"
 
 #. A transcription of the colophon of the Instance.
 msgid "bdo:colophon::adm:userTooltip"
@@ -4156,7 +4157,7 @@ msgstr ""
 
 #. used to indicate the printery of a traditional artefact
 msgid "bdo:hasSourcePrintery::rdfs:label"
-msgstr ""
+msgstr "印刷于"
 
 #. used to indicate the printery of a traditional artefact
 msgid "bdo:hasSourcePrintery::adm:userTooltip"
@@ -4164,7 +4165,7 @@ msgstr ""
 
 #. The target Person is a consort of the subject Person
 msgid "bdo:personHasConsort::adm:userTooltip"
-msgstr ""
+msgstr "该目标人物是主题人物的修行伴侣"
 
 #. Indicates the Instance that the ContentLocation refers to.
 msgid "bdo:contentLocationInstance::rdfs:label"
@@ -4177,12 +4178,12 @@ msgstr ""
 #. The subject instance is a reproduction of the referenced instance such as a
 #. photocopy or an offset print of an original or photocopy and so on.
 msgid "bdo:instanceReproductionOf::adm:userTooltip"
-msgstr ""
+msgstr "主题中的实例是所指实例的复制品，如复印件或者扫描件等等。"
 
 #. The page in the volume of the Instance indicated by the other statements
 #. for this :ContentLocation
 msgid "bdo:contentLocationPage::rdfs:label"
-msgstr ""
+msgstr "页"
 
 #. The page in the volume of the Instance indicated by the other statements
 #. for this :ContentLocation
@@ -4191,7 +4192,7 @@ msgstr ""
 
 #. Authorship statement for the Instance.
 msgid "bdo:authorshipStatement::rdfs:label"
-msgstr ""
+msgstr "著作者身份说明"
 
 #. Authorship statement for the Instance.
 msgid "bdo:authorshipStatement::adm:userTooltip"
@@ -4206,7 +4207,7 @@ msgstr ""
 #. the pagination present in the text versus the formal location in terms of
 #. page images.
 msgid "bdo:contentLocationStatement::rdfs:label"
-msgstr ""
+msgstr "位置说明"
 
 #. A statement of the location of this Instance in a containing Instance or of
 #. the pagination present in the text versus the formal location in terms of
@@ -4226,7 +4227,7 @@ msgstr ""
 
 #. Indicates a Corporation that is associated with the subject Event.
 msgid "bdo:personEventCorporation::adm:userTooltip"
-msgstr ""
+msgstr "指与主题事件有关的一个组织"
 
 #. links an etext volume to its various etexts (often 1)
 msgid "bdo:EtextRef::adm:userTooltip"
@@ -4273,7 +4274,7 @@ msgstr ""
 
 #. Indicates the direct parent in the hierarchy of the work content
 msgid "bdo:partOf::rdfs:label"
-msgstr ""
+msgstr "属于"
 
 #. Indicates the direct parent in the hierarchy of the work content
 msgid "bdo:partOf::adm:userTooltip"
@@ -4285,7 +4286,7 @@ msgstr ""
 
 #. A title for a work as it occurs in the table of contents for a Work.
 msgid "bdo:ToCTitle::rdfs:label"
-msgstr ""
+msgstr "在目录中的标题"
 
 #. A title for a work as it occurs in the table of contents for a Work.
 msgid "bdo:ToCTitle::adm:userTooltip"
@@ -4293,7 +4294,7 @@ msgstr ""
 
 #. Title that a work is known by other than one of the defined title types
 msgid "bdo:OtherTitle::rdfs:label"
-msgstr ""
+msgstr "其他标题"
 
 #. Title that a work is known by other than one of the defined title types
 msgid "bdo:OtherTitle::adm:userTooltip"
@@ -4305,7 +4306,7 @@ msgstr ""
 
 #. Summary information about the Instance
 msgid "bdo:catalogInfo::rdfs:label"
-msgstr ""
+msgstr "摘要"
 
 #. Summary information about the Instance
 msgid "bdo:catalogInfo::adm:userTooltip"
@@ -4313,7 +4314,7 @@ msgstr ""
 
 #. This Person is an incarnation of the target Person
 msgid "bdo:isIncarnation::adm:userTooltip"
-msgstr ""
+msgstr "该人物是目标任务的化身（转世）"
 
 #. A unit of searchable etext
 msgid "bdo:EtextChunk::adm:userTooltip"
@@ -4449,7 +4450,7 @@ msgid "bdo:PartType::adm:userTooltip"
 msgstr ""
 
 msgid "bdr:PartTypeSection::skos:prefLabel"
-msgstr ""
+msgstr "段落"
 
 msgid "bdr:PartTypeText::skos:prefLabel"
 msgstr "文本"
@@ -4459,16 +4460,16 @@ msgstr "文本"
 #. improperly into a different one. A fragment is specified as a part of a
 #. containing instance via a :ContentLocation as with any similar :partOf
 msgid "bdr:PartTypeFragment::skos:prefLabel"
-msgstr ""
+msgstr "部分"
 
 msgid "bdr:PartTypeChapter::skos:prefLabel"
-msgstr ""
+msgstr "章"
 
 msgid "bdr:PartTypeVolume::skos:prefLabel"
-msgstr ""
+msgstr "卷"
 
 msgid "bdr:PartTypeTableOfContent::skos:prefLabel"
-msgstr ""
+msgstr "目录"
 
 #. three-character alphabetic codes for languages encode in MARC records
 #. see also: http://id.loc.gov/vocabulary/languages.html
@@ -4487,7 +4488,7 @@ msgid "bdr:LangTxg::skos:prefLabel"
 msgstr ""
 
 msgid "bdr:LangMy::skos:prefLabel"
-msgstr ""
+msgstr "缅甸文"
 
 #. A Language code such as "bo" or "tib" for Tibetan, "zh" or "chi" for
 #. Chinese, "sa" for Sanskrit, etc.
@@ -4499,7 +4500,7 @@ msgstr ""
 #. The Gender Type records the gender of a :Person if known. If the gender is
 #. not known, then bdr:GenderNotSpecified is used.
 msgid "bdo:Gender::adm:userTooltip"
-msgstr ""
+msgstr "性别，如果知道，则记录人物性别。如果不知道性别，则使用 bdr:GenderNotSpecified。"
 
 #. Place types are used to indicate a conventional characterization of a
 #. Place, e.g., monastery, cave, river, and so on
@@ -4630,7 +4631,7 @@ msgstr ""
 #. If true then the location is specified in terms of folio # and side:
 #. verso/recto
 msgid "bdo:contentLocationByFolio::adm:userTooltip"
-msgstr ""
+msgstr "如果为真值，则用叶（folio #）和正反面（side: verso/recto）来指定位置。"
 
 #. pages of text content in the volume
 msgid "bdo:volumePagesText::rdfs:label"
@@ -4750,7 +4751,7 @@ msgstr ""
 #. individuals in the domain of discourse of BDRC, such as Persons, Places,
 #. and Works.
 msgid "bdo:Entity::rdfs:label"
-msgstr ""
+msgstr "实体"
 
 #. Entities are the principle types or concepts in the BDRC ontology.
 #. Individuals of type subclass of :Entity will correspond to distinct
@@ -4758,6 +4759,7 @@ msgstr ""
 #. and Works.
 msgid "bdo:Entity::adm:userTooltip"
 msgstr ""
+"实体是BDRC ontology中的主要类型或概念。:Entity的类型子类的个体，对应在BDRC的话语域中不同的个体，如人物、地点、作品。"
 
 msgid "bdo:sliceEndChar::rdfs:label"
 msgstr ""
@@ -4773,7 +4775,7 @@ msgstr ""
 #. a component material of the source (can be the type of paper, type of ink,
 #. etc.)
 msgid "bdo:material::rdfs:label"
-msgstr ""
+msgstr "材质"
 
 #. a component material of the source (can be the type of paper, type of ink,
 #. etc.)
@@ -4792,11 +4794,11 @@ msgstr ""
 
 #. An unspecified Chinese date.
 msgid "bdr:ChineseDateNotSpecified::rdfs:label"
-msgstr ""
+msgstr "未注明的汉历日期"
 
 #. An unspecified Chinese date.
 msgid "bdr:ChineseDateNotSpecified::adm:userTooltip"
-msgstr ""
+msgstr "一个未注明的汉历日期"
 
 #. An organization that preserves and makes metadata and images/etexts
 #. available digitally
@@ -4910,7 +4912,7 @@ msgstr ""
 
 #. International Standard Book Number
 msgid "bdo:ISBN::rdfs:label"
-msgstr ""
+msgstr "国际标准书号"
 
 #. International Standard Book Number
 msgid "bdo:ISBN::adm:userTooltip"
@@ -5006,12 +5008,12 @@ msgstr ""
 
 #. class of various resources that may have :Note attached
 msgid "bdo:EntitiesOrFacets::rdfs:label"
-msgstr ""
+msgstr "实体或方面"
 
 #. :TextualEntity is a subclass of :Work, or :Item or :Etext that is
 #. constructed so that the adm:license range can be applied across
 msgid "bdo:TextualEntity::rdfs:label"
-msgstr ""
+msgstr "文本实体"
 
 #. Total number of pages in the volume
 msgid "bdo:volumePagesTotal::rdfs:label"
@@ -5034,7 +5036,7 @@ msgid "bdo:contentPagination::adm:userTooltip"
 msgstr ""
 
 msgid "bdo:corporationMemberType::rdfs:label"
-msgstr ""
+msgstr "类型"
 
 #. Indicates a Person that is a member of the corporation
 msgid "bdo:corporationMember::rdfs:label"
@@ -5042,7 +5044,7 @@ msgstr ""
 
 #. Indicates a Person that is a member of the corporation
 msgid "bdo:corporationMember::adm:userTooltip"
-msgstr ""
+msgstr "指属于组织成员的一个人物"
 
 #. The source path, for an InputEtext.
 msgid "bdo:eTextSourcePath::rdfs:label"
@@ -5087,7 +5089,7 @@ msgstr ""
 #. domain of :restored and :restoredAlt that are used for name and title
 #. variants restored from corrupt textual content
 msgid "bdo:PersonNameOrBiblioTitle::rdfs:label"
-msgstr ""
+msgstr "书目实体的人名或标题"
 
 #. a union of core and adm classes
 msgid "bdo:MixedUnion::rdfs:label"
@@ -5108,7 +5110,7 @@ msgid "bdo:CoreUnion::rdfs:label"
 msgstr ""
 
 msgid "bdo:workFEMCManuscriptCode::rdfs:label"
-msgstr ""
+msgstr "柬埔寨出版基金(FEMC)的写本编码"
 
 msgid "bdo:IIIF2Or3Collection::rdfs:label"
 msgstr ""
@@ -5132,7 +5134,7 @@ msgstr ""
 #. Print type indicates the form of the Work such as blockprint, palm-leaf,
 #. manuscript, and so on
 msgid "bdo:ObjectType::adm:userTooltip"
-msgstr ""
+msgstr "出版类型标识作品的出版形态，例如雕版木刻、贝叶、写本等。"
 
 #. The 2013 Chinese GB code for the Place. Similar to U.S. Zipcode
 msgid "bdo:placeGB2260-2013::rdfs:label"
@@ -5159,7 +5161,7 @@ msgstr ""
 
 #. For a sub(sub, etc) Work the target Work is the top-level containing Work.
 msgid "bdo:inRootInstance::adm:userTooltip"
-msgstr ""
+msgstr "目标作品是包含某一作品的上一级作品"
 
 #. An etext that does not include correspondence to any digitized images of
 #. the Work
@@ -5216,7 +5218,7 @@ msgstr ""
 #. This property records a Place characterizing the region in which the
 #. Corporation occured/occurs.
 msgid "bdo:corporationRegion::adm:userTooltip"
-msgstr ""
+msgstr "这条属性记录组织产生的地点"
 
 #. Free text comment on where the copy of the Instance that was digitized was
 #. printed.
@@ -5295,7 +5297,7 @@ msgstr ""
 
 #. see also: http://lexvo.org/id/script/Khar
 msgid "bdr:ScriptKhar::skos:prefLabel"
-msgstr ""
+msgstr "佉卢文"
 
 msgid "bdr:ScriptEasternNagari::skos:prefLabel"
 msgstr ""
@@ -5432,7 +5434,7 @@ msgstr ""
 #. base material
 #. see also: http://rdaregistry.info/Elements/m/P30084
 msgid "bdo:AppliedMaterial::rdfs:label"
-msgstr ""
+msgstr "所用材料"
 
 #. The material such as ink and so on that is used to impose writing on the
 #. base material
