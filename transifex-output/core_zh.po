@@ -260,7 +260,7 @@ msgstr "父母"
 #. The :lineageRef identifies an alternative version of the current Lineage
 #. see also: http://purl.bdrc.io/ontology/core/Lineage
 msgid "bdo:lineageRef::rdfs:label"
-msgstr "另一版本的该世系"
+msgstr "另一版本的该传承"
 
 #. Derge Kangyur and Tengyur reference numbers, from the Tohoku Catalogue
 #. see also: http://www.worldcat.org/oclc/976594525
@@ -766,7 +766,7 @@ msgstr "是...的身化身（转世）"
 
 #. Event indicating a Person assuming a seat such as Secretary to the Kashag
 msgid "bdo:PersonAssumesSeat::rdfs:label"
-msgstr "就职"
+msgstr "就职法座"
 
 #. Indicates a Cousin of the Person
 msgid "bdo:hasCousin::rdfs:label"
@@ -897,7 +897,7 @@ msgstr "BiblioEntity"
 #. Lineage.
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 msgid "bdo:lineageDownFrom::rdfs:label"
-msgstr "传承始自"
+msgstr "“传承自”"
 
 #. Identifies a Place that this Place is located in.
 msgid "bdo:placeLocatedIn::rdfs:label"
@@ -1763,7 +1763,7 @@ msgstr "泰文字体"
 #. see also: http://www.worldcat.org/oclc/7351824935
 #. see also: http://www.laomanuscripts.net/en/help#3i
 msgid "bdr:EraCS::skos:prefLabel"
-msgstr "Cunlasakkarat纪年 (C.S.)"
+msgstr "Cunlasakkarat纪元 (C.S.)"
 
 msgid "bdr:EraCE::skos:prefLabel"
 msgstr "公元纪年 (C.E.)"
@@ -2799,7 +2799,7 @@ msgstr "表明事件发生的时间"
 #. Topic.
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 msgid "bdo:lineageWho::adm:userTooltip"
-msgstr "识别此LineageHolder是谁，某人物或通过某Topic代表的人"
+msgstr "识别此LineageHolder是谁，某人物或某主题表示的一个存在"
 
 #. single agents include ahistorical and historical (human) agents
 msgid "bdo:SingleAgent::adm:userTooltip"
@@ -2807,11 +2807,11 @@ msgstr "单一的行动主体包括非历史的和历史的（人类的）行动
 
 #. Associates a Note containing: a comment, Work, and location in the Work.
 msgid "bdo:note::adm:userTooltip"
-msgstr ""
+msgstr "关联一个注释，包括：注疏、作品和作品中的位置。"
 
 #. Indicates an Aunt of the Person
 msgid "bdo:hasAunt::adm:userTooltip"
-msgstr ""
+msgstr "表示她是该人物的姑姑/姨妈"
 
 #. The event is known to have occurred during the year or date given, unless
 #. otherwise specified the date is reckoned in the Common Era
@@ -2825,11 +2825,11 @@ msgstr "该人物是目标人物的语化身（转世）"
 #. An abstract or conceptual work is the idea of a work, as opposed to an
 #. expression or manifestation which is a specific edition or witness.
 msgid "bdo:Work::adm:userTooltip"
-msgstr ""
+msgstr "一个抽象或概念性的作品，是指作品的理念，而不是一个具体的版本。"
 
 #. Indicates an Parent sibling of the Person
 msgid "bdo:hasParentSibling::adm:userTooltip"
-msgstr ""
+msgstr "表示该人物的父母的兄弟姐妹"
 
 #. The referenced Instance is an expression of this Work.
 msgid "bdo:workHasInstance::adm:userTooltip"
@@ -2854,7 +2854,7 @@ msgstr "将实例与一个参与创建该实例的行动主体和创造角色联
 
 #. The Work metadata about a member of a :SerialWork
 msgid "bdo:SerialMember::adm:userTooltip"
-msgstr ""
+msgstr "关于一个:SerialWork成员的工作元数据"
 
 #. The opening words of the Work
 msgid "bdo:incipit::rdfs:label"
@@ -2862,43 +2862,43 @@ msgstr "文本开端内容"
 
 #. The opening words of the Work
 msgid "bdo:incipit::adm:userTooltip"
-msgstr ""
+msgstr "作品的开篇语"
 
 #. The event of carving a work (in woodblocks, stone, etc.)
 msgid "bdo:CarvedEvent::adm:userTooltip"
-msgstr ""
+msgstr "（在木版、石版等上）雕刻作品的事件"
 
 #. Indicates a Paternal aunt of the Person
 msgid "bdo:hasPaternalAunt::adm:userTooltip"
-msgstr ""
+msgstr "表示该人物的姑姑（父系）"
 
 #. Refers to the Tradition that the place event is affiliated with.
 msgid "bdo:placeEventAffiliation::adm:userTooltip"
-msgstr ""
+msgstr "指的是该地方事件所隶属的传统。"
 
 #. A Person Name is one of the names a Person is historically known by
 msgid "bdo:PersonName::adm:userTooltip"
-msgstr ""
+msgstr "人名是一个人在历史上被称为的名字之一"
 
 #. The referenced Work is a derivative of this Work.
 msgid "bdo:workHasDerivative::adm:userTooltip"
-msgstr ""
+msgstr "所指作品是本作品衍生出来的。"
 
 #. A preliminary to monastic ordination, when someone takes the five root vows
 msgid "bdo:PersonRabByungOrdination::adm:userTooltip"
-msgstr ""
+msgstr "受戒的前行，发五戒时"
 
 #. Indicates a Tradition that the Person is associated with.
 msgid "bdo:personOfTradition::adm:userTooltip"
-msgstr ""
+msgstr "表示与该人物相关的一个传统。"
 
 #. associates an event with at most one place
 msgid "bdo:eventWhere::adm:userTooltip"
-msgstr ""
+msgstr "将某个事件与最多一个地方联系起来"
 
 #. Indicates an in-law of the Person
 msgid "bdo:hasInLaw::adm:userTooltip"
-msgstr ""
+msgstr "表示该人物的姻亲关系"
 
 #. The physical dimensions of the instance
 msgid "bdo:dimensionsStatement::rdfs:label"
@@ -2910,11 +2910,11 @@ msgstr "实例的物理尺寸"
 
 #. Indicates a Paternal uncle of the Person
 msgid "bdo:hasPaternalUncle::adm:userTooltip"
-msgstr ""
+msgstr "表示该人物的叔叔"
 
 #. Indicates a Parent of the Person
 msgid "bdo:hasParent::adm:userTooltip"
-msgstr ""
+msgstr "表示该人物的父母"
 
 #. Virtual works are works made by assembling different other works.
 msgid "bdo:VirtualInstance::rdfs:label"
@@ -2922,11 +2922,11 @@ msgstr "虚拟作品（由不同作品组合而成）"
 
 #. Virtual works are works made by assembling different other works.
 msgid "bdo:VirtualInstance::adm:userTooltip"
-msgstr ""
+msgstr "虚拟作品是由不同的其他作品组合而成的作品。"
 
 #. Indicates a Nephew of the Person
 msgid "bdo:hasNephew::adm:userTooltip"
-msgstr ""
+msgstr "表示该人物的侄子"
 
 #. Title given in the colophon of a Work or text
 msgid "bdo:ColophonTitle::rdfs:label"
@@ -2934,11 +2934,11 @@ msgstr "跋文所记标题"
 
 #. Title given in the colophon of a Work or text
 msgid "bdo:ColophonTitle::adm:userTooltip"
-msgstr ""
+msgstr "作品或文本跋文中的标题"
 
 #. The event of compiling / editing a work (mostly collections)
 msgid "bdo:CompiledEvent::adm:userTooltip"
-msgstr ""
+msgstr "编纂/编辑作品（主要是文集）的事件"
 
 #. An organization is a collection of agents organized as a single entity such
 #. as a monastery, governing body, and so on
@@ -2951,32 +2951,32 @@ msgstr "仅此处表明是该组织成员"
 
 #. Indicates a Person with an unknown kinship relation to the Person
 msgid "bdo:hasUnknownKinship::adm:userTooltip"
-msgstr ""
+msgstr "表示与该人物有一种不明的亲属关系的一个人物"
 
 #. Title for the etext.
 msgid "bdo:eTextTitle::adm:userTooltip"
-msgstr ""
+msgstr "电子档的标题"
 
 #. A comma separated list of numbers and ranges of missing volumes
 msgid "bdo:itemMissingVolumes::adm:userTooltip"
-msgstr ""
+msgstr "逗号，用以分隔缺失卷的编号和范围的列表"
 
 #. Indicates an Older brother of the Person
 msgid "bdo:hasOlderBrother::adm:userTooltip"
-msgstr ""
+msgstr "表示该人物的兄长"
 
 #. A comment about the subject resource, possibly with a source Work and a
 #. location in the Work
 msgid "bdo:Note::adm:userTooltip"
-msgstr ""
+msgstr "关于主题资源的注解，可能是关于源作品和该作品中的位置"
 
 #. indicates a connection between two bdo:Labels
 msgid "bdo:labelConnection::adm:userTooltip"
-msgstr ""
+msgstr "表示两个bdo:labels之间的连接"
 
 #. Indicates a Sibling-in-law of the Person
 msgid "bdo:hasSiblingInLaw::adm:userTooltip"
-msgstr ""
+msgstr "表示该人物的姻亲的兄弟姐妹"
 
 #. A description of the what, when and where of an event in the life of a
 #. instance
@@ -2985,15 +2985,15 @@ msgstr "对某一实例的一个事件的内容、时间和地点的描述。"
 
 #. indicates a Place Event of unknown type!?
 msgid "bdo:PlaceEventNotSpecified::adm:userTooltip"
-msgstr ""
+msgstr "表示一个未知类型的地点事件！？"
 
 #. Indicates a Granddaughter of the Person
 msgid "bdo:hasGranddaughter::adm:userTooltip"
-msgstr ""
+msgstr "表示该人物的孙女"
 
 #. The name received by the Person upon taking their Bodhisattva vows
 msgid "bdo:PersonBodhisattvaVowName::adm:userTooltip"
-msgstr ""
+msgstr "该人物在受菩萨戒时得到的名字"
 
 #. Title printed on the cover of a Work or text as issued
 msgid "bdo:CoverTitle::rdfs:label"
@@ -3001,7 +3001,7 @@ msgstr "封面标题"
 
 #. Title printed on the cover of a Work or text as issued
 msgid "bdo:CoverTitle::adm:userTooltip"
-msgstr ""
+msgstr "作品或文本的封面标题"
 
 #. The event is known to have occurred during the year given, unless otherwise
 #. specified the year is reckoned in the Common Era
@@ -3010,11 +3010,11 @@ msgstr "已知该事件是在所示年份或日期之内发生，除另有说明
 
 #. Indicates a Speech incarnation of this Person.
 msgid "bdo:hasIncarnationSpeech::adm:userTooltip"
-msgstr ""
+msgstr "表示此人物的语化身（转世）。"
 
 #. Identifies a Place that this Place contains.
 msgid "bdo:placeContains::adm:userTooltip"
-msgstr ""
+msgstr "认定这个地方所包含的一个地方。"
 
 #. An Instance consisting of some form of searchable text
 #. see also: http://purl.bdrc.io/ontology/core/Etext
@@ -3027,108 +3027,108 @@ msgstr "逐页标题"
 
 #. Title indicated in the margins or page headers of a Work.
 msgid "bdo:RunningTitle::adm:userTooltip"
-msgstr ""
+msgstr "在作品的空白处或页眉处显示的标题。"
 
 #. The name a Person is known by, typically at birth, independent of offices,
 #. seats, and so on
 msgid "bdo:PersonPersonalName::adm:userTooltip"
-msgstr ""
+msgstr "人物出生时的名字，与职位、法座等无关"
 
 #. Indicates a Wife of the Person
 msgid "bdo:hasWife::adm:userTooltip"
-msgstr ""
+msgstr "表示该人物的妻子"
 
 #. An event associated with the creation of a Work.
 msgid "bdo:WorkEvent::adm:userTooltip"
-msgstr ""
+msgstr "与作品的创建有关的事件。"
 
 #. The ContentLocation describes the Instance, Volume, Page and so on at which
 #. something of interest occurs, e.g., the beginning or end of a Work that is
 #. contained in another Work; or a reference to the source of a Lineage
 msgid "bdo:ContentLocation::rdfs:label"
-msgstr ""
+msgstr "当前所在"
 
 #. The ContentLocation describes the Instance, Volume, Page and so on at which
 #. something of interest occurs, e.g., the beginning or end of a Work that is
 #. contained in another Work; or a reference to the source of a Lineage
 msgid "bdo:ContentLocation::adm:userTooltip"
 msgstr ""
-"内容位置（ContentLocation）描述的是有意义的事情发生的所在如实例、卷、页等。例如，包含在另一作品中的某一作品的开头或结尾；或对某一世系来源的参考。"
+"ContentLocation描述的是有意义的事情发生的所在如实例、卷、页等。例如，包含在另一作品中的某一作品的开头或结尾；或对某一世系来源的参考。"
 
 #. name used by the author in the colophons of his works
 msgid "bdo:PersonPenName::adm:userTooltip"
-msgstr ""
+msgstr "作者在其作品的跋文中使用的名字"
 
 #. Indicates a Sibling of the Person
 msgid "bdo:hasSibling::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的兄弟姐妹"
 
 msgid "bdo:BibliographicalTitle::rdfs:label"
 msgstr "目录中的标题"
 
 #. An event of preparing a written manuscript of a Work
 msgid "bdo:EnscribedEvent::adm:userTooltip"
-msgstr ""
+msgstr "写作某作品的草稿的事件"
 
 #. This work is a derivative of the referenced work.
 msgid "bdo:workDerivativeOf::adm:userTooltip"
-msgstr ""
+msgstr "本作品是所指作品的衍生作品。"
 
 #. This label is a (spelling) correction of the object label
 msgid "bdo:correctionOf::adm:userTooltip"
-msgstr ""
+msgstr "这个标签是对对象标签的（拼写）修正"
 
 #. An event related to a person such as birth, death, ordination, founding
 #. monastery and so on.
 msgid "bdo:personEvent::adm:userTooltip"
-msgstr ""
+msgstr "与一个人物有关的事件，如出生、死亡、受戒、创建寺院等。"
 
 #. Refers to a page of an eText corresponding to a physical/image page asset.
 msgid "bdo:eTextHasPage::adm:userTooltip"
-msgstr ""
+msgstr "指电子文本中对应于实物/图像页面的某一页。"
 
 #. Indicates a school, tradition, or sect that the Person is associated with.
 msgid "bdo:personOfSect::adm:userTooltip"
-msgstr ""
+msgstr "表示与该人物相关的教派、传统或分支"
 
 #. Indicates a young incarnation of this Person.
 msgid "bdo:hasIncarnationYangtse::adm:userTooltip"
-msgstr ""
+msgstr "表示该人物的一个年轻的化身（转世）"
 
 #. This label is a translation of the object label to a language indicated in
 #. the language tag
 msgid "bdo:translationOf::adm:userTooltip"
-msgstr ""
+msgstr "这个标签是将对象标签翻译成语言标签中所指明的语言。"
 
 #. Subjects and genres of works, just as in a traditional library catalog
 msgid "bdo:Topic::adm:userTooltip"
-msgstr ""
+msgstr "如同在传统的图书馆目录中的作品的主题和类型"
 
 #. An etext with associated pagination information corresponding to digitized
 #. images of a Work
 msgid "bdo:EtextPaginated::adm:userTooltip"
-msgstr ""
+msgstr "与作品的数字化图像相对应的带有相关分页信息的电子文本"
 
 #. The referenced Work is identified as a translation of this Work.
 msgid "bdo:workHasTranslation::adm:userTooltip"
-msgstr ""
+msgstr "所指的作品被认定为本作品的译本。"
 
 #. An :ItemMicrofilmAsset describes the physical microfilm from which the
 #. associated Instance was digitized.
 msgid "bdo:ItemMicrofilmAsset::adm:userTooltip"
-msgstr ""
+msgstr "An :ItemMicrofilmAsset 描述相关实例被数字化的物理微缩胶片。"
 
 #. Indicates the volume in which the etext is found.
 msgid "bdo:eTextInVolume::adm:userTooltip"
-msgstr ""
+msgstr "表示该文本所在的卷。"
 
 #. The event of completing a work
 msgid "bdo:CompletedEvent::adm:userTooltip"
-msgstr ""
+msgstr "完成一项工作的事件"
 
 #. Indicates a Maternal uncle of the Person
 msgid "bdo:hasMaternalUncle::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的母系叔叔"
 
 #. This is the location of the source information for this :Lineage in a
 #. specified gsan / thob yig.
@@ -3140,15 +3140,15 @@ msgstr "位置"
 #. specified gsan / thob yig.
 #. see also: http://purl.bdrc.io/ontology/core/Lineage
 msgid "bdo:contentLocation::adm:userTooltip"
-msgstr "源信息的位置：某闻法录（gsan / thob yig）中的该传承世系。"
+msgstr "源信息的位置：某闻法录（gsan / thob yig）中的该:Lineage。"
 
 #. Event occurring upon a divorce of the Person
 msgid "bdo:PersonDivorce::adm:userTooltip"
-msgstr ""
+msgstr "人离婚时发生的事件"
 
 #. An event associated with the production of an Instance.
 msgid "bdo:InstanceEvent::rdfs:label"
-msgstr ""
+msgstr "实例事件"
 
 #. An event associated with the production of an Instance.
 msgid "bdo:InstanceEvent::adm:userTooltip"
@@ -3156,19 +3156,19 @@ msgstr "该事件与作品实例的制造有关"
 
 #. Indicates an Activities incarnation of this Person.
 msgid "bdo:hasIncarnationActivities::adm:userTooltip"
-msgstr ""
+msgstr "该人物是目标人物的事业化身（转世）"
 
 #. text of the note
 msgid "bdo:noteText::adm:userTooltip"
-msgstr ""
+msgstr "注释内容"
 
 #. Indicates a Grandfather of the Person
 msgid "bdo:hasGrandfather::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的祖父"
 
 #. A item comprised of a physical volume or volumes.
 msgid "bdo:ItemPhysicalAsset::adm:userTooltip"
-msgstr ""
+msgstr "由一个或多个物理量组成的单件"
 
 #. This Person is a Mind incarnation of the target Person
 msgid "bdo:incarnationMind::adm:userTooltip"
@@ -3176,31 +3176,31 @@ msgstr "该人物是目标人物的意化身（转世）"
 
 #. An event describing the third revision of a work
 msgid "bdo:ThirdRevisedEvent::adm:userTooltip"
-msgstr ""
+msgstr "描述作品的第三次修订的一个事件"
 
 #. Down from expresses a sequence of lineage holders by reference to another
 #. Lineage.
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 msgid "bdo:lineageDownFrom::adm:userTooltip"
-msgstr ""
+msgstr "“传承自”是通过另一个传承来表达某一个传承的序列。"
 
 #. Places are geographic entities such as: monasteries, villages, counties,
 #. rivers, caves and so on
 msgid "bdo:Place::adm:userTooltip"
-msgstr ""
+msgstr "地方是地理实体，如：寺院、村庄、县城、河流、洞穴等。"
 
 #. Indicates that this Work is a member of a series.
 msgid "bdo:serialMemberOf::adm:userTooltip"
-msgstr ""
+msgstr "表示该作品是一个系列的成员。"
 
 #. The Event of a Person becoming married to another Person
 msgid "bdo:PersonMarriage::adm:userTooltip"
-msgstr ""
+msgstr "一个人物与另一个人物结婚的事件"
 
 #. This work has some parallels in another work, meaning it displays
 #. intertextuality patterns.
 msgid "bdo:workHasParallelsIn::adm:userTooltip"
-msgstr ""
+msgstr "这部作品与另一部作品有一些相似之处，这意味着它显示了互文性模式。"
 
 #. width of the physical item, of this :Work, that is held or scanned in cm
 msgid "bdo:dimWidth::rdfs:label"
@@ -3208,11 +3208,11 @@ msgstr "宽度"
 
 #. width of the physical item, of this :Work, that is held or scanned in cm
 msgid "bdo:dimWidth::adm:userTooltip"
-msgstr ""
+msgstr "该作品的实物单件的宽度，以厘米为单位持有或扫描。"
 
 #. A general note contains non-specific information about some resource
 msgid "bdo:GeneralNote::adm:userTooltip"
-msgstr ""
+msgstr "一般性说明包含有关某些资源的非具体信息"
 
 #. The number of digitized metadata pages added by TBRC (now BDRC). Originally
 #. this was 2 pages and more recently condensed to a single non-blank page
@@ -3222,10 +3222,11 @@ msgstr ""
 #. essentially standalone.
 msgid "bdo:volumePagesTbrcIntro::adm:userTooltip"
 msgstr ""
+"TBRC（现在的BDRC）增加的数字化元数据页的数量。最初是2页，最近浓缩为一个非空白页，但又加入了第二个空白页2，以简化卷宗的处理，以便于显示等。这样做的目的是为了将一些相关的元数据与数字化的图像一起抓取，这样一来，该卷就基本上是独立的。"
 
 #. An indication of correspondence with a page of a physical/image page.
 msgid "bdo:EtextPage::adm:userTooltip"
-msgstr ""
+msgstr "表示与物理/图像页面的对应关系。"
 
 #. Asserts that the subject instance has a particular title.
 #. see also: http://purl.bdrc.io/ontology/core/Title
@@ -3235,20 +3236,20 @@ msgstr "标题"
 #. Asserts that the subject instance has a particular title.
 #. see also: http://purl.bdrc.io/ontology/core/Title
 msgid "bdo:hasTitle::adm:userTooltip"
-msgstr ""
+msgstr "断言主题实例有一个特定的标题。"
 
 #. The name given to a Person upon their receiving final ordination
 msgid "bdo:PersonFinalOrdinationName::adm:userTooltip"
-msgstr ""
+msgstr "一个人在接受比丘戒时被赋予的名称。"
 
 #. Who did this "LineageHolder receive the :Lineage from?
 #. see also: http://purl.bdrc.io/ontology/core/LineageReceived
 msgid "bdo:lineageFrom::adm:userTooltip"
-msgstr ""
+msgstr "这个 \"LineageHolder \"从谁那里得到了:Lineage？"
 
 #. Indicates a Grandson of the Person
 msgid "bdo:hasGrandson::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的孙子"
 
 #. Title that is abbreviated, condensed, divided from the main title
 msgid "bdo:TitlePortion::rdfs:label"
@@ -3256,40 +3257,40 @@ msgstr "简化标题"
 
 #. Title that is abbreviated, condensed, divided from the main title
 msgid "bdo:TitlePortion::adm:userTooltip"
-msgstr ""
+msgstr "简写的、缩写的、或从主标题中分割出来的标题"
 
 #. Indicates a Person considered to be an Incarnation of this Person
 msgid "bdo:hasIncarnation::adm:userTooltip"
-msgstr ""
+msgstr "表示一个被认为是这个人物的化身（转世）的人物"
 
 #. Indicates an Uncle of the Person
 msgid "bdo:hasUncle::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的叔叔"
 
 #. Indicates the material applied on a work (ink, golden leaf, etc.)
 msgid "bdo:appliedMaterial::adm:userTooltip"
-msgstr ""
+msgstr "表示应用在作品上的材料（墨水、金箔等）。"
 
 #. Reverses 'firstname lastname' to 'lastname, firstname'
 msgid "bdo:PersonReversal::adm:userTooltip"
-msgstr ""
+msgstr "将 \"名，姓\" 反转为 \"姓，名\"。"
 
 #. Indicates a Sister-in-law of the Person
 msgid "bdo:hasSisterInLaw::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的嫂子"
 
 #. Indicates the Father-in-law of the Person
 msgid "bdo:hasFatherInLaw::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的岳父"
 
 #. event type describing when a place was rebuilt
 msgid "bdo:PlaceRebuilt::adm:userTooltip"
-msgstr ""
+msgstr "描述一个地方何时被重建的事件类型"
 
 #. Event indicating the Person becoming affiliated with a lineage or
 #. organization
 msgid "bdo:PersonAffiliation::adm:userTooltip"
-msgstr ""
+msgstr "表明个人与某一世系或组织有联系的事件"
 
 #. The ending line on the ending page that is referenced
 msgid "bdo:contentLocationEndLine::rdfs:label"
@@ -3297,65 +3298,66 @@ msgstr "末尾句"
 
 #. The ending line on the ending page that is referenced
 msgid "bdo:contentLocationEndLine::adm:userTooltip"
-msgstr ""
+msgstr "被引用的结束页上的结束行"
 
 #. position of the eText in the volume that contains it
 msgid "bdo:eTextVolumeIndex::adm:userTooltip"
-msgstr ""
+msgstr "电子文本在包含它的卷中的位置"
 
 #. Indicates a Parent-in-law of the Person
 msgid "bdo:hasParentInLaw::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的岳父岳母"
 
 #. event type describing when a place was destroyed
 msgid "bdo:PlaceDestroyed::adm:userTooltip"
-msgstr ""
+msgstr "描述一个地方被摧毁的时间的事件类型"
 
 #. Indicates a Minds incarnation of this Person.
 msgid "bdo:hasIncarnationMind::adm:userTooltip"
-msgstr ""
+msgstr "该人物是目标人物的意化身（转世）"
 
 #. used to reference the number associated with the work in the series
 msgid "bdo:serialHasMember::adm:userTooltip"
-msgstr ""
+msgstr "用于参考与该系列作品相关的编号"
 
 #. In some cases volumes of a :Work are given names. For example, in Tibetan a
 #. three volume work might have volumes named O, a, huM or a 10 volume work
 #. might have volumes named: ka, kha, ga, nga, ca, cha, ja, nya, ta, a.
 msgid "bdo:volumeName::adm:userTooltip"
 msgstr ""
+"在某些情况下，一部作品的各卷会被命名。例如，在藏语中，一部三卷本的作品可能有几卷被命名为O、A、HuM，或者一部10卷本的作品可能有几卷被命名为：ka、kha、ga、nga、ca、cha、ja、nya、ta、a。"
 
 #. Identifies an event that occurred at this Place, e.g., founded, rebuilt,
 #. deserted, etc.
 msgid "bdo:placeEvent::adm:userTooltip"
-msgstr ""
+msgstr "标明在这个地方发生的事件，例如，建立、重建、荒废等。"
 
 #. Name by which a Person is known by virtue of their position within an
 #. Organization
 msgid "bdo:PersonCorporateName::adm:userTooltip"
-msgstr ""
+msgstr "因在一个组织中所担任的位置而得的名字。"
 
 #. A description of the physical appearance of a Volume of the Item.
 msgid "bdo:volumePhysicalDescription::adm:userTooltip"
-msgstr ""
+msgstr "对该单件某卷的物理外观的描述。"
 
 #. A volume is a self-contained set of pages/folia.
 msgid "bdo:Volume::adm:userTooltip"
-msgstr ""
+msgstr "一卷是一套自成一体的一些页/叶。"
 
 #. Indicates a Body incarnation of this Person.
 msgid "bdo:hasIncarnationBody::adm:userTooltip"
-msgstr ""
+msgstr "该人物是目标人物的身化身（转世）"
 
 #. An Event associated with the Person such as birth, death, ordination, and
 #. so on
 msgid "bdo:PersonEvent::adm:userTooltip"
-msgstr ""
+msgstr "与个人有关的事件，如出生、死亡、受戒等。"
 
 #. A Person resource tracks biographical metadata such as names/titles,
 #. kinship relations, birth and death events, and so on
 msgid "bdo:Person::adm:userTooltip"
-msgstr ""
+msgstr "资源跟踪传记元数据，如姓名/头衔、亲属关系、出生和死亡事件等。"
 
 #. If the subject work is part of another work, then this reflects the type of
 #. part: chapter, section, text, etc.
@@ -3365,7 +3367,7 @@ msgstr "与来源作品的关系的类型"
 #. If the subject work is part of another work, then this reflects the type of
 #. part: chapter, section, text, etc.
 msgid "bdo:partType::adm:userTooltip"
-msgstr ""
+msgstr "如果主题作品是另一部作品的一部分，那么这反映了部分的类型：章、节、文本等。"
 
 #. Associates a Work with an Agent and a Creator Role that participated in the
 #. creation of the Work
@@ -3374,27 +3376,27 @@ msgstr "将作品与一个参与创建该作品的行动主体和创造角色联
 
 #. This physical instance has an associated Item.
 msgid "bdo:instanceHasItem::adm:userTooltip"
-msgstr ""
+msgstr "这个实体实例有一个相关的单件。"
 
 #. This is the year offset for an Era in terms of the Common Era.
 msgid "bdo:yearOffset::adm:userTooltip"
-msgstr ""
+msgstr "这是一个纪元在共同纪元方面的抵消年。"
 
 #. Refers to a Work authored by the LineageHolder about the Lineage.
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 msgid "bdo:lineageWork::adm:userTooltip"
-msgstr ""
+msgstr "指由世系持有者（LineageHolder）撰写的关于世系的作品。"
 
 #. Root property that expresses some kinship relation between the subject and
 #. object Persons.
 msgid "bdo:kinWith::adm:userTooltip"
-msgstr ""
+msgstr "表达主体和客体之间某种亲属关系的根基属性。"
 
 #. An event associated with the transmission of a lineage, such as
 #. giving/receiving an empowerment or oral transmission, and so on
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 msgid "bdo:LineageEvent::adm:userTooltip"
-msgstr ""
+msgstr "与传承有关的事件，如给予/接受灌顶或口传，等等。"
 
 #. A title by which is known or referenced.
 msgid "bdo:Title::rdfs:label"
@@ -3402,15 +3404,15 @@ msgstr "题目"
 
 #. A title by which is known or referenced.
 msgid "bdo:Title::adm:userTooltip"
-msgstr ""
+msgstr "一个被知道或引用的标题。"
 
 #. A member of an organization based on some attributes of the
 msgid "bdo:CorporationMember::adm:userTooltip"
-msgstr ""
+msgstr "基于某些属性的一个组织的成员"
 
 #. Indicates an incarnation of this Person.
 msgid "bdo:hasIncarnationGeneral::adm:userTooltip"
-msgstr ""
+msgstr "该人物是目标人物的一个化身（转世）"
 
 #. Title that appears on the title page of a Work
 msgid "bdo:TitlePageTitle::rdfs:label"
@@ -3418,11 +3420,11 @@ msgstr "标题页所示标题"
 
 #. Title that appears on the title page of a Work
 msgid "bdo:TitlePageTitle::adm:userTooltip"
-msgstr ""
+msgstr "出现在作品标题页上的标题"
 
 #. The Event of a Person leaving a Seat
 msgid "bdo:PersonLeavesSeat::adm:userTooltip"
-msgstr ""
+msgstr "一个人离开法座的事件"
 
 #. Indicates that the event is known to have not occurred after to the
 #. year/date given, unless otherwise specified the year/date is reckoned in
@@ -3433,11 +3435,11 @@ msgstr "表示该事件是在所示年份或日期之后发生的，除另有说
 #. refers to a volume description of a digital asset, scanned or etext; or a
 #. physical volume.
 msgid "bdo:instanceHasVolume::adm:userTooltip"
-msgstr ""
+msgstr "指的是数字资产、扫描或电子文本的卷状描述；或物理卷。"
 
 #. Roles include offices held as well as other positions.
 msgid "bdo:Role::adm:userTooltip"
-msgstr ""
+msgstr "职务包括所担任的法座职务以及其他职位。"
 
 #. Provides a string describing the presence of illustrations, portraits,
 #. color plates and so on.
@@ -3447,15 +3449,15 @@ msgstr "插图"
 #. Provides a string describing the presence of illustrations, portraits,
 #. color plates and so on.
 msgid "bdo:illustrations::adm:userTooltip"
-msgstr ""
+msgstr "提供一个字符串，描述插图、肖像、彩页等的存在。"
 
 #. The Title of a Person occupying a given office
 msgid "bdo:PersonOfficeTitle::adm:userTooltip"
-msgstr ""
+msgstr "担任某项职务的人的头衔"
 
 #. An event describing the publication of a work
 msgid "bdo:PublishedEvent::adm:userTooltip"
-msgstr ""
+msgstr "描述作品出版的事件"
 
 #. A bibliographic status statement in the language of the Instance
 msgid "bdo:biblioStatus::rdfs:label"
@@ -3463,18 +3465,18 @@ msgstr "实例所描述的书目状况"
 
 #. A bibliographic status statement in the language of the Instance
 msgid "bdo:biblioStatus::adm:userTooltip"
-msgstr ""
+msgstr "用实例的语言写的书目状况说明"
 
 #. The :lineageRef identifies an alternative version of the current Lineage
 #. see also: http://purl.bdrc.io/ontology/core/Lineage
 msgid "bdo:lineageRef::adm:userTooltip"
-msgstr ""
+msgstr ":lineageRef标识了当前Lineage的替代版本。"
 
 #. The reference to the :ItemEtext indicates the item that contains the volume
 #. that this Etext is contained in
 #. see also: http://purl.bdrc.io/ontology/core/Etext
 msgid "bdo:eTextInItem::adm:userTooltip"
-msgstr ""
+msgstr "对:ItemEtext的引用表示包含该Etext所包含的卷的单件。"
 
 #. This Person is a Body incarnation of the target Person
 msgid "bdo:incarnationBody::adm:userTooltip"
@@ -3482,33 +3484,33 @@ msgstr "该人物是目标人物的身化身（转世）"
 
 #. The Event of a Person leaving an Office
 msgid "bdo:PersonLeavesOffice::adm:userTooltip"
-msgstr ""
+msgstr "一个人离开教廷的事件"
 
 #. An member of a monastic organization
 msgid "bdo:CorporationMemberMonastic::adm:userTooltip"
-msgstr ""
+msgstr "寺院的成员"
 
 #. associates an event with one or more agent
 msgid "bdo:eventWho::adm:userTooltip"
-msgstr ""
+msgstr "将一个事件与一个或多个行为人联系起来"
 
 #. event type describing when a place was converted from one tradition to
 #. another, e.g., from Nyingma to Gelugpa
 msgid "bdo:PlaceConverted::adm:userTooltip"
-msgstr ""
+msgstr "事件类型，描述一个地方从一个传统转换到另一个传统，例如，从宁玛派转换到格鲁派。"
 
 #. The primary or common title by which a Person is known.
 msgid "bdo:PersonPrimaryTitle::adm:userTooltip"
-msgstr ""
+msgstr "一个人物为人所知的的主要头衔。"
 
 #. The subject is a volume of the referenced item.
 msgid "bdo:volumeOf::adm:userTooltip"
-msgstr ""
+msgstr "主题是指所指单件中的一个卷。"
 
 #. This label is a conversion of the object label from one orthographic form
 #. to another in the same language, e.g., Khmer
 msgid "bdo:conversionOf::adm:userTooltip"
-msgstr ""
+msgstr "这个标签是将对象标签从一种正字法形式转换为同一语言中的另一种正字法形式，例如高棉语。"
 
 #. height or thickness of the physical item of a :Work in cm
 msgid "bdo:dimHeight::rdfs:label"
@@ -3516,11 +3518,11 @@ msgstr "厚度"
 
 #. height or thickness of the physical item of a :Work in cm
 msgid "bdo:dimHeight::adm:userTooltip"
-msgstr ""
+msgstr ":Work实物单件的高度或厚度，单位：厘米"
 
 #. Birth Event for a Person
 msgid "bdo:PersonBirth::adm:userTooltip"
-msgstr ""
+msgstr "一个人的出生事件"
 
 #. The subject Person is a consort of the target Person
 msgid "bdo:personConsortOf::adm:userTooltip"
@@ -3528,11 +3530,11 @@ msgstr "该主题人物是目标人物的修行伴侣"
 
 #. Indicates a Grandparent of the Person
 msgid "bdo:hasGrandParent::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的祖父母"
 
 #. An event describing the request for a work
 msgid "bdo:RequestedEvent::adm:userTooltip"
-msgstr ""
+msgstr "一个描述请求写作某作品的事件"
 
 #. Title that is explanatory. Typically following the main Title Page Title or
 #. Cover Title
@@ -3542,11 +3544,11 @@ msgstr "副标题"
 #. Title that is explanatory. Typically following the main Title Page Title or
 #. Cover Title
 msgid "bdo:Subtitle::adm:userTooltip"
-msgstr ""
+msgstr "具有解释性的标题。通常是在主标题或封面标题之后。"
 
 #. Indicates a Brother-in-law of the Person
 msgid "bdo:hasBrotherInLaw::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的姐夫或妹夫"
 
 #. Corporation defines important social institutions. For instance in Tibet
 #. those that (1) owned land and (2) had members. Examples include families
@@ -3556,15 +3558,15 @@ msgstr "组织是指重要的社会机构，拥有（1）土地和（2）成员�
 
 #. The Event of a Person discovering a terma
 msgid "bdo:PersonGterMaDiscovery::adm:userTooltip"
-msgstr ""
+msgstr "发现伏藏的事件"
 
 #. The primary name by which a Person is known
 msgid "bdo:PersonPrimaryName::adm:userTooltip"
-msgstr ""
+msgstr "某人物的主要名字"
 
 #. The event of origin of a work
 msgid "bdo:OriginatedEvent::adm:userTooltip"
-msgstr ""
+msgstr "作品写作的事件"
 
 #. Title on the first page of the text of the Tibetan traditional Pecha
 #. format.
@@ -3574,11 +3576,11 @@ msgstr "完整题目"
 #. Title on the first page of the text of the Tibetan traditional Pecha
 #. format.
 msgid "bdo:FullTitle::adm:userTooltip"
-msgstr ""
+msgstr "西藏传统经夹格式的文本第一页上的标题。"
 
 #. Indicates a Younger brother of the Person
 msgid "bdo:hasYoungerBrother::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的一个弟弟"
 
 #. This label is a (spelling) correction and conversion from the FEMC catalogs
 msgid "bdo:femcConversionOf::adm:userTooltip"
@@ -3590,40 +3592,40 @@ msgstr "该人物是目标人物的化身（转世）"
 
 #. Indicates a Person this Person was a student of.
 msgid "bdo:personStudentOf::adm:userTooltip"
-msgstr ""
+msgstr "表示此人是某位学生。"
 
 #. A lineage holder is a Person that is considered to be an authoritative
 #. conveyer of a transmission lineage
 msgid "bdo:LineageHolder::adm:userTooltip"
-msgstr ""
+msgstr "传承人是指被认为是传承路线的权威性传递者。"
 
 #. A name bestowed on Person upon receiving certain empowerments
 msgid "bdo:PersonSecretInitiatoryName::adm:userTooltip"
-msgstr ""
+msgstr "在获得某些灌顶后被赋予的名称。"
 
 #. The name by which a Person is commonly known
 msgid "bdo:PersonCommonName::adm:userTooltip"
-msgstr ""
+msgstr "一个人的常见名字"
 
 #. The class of the various sorts of events: Persons, Places, Works, and
 #. Lineages
 msgid "bdo:Event::adm:userTooltip"
-msgstr ""
+msgstr "各种事件的类别。人物、地点、作品和世系"
 
 #. A Work fo which there is at least one physical manifestation. Versus
 #. Abstract Work
 #. An individual material (or electronic) embodiement, for instance a
 #. particular published form.
 msgid "bdo:Instance::adm:userTooltip"
-msgstr ""
+msgstr "一个单独的材料（或电子）的体现，例如一个特定的出版形式。"
 
 #. Indicates a Mother-in-law of the Person
 msgid "bdo:hasMotherInLaw::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的岳母"
 
 #. Event indicating a Person assuming a seat such as Secretary to the Kashag
 msgid "bdo:PersonAssumesSeat::adm:userTooltip"
-msgstr ""
+msgstr "表明某人担任噶厦秘书等职务的事件"
 
 #. an otherwise unspecified type of person title
 msgid "bdo:PersonTitle::adm:userTooltip"
@@ -3637,7 +3639,7 @@ msgstr "末页"
 #. The ending page in the volume of the Work indicated by the other statements
 #. for this :ContentLocation
 msgid "bdo:contentLocationEndPage::adm:userTooltip"
-msgstr ""
+msgstr "这个:ContentLocation的其他声明所表示的作品卷中的结束页。"
 
 #. Where and by whom the Work was scanned (or requested to be scanned)
 msgid "bdo:scanInfo::rdfs:label"
@@ -3645,7 +3647,7 @@ msgstr "扫描信息"
 
 #. Where and by whom the Work was scanned (or requested to be scanned)
 msgid "bdo:scanInfo::adm:userTooltip"
-msgstr ""
+msgstr "作品在哪里和由谁扫描（或要求扫描）"
 
 #. The source for the noteContent
 msgid "bdo:noteSource::rdfs:label"
@@ -3653,27 +3655,27 @@ msgstr "来源"
 
 #. The source for the noteContent
 msgid "bdo:noteSource::adm:userTooltip"
-msgstr ""
+msgstr "noteContent的资源"
 
 #. References an Instance that this Instance is a derivative of.
 msgid "bdo:instanceDerivativeOf::adm:userTooltip"
-msgstr ""
+msgstr "引用该实例的派生实例。"
 
 #. A searchable etext volume versus a physical or digitized pzges images.
 msgid "bdo:VolumeEtextAsset::adm:userTooltip"
-msgstr ""
+msgstr "可搜索的etext卷与实物或数字化的图像相比。"
 
 #. Indicates a Grandchild of the Person
 msgid "bdo:hasGrandChild::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的孙子。"
 
 #. This Item represents an occurrence of the referenced PhysicalInstance
 msgid "bdo:itemForInstance::adm:userTooltip"
-msgstr ""
+msgstr "这个单件代表了被引用的物理实例的一例。"
 
 #. note indicating the provenance of an information
 msgid "bdo:ProvenanceNote::adm:userTooltip"
-msgstr ""
+msgstr "信息出处的说明"
 
 #. Indicates an Entity that is a member of the corporation
 msgid "bdo:corporationHasMember::adm:userTooltip"
@@ -3682,16 +3684,16 @@ msgstr "指属于机构成员的一个实体"
 #. indicates that this label is a shortened. abbreviated form of the object
 #. label
 msgid "bdo:abbreviationOf::adm:userTooltip"
-msgstr ""
+msgstr "表示该标签是对象标签的缩短形式"
 
 #. A member of an organization by marriage
 msgid "bdo:CorporationMemberByMarriage::adm:userTooltip"
-msgstr ""
+msgstr "婚姻关系带来的身份"
 
 #. The Library (Place) that contains the physical holding
 #. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
 msgid "bdo:itemLibrary::adm:userTooltip"
-msgstr ""
+msgstr "包含实际持有的图书馆（场所）"
 
 #. This Person is an Activities incarnation of the target Person
 msgid "bdo:incarnationActivities::adm:userTooltip"
@@ -3699,20 +3701,20 @@ msgstr "该人物是目标人物的事业化身（转世）"
 
 #. event type describing when a place was abandonded
 msgid "bdo:PlaceAbandoned::adm:userTooltip"
-msgstr ""
+msgstr "事件类型，描述一个地方被遗弃的时间"
 
 #. indicates that this label is an interpretation of the object label, e.g.,
 #. this sa-iast label is an interpretation of a phonetic label
 msgid "bdo:interpretationOf::adm:userTooltip"
-msgstr ""
+msgstr "表示这个标签是对对象标签的解释，例如，这个sa-iast标签是对语音标签的解释。"
 
 #. An accepted variant writing of a name
 msgid "bdo:PersonVariantOrthography::adm:userTooltip"
-msgstr ""
+msgstr "常用的一种名字的异写"
 
 #. Indicates a Brother of the Person
 msgid "bdo:hasBrother::adm:userTooltip"
-msgstr ""
+msgstr "表示是某人物的兄弟"
 
 #. An Edition statement expresses information about this Instance as an
 #. edition.
@@ -3722,11 +3724,11 @@ msgstr "版本说明"
 #. An Edition statement expresses information about this Instance as an
 #. edition.
 msgid "bdo:editionStatement::adm:userTooltip"
-msgstr ""
+msgstr "一个版本声明将这个实例的信息表达为一个版本。"
 
 #. The event of authoring a work
 msgid "bdo:AuthoredEvent::adm:userTooltip"
-msgstr ""
+msgstr "创作作品的事件"
 
 #. Indicates a location in the Chinese Buddhist Canon.
 msgid "bdo:contentLocationStatementCBETA::rdfs:label"
@@ -3734,7 +3736,7 @@ msgstr "（汉文大藏经中的）位置说明"
 
 #. Indicates a location in the Chinese Buddhist Canon.
 msgid "bdo:contentLocationStatementCBETA::adm:userTooltip"
-msgstr ""
+msgstr "表示在中国佛典中的位置。"
 
 #. A note regarding a bibliographic feature of the Instance
 msgid "bdo:biblioNote::rdfs:label"
@@ -3742,44 +3744,44 @@ msgstr "书目注释"
 
 #. A note regarding a bibliographic feature of the Instance
 msgid "bdo:biblioNote::adm:userTooltip"
-msgstr ""
+msgstr "关于实例的一个书目特征的说明"
 
 #. Indicates the printing method of the Item associated with the Work.
 msgid "bdo:printMethod::adm:userTooltip"
-msgstr ""
+msgstr "表示与作品相关的单件的印刷方法。"
 
 #. Indicates a Younger sister of the Person
 msgid "bdo:hasYoungerSister::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的一个妹妹"
 
 #. Event indicating a Person assuming an office such as Professor, Postmaster
 #. or General
 msgid "bdo:PersonAssumesOffice::adm:userTooltip"
-msgstr ""
+msgstr "表明一个人担任了一个职位如教授、驿站长或将军的事件"
 
 #. Identifies a Place that this Place is located in.
 msgid "bdo:placeLocatedIn::adm:userTooltip"
-msgstr ""
+msgstr "识别这个地方归属的更大的地方。"
 
 #. Indicates a Cousin of the Person
 msgid "bdo:hasCousin::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的一个表亲"
 
 #. Indicates a Niece of the Person
 msgid "bdo:hasNiece::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的侄女"
 
 #. The referenced Topic is interpreted as a "genre".
 msgid "bdo:workGenre::adm:userTooltip"
-msgstr ""
+msgstr "被引用的主题被解释为一种\"类型\"。"
 
 #. Indicates a Daughter of the Person
 msgid "bdo:hasDaughter::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的女儿"
 
 #. Refers to an :Etext that is contained in a particular :VolumeEtextAsset
 msgid "bdo:eTextResource::adm:userTooltip"
-msgstr ""
+msgstr "指的是包含在一个特定的:VolumeEtextAsset中的一个:Etext。"
 
 #. This Person is a Qualities incarnation of the target Person
 msgid "bdo:incarnationQualities::adm:userTooltip"
@@ -3797,33 +3799,33 @@ msgstr "对某一实例的一个事件的内容、时间和地点的描述。"
 
 #. Represents a scanned or otherwise digitized set of page images.
 msgid "bdo:ImageGroup::rdfs:label"
-msgstr ""
+msgstr "图片组"
 
 #. Represents a scanned or otherwise digitized set of page images.
 msgid "bdo:ImageGroup::adm:userTooltip"
-msgstr ""
+msgstr "代表一组扫描的或其他数字化的页面图像。"
 
 #. A title bestowed on a Person who is recognized as a reincarnation of a
 #. distinguished Person
 msgid "bdo:PersonTulkuTitle::adm:userTooltip"
-msgstr ""
+msgstr "一个授予被认为是某杰出人物化身（转世）的人物的称号。"
 
 #. A (transmission) lineage is a collectiomn of sequences of lineage holders
 #. passing a lineage through time
 #. see also:
 #. https://link.springer.com/article/10.1023%2FA%3A1004844115222?LI=true
 msgid "bdo:Lineage::adm:userTooltip"
-msgstr ""
+msgstr "一个（传承）世系是一个世系传承人的序列的集合，在历史上传承一个世系"
 
 #. Indicates the Father of the Person
 msgid "bdo:hasFather::adm:userTooltip"
-msgstr ""
+msgstr "表明该人的父亲"
 
 #. Identifies where the holding is shelved. The shelf code is based on a
 #. library specific taxonomy
 #. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
 msgid "bdo:itemShelf::adm:userTooltip"
-msgstr ""
+msgstr "标明该藏品的上架位置。书架代码是基于图书馆特定的分类法。"
 
 #. links a work and one of its part (a collection and a text in the
 #. collection, a text and one of its chapters, etc.)
@@ -3835,11 +3837,11 @@ msgstr "包含"
 #. collection, a text and one of its chapters, etc.)
 #. see also: http://purl.bdrc.io/ontology/core/partOf
 msgid "bdo:hasPart::adm:userTooltip"
-msgstr ""
+msgstr "链接一个作品和它的一个部分（一个文集和文集中的一个文本，一个文本和其中的一个章节，等等）。"
 
 #. The Etext is the entire volume
 msgid "bdo:eTextIsVolume::adm:userTooltip"
-msgstr ""
+msgstr "电子文本是整卷的"
 
 #. An otherwise unspecified type of Person Event
 msgid "bdo:PersonEventNotSpecified::adm:userTooltip"
@@ -3847,15 +3849,15 @@ msgstr "他处未详的人物事件类型"
 
 #. The name given to a Person upon their receiving first ordination
 msgid "bdo:PersonFirstOrdinationName::adm:userTooltip"
-msgstr ""
+msgstr "一个人在第一次受戒时被赋予的名称"
 
 #. An event of printing a work
 msgid "bdo:PrintedEvent::adm:userTooltip"
-msgstr ""
+msgstr "印刷作品的事件"
 
 #. This is the number or other id of this SerialInstance in a SerialWork.
 msgid "bdo:workSeriesNumber::adm:userTooltip"
-msgstr ""
+msgstr "这是该系列实例在SerialWork中的编号或其他ID。"
 
 #. The :BiblioEntity Class models the descriptive metadata about a "book" in
 #. the BUDAverse.
@@ -3865,22 +3867,22 @@ msgstr ":BiblioEntity Class 在 BUDAverse 中模拟了关于“书”的描述�
 #. An agent as creator establishes a given Agent performing some cretation
 #. rolw w.r.t. a Work
 msgid "bdo:AgentAsCreator::adm:userTooltip"
-msgstr ""
+msgstr "?"
 
 #. Identifies the type of :Lineage such as empowerment, reading transmission,
 #. various sorts of instructions and so on
 #. see also: http://purl.bdrc.io/ontology/core/Lineage
 msgid "bdo:lineageType::adm:userTooltip"
-msgstr ""
+msgstr "识别:Lineage的类型，如灌顶、阅读传承、各种口诀等。"
 
 #. refers to an :EtextRef that identifies an :Etext and the position of that
 #. :Etext in a containing :VolumeEtextAsset
 msgid "bdo:volumeHasEtext::adm:userTooltip"
-msgstr ""
+msgstr "指的是识别一个:Etext的:EtextRef，以及该:Etext在一个包含:VolumeEtextAsset中的位置"
 
 #. An event of work translation.
 msgid "bdo:TranslatedEvent::adm:userTooltip"
-msgstr ""
+msgstr "一个工作翻译的事件。"
 
 #. length of the physical item, of this :Work, that is held or scanned in cm
 msgid "bdo:dimLength::rdfs:label"
@@ -3888,7 +3890,7 @@ msgstr "长度"
 
 #. length of the physical item, of this :Work, that is held or scanned in cm
 msgid "bdo:dimLength::adm:userTooltip"
-msgstr ""
+msgstr "该作品的实物单件的长度，以厘米为单位持有或扫描。"
 
 #. the title as given, inline, at the beginning of the text
 msgid "bdo:IncipitTitle::rdfs:label"
@@ -3896,7 +3898,7 @@ msgstr "文内所用标题"
 
 #. the title as given, inline, at the beginning of the text
 msgid "bdo:IncipitTitle::adm:userTooltip"
-msgstr ""
+msgstr "在文本的开头、以文内的方式给出的标题"
 
 #. This Person is the next incarnation of the target Person
 msgid "bdo:incarnationYangtse::adm:userTooltip"
@@ -3905,7 +3907,7 @@ msgstr "该人物是目标人物的下一代化身（转世）"
 #. An Item captures structural and administrative metadata associated with a
 #. digital or physical asset
 msgid "bdo:Item::adm:userTooltip"
-msgstr ""
+msgstr "一个单件可以捕获与数字或实物资产相关的结构和管理元数据。"
 
 #. title indicated on the spine of a book
 msgid "bdo:SpineTitle::rdfs:label"
@@ -3913,12 +3915,12 @@ msgstr "书脊标题"
 
 #. title indicated on the spine of a book
 msgid "bdo:SpineTitle::adm:userTooltip"
-msgstr ""
+msgstr "书脊上的标题"
 
 #. Indicates a Role that is occupied by a Person associated with the
 #. PersonEvent.
 msgid "bdo:personEventRole::adm:userTooltip"
-msgstr ""
+msgstr "表示一个与PersonEvent相关的人所占据的角色。"
 
 #. true if the instance or item is complete
 msgid "bdo:isComplete::rdfs:label"
@@ -3926,20 +3928,20 @@ msgstr "完整与否"
 
 #. true if the instance or item is complete
 msgid "bdo:isComplete::adm:userTooltip"
-msgstr ""
+msgstr "如果实例或单件是完整的，则为true"
 
 #. Indicates a Son of the Person
 msgid "bdo:hasSon::adm:userTooltip"
-msgstr ""
+msgstr "表明该人的儿子"
 
 #. An event describing the discovery of a work (for terma revelations)
 msgid "bdo:RevealedEvent::adm:userTooltip"
-msgstr ""
+msgstr "描述发现作品的事件（用于掘藏）。"
 
 #. An instance that has only one copy (ex: a manuscript, an art work, etc.). A
 #. singleton instance may have reproductions
 msgid "bdo:SingletonInstance::rdfs:label"
-msgstr ""
+msgstr "单独实例"
 
 #. An instance that has only one copy (ex: a manuscript, an art work, etc.). A
 #. singleton instance may have reproductions
@@ -3948,42 +3950,42 @@ msgstr "该实例只有一份（如一份写本、一份画作等）。但是单
 
 #. The latitude of the Place
 msgid "bdo:placeLat::adm:userTooltip"
-msgstr ""
+msgstr "该地的纬度"
 
 #. An identifer, typically a Tibetan letter, indicating the position of the
 #. text in a sequence of texts.
 msgid "bdo:workSideBoxSequenceId::adm:userTooltip"
-msgstr ""
+msgstr "一个标识符，通常是一个藏文字母，表示该文本在一连串文本中的位置。"
 
 #. Associates a Role with eiher an Agents or an AgentInRole.
 msgid "bdo:role::adm:userTooltip"
-msgstr ""
+msgstr "将一个Role与一个Agent或一个AgentInRole联系起来。"
 
 #. The gender of the Person
 msgid "bdo:personGender::adm:userTooltip"
-msgstr ""
+msgstr "该人物的性别"
 
 #. Indicates a Qualities incarnation of this Person.
 msgid "bdo:hasIncarnationQualities::adm:userTooltip"
-msgstr ""
+msgstr "表示此人物的功德化身（转世）。"
 
 #. A work that is made of a collection of other works (ex: gsung bum,
 #. canonical collection, etc.).
 msgid "bdo:WorkCollection::rdfs:label"
-msgstr ""
+msgstr "文本集"
 
 #. A work that is made of a collection of other works (ex: gsung bum,
 #. canonical collection, etc.).
 msgid "bdo:WorkCollection::adm:userTooltip"
-msgstr ""
+msgstr "由其他作品的集合而成的作品（例如：文集[Gsung bum]，大藏经等等）。"
 
 #. Indicates a Sister of the Person
 msgid "bdo:hasSister::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的一个姐妹"
 
 #. May be used to indicate the number of introductory pages in a volume
 msgid "bdo:volumePagesIntro::adm:userTooltip"
-msgstr ""
+msgstr "可用于表示一卷中的介绍性页面的数量"
 
 #. Indicates that the event is known to have not occurred prior to the
 #. year/date given, unless otherwise specified the year/date is reckoned in
@@ -3993,18 +3995,18 @@ msgstr "表示该事件是在所示年份或日期之前发生的，除另有说
 
 #. An item comprised of digitized images of the pages of a Work
 msgid "bdo:ImageInstance::adm:userTooltip"
-msgstr ""
+msgstr "一个由作品页面的数字化图像组成的单件。"
 
 #. Indicates a Grandmother of the Person
 msgid "bdo:hasGrandmother::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的祖母"
 
 #. Similar to down from this property refers to a sequence of holders from
 #. another Lineage.
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 #. see also: http://purl.bdrc.io/ontology/core/lineageDownFrom
 msgid "bdo:lineageDownTo::adm:userTooltip"
-msgstr ""
+msgstr "与“传承自”类似，这一属性指的是来自另一传承的持有人序列。"
 
 #. The script (Tibetan, Devanagari, etc.)
 msgid "bdo:script::adm:userTooltip"
@@ -4022,15 +4024,15 @@ msgstr "卷"
 #. this should be a positive integer indicating the volume of the Work
 #. referenced in this Location
 msgid "bdo:contentLocationVolume::adm:userTooltip"
-msgstr ""
+msgstr "这应该是一个正的整数，表示在这个位置上所指的作品的卷数"
 
 #. Indicates a Person this Person was a teacher of.
 msgid "bdo:personTeacherOf::adm:userTooltip"
-msgstr ""
+msgstr "表示此人曾是其老师。"
 
 #. An instance of a SeriesMember.
 msgid "bdo:SerialInstance::adm:userTooltip"
-msgstr ""
+msgstr "SeriesMember的一个实例。"
 
 #. The referenced Entity (topic, person, work, etc.) is a subject of the Work
 #. - something the Work is about.
@@ -4039,13 +4041,13 @@ msgstr "所指的实体（主题、人物、作品等等）是某作品的题材
 
 #. The type of Place: monastery, river, mountain pass, etc.
 msgid "bdo:placeType::adm:userTooltip"
-msgstr ""
+msgstr "地点类型：寺院、河流、山口等。"
 
 #. the object of :lineageHolder is a :LineageHolder that describes an
 #. individual that held the given :Lineage
 #. see also: http://purl.bdrc.io/ontology/core/LineageHolder
 msgid "bdo:lineageHolder::adm:userTooltip"
-msgstr ""
+msgstr ":LineageHolder的对象是一个:LineageHolder，它描述了一个持有给定的:Lineage的个人。"
 
 #. an entity that performs actions, e.g., creating works, teaching other
 #. agents, founding artificial places and so on
@@ -4056,25 +4058,25 @@ msgstr "一个执行行动的实体，例如，创造作品、教导其他个体
 #. the use of the :EtextSlice or other contexts such as the sequence of eTexts
 #. in a Volume and so on.
 msgid "bdo:seqNum::adm:userTooltip"
-msgstr ""
+msgstr "一个:seqNum可以是一个页码、行数或其他适合使用:EtextSlice或其他背景的ID，如卷中电子文本的顺序等等。"
 
 #. event type describing when a place was founded
 msgid "bdo:PlaceFounded::adm:userTooltip"
-msgstr ""
+msgstr "描述了一个地方的建立时间的事件类型"
 
 #. The longitude of the Place
 msgid "bdo:placeLong::adm:userTooltip"
-msgstr ""
+msgstr "该地的经度"
 
 #. An ahistorical agent may be a deity or other non-human agent that is said
 #. to exist outside of human history
 msgid "bdo:AhistoricalAgent::adm:userTooltip"
-msgstr ""
+msgstr "非历史性行为者可能是一个神或其他非人类行为者，据说存在于人类历史之外"
 
 #. An event of copying a work by some means such as manual enscribing,
 #. photocopying, etc.
 msgid "bdo:CopyEvent::adm:userTooltip"
-msgstr ""
+msgstr "通过某种手段复制作品的事件，如手工刻字、影印等。"
 
 #. References an Instance that is a reproduction of this Instance.
 msgid "bdo:instanceHasReproduction::adm:userTooltip"
@@ -4082,13 +4084,13 @@ msgstr "指向该实例的复制品"
 
 #. Indicates an Older sister of the Person
 msgid "bdo:hasOlderSister::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的姐姐"
 
 #. An (abstreact) Work representing a series of volumes/numbers published over
 #. time
 #. see also: https://www.abc-clio.com/ODLIS/odlis_S.aspx?#serial
 msgid "bdo:SerialWork::adm:userTooltip"
-msgstr ""
+msgstr "代表了一系列随时间推移而出版的卷册/数字的(抽象)作品"
 
 #. Indicates the base material of a work (paper, palm leaf, etc.)
 msgid "bdo:baseMaterial::adm:userTooltip"
@@ -4096,17 +4098,17 @@ msgstr "标识作品的基本材质（纸、贝叶等）"
 
 #. An event describing the revision of a work
 msgid "bdo:RevisedEvent::adm:userTooltip"
-msgstr ""
+msgstr "描述修改作品的一个事件"
 
 #. An indication of correpondance with a line of text of a physical/image
 #. asset. Lines are counted from 1.
 #. indicates a line of text in a corresponding digitized image of a Work
 msgid "bdo:EtextLine::adm:userTooltip"
-msgstr ""
+msgstr "表示作品的相应数字化图像中的一行文字"
 
 #. Death Event for a Person
 msgid "bdo:PersonDeath::adm:userTooltip"
-msgstr ""
+msgstr "一个人的去世的事件"
 
 #. Title appearing on the copyright page of a Work, if present.
 #. see also: http://cip.loc.gov/cipman/
@@ -4118,12 +4120,12 @@ msgstr "版权页标题"
 #. see also: http://cip.loc.gov/cipman/
 #. see also: https://www.loc.gov/publish/cip/news/lccn_art.html
 msgid "bdo:CopyrightPageTitle::adm:userTooltip"
-msgstr ""
+msgstr "出现在作品版权页上的标题。"
 
 #. This is a reference to what is being transmitted in the Lineage.
 #. see also: http://purl.bdrc.io/ontology/core/Lineage
 msgid "bdo:lineageObject::adm:userTooltip"
-msgstr ""
+msgstr "这是指传承中所传递的内容。"
 
 #. A transcription of the colophon of the Instance.
 msgid "bdo:colophon::rdfs:label"
@@ -4131,11 +4133,11 @@ msgstr "跋文"
 
 #. A transcription of the colophon of the Instance.
 msgid "bdo:colophon::adm:userTooltip"
-msgstr ""
+msgstr "实例跋文的转写。"
 
 #. Links an (abstract) :Work and one of its instances
 msgid "bdo:instanceOf::adm:userTooltip"
-msgstr ""
+msgstr "链接一个（抽象的）:Work和它的一个实例"
 
 #. A note about the origin of the Instance (form of a Work) that was
 #. digitized.
@@ -4145,15 +4147,15 @@ msgstr "作品来源"
 #. A note about the origin of the Instance (form of a Work) that was
 #. digitized.
 msgid "bdo:sourceNote::adm:userTooltip"
-msgstr ""
+msgstr "关于被数字化的实例（作品的形式）的来源的说明。"
 
 #. Indicates a Husband of the Person
 msgid "bdo:hasHusband::adm:userTooltip"
-msgstr ""
+msgstr "表示一个人的丈夫"
 
 #. Describes the type of binding of a work (loose leaves, bound by glue, etc.)
 msgid "bdo:binding::adm:userTooltip"
-msgstr ""
+msgstr "描述作品的装订类型（散页、胶水装订等）。"
 
 #. used to indicate the printery of a traditional artefact
 msgid "bdo:hasSourcePrintery::rdfs:label"
@@ -4161,7 +4163,7 @@ msgstr "印刷于"
 
 #. used to indicate the printery of a traditional artefact
 msgid "bdo:hasSourcePrintery::adm:userTooltip"
-msgstr ""
+msgstr "用来表示传统工艺品的印刷品。"
 
 #. The target Person is a consort of the subject Person
 msgid "bdo:personHasConsort::adm:userTooltip"
@@ -4169,11 +4171,11 @@ msgstr "该目标人物是主题人物的修行伴侣"
 
 #. Indicates the Instance that the ContentLocation refers to.
 msgid "bdo:contentLocationInstance::rdfs:label"
-msgstr ""
+msgstr "在实例中"
 
 #. Indicates the Instance that the ContentLocation refers to.
 msgid "bdo:contentLocationInstance::adm:userTooltip"
-msgstr ""
+msgstr "表示ContentLocation所指的实例。"
 
 #. The subject instance is a reproduction of the referenced instance such as a
 #. photocopy or an offset print of an original or photocopy and so on.
@@ -4188,7 +4190,7 @@ msgstr "页"
 #. The page in the volume of the Instance indicated by the other statements
 #. for this :ContentLocation
 msgid "bdo:contentLocationPage::adm:userTooltip"
-msgstr ""
+msgstr "这个:ContentLocation的其他语句所指示的实例卷中的页面"
 
 #. Authorship statement for the Instance.
 msgid "bdo:authorshipStatement::rdfs:label"
@@ -4196,12 +4198,12 @@ msgstr "著作者身份说明"
 
 #. Authorship statement for the Instance.
 msgid "bdo:authorshipStatement::adm:userTooltip"
-msgstr ""
+msgstr "实例的作者申明。"
 
 #. Essentially who did the holder receive this Lineage from
 #. see also: http://purl.bdrc.io/ontology/core/LineageReceived
 msgid "bdo:lineageReceived::adm:userTooltip"
-msgstr ""
+msgstr "从本质上给予该传承人这个传承的人"
 
 #. A statement of the location of this Instance in a containing Instance or of
 #. the pagination present in the text versus the formal location in terms of
@@ -4213,17 +4215,17 @@ msgstr "位置说明"
 #. the pagination present in the text versus the formal location in terms of
 #. page images.
 msgid "bdo:contentLocationStatement::adm:userTooltip"
-msgstr ""
+msgstr "该实例在包含实例中的位置或文本中存在的分页与页面图像方面的正式位置的说明。"
 
 #. An event of some type that occurred at the subject Place around some date,
 #. involving some Persons and other entities: founding, destruction etc.
 msgid "bdo:PlaceEvent::adm:userTooltip"
-msgstr ""
+msgstr "某个日期前后在主题地点发生的某种类型的事件，涉及一些人和其他实体：创建、破坏等。"
 
 #. This label is a transliteration of the object label in a form indicated in
 #. the language tag
 msgid "bdo:transliterationOf::adm:userTooltip"
-msgstr ""
+msgstr "这个标签是对目标语言的转写（以语言标签中有所表示的语言）"
 
 #. Indicates a Corporation that is associated with the subject Event.
 msgid "bdo:personEventCorporation::adm:userTooltip"
@@ -4231,46 +4233,46 @@ msgstr "指与主题事件有关的一个组织"
 
 #. links an etext volume to its various etexts (often 1)
 msgid "bdo:EtextRef::adm:userTooltip"
-msgstr ""
+msgstr "将一个电子文本卷与它的各种电子文本连接起来（通常是1个）。"
 
 #. The Event of a Person occupying a Seat
 msgid "bdo:PersonOccupiesSeat::adm:userTooltip"
-msgstr ""
+msgstr "一个人担任法座主持的事件"
 
 #. The Event of a Person receiving their final ordination
 msgid "bdo:PersonFinalOrdination::adm:userTooltip"
-msgstr ""
+msgstr "一个人接受比丘戒的事件"
 
 #. The title bestowed upon a Person who has discovered a terma
 msgid "bdo:PersonGterStonTitle::adm:userTooltip"
-msgstr ""
+msgstr "向发掘了伏藏的人授予的称号。"
 
 #. An etext without any associated pagination information corresponding to
 #. digitized images of a Work
 msgid "bdo:EtextNonPaginated::adm:userTooltip"
-msgstr ""
+msgstr "与作品数字化图像相对应的没有任何相关分页信息的电子文本"
 
 #. An event describing the second translation of a work
 msgid "bdo:SecondTranslatedEvent::adm:userTooltip"
-msgstr ""
+msgstr "描述一部作品的第二次翻译的事件"
 
 #. The name of a Person's family. Surname
 msgid "bdo:PersonFamilyName::adm:userTooltip"
-msgstr ""
+msgstr "一个人的家庭名称。姓氏"
 
 #. The number of the volume in the Item. There is no implied order in RDF and
 #. there may be missing volumes so it is necessary to explicitly indicate the
 #. volume number.
 msgid "bdo:volumeNumber::adm:userTooltip"
-msgstr ""
+msgstr "该单件中的卷号。在RDF中没有隐含的顺序，可能会有遗漏的卷，所以有必要明确指出卷号。"
 
 #. An event describing the second revision of a work
 msgid "bdo:SecondRevisedEvent::adm:userTooltip"
-msgstr ""
+msgstr "描述作品第二次修订的事件"
 
 #. Indicates the Mother of the Person
 msgid "bdo:hasMother::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的母亲"
 
 #. Indicates the direct parent in the hierarchy of the work content
 msgid "bdo:partOf::rdfs:label"
@@ -4278,11 +4280,11 @@ msgstr "属于"
 
 #. Indicates the direct parent in the hierarchy of the work content
 msgid "bdo:partOf::adm:userTooltip"
-msgstr ""
+msgstr "表示作品内容的层次结构中的直接父级。"
 
 #. Indicates a Child of the Person
 msgid "bdo:hasChild::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的子女"
 
 #. A title for a work as it occurs in the table of contents for a Work.
 msgid "bdo:ToCTitle::rdfs:label"
@@ -4290,7 +4292,7 @@ msgstr "在目录中的标题"
 
 #. A title for a work as it occurs in the table of contents for a Work.
 msgid "bdo:ToCTitle::adm:userTooltip"
-msgstr ""
+msgstr "在作品目录中出现的作品标题。"
 
 #. Title that a work is known by other than one of the defined title types
 msgid "bdo:OtherTitle::rdfs:label"
@@ -4298,11 +4300,11 @@ msgstr "其他标题"
 
 #. Title that a work is known by other than one of the defined title types
 msgid "bdo:OtherTitle::adm:userTooltip"
-msgstr ""
+msgstr "作品以所定义的标题类型以外的其他标题为人所知。"
 
 #. Indicates a Nibling of the Person
 msgid "bdo:hasNibling::adm:userTooltip"
-msgstr ""
+msgstr "表明该人的兄弟姐妹"
 
 #. Summary information about the Instance
 msgid "bdo:catalogInfo::rdfs:label"
@@ -4310,7 +4312,7 @@ msgstr "摘要"
 
 #. Summary information about the Instance
 msgid "bdo:catalogInfo::adm:userTooltip"
-msgstr ""
+msgstr "实例的概要信息"
 
 #. This Person is an incarnation of the target Person
 msgid "bdo:isIncarnation::adm:userTooltip"
@@ -4318,7 +4320,7 @@ msgstr "该人物是目标任务的化身（转世）"
 
 #. A unit of searchable etext
 msgid "bdo:EtextChunk::adm:userTooltip"
-msgstr ""
+msgstr "一个单位的可搜索电子档"
 
 #. The line on the page that is referenced
 msgid "bdo:contentLocationLine::rdfs:label"
@@ -4326,66 +4328,66 @@ msgstr "行"
 
 #. The line on the page that is referenced
 msgid "bdo:contentLocationLine::adm:userTooltip"
-msgstr ""
+msgstr "被引用的页面上的一行"
 
 #. This work is a translation of the reference work.
 msgid "bdo:workTranslationOf::adm:userTooltip"
-msgstr ""
+msgstr "这部作品是所指作品的翻译。"
 
 #. Indicates a Maternal aunt of the Person
 msgid "bdo:hasMaternalAunt::adm:userTooltip"
-msgstr ""
+msgstr "表示该人的姨妈"
 
 #. An event describing the third translation of a work
 msgid "bdo:ThirdTranslatedEvent::adm:userTooltip"
-msgstr ""
+msgstr "描述一部作品的第三次翻译的事件"
 
 #. A physical instance of an (abstract) Work
 msgid "bdo:PhysicalInstance::adm:userTooltip"
-msgstr ""
+msgstr "一个（抽象的）作品的物理实例"
 
 #. The number of volumes in the item
 msgid "bdo:itemVolumes::adm:userTooltip"
-msgstr ""
+msgstr "单件中的卷数"
 
 #. Individuals of class :Creator describe the various roles that :Agents play
 #. in creating a :Work
 msgid "bdo:Creator::adm:userTooltip"
-msgstr ""
+msgstr ":Creator类的个体描述了:Agents在创建一个:Work时扮演的各种角色。"
 
 #. Indicates the Printing Method, e.g., blockprint, manuscript, xerography,
 #. and so on
 msgid "bdo:PrintMethod::adm:userTooltip"
-msgstr ""
+msgstr "表示印刷方法，例如，雕版、写本、胶印，等等。"
 
 #. Indicates that the Work was handwritten.
 msgid "bdo:PrintMethod_Manuscript::adm:userTooltip"
-msgstr ""
+msgstr "表示作品是手写的。"
 
 #. see also: http://lexvo.org/id/script/Tang
 msgid "bdr:ScriptTang::skos:prefLabel"
-msgstr ""
+msgstr "西夏文"
 
 #. A script in which a language is written. For example, DbuCan, DbuMed,
 #. Devanagari, Latin, etc.
 #. see also: http://lexvo.org/ontology#Script
 msgid "bdo:Script::adm:userTooltip"
-msgstr ""
+msgstr "一种书写语言的文字。例如，乌金体藏文、乌梅体藏文、天城体、拉丁文等。"
 
 #. Anchatsakarat, used in Southeast Asia, starting in 691 B.C.E.
 #. see also: http://www.worldcat.org/oclc/33047740
 msgid "bdr:EraAS::adm:userTooltip"
-msgstr ""
+msgstr "Anchatsakarat，在东南亚使用，始于公元前691年。"
 
 #. Nepal Sambat Era, used in Nepal, starting in 879 C.E.
 #. see also: http://www.wikidata.org/entity/Q1268741
 msgid "bdr:EraNS::adm:userTooltip"
-msgstr ""
+msgstr "尼泊尔Sambat纪元，在尼泊尔使用，始于公元879年。"
 
 #. Buddhist Era (Buddhasakarat), usually starting in 545 B.C.E.
 #. see also: http://www.worldcat.org/oclc/33047740
 msgid "bdr:EraBE::adm:userTooltip"
-msgstr ""
+msgstr "佛教纪元（Buddhasakarat），通常始于公元前545年。"
 
 #. Cunlasakkalat or Cunlasakkarat (‘Little Era’), used in Southeast Asia,
 #. beginning in 638 C.E.
@@ -4393,12 +4395,12 @@ msgstr ""
 #. see also: http://www.worldcat.org/oclc/7351824935
 #. see also: http://www.laomanuscripts.net/en/help#3i
 msgid "bdr:EraCS::adm:userTooltip"
-msgstr ""
+msgstr "Cunlasakkalat或Cunlasakkarat（\"小纪元\"），在东南亚使用，始于公元638年。"
 
 #. Vikram Samvat Era, used in Nepal and India, starting in 56 B.C.E.
 #. see also: http://www.wikidata.org/entity/Q1370848
 msgid "bdr:EraVS::adm:userTooltip"
-msgstr ""
+msgstr "Vikram Samvat纪元，用于尼泊尔和印度，始于公元前56年。"
 
 #. Mahasakarat, used in Southeast Asia, starting in 78 C.E.
 #. see also: http://www.worldcat.org/oclc/33047740
@@ -4407,7 +4409,7 @@ msgstr ""
 
 #. A transliteration used to represent a language in a non-native script.
 msgid "bdo:Transliteration::adm:userTooltip"
-msgstr ""
+msgstr "用于以非母语文字表示一种语言的转写。"
 
 #. A binding form in which some sort of container, cloth wrapping, box, pecha
 #. between boards, and so on
@@ -4447,7 +4449,7 @@ msgstr ""
 #. represents the type of a part of an instance, work or item such as Chapter,
 #. Section and so on
 msgid "bdo:PartType::adm:userTooltip"
-msgstr ""
+msgstr "代表一个实例、作品或单件的一部分的类型，如章、节等。"
 
 msgid "bdr:PartTypeSection::skos:prefLabel"
 msgstr "段落"
@@ -4510,12 +4512,12 @@ msgstr ""
 #. Tibetan lineage type records the Tibetan form of a transmission lineage
 #. such as empowerment, pith instruction, and so on
 msgid "bdo:TibetanLineageType::adm:userTooltip"
-msgstr ""
+msgstr "藏语系类型记录了藏语系的传承形式，如灌顶、口诀等。"
 
 #. Subclasses record different lineage types by culture, e.g., Tibetan or
 #. Chinese
 msgid "bdo:LineageType::adm:userTooltip"
-msgstr ""
+msgstr "子类按文化记录不同的传承类型，如藏语或汉语"
 
 #. The Language+Script records the combination of language, script, and
 #. transliteration in which the content is expresed
@@ -4544,7 +4546,7 @@ msgstr ""
 #. The reference to the instance the etext is in
 #. see also: http://purl.bdrc.io/ontology/core/Etext
 msgid "bdo:eTextInInstance::rdfs:label"
-msgstr ""
+msgstr "在实例中"
 
 #. The reference to the instance the etext is in
 #. see also: http://purl.bdrc.io/ontology/core/Etext
@@ -4599,7 +4601,7 @@ msgstr ""
 
 #. An etext with pagination corresponding to digitized images of the Work
 msgid "bdo:ItemEtextPaginated::rdfs:label"
-msgstr ""
+msgstr "分页的电子文本单件"
 
 #. An etext with pagination corresponding to digitized images of the Work
 msgid "bdo:ItemEtextPaginated::adm:userTooltip"
@@ -4653,11 +4655,11 @@ msgstr ""
 
 #. The microfilm item from which the instance was digitized.
 msgid "bdo:microfilmItem::rdfs:label"
-msgstr ""
+msgstr "来自缩微胶片的单件"
 
 #. The microfilm item from which the instance was digitized.
 msgid "bdo:microfilmItem::adm:userTooltip"
-msgstr ""
+msgstr "将单件数字化的微缩胶片项目。"
 
 #. Physical assets are indicated for libraries that are representing their
 #. assets as physical items.
@@ -4667,7 +4669,7 @@ msgstr ""
 #. Physical assets are indicated for libraries that are representing their
 #. assets as physical items.
 msgid "bdo:VolumePhysicalAsset::adm:userTooltip"
-msgstr ""
+msgstr "实物资产是指那些将其资产表现为实物单件的图书馆。"
 
 #. A list of fascicles contained in the physical instance of a Work
 msgid "bdo:hasFascicles::rdfs:label"
@@ -4701,7 +4703,7 @@ msgstr ""
 #. A free-text statement of the holdings by BDRC of this Item (and its
 #. relatives).
 msgid "bdo:itemBDRCHoldingStatement::adm:userTooltip"
-msgstr ""
+msgstr "BDRC对该单件（及其相关）持有的免费文本声明。"
 
 msgid "bdo:sliceStartChar::rdfs:label"
 msgstr ""
@@ -4744,7 +4746,7 @@ msgstr ""
 #. used as labels for items such as canon catalog sigLas and date eras. The
 #. value is a string such as "T %s"or "%s C.E."
 msgid "bdo:uiAbbrFormat::adm:userTooltip"
-msgstr ""
+msgstr "用于单件的标签，例如大藏经的简称，或者日期。其值是一个字符串，如 \"T %s\"or \"%s C.E.\""
 
 #. Entities are the principle types or concepts in the BDRC ontology.
 #. Individuals of type subclass of :Entity will correspond to distinct
@@ -5166,7 +5168,7 @@ msgstr "目标作品是包含某一作品的上一级作品"
 #. An etext that does not include correspondence to any digitized images of
 #. the Work
 msgid "bdo:ItemEtextNonPaginated::rdfs:label"
-msgstr ""
+msgstr "非分页的电子文本单件"
 
 #. An etext that does not include correspondence to any digitized images of
 #. the Work
@@ -5352,12 +5354,12 @@ msgstr ""
 #. An Era is a span of years usually reckoned as starting and ending in
 #. reference to a Reference Era
 msgid "bdo:Era::rdfs:label"
-msgstr ""
+msgstr "纪元"
 
 #. An Era is a span of years usually reckoned as starting and ending in
 #. reference to a Reference Era
 msgid "bdo:Era::adm:userTooltip"
-msgstr ""
+msgstr "一个纪元是指通常参照参考纪元来计算开始和结束的年份。"
 
 #. Time periods are specified in terms of year ranges via :notBefore and
 #. :notAfter. Years are signed integers using Western "Common Era" reckoning.

@@ -1,9 +1,9 @@
 # 
 # Translators:
-# Elie Roux <roux.elie@gmail.com>, 2020
-# Kunga Rinchen <Kuinchen1p@gmail.com>, 2020
 # Ngawang Trinley <ngawangtrinley@gmail.com>, 2020
 # Tashi Dhondup <dhonduptiger658@gmail.com>, 2020
+# Elie Roux <roux.elie@gmail.com>, 2020
+# Kunga Rinchen <Kuinchen1p@gmail.com>, 2020
 # jee huajian <drongbulobsang@gmail.com>, 2020
 # 
 msgid ""
@@ -585,7 +585,7 @@ msgid "bdo:workHasTranslation::rdfs:label"
 msgstr "འགྱུར།"
 
 msgid "rdfs:seeAlso::rdfs:label"
-msgstr "གཞན་ཡང་གཟིགས།"
+msgstr "ཡོད་ས་གཞན།"
 
 #. Event occurring upon a divorce of the Person
 msgid "bdo:PersonDivorce::rdfs:label"
@@ -686,7 +686,7 @@ msgstr "གནས་ཚུལ།"
 
 #. Where and by whom the Work was scanned (or requested to be scanned)
 msgid "bdo:workScanInfo::rdfs:label"
-msgstr "གཤེར་འབེབས་ཀྱི་སྐོར།"
+msgstr "བཤེར་འབེབས་ཀྱི་སྐོར།"
 
 #. A title by which is known or referenced.
 msgid "bdo:WorkTitle::rdfs:label"
@@ -1120,7 +1120,7 @@ msgid "bdo:ItemPhysicalAsset::rdfs:label"
 msgstr "གཟུགས་ཅན་པོ་ཏི།"
 
 msgid "skos:prefLabel::rdfs:label"
-msgstr "མིང་བྱང་རྩེ་གྲ།"
+msgstr "ཡོངས་གྲགས་ཀྱི་མིང་བྱང་།"
 
 #. A Person Name is one of the names a Person is historically known by
 msgid "bdo:PersonName::rdfs:label"
@@ -3645,7 +3645,7 @@ msgstr ""
 
 #. Where and by whom the Work was scanned (or requested to be scanned)
 msgid "bdo:scanInfo::rdfs:label"
-msgstr "གཤེར་འབེབས་ཀྱི་སྐོར།"
+msgstr "བཤེར་འབེབས་ཀྱི་སྐོར།"
 
 #. Where and by whom the Work was scanned (or requested to be scanned)
 msgid "bdo:scanInfo::adm:userTooltip"
@@ -4566,7 +4566,7 @@ msgid "bdo:publisherLocation::adm:userTooltip"
 msgstr ""
 
 msgid "skos:closeMatch::rdfs:label"
-msgstr ""
+msgstr "འདྲ་ཤས་ཆེ་བ།"
 
 #. The name of the publisher transcribed from the Work
 msgid "bdo:publisherName::rdfs:label"
@@ -4574,4 +4574,873 @@ msgstr "པར་མཁན།"
 
 #. The name of the publisher transcribed from the Work
 msgid "bdo:publisherName::adm:userTooltip"
+msgstr ""
+
+#. the tbrc legacy outline node rid used to route legacy outline URL
+#. references
+msgid "bdo:legacyOutlineNodeRID::rdfs:label"
+msgstr ""
+
+#. the tbrc legacy outline node rid used to route legacy outline URL
+#. references
+msgid "bdo:legacyOutlineNodeRID::adm:userTooltip"
+msgstr ""
+
+#. The part index is used to provide a simple way to order the parts of a
+#. parent Work.
+msgid "bdo:partIndex::rdfs:label"
+msgstr ""
+
+#. The part index is used to provide a simple way to order the parts of a
+#. parent Work.
+msgid "bdo:partIndex::adm:userTooltip"
+msgstr ""
+
+#. domain of :DDBCAId which is used to record ids of Dharma Drum authority
+#. resources
+msgid "bdo:PersonOrPlace::rdfs:label"
+msgstr ""
+
+#. An etext with pagination corresponding to digitized images of the Work
+msgid "bdo:ItemEtextPaginated::rdfs:label"
+msgstr ""
+
+#. An etext with pagination corresponding to digitized images of the Work
+msgid "bdo:ItemEtextPaginated::adm:userTooltip"
+msgstr ""
+
+#. set to true to indicate that the date information in an :Event or :Period
+#. is approximate or uncertain
+msgid "bdo:dateApproximate::rdfs:label"
+msgstr ""
+
+#. set to true to indicate that the date information in an :Event or :Period
+#. is approximate or uncertain
+msgid "bdo:dateApproximate::adm:userTooltip"
+msgstr ""
+
+#. Starting side of the folio in a folio-based location.
+msgid "bdo:contentLocationSide::rdfs:label"
+msgstr ""
+
+#. Starting side of the folio in a folio-based location.
+msgid "bdo:contentLocationSide::adm:userTooltip"
+msgstr ""
+
+#. If true then the location is specified in terms of folio # and side:
+#. verso/recto
+msgid "bdo:contentLocationByFolio::rdfs:label"
+msgstr ""
+
+#. If true then the location is specified in terms of folio # and side:
+#. verso/recto
+msgid "bdo:contentLocationByFolio::adm:userTooltip"
+msgstr ""
+
+#. pages of text content in the volume
+msgid "bdo:volumePagesText::rdfs:label"
+msgstr ""
+
+#. pages of text content in the volume
+msgid "bdo:volumePagesText::adm:userTooltip"
+msgstr ""
+
+#. for use with abstract works such as from the SEA project that have many
+#. different expressions with the same putative title
+msgid "bdo:ReferenceTitle::rdfs:label"
+msgstr ""
+
+#. for use with abstract works such as from the SEA project that have many
+#. different expressions with the same putative title
+msgid "bdo:ReferenceTitle::adm:userTooltip"
+msgstr ""
+
+#. The microfilm item from which the instance was digitized.
+msgid "bdo:microfilmItem::rdfs:label"
+msgstr ""
+
+#. The microfilm item from which the instance was digitized.
+msgid "bdo:microfilmItem::adm:userTooltip"
+msgstr ""
+
+#. Physical assets are indicated for libraries that are representing their
+#. assets as physical items.
+msgid "bdo:VolumePhysicalAsset::rdfs:label"
+msgstr ""
+
+#. Physical assets are indicated for libraries that are representing their
+#. assets as physical items.
+msgid "bdo:VolumePhysicalAsset::adm:userTooltip"
+msgstr ""
+
+#. A list of fascicles contained in the physical instance of a Work
+msgid "bdo:hasFascicles::rdfs:label"
+msgstr ""
+
+#. A list of fascicles contained in the physical instance of a Work
+msgid "bdo:hasFascicles::adm:userTooltip"
+msgstr ""
+
+#. refers to the volume by name, e.g., ca, ta, nga
+msgid "bdo:contentLocationVolumeName::rdfs:label"
+msgstr ""
+
+#. refers to the volume by name, e.g., ca, ta, nga
+msgid "bdo:contentLocationVolumeName::adm:userTooltip"
+msgstr ""
+
+#. The class of DILA Chinese date individuals
+msgid "bdo:ChineseDate::rdfs:label"
+msgstr ""
+
+#. The class of DILA Chinese date individuals
+msgid "bdo:ChineseDate::adm:userTooltip"
+msgstr ""
+
+#. A free-text statement of the holdings by BDRC of this Item (and its
+#. relatives).
+msgid "bdo:itemBDRCHoldingStatement::rdfs:label"
+msgstr ""
+
+#. A free-text statement of the holdings by BDRC of this Item (and its
+#. relatives).
+msgid "bdo:itemBDRCHoldingStatement::adm:userTooltip"
+msgstr ""
+
+msgid "bdo:sliceStartChar::rdfs:label"
+msgstr ""
+
+#. can be v2.1.* or v3.0.*
+msgid "bdo:IIIFCollection::rdfs:label"
+msgstr ""
+
+#. can be v2.1.* or v3.0.*
+msgid "bdo:IIIFCollection::adm:userTooltip"
+msgstr ""
+
+#. Indicates a statement of error in the content
+msgid "bdo:instanceErrata::rdfs:label"
+msgstr ""
+
+#. Indicates a statement of error in the content
+msgid "bdo:instanceErrata::adm:userTooltip"
+msgstr ""
+
+#. two- or three-character lowercase alphabetic codes that designate countries
+#. and regions (such as states in the U.S.)
+#. see also: http://id.loc.gov/vocabulary/countries.html
+#. see also: http://www.loc.gov/marc/countries/
+msgid "bdo:placeMARCCountryCode::rdfs:label"
+msgstr ""
+
+#. two- or three-character lowercase alphabetic codes that designate countries
+#. and regions (such as states in the U.S.)
+#. see also: http://id.loc.gov/vocabulary/countries.html
+#. see also: http://www.loc.gov/marc/countries/
+msgid "bdo:placeMARCCountryCode::adm:userTooltip"
+msgstr ""
+
+#. used as labels for items such as canon catalog sigLas and date eras. The
+#. value is a string such as "T %s"or "%s C.E."
+msgid "bdo:uiAbbrFormat::rdfs:label"
+msgstr ""
+
+#. used as labels for items such as canon catalog sigLas and date eras. The
+#. value is a string such as "T %s"or "%s C.E."
+msgid "bdo:uiAbbrFormat::adm:userTooltip"
+msgstr ""
+
+#. Entities are the principle types or concepts in the BDRC ontology.
+#. Individuals of type subclass of :Entity will correspond to distinct
+#. individuals in the domain of discourse of BDRC, such as Persons, Places,
+#. and Works.
+msgid "bdo:Entity::rdfs:label"
+msgstr ""
+
+#. Entities are the principle types or concepts in the BDRC ontology.
+#. Individuals of type subclass of :Entity will correspond to distinct
+#. individuals in the domain of discourse of BDRC, such as Persons, Places,
+#. and Works.
+msgid "bdo:Entity::adm:userTooltip"
+msgstr ""
+
+msgid "bdo:sliceEndChar::rdfs:label"
+msgstr ""
+
+#. This Resource is a root Resource of a graph.
+msgid "bdo:isRoot::rdfs:label"
+msgstr ""
+
+#. This Resource is a root Resource of a graph.
+msgid "bdo:isRoot::adm:userTooltip"
+msgstr ""
+
+#. a component material of the source (can be the type of paper, type of ink,
+#. etc.)
+msgid "bdo:material::rdfs:label"
+msgstr "རྒྱུ་རྫས།"
+
+#. a component material of the source (can be the type of paper, type of ink,
+#. etc.)
+msgid "bdo:material::adm:userTooltip"
+msgstr ""
+
+#. Library of Congress Call Number
+#. see also: https://www.loc.gov/catdir/cpso/lcco/
+msgid "bdo:LCCallNumber::rdfs:label"
+msgstr ""
+
+#. Library of Congress Call Number
+#. see also: https://www.loc.gov/catdir/cpso/lcco/
+msgid "bdo:LCCallNumber::adm:userTooltip"
+msgstr ""
+
+#. An unspecified Chinese date.
+msgid "bdr:ChineseDateNotSpecified::rdfs:label"
+msgstr ""
+
+#. An unspecified Chinese date.
+msgid "bdr:ChineseDateNotSpecified::adm:userTooltip"
+msgstr ""
+
+#. An organization that preserves and makes metadata and images/etexts
+#. available digitally
+msgid "bdo:hasSteward::rdfs:label"
+msgstr ""
+
+#. An organization that preserves and makes metadata and images/etexts
+#. available digitally
+msgid "bdo:hasSteward::adm:userTooltip"
+msgstr ""
+
+#. The China Historical GIS identifier for the Place
+msgid "bdo:placeChgisId::rdfs:label"
+msgstr ""
+
+#. The China Historical GIS identifier for the Place
+msgid "bdo:placeChgisId::adm:userTooltip"
+msgstr ""
+
+#. this property refers to a named IIIF Manifest resource. The resource may be
+#. local or at another location such as the British Library EAP
+msgid "bdo:hasIIIFManifest::rdfs:label"
+msgstr ""
+
+#. The accuracy of the latitude and longitude
+msgid "bdo:placeAccuracy::rdfs:label"
+msgstr ""
+
+#. The accuracy of the latitude and longitude
+msgid "bdo:placeAccuracy::adm:userTooltip"
+msgstr ""
+
+msgid "bdo:hasIIIFCollection::rdfs:label"
+msgstr ""
+
+#. A transliteration for a LangScript.
+msgid "bdo:transliteration::rdfs:label"
+msgstr ""
+
+#. A transliteration for a LangScript.
+msgid "bdo:transliteration::adm:userTooltip"
+msgstr ""
+
+#. A dotted list of indexes of the part among its siblings under each parent
+#. up to the root.
+msgid "bdo:partTreeIndex::rdfs:label"
+msgstr ""
+
+#. A dotted list of indexes of the part among its siblings under each parent
+#. up to the root.
+msgid "bdo:partTreeIndex::adm:userTooltip"
+msgstr ""
+
+#. Indicates an alternative restoration of the original PersonName or
+#. WorkTitle
+#. see also: http://purl.bdrc.io/ontology/core/restored
+msgid "bdo:restoredAlt::rdfs:label"
+msgstr ""
+
+#. Indicates an alternative restoration of the original PersonName or
+#. WorkTitle
+#. see also: http://purl.bdrc.io/ontology/core/restored
+msgid "bdo:restoredAlt::adm:userTooltip"
+msgstr ""
+
+#. Exception notes such a missing volume, damage to pages and so on
+#. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
+msgid "bdo:itemException::rdfs:label"
+msgstr ""
+
+#. Exception notes such a missing volume, damage to pages and so on
+#. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
+msgid "bdo:itemException::adm:userTooltip"
+msgstr ""
+
+#. A positive integer indicating the total number of images in the ImageGroup
+msgid "bdo:imageCount::rdfs:label"
+msgstr ""
+
+#. A positive integer indicating the total number of images in the ImageGroup
+msgid "bdo:imageCount::adm:userTooltip"
+msgstr ""
+
+#. Associates modern address information with a Place
+msgid "bdo:placeAddress::rdfs:label"
+msgstr ""
+
+#. Associates modern address information with a Place
+msgid "bdo:placeAddress::adm:userTooltip"
+msgstr ""
+
+#. The number of monasteries per ecumen in this Place (presumably a region)
+#. from data provided by Karl Ryavec
+msgid "bdo:placeGonpaPerEcumen::rdfs:label"
+msgstr ""
+
+#. The number of monasteries per ecumen in this Place (presumably a region)
+#. from data provided by Karl Ryavec
+msgid "bdo:placeGonpaPerEcumen::adm:userTooltip"
+msgstr ""
+
+#. indicates the id of the canister that the microfilm was stored in
+#. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
+msgid "bdo:microfilmCanister::rdfs:label"
+msgstr ""
+
+#. indicates the id of the canister that the microfilm was stored in
+#. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
+msgid "bdo:microfilmCanister::adm:userTooltip"
+msgstr ""
+
+#. International Standard Book Number
+msgid "bdo:ISBN::rdfs:label"
+msgstr "ISBN རྒྱལ་སྤྱིའི་དཔེ་རྟགས།"
+
+#. International Standard Book Number
+msgid "bdo:ISBN::adm:userTooltip"
+msgstr ""
+
+msgid "bdo:placeRegionPoly::rdfs:label"
+msgstr ""
+
+#. see also: http://purl.bdrc.io/ontology/core/Etext
+msgid "bdo:chunkContents::rdfs:label"
+msgstr ""
+
+#. A slice of text is a character range, used to identify portions of an Etext
+#. for any purpose: correspondence with original pages, lines, etc.
+msgid "bdo:EtextSlice::rdfs:label"
+msgstr ""
+
+#. A slice of text is a character range, used to identify portions of an Etext
+#. for any purpose: correspondence with original pages, lines, etc.
+msgid "bdo:EtextSlice::adm:userTooltip"
+msgstr ""
+
+msgid "bdo:eTextHasChunk::rdfs:label"
+msgstr ""
+
+#. the method for creating the content
+msgid "bdo:contentMethod::rdfs:label"
+msgstr "དཔེ་ཆ་སྒྲིག་སྟངས།"
+
+#. the method for creating the content
+msgid "bdo:contentMethod::adm:userTooltip"
+msgstr ""
+
+#. An Insitution containing a collection of works such as "Bibliothèque EFEO -
+#. Preah Vanarât Ken Vong", "Fragile Palm Leaves Foundation" or "National
+#. Library of Mongolia"
+msgid "bdo:CollectionInstitution::adm:userTooltip"
+msgstr ""
+
+#. A count of the ending phrase (in language specific units) of a Work
+#. location
+msgid "bdo:contentLocationEndPhrase::rdfs:label"
+msgstr ""
+
+#. A count of the ending phrase (in language specific units) of a Work
+#. location
+msgid "bdo:contentLocationEndPhrase::adm:userTooltip"
+msgstr ""
+
+#. A count of the starting phrase (in language specific units) of a Work
+#. location.
+msgid "bdo:contentLocationPhrase::rdfs:label"
+msgstr ""
+
+#. A count of the starting phrase (in language specific units) of a Work
+#. location.
+msgid "bdo:contentLocationPhrase::adm:userTooltip"
+msgstr ""
+
+#. can be v2.1.* or v3.0.*
+msgid "bdo:IIIFManifest::rdfs:label"
+msgstr ""
+
+#. can be v2.1.* or v3.0.*
+msgid "bdo:IIIFManifest::adm:userTooltip"
+msgstr ""
+
+#. Indicates a restoration of the original PersonName or WorkTitle
+msgid "bdo:restored::rdfs:label"
+msgstr ""
+
+#. Indicates a restoration of the original PersonName or WorkTitle
+msgid "bdo:restored::adm:userTooltip"
+msgstr ""
+
+#. :Facets are essentially n-ary relations that apply to one or more
+#. Resources. Facets are compound features or properties of Resources.
+msgid "bdo:Facet::rdfs:label"
+msgstr ""
+
+#. :Facets are essentially n-ary relations that apply to one or more
+#. Resources. Facets are compound features or properties of Resources.
+msgid "bdo:Facet::adm:userTooltip"
+msgstr ""
+
+#. indicates the id of the film strip that contains the digitized content
+msgid "bdo:microfilmStrip::rdfs:label"
+msgstr ""
+
+#. indicates the id of the film strip that contains the digitized content
+msgid "bdo:microfilmStrip::adm:userTooltip"
+msgstr ""
+
+#. class of various resources that may have :Note attached
+msgid "bdo:EntitiesOrFacets::rdfs:label"
+msgstr ""
+
+#. :TextualEntity is a subclass of :Work, or :Item or :Etext that is
+#. constructed so that the adm:license range can be applied across
+msgid "bdo:TextualEntity::rdfs:label"
+msgstr ""
+
+#. Total number of pages in the volume
+msgid "bdo:volumePagesTotal::rdfs:label"
+msgstr ""
+
+#. Total number of pages in the volume
+msgid "bdo:volumePagesTotal::adm:userTooltip"
+msgstr ""
+
+#. Indicates whether the pagination is absolute across all pages of a Work or
+#. relative to the contents of a part of the Work.
+#. see also: http://purl.bdrc.io/ontology/core/PaginationType
+msgid "bdo:contentPagination::rdfs:label"
+msgstr ""
+
+#. Indicates whether the pagination is absolute across all pages of a Work or
+#. relative to the contents of a part of the Work.
+#. see also: http://purl.bdrc.io/ontology/core/PaginationType
+msgid "bdo:contentPagination::adm:userTooltip"
+msgstr ""
+
+msgid "bdo:corporationMemberType::rdfs:label"
+msgstr "ས་གནས་རིགས།"
+
+#. Indicates a Person that is a member of the corporation
+msgid "bdo:corporationMember::rdfs:label"
+msgstr ""
+
+#. Indicates a Person that is a member of the corporation
+msgid "bdo:corporationMember::adm:userTooltip"
+msgstr ""
+
+#. The source path, for an InputEtext.
+msgid "bdo:eTextSourcePath::rdfs:label"
+msgstr ""
+
+#. The source path, for an InputEtext.
+msgid "bdo:eTextSourcePath::adm:userTooltip"
+msgstr ""
+
+#. captures ad hoc text associated with the event
+msgid "bdo:eventText::rdfs:label"
+msgstr ""
+
+#. captures ad hoc text associated with the event
+msgid "bdo:eventText::adm:userTooltip"
+msgstr ""
+
+#. Indicates that a Work has no colophon
+msgid "bdo:NoColophon::rdfs:label"
+msgstr ""
+
+#. Indicates that a Work has no colophon
+msgid "bdo:NoColophon::adm:userTooltip"
+msgstr ""
+
+#. sequence number of the work location in a list of locations
+msgid "bdo:contentLocationSeqNum::rdfs:label"
+msgstr ""
+
+#. sequence number of the work location in a list of locations
+msgid "bdo:contentLocationSeqNum::adm:userTooltip"
+msgstr ""
+
+#. the number of this work within a containing work
+msgid "bdo:hasInstanceNum::rdfs:label"
+msgstr ""
+
+#. the number of this work within a containing work
+msgid "bdo:hasInstanceNum::adm:userTooltip"
+msgstr ""
+
+#. domain of :restored and :restoredAlt that are used for name and title
+#. variants restored from corrupt textual content
+msgid "bdo:PersonNameOrBiblioTitle::rdfs:label"
+msgstr ""
+
+#. a union of core and adm classes
+msgid "bdo:MixedUnion::rdfs:label"
+msgstr ""
+
+#. The various sorts of agents represented in the ontology, such as Persons,
+#. Organizations and so on
+msgid "bdo:Agents::rdfs:label"
+msgstr ""
+
+#. The various sorts of agents represented in the ontology, such as Persons,
+#. Organizations and so on
+msgid "bdo:Agents::adm:userTooltip"
+msgstr ""
+
+#. a union of core ontology classes
+msgid "bdo:CoreUnion::rdfs:label"
+msgstr ""
+
+msgid "bdo:workFEMCManuscriptCode::rdfs:label"
+msgstr ""
+
+msgid "bdo:IIIF2Or3Collection::rdfs:label"
+msgstr ""
+
+msgid "bdo:IIIF2Or3Manifest::rdfs:label"
+msgstr ""
+
+#. Indicates the ending side of the folio in a folio-based location.
+msgid "bdo:contentLocationEndSide::rdfs:label"
+msgstr ""
+
+#. Indicates the ending side of the folio in a folio-based location.
+msgid "bdo:contentLocationEndSide::adm:userTooltip"
+msgstr ""
+
+#. Print type indicates the form of the Work such as blockprint, palm-leaf,
+#. manuscript, and so on
+msgid "bdo:ObjectType::rdfs:label"
+msgstr ""
+
+#. Print type indicates the form of the Work such as blockprint, palm-leaf,
+#. manuscript, and so on
+msgid "bdo:ObjectType::adm:userTooltip"
+msgstr ""
+
+#. The 2013 Chinese GB code for the Place. Similar to U.S. Zipcode
+msgid "bdo:placeGB2260-2013::rdfs:label"
+msgstr ""
+
+#. The 2013 Chinese GB code for the Place. Similar to U.S. Zipcode
+msgid "bdo:placeGB2260-2013::adm:userTooltip"
+msgstr ""
+
+#. a union of iiif classes
+msgid "bdo:IIIFUnion::rdfs:label"
+msgstr ""
+
+#. a union of iiif classes
+msgid "bdo:IIIFUnion::adm:userTooltip"
+msgstr ""
+
+msgid "bdo:paginatedBy::rdfs:label"
+msgstr ""
+
+#. For a sub(sub, etc) Work the target Work is the top-level containing Work.
+msgid "bdo:inRootInstance::rdfs:label"
+msgstr ""
+
+#. For a sub(sub, etc) Work the target Work is the top-level containing Work.
+msgid "bdo:inRootInstance::adm:userTooltip"
+msgstr ""
+
+#. An etext that does not include correspondence to any digitized images of
+#. the Work
+msgid "bdo:ItemEtextNonPaginated::rdfs:label"
+msgstr ""
+
+#. An etext that does not include correspondence to any digitized images of
+#. the Work
+msgid "bdo:ItemEtextNonPaginated::adm:userTooltip"
+msgstr ""
+
+#. The World Bank 2010 population for the Place
+msgid "bdo:placeWB2010::rdfs:label"
+msgstr ""
+
+#. The World Bank 2010 population for the Place
+msgid "bdo:placeWB2010::adm:userTooltip"
+msgstr ""
+
+#. The number of copies of the Work in this holding
+#. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
+msgid "bdo:itemCopies::rdfs:label"
+msgstr ""
+
+#. The number of copies of the Work in this holding
+#. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
+msgid "bdo:itemCopies::adm:userTooltip"
+msgstr ""
+
+msgid "bdo:dateIndication::rdfs:label"
+msgstr ""
+
+#. Indicates a member Instance of a VirtualInstance
+msgid "bdo:virtualLinkTo::rdfs:label"
+msgstr ""
+
+#. Indicates a member Instance of a VirtualInstance
+msgid "bdo:virtualLinkTo::adm:userTooltip"
+msgstr ""
+
+#. Types are used to indicate features names, titles, events and so on.
+msgid "bdo:Type::rdfs:label"
+msgstr ""
+
+#. Types are used to indicate features names, titles, events and so on.
+msgid "bdo:Type::adm:userTooltip"
+msgstr ""
+
+#. This property records a Place characterizing the region in which the
+#. Corporation occured/occurs.
+msgid "bdo:corporationRegion::rdfs:label"
+msgstr ""
+
+#. This property records a Place characterizing the region in which the
+#. Corporation occured/occurs.
+msgid "bdo:corporationRegion::adm:userTooltip"
+msgstr ""
+
+#. Free text comment on where the copy of the Instance that was digitized was
+#. printed.
+msgid "bdo:instancePrintery::rdfs:label"
+msgstr "པར་ཁང་།"
+
+#. Free text comment on where the copy of the Instance that was digitized was
+#. printed.
+msgid "bdo:instancePrintery::adm:userTooltip"
+msgstr ""
+
+#. The type of various sorts of date individuals such as DILA's Chinese date
+#. individuals - see subclass bdo:ChineseDateType
+msgid "bdo:Date::rdfs:label"
+msgstr ""
+
+#. The type of various sorts of date individuals such as DILA's Chinese date
+#. individuals - see subclass bdo:ChineseDateType
+msgid "bdo:Date::adm:userTooltip"
+msgstr ""
+
+#. This instance is contained at the identified institution
+msgid "bdo:inCollection::rdfs:label"
+msgstr ""
+
+#. This instance is contained at the identified institution
+msgid "bdo:inCollection::adm:userTooltip"
+msgstr ""
+
+#. see also: https://en.wikipedia.org/wiki/Has-a
+msgid "bdo:taxHasSubClass::rdfs:label"
+msgstr ""
+
+#. This identifies a property that is used in a custom taxonomy to represent
+#. the subclass relation for the taxonomy
+#. see also: http://purl.bdrc.io/ontology/core/Taxonomy
+msgid "bdo:taxSubclassRelation::rdfs:label"
+msgstr ""
+
+msgid "bdo:Taxonomy::rdfs:label"
+msgstr ""
+
+#. see also: http://purl.bdrc.io/ontology/core/Taxonomy
+#. see also: https://en.wikipedia.org/wiki/Is-a
+msgid "bdo:taxSubClassOf::rdfs:label"
+msgstr ""
+
+msgid "bdr:PrintMethod_Intaglio_Copper::skos:prefLabel"
+msgstr ""
+
+#. Indicates a relief method such as carved woodblocks were used.
+msgid "bdo:PrintMethod_Relief::adm:userTooltip"
+msgstr ""
+
+#. Indicates an Intaglio method was used.
+msgid "bdo:PrintMethod_Intaglio::adm:userTooltip"
+msgstr ""
+
+msgid "bdr:PrintMethod_Intaglio_Zinc::skos:prefLabel"
+msgstr ""
+
+#. mechanical relief printing typically via wood
+msgid "bdr:PrintMethod_Relief_Letterpress::skos:prefLabel"
+msgstr ""
+
+#. Indicates an offset method method was used.
+msgid "bdo:PrintMethod_Offset::rdfs:label"
+msgstr ""
+
+#. Indicates an offset method method was used.
+msgid "bdo:PrintMethod_Offset::adm:userTooltip"
+msgstr ""
+
+msgid "bdr:ScriptGilgitBamiyan2::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/script/Khar
+msgid "bdr:ScriptKhar::skos:prefLabel"
+msgstr ""
+
+msgid "bdr:ScriptEasternNagari::skos:prefLabel"
+msgstr ""
+
+msgid "bdr:ScriptGupta::skos:prefLabel"
+msgstr ""
+
+#. Differs from Eastern Nāgarī
+msgid "bdr:ScriptNagari::skos:prefLabel"
+msgstr ""
+
+msgid "bdr:ScriptPostGupta::skos:prefLabel"
+msgstr ""
+
+#. Broader category than Post-gupta
+msgid "bdr:ScriptTransitionalGupta::skos:prefLabel"
+msgstr ""
+
+msgid "bdr:ScriptGilgitBamiyan1::skos:prefLabel"
+msgstr ""
+
+#. see also: http://lexvo.org/id/script/Tirh
+msgid "bdr:ScriptTirh::skos:prefLabel"
+msgstr ""
+
+#. A (traditional) Chinese Era is reckoned in terms of the reign of an Emperor
+msgid "bdo:ChineseEra::rdfs:label"
+msgstr ""
+
+#. A (traditional) Chinese Era is reckoned in terms of the reign of an Emperor
+msgid "bdo:ChineseEra::adm:userTooltip"
+msgstr ""
+
+#. Tibetan dates are designated in terms of the rabjung, year, month and day.
+msgid "bdo:DateIndicationTibetan::rdfs:label"
+msgstr ""
+
+#. Tibetan dates are designated in terms of the rabjung, year, month and day.
+msgid "bdo:DateIndicationTibetan::adm:userTooltip"
+msgstr ""
+
+#. A Chinese date indication usually includes dynasty, reign, era, year,
+#. month, day
+msgid "bdo:ChineseDateIndication::rdfs:label"
+msgstr ""
+
+#. A Chinese date indication usually includes dynasty, reign, era, year,
+#. month, day
+msgid "bdo:ChineseDateIndication::adm:userTooltip"
+msgstr ""
+
+#. An Era is a span of years usually reckoned as starting and ending in
+#. reference to a Reference Era
+msgid "bdo:Era::rdfs:label"
+msgstr ""
+
+#. An Era is a span of years usually reckoned as starting and ending in
+#. reference to a Reference Era
+msgid "bdo:Era::adm:userTooltip"
+msgstr ""
+
+#. Time periods are specified in terms of year ranges via :notBefore and
+#. :notAfter. Years are signed integers using Western "Common Era" reckoning.
+#. see also: bdo:EventOrPeriod
+msgid "bdo:DateIndication::rdfs:label"
+msgstr ""
+
+#. folded concertina or accordion style
+msgid "bdr:Binding_Continuous_Folded::skos:prefLabel"
+msgstr ""
+
+#. Examples of continuous binding include scrolls and leporellos
+msgid "bdo:Binding_Continuous::rdfs:label"
+msgstr ""
+
+#. Examples of continuous binding include scrolls and leporellos
+msgid "bdo:Binding_Continuous::adm:userTooltip"
+msgstr ""
+
+#. The codex form of binding is the precursor to the modern Western-style
+#. bound book
+msgid "bdo:Binding_Codex::adm:userTooltip"
+msgstr ""
+
+msgid "bdo:ChinesePeriods::rdfs:label"
+msgstr ""
+
+msgid "bdo:QuarterCentury::rdfs:label"
+msgstr ""
+
+msgid "bdo:ChineseDynasty::rdfs:label"
+msgstr ""
+
+#. Not currently used. May be incorporated as more info on Chinese dates and
+#. so on are included
+#. Time periods are specified in terms of year ranges via :notBefore and
+#. :notAfter. Years are signed integers using Western "Common Era" reckoning.
+#. see also: bdo:EventOrPeriod
+msgid "bdo:TimePeriod::rdfs:label"
+msgstr ""
+
+msgid "bdr:GenderMixed::skos:prefLabel"
+msgstr ""
+
+msgid "bdr:PaginationAbsolute::skos:prefLabel"
+msgstr ""
+
+#. The pagination type indicates whether pagination is absolute across all
+#. pages of a Work or relative to a text within a Work
+msgid "bdo:PaginationType::rdfs:label"
+msgstr ""
+
+#. The pagination type indicates whether pagination is absolute across all
+#. pages of a Work or relative to a text within a Work
+msgid "bdo:PaginationType::adm:userTooltip"
+msgstr ""
+
+msgid "bdr:PaginationRelative::skos:prefLabel"
+msgstr ""
+
+#. underlying physical material of a manifestation of a Work
+#. see also: http://rdaregistry.info/Elements/m/P30208
+msgid "bdo:BaseMaterial::adm:userTooltip"
+msgstr ""
+
+#. paper dyed with indigo is called Nīlapattra in some contexts
+msgid "bdr:AppliedMaterial_IndigoDye::skos:prefLabel"
+msgstr ""
+
+msgid "bdr:MaterialMixed::skos:prefLabel"
+msgstr ""
+
+#. The material such as ink and so on that is used to impose writing on the
+#. base material
+#. see also: http://rdaregistry.info/Elements/m/P30084
+msgid "bdo:AppliedMaterial::rdfs:label"
+msgstr "བྱུགས་རྫས།"
+
+#. The material such as ink and so on that is used to impose writing on the
+#. base material
+#. see also: http://rdaregistry.info/Elements/m/P30084
+msgid "bdo:AppliedMaterial::adm:userTooltip"
 msgstr ""
