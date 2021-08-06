@@ -405,13 +405,13 @@ msgctxt "http://purl.bdrc.io/admindata/AccessMixed"
 msgid "bda:AccessMixed::skos:prefLabel"
 msgstr ""
 
-#. The contents of the Work are freely avaiable in their entirety.
+#. The contents are made openly accessible
 #: adm/types/access_types.ttl
 msgctxt "http://purl.bdrc.io/admindata/AccessOpen"
 msgid "bda:AccessOpen::skos:prefLabel"
 msgstr ""
 
-#. The Work is temporarily restricted.
+#. The content is temporarily restricted.
 #: adm/types/access_types.ttl
 msgctxt "http://purl.bdrc.io/admindata/AccessRestrictedTemporarily"
 msgid "bda:AccessRestrictedTemporarily::skos:prefLabel"
@@ -426,7 +426,7 @@ msgctxt "http://purl.bdrc.io/admindata/AccessFairUse"
 msgid "bda:AccessFairUse::skos:prefLabel"
 msgstr ""
 
-#. The Work is sealed by tradition.
+#. The content is sealed by tradition.
 #: adm/types/access_types.ttl
 msgctxt "http://purl.bdrc.io/admindata/AccessRestrictedSealed"
 msgid "bda:AccessRestrictedSealed::skos:prefLabel"
@@ -437,7 +437,7 @@ msgctxt "http://purl.bdrc.io/ontology/admin/Access"
 msgid "adm:Access::rdfs:label"
 msgstr ""
 
-#. BDRC is restricting access to the Work.
+#. BDRC is restricting access to the content
 #: adm/types/access_types.ttl
 msgctxt "http://purl.bdrc.io/admindata/AccessRestrictedByTbrc"
 msgid "bda:AccessRestrictedByTbrc::skos:prefLabel"
@@ -658,4 +658,160 @@ msgstr ""
 #: adm/admin.ttl
 msgctxt "http://purl.bdrc.io/ontology/admin/restrictedInChina"
 msgid "adm:restrictedInChina::rdfs:label"
+msgstr ""
+
+#. Log entry for data withdrawl
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/WithdrawData"
+msgid "adm:WithdrawData::rdfs:label"
+msgstr ""
+
+#. Log entries for data management events such as creation, update, withdrawl,
+#. etc
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/DataLogEntry"
+msgid "adm:DataLogEntry::rdfs:label"
+msgstr ""
+
+#. Log entry for image scan request
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/ScanRequested"
+msgid "adm:ScanRequested::rdfs:label"
+msgstr ""
+
+#. Log entry for initial data creation
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/InitialDataCreation"
+msgid "adm:InitialDataCreation::rdfs:label"
+msgstr ""
+
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/InitialOutlineData"
+msgid "adm:InitialOutlineData::rdfs:label"
+msgstr ""
+
+#. what software performed the update  described by the log entry
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/logAgent"
+msgid "adm:logAgent::rdfs:label"
+msgstr ""
+
+#. Log entry for minor data update
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/MinorUpdateData"
+msgid "adm:MinorUpdateData::rdfs:label"
+msgstr ""
+
+#. Log entry for image reordiner within an ImageGroup.
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/Reordered"
+msgid "adm:Reordered::rdfs:label"
+msgstr ""
+
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/LogMethod"
+msgid "adm:LogMethod::rdfs:label"
+msgstr ""
+
+#. Log entry indicating completion of content Quality Control
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/ContentQC"
+msgid "adm:ContentQC::rdfs:label"
+msgstr ""
+
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/UpdateOutlineData"
+msgid "adm:UpdateOutlineData::rdfs:label"
+msgstr ""
+
+#. Log entry for data update
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/UpdateData"
+msgid "adm:UpdateData::rdfs:label"
+msgstr ""
+
+#. Log entry for images updating such as duplicate deletion, images
+#. conversion, etc
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/ImagesUpdated"
+msgid "adm:ImagesUpdated::rdfs:label"
+msgstr ""
+
+#. Log entry for image scanning process
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/Scanned"
+msgid "adm:Scanned::rdfs:label"
+msgstr ""
+
+#. This modification has been made manually
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/admindata/ManualMethod"
+msgid "bda:ManualMethod::skos:prefLabel"
+msgstr ""
+
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/admindata/BatchMethod"
+msgid "bda:BatchMethod::skos:prefLabel"
+msgstr ""
+
+#. Log entry for initial data creation
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/InitialDataImport"
+msgid "adm:InitialDataImport::rdfs:label"
+msgstr ""
+
+#. Log entries for ImageGroups to record content management events such scan
+#. creation, sync'ing etc
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/ContentLogEntry"
+msgid "adm:ContentLogEntry::rdfs:label"
+msgstr ""
+
+#. Log entry for image syncing to archive
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/Synced"
+msgid "adm:Synced::rdfs:label"
+msgstr ""
+
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/InitialOutlineDataImport"
+msgid "adm:InitialOutlineDataImport::rdfs:label"
+msgstr ""
+
+#. whether the data change is manual or part of a batch
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/logMethod"
+msgid "adm:logMethod::rdfs:label"
+msgstr ""
+
+#. Log entry for data reinstatement
+#: adm/admin.ttl
+msgctxt "http://purl.bdrc.io/ontology/admin/ReinstateData"
+msgid "adm:ReinstateData::rdfs:label"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_LULDC_metadata"
+msgid "bda:LD_LULDC_metadata::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_IDP_metadata"
+msgid "bda:LD_IDP_metadata::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_SBB_metadata"
+msgid "bda:LD_SBB_metadata::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_LULDC_content"
+msgid "bda:LD_LULDC_content::skos:prefLabel"
+msgstr ""
+
+#. see also: http://creativecommons.org/licenses/by/4.0/
+#: adm/types/license_types.ttl
+msgctxt "http://purl.bdrc.io/admindata/LicenseCCBY4"
+msgid "bda:LicenseCCBY4::skos:prefLabel"
 msgstr ""

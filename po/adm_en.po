@@ -202,7 +202,7 @@ msgid "bda:CP048::skos:prefLabel"
 msgstr "DILA Buddhist Studies Authority Database Project"
 
 msgid "bda:CP004::skos:prefLabel"
-msgstr "Guru Lama of Sachen International"
+msgstr "Sachen International, Guru Lama"
 
 #. Namsel OCR used on scanned images held by BDRC
 msgid "bda:CP009::skos:prefLabel"
@@ -230,7 +230,7 @@ msgstr ""
 "as Public Domain"
 
 msgid "bda:LD_SRC_Metadata::skos:prefLabel"
-msgstr "Provided by Sakya Research Centre, Copyright Undetermined"
+msgstr "Provided by Sakya Research Centre, Copyright undetermined"
 
 msgid "bda:LD_rKTs_CC0::skos:prefLabel"
 msgstr "Provided by rKTs under the CC0 license"
@@ -286,15 +286,15 @@ msgstr "Fair Use"
 msgid "adm:Access::rdfs:label"
 msgstr "Work Access Type"
 
-#. The Work is sealed by tradition.
+#. The content is sealed by tradition.
 msgid "bda:AccessRestrictedSealed::skos:prefLabel"
 msgstr "Restricted Sealed"
 
-#. BDRC is restricting access to the Work.
+#. BDRC is restricting access to the content
 msgid "bda:AccessRestrictedByTbrc::skos:prefLabel"
 msgstr "Restricted by BDRC"
 
-#. The contents of the Work are freely avaiable in their entirety.
+#. The contents are made openly accessible
 msgid "bda:AccessOpen::skos:prefLabel"
 msgstr "Open Access"
 
@@ -303,7 +303,7 @@ msgstr "Open Access"
 msgid "bda:AccessRestrictedByQuality::skos:prefLabel"
 msgstr "Restricted by Quality"
 
-#. The Work is temporarily restricted.
+#. The content is temporarily restricted.
 msgid "bda:AccessRestrictedTemporarily::skos:prefLabel"
 msgstr "Temporarily Restricted"
 
@@ -428,7 +428,7 @@ msgid "bda:LD_WD_Metadata::skos:prefLabel"
 msgstr "Provided by Wikidata under CC0 license"
 
 msgid "bda:LD_NGMPP_Metadata::skos:prefLabel"
-msgstr "Provided by NGMPP, Copyright Undetermined"
+msgstr "Provided by NGMPP, Copyright undetermined"
 
 #. asset manager status constants for images assets
 msgid "adm:ImagesStatus::adm:userTooltip"
@@ -442,3 +442,110 @@ msgstr "status constants for :Entity metadata: released, provisional, etc"
 #. China
 msgid "adm:restrictedInChina::rdfs:label"
 msgstr "is restricted in China"
+
+#. Log entry for data withdrawl
+msgid "adm:WithdrawData::rdfs:label"
+msgstr "Withdraw Data Log Entry"
+
+#. Log entries for data management events such as creation, update, withdrawl,
+#. etc
+msgid "adm:DataLogEntry::rdfs:label"
+msgstr "Data Log Entry"
+
+#. Log entry for image scan request
+msgid "adm:ScanRequested::rdfs:label"
+msgstr "Scan requested"
+
+#. Log entry for initial data creation
+msgid "adm:InitialDataCreation::rdfs:label"
+msgstr "Initial Data Log Entry"
+
+msgid "adm:InitialOutlineData::rdfs:label"
+msgstr "Initial outline data"
+
+#. what software performed the update  described by the log entry
+msgid "adm:logAgent::rdfs:label"
+msgstr "script"
+
+#. Log entry for minor data update
+msgid "adm:MinorUpdateData::rdfs:label"
+msgstr "Minor Data Update  Log Entry"
+
+#. Log entry for image reordiner within an ImageGroup.
+msgid "adm:Reordered::rdfs:label"
+msgstr "Images reordered"
+
+msgid "adm:LogMethod::rdfs:label"
+msgstr "Log method"
+
+#. Log entry indicating completion of content Quality Control
+msgid "adm:ContentQC::rdfs:label"
+msgstr "Content QC'd"
+
+msgid "adm:UpdateOutlineData::rdfs:label"
+msgstr "Update outline data"
+
+#. Log entry for data update
+msgid "adm:UpdateData::rdfs:label"
+msgstr "Update Data Log Entry"
+
+#. Log entry for images updating such as duplicate deletion, images
+#. conversion, etc
+msgid "adm:ImagesUpdated::rdfs:label"
+msgstr "Images updated"
+
+#. Log entry for image scanning process
+msgid "adm:Scanned::rdfs:label"
+msgstr "Scan done"
+
+#. This modification has been made manually
+msgid "bda:ManualMethod::skos:prefLabel"
+msgstr "Manual"
+
+msgid "bda:BatchMethod::skos:prefLabel"
+msgstr "Batch"
+
+#. Log entry for initial data creation
+msgid "adm:InitialDataImport::rdfs:label"
+msgstr "Initial Data Log Entry"
+
+#. Log entries for ImageGroups to record content management events such scan
+#. creation, sync'ing etc
+msgid "adm:ContentLogEntry::rdfs:label"
+msgstr "Log Entry"
+
+#. Log entry for image syncing to archive
+msgid "adm:Synced::rdfs:label"
+msgstr "Images synced Log Entry"
+
+msgid "adm:InitialOutlineDataImport::rdfs:label"
+msgstr "Initial outline data import"
+
+#. whether the data change is manual or part of a batch
+msgid "adm:logMethod::rdfs:label"
+msgstr "method"
+
+#. Log entry for data reinstatement
+msgid "adm:ReinstateData::rdfs:label"
+msgstr "Reinstate Data Log Entry"
+
+msgid "bda:LD_LULDC_metadata::skos:prefLabel"
+msgstr ""
+"Provided by Leiden University Libraries under Creative Commons Attribution "
+"License (CC BY 4.0)"
+
+msgid "bda:LD_IDP_metadata::skos:prefLabel"
+msgstr ""
+"Provided by the International Dunhuang Project, copyright unknown, see "
+"original metadata record for more information"
+
+msgid "bda:LD_SBB_metadata::skos:prefLabel"
+msgstr "Provided by Staatsbibliothek zu Berlin, copyright unspecified"
+
+msgid "bda:LD_LULDC_content::skos:prefLabel"
+msgstr ""
+"Content provided by Leiden University Libraries, copyright Undetermined.y"
+
+#. see also: http://creativecommons.org/licenses/by/4.0/
+msgid "bda:LicenseCCBY4::skos:prefLabel"
+msgstr "Creative Commons Attribution 4.0 International (CC BY 4.0)"

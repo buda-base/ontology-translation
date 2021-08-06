@@ -1545,8 +1545,8 @@ msgstr "རྩོམ་པར་བསྐུལ་བ་པོ།"
 msgid "bdr:R0ER0016::skos:prefLabel"
 msgstr "རྩོམ་རོགས།"
 
-#. An individual that wrote the text typically during recitation by the
-#. author. Cf., W8145
+#. An individual who physically wrote the text. Can be during recitation by
+#. the author (ex. bdr:W8145)
 msgid "bdr:R0ER0024::skos:prefLabel"
 msgstr "ཡི་གེ་བ།"
 
@@ -1555,6 +1555,8 @@ msgstr "ཡི་གེ་བ།"
 msgid "bdr:R0ER0013::skos:prefLabel"
 msgstr "ཡིག་མཁན།"
 
+#. An individual who revealed the Work as treasure texts (specific to the
+#. Tibetan context)
 msgid "bdr:R0ER0025::skos:prefLabel"
 msgstr "གཏེར་སྟོན།"
 
@@ -1647,7 +1649,7 @@ msgstr "ལས་འགན་གསལ་ཁ་མེད་པ།"
 msgid "bdr:R0ER0015::skos:prefLabel"
 msgstr "ཕྱོགས་སྒྲིག་པ།"
 
-#. a person who sponsors a work (most of the time a translation)
+#. a person who sponsors a work or instance
 msgid "bdr:R0ER0030::skos:prefLabel"
 msgstr "ཡོན་བདག"
 
@@ -1722,7 +1724,7 @@ msgid "bdr:ScriptSouthernIndia::skos:prefLabel"
 msgstr "རྒྱ་གར་ལྷོ་ཕྱོགས་ཡི་གེ།"
 
 #. This script is not normalized in ISO 15924
-#. Use it for Landza and Vartu
+#. Use it for Ranjana, Landza and Vartu
 #. see also: http://scriptsource.org/scr/Qabb
 msgid "bdr:ScriptRanj::skos:prefLabel"
 msgstr "ལཉྫ"
@@ -2006,9 +2008,8 @@ msgstr "དྭགས་པོ་བཀའ་བརྒྱུད།"
 msgid "bdr:TraditionNyingma::skos:prefLabel"
 msgstr "རྙིང་མ།"
 
-#. see also: http://purl.bdrc.io/resource/G1180
+#. see also: http://purl.bdrc.io/resource/G275
 #. see also: http://purl.bdrc.io/resource/T1198
-#. see also: https://en.wikipedia.org/wiki/Shalu_Monastery
 msgid "bdr:TraditionZhalu::skos:prefLabel"
 msgstr "ཞྭ་ལུ།"
 
