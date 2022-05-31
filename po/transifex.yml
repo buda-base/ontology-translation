@@ -4,10 +4,10 @@ git:
       file_format: PO
       source_language: en
       source_file: ontology-translation/po/adm_en.po
-      translation_files_expression: 'ontology-translation/transifex-output/adm_<lang>.po'
+      translation_files_expression: 'ontology-translation/po/adm_<lang>.po'
 
     - filter_type: file
       file_format: PO
       source_language: en
       source_file: ontology-translation/po/core_en.po
-      translation_files_expression: 'ontology-translation/transifex-output/core_<lang>.po'
+      translation_files_expression: 'ontology-translation/po/core_<lang>.po'
