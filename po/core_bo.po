@@ -540,7 +540,7 @@ msgstr "རབ་བྱུང"
 #. An Instance consisting of some form of searchable text
 #. see also: http://purl.bdrc.io/ontology/core/Etext
 msgid "bdo:EtextInstance::rdfs:label"
-msgstr "འཕྲུལ་ཡིག་གི་མཚན་གཞི།"
+msgstr "ཡིག་རྐྱང་གི་དཔེ་རྒྱུན།"
 
 #. Indicates that the event is known to have not occurred prior to the
 #. year/date given, unless otherwise specified the year/date is reckoned in
