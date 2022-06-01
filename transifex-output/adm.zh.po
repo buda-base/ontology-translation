@@ -438,7 +438,7 @@ msgstr "状态常数：实体元数据：已发布，临时的，等等"
 #. Has value true if the contents of the associated Work are restricted in
 #. China
 msgid "adm:restrictedInChina::rdfs:label"
-msgstr ""
+msgstr "尚未开放中国地区的访问"
 
 #. Log entry for data withdrawl
 msgid "adm:WithdrawData::rdfs:label"
@@ -462,7 +462,7 @@ msgstr ""
 
 #. what software performed the update  described by the log entry
 msgid "adm:logAgent::rdfs:label"
-msgstr ""
+msgstr "字体"
 
 #. Log entry for minor data update
 msgid "adm:MinorUpdateData::rdfs:label"
@@ -509,7 +509,7 @@ msgstr ""
 #. Log entries for ImageGroups to record content management events such scan
 #. creation, sync'ing etc
 msgid "adm:ContentLogEntry::rdfs:label"
-msgstr ""
+msgstr "日志条目"
 
 #. Log entry for image syncing to archive
 msgid "adm:Synced::rdfs:label"
