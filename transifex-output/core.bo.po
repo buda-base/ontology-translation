@@ -1,17 +1,17 @@
 # 
 # Translators:
-# Ngawang Trinley <ngawangtrinley@gmail.com>, 2020
-# Tashi Dhondup <dhonduptiger658@gmail.com>, 2020
-# Elie Roux <roux.elie@gmail.com>, 2020
-# Kunga Rinchen <Kuinchen1p@gmail.com>, 2020
-# jee huajian <drongbulobsang@gmail.com>, 2020
+# Drongbulobsang <drongbulobsang@gmail.com>, 2022
+# Elie Roux <roux.elie@gmail.com>, 2022
+# Tashi Dhondup <dhonduptiger658@gmail.com>, 2022
+# Kunga Rinchen <Kuinchen1p@gmail.com>, 2022
+# Ngawang Trinley <ngawangtrinley@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Buddhist Digital Ontology e3c569c\n"
 "Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
-"Last-Translator: jee huajian <drongbulobsang@gmail.com>, 2020\n"
-"Language-Team: Tibetan (https://www.transifex.com/bdrc/teams/103997/bo/)\n"
+"Last-Translator: Ngawang Trinley <ngawangtrinley@gmail.com>, 2022\n"
+"Language-Team: Tibetan (https://www.transifex.com/bdrc/teams/123474/bo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -99,7 +99,7 @@ msgstr "དཔེ་ཐོའི་མཚན་བྱང་།"
 msgid "bdo:noteLocationStatementCBETA::rdfs:label"
 msgstr "རྒྱ་ཡིག་བཀའ་བསྟན་ཡོད་སའི་མཚམས་ཀྱི་གསལ་བཤད།"
 
-#. Indicates an Older sister of the Person
+#. Indicates an older sister of the person
 msgid "bdo:hasOlderSister::rdfs:label"
 msgstr "སྲིང་མོ་ཆེ་བ།"
 
@@ -112,7 +112,8 @@ msgstr "སྐབས་འཕྲལ་ལས་འགན།"
 msgid "bdo:placeContains::rdfs:label"
 msgstr "ནང་གསེའི་ས་གནས།"
 
-#. The latitude of the Place
+#. The latitude of the place, using GPS coordinates (WGS84), formatted as
+#. decimal degrees
 msgid "bdo:placeLat::rdfs:label"
 msgstr "འཕྲེད་ཐིག"
 
@@ -159,7 +160,7 @@ msgstr "ཡོངས་སུ་གྲུབ་དུས།"
 msgid "bdo:workCBCSiglaT::rdfs:label"
 msgstr "ཏཱི་ཤོ་རྒྱ་ཡིག་བཀའ་བསྟན་གྱི་ཀ་རྟགས། (Tརྟགས་ཅན)"
 
-#. Indicates a Grandmother of the Person
+#. Indicates a grandmother of the person
 msgid "bdo:hasGrandmother::rdfs:label"
 msgstr "རྨོ་བོ།"
 
@@ -256,7 +257,7 @@ msgstr "སྐད་དོད།"
 msgid "bdo:SingleAgent::rdfs:label"
 msgstr "མི་སྣ་གཅིག་པུ།"
 
-#. Indicates a Parent of the Person
+#. Indicates a parent of the person
 msgid "bdo:hasParent::rdfs:label"
 msgstr "ཕ་མ།"
 
@@ -275,7 +276,7 @@ msgstr "ཏོ་ཧོ་ཀུ་སློབ་ཆེན་གྱི་དཀ
 msgid "bdo:lineageObject::rdfs:label"
 msgstr "ཐུན་མིན་ཆོས་ཀྱི་བརྒྱུད་པ།"
 
-#. Indicates a Wife of the Person
+#. Indicates a wife of the person
 msgid "bdo:hasWife::rdfs:label"
 msgstr "བདག་མོ།"
 
@@ -303,7 +304,7 @@ msgstr "པར་ལས་བཤུས་དུས།"
 msgid "rdfs:comment::rdfs:label"
 msgstr "མཆན།"
 
-#. The gender of the Person
+#. The gender of the person
 msgid "bdo:personGender::rdfs:label"
 msgstr "ཕོ་མོ།"
 
@@ -439,7 +440,7 @@ msgstr "ཡང་སྲིད།"
 msgid "bdo:hasIncarnationBody::rdfs:label"
 msgstr "སྐུའི་སྤྲུལ་གཞི།"
 
-#. Indicates a Younger brother of the Person
+#. Indicates a younger brother of the person
 msgid "bdo:hasYoungerBrother::rdfs:label"
 msgstr "གཅུང་པོ།"
 
@@ -447,7 +448,7 @@ msgstr "གཅུང་པོ།"
 msgid "bdo:noteWork::rdfs:label"
 msgstr "ཁུངས།"
 
-#. Indicates a Brother-in-law of the Person
+#. Indicates a brother-in-law of the person
 msgid "bdo:hasBrotherInLaw::rdfs:label"
 msgstr "སྙིད་པོ།"
 
@@ -457,13 +458,13 @@ msgstr "མིང་བྱང་གི་འབྲེལ་བ།"
 
 #. A string indicating a kind of Note. Used only w FEMC taxonomy notes
 msgid "bdo:noteType::rdfs:label"
-msgstr ""
+msgstr "ཡོད་སའི་མཚམས།"
 
 #. A physical instance of an (abstract) Work
 msgid "bdo:PhysicalInstance::rdfs:label"
 msgstr "གཟུགས་ཅན་དཔེ་ཆ།"
 
-#. Indicates a Daughter of the Person
+#. Indicates a daughter of the person
 msgid "bdo:hasDaughter::rdfs:label"
 msgstr "བུ་མོ།"
 
@@ -483,7 +484,7 @@ msgstr "གཤམ་ཡིག"
 msgid "bdo:lineageDownTo::rdfs:label"
 msgstr "མན་ཆད།"
 
-#. Indicates a Paternal uncle of the Person
+#. Indicates a paternal uncle of the person
 msgid "bdo:hasPaternalUncle::rdfs:label"
 msgstr "ཨ་ཁུ།"
 
@@ -495,7 +496,7 @@ msgstr "ཡིག་འཛིན། OCR"
 msgid "bdo:AhistoricalAgent::rdfs:label"
 msgstr "ཡོད་ཀྱང་ཐུན་མོང་གི་སྣང་ངོར་མ་གྲུབ་པའི་ལྷའི་རིགས།"
 
-#. Indicates an in-law of the Person
+#. Indicates an in-law of the person
 msgid "bdo:hasInLaw::rdfs:label"
 msgstr "གཟའ་ཟླའི་ཁྱིམ་མི།"
 
@@ -508,7 +509,7 @@ msgstr "ལེ་ཚན་ཨང་།"
 msgid "bdo:serialHasMember::rdfs:label"
 msgstr "ནང་གསེས་ཀྱི་དེབ་ཕྲེང་།"
 
-#. Indicates the Mother of the Person
+#. Indicates the mother of the person
 msgid "bdo:hasMother::rdfs:label"
 msgstr "ཨ་མ།"
 
@@ -587,7 +588,7 @@ msgstr "འགྱུར།"
 msgid "rdfs:seeAlso::rdfs:label"
 msgstr "ཡོད་ས་གཞན།"
 
-#. Event occurring upon a divorce of the Person
+#. Event occurring upon a divorce of the person
 msgid "bdo:PersonDivorce::rdfs:label"
 msgstr "གཟའ་འཐོར་བྱུང་དུས།"
 
@@ -595,7 +596,7 @@ msgstr "གཟའ་འཐོར་བྱུང་དུས།"
 msgid "bdo:printMethod::rdfs:label"
 msgstr "པར་མའི་རིགས།"
 
-#. Indicates a Grandson of the Person
+#. Indicates a grandson of the person
 msgid "bdo:hasGrandson::rdfs:label"
 msgstr "ཚ་བོ།"
 
@@ -639,7 +640,7 @@ msgstr "གསལ་ཁ་མེད་པའི་གཉེན་འབྲེལ
 msgid "bdo:eTextHasPage::rdfs:label"
 msgstr "ཤོག་ངོས།"
 
-#. Indicates a Sibling of the Person
+#. Indicates a sibling of the person
 msgid "bdo:hasSibling::rdfs:label"
 msgstr "མིང་སྲིང་།"
 
@@ -657,10 +658,7 @@ msgstr "གསང་མཚན།"
 msgid "bdo:Agent::rdfs:label"
 msgstr "མི་སྣ།"
 
-#. A Work fo which there is at least one physical manifestation. Versus
-#. Abstract Work
-#. An individual material (or electronic) embodiement, for instance a
-#. particular published form.
+#. An expression of a work, for instance a particular published form.
 msgid "bdo:Instance::rdfs:label"
 msgstr "དཔེ་རྒྱུན།"
 
@@ -701,11 +699,11 @@ msgstr "FEMC དཀར་ཆག་འགྱུར་ཁུངས།"
 msgid "bdo:placeEvent::rdfs:label"
 msgstr "གནས་ཚུལ།"
 
-#. Indicates a Grandfather of the Person
+#. Indicates a grandfather of the person
 msgid "bdo:hasGrandfather::rdfs:label"
 msgstr "ཨ་མེས།"
 
-#. Indicates a Maternal aunt of the Person
+#. Indicates a maternal aunt of the person
 msgid "bdo:hasMaternalAunt::rdfs:label"
 msgstr "ཨ་སྲུ།"
 
@@ -759,7 +757,9 @@ msgstr "ཁུ་རེའི་བཀའ་འགྱུར་དཀར་ཆག
 #. however a second blank page 2 was included to simplify processing of
 #. volumes for display and so on. The intention being to capture some relevant
 #. metadata in along with the digitized images so that the volume is
-#. essentially standalone.
+#. essentially standalone. Note that for historical reasons this can be
+#. greater than the total number of images if we don't have any image for the
+#. image group.
 msgid "bdo:volumePagesTbrcIntro::rdfs:label"
 msgstr "ནང་བསྟན་དཔེ་ཚོགས་ལྟེ་གནས་ཀྱི་དཔེ་སྐྲུན་གསལ་བཤད་ཤོག་ངོས་གྲངས།"
 
@@ -771,7 +771,7 @@ msgstr "སྐུའི་སྤྲུལ་གཞི།"
 msgid "bdo:PersonAssumesSeat::rdfs:label"
 msgstr "ཁྲི་རུ་འཁོད་པ།"
 
-#. Indicates a Cousin of the Person
+#. Indicates a cousin of the person
 msgid "bdo:hasCousin::rdfs:label"
 msgstr "ཕ་སྤུན་མ་སྤུན་གཉེན་ཉེ།"
 
@@ -785,7 +785,7 @@ msgstr "མི་སྣ།"
 msgid "bdo:PlaceConverted::rdfs:label"
 msgstr "གྲུབ་མཐའ་བརྗེ་སྒྱུར།"
 
-#. Indicates a Sister-in-law of the Person
+#. Indicates a sister-in-law of the person
 msgid "bdo:hasSisterInLaw::rdfs:label"
 msgstr "སྙིད་མོ།"
 
@@ -815,7 +815,7 @@ msgstr "དཔེ་ཆའི་རྒལ་ཚིགས་ཀྱི་མཚན
 msgid "bdo:Place::rdfs:label"
 msgstr "ས་གནས།"
 
-#. Indicates a Grandchild of the Person
+#. Indicates a grandchild of the person
 msgid "bdo:hasGrandChild::rdfs:label"
 msgstr "བུ་ཚ།"
 
@@ -851,7 +851,7 @@ msgstr "འགྱུར་ཁུངས།"
 msgid "bdo:workRefChokLing::rdfs:label"
 msgstr "མཆོག་གླིང་གཏེར་གསར་དཀར་ཆག་ཨང་།"
 
-#. Indicates a Child of the Person
+#. Indicates a child of the person
 msgid "bdo:hasChild::rdfs:label"
 msgstr "ཕྲུ་གུ།"
 
@@ -878,7 +878,7 @@ msgstr "མཐོ་ཚད།"
 msgid "bdr:ObjectTypeTypeSet::rdfs:label"
 msgstr "འཕྲུལ་བྲིས།"
 
-#. Indicates a Brother of the Person
+#. Indicates a brother of the person
 msgid "bdo:hasBrother::rdfs:label"
 msgstr "བུ་སྤུན།"
 
@@ -923,7 +923,7 @@ msgstr "ཡིག་ཕྲེང་།"
 msgid "bdo:workKaTenSiglaA::rdfs:label"
 msgstr "བཀའ་བསྟན་དཔེ་བསྡུར་མའི་དཀར་ཆག་ཨང་།"
 
-#. Indicates a Son of the Person
+#. Indicates a son of the person
 msgid "bdo:hasSon::rdfs:label"
 msgstr "བུ།"
 
@@ -946,7 +946,7 @@ msgstr "པོ་ཏིའི་གྲངས།"
 msgid "bdo:hasIncarnation::rdfs:label"
 msgstr "སྤྲུལ་གཞི།"
 
-#. Indicates a Paternal aunt of the Person
+#. Indicates a paternal aunt of the person
 msgid "bdo:hasPaternalAunt::rdfs:label"
 msgstr "ཨ་ནེ།"
 
@@ -964,7 +964,7 @@ msgstr "པོ་ཏིའི་ཀ་རྟགས།"
 msgid "bdo:PersonFinalOrdinationName::rdfs:label"
 msgstr "བསྙེན་རྫོགས་ཀྱི་མཚན།"
 
-#. Indicates a Grandparent of the Person
+#. Indicates a grandparent of the person
 msgid "bdo:hasGrandParent::rdfs:label"
 msgstr "ཨ་མྱེའམ་རྨོ་བོ། "
 
@@ -1006,11 +1006,11 @@ msgstr "གཏོར་བཅོམ།"
 msgid "bdo:instanceCreator::rdfs:label"
 msgstr "མཛད་མཁན།"
 
-#. Indicates a Niece of the Person
+#. Indicates a niece of the person
 msgid "bdo:hasNiece::rdfs:label"
 msgstr "ཚ་མོ།"
 
-#. Indicates an Uncle of the Person
+#. Indicates an uncle of the person
 msgid "bdo:hasUncle::rdfs:label"
 msgstr "ཨ་ཁུའམ་ཨ་ཞང་།"
 
@@ -1026,7 +1026,7 @@ msgstr "འགོ་ཚེམ།"
 msgid "bdo:workNumberOfVolumes::rdfs:label"
 msgstr "པོ་ཏིའི་གྲངས།"
 
-#. Indicates a Younger sister of the Person
+#. Indicates a younger sister of the person
 msgid "bdo:hasYoungerSister::rdfs:label"
 msgstr "གཅུང་མོ།"
 
@@ -1107,7 +1107,7 @@ msgstr "རུས་མིང་།"
 msgid "bdo:workDimLength::rdfs:label"
 msgstr "རིང་ཚད།"
 
-#. Indicates a Parent-in-law of the Person
+#. Indicates a parent-in-law of the person
 msgid "bdo:hasParentInLaw::rdfs:label"
 msgstr "སྒྱུག་པོ་འམ་སྒྱུག་མོ།"
 
@@ -1131,7 +1131,7 @@ msgstr "ཡོངས་གྲགས་མཚན།"
 msgid "bdo:onYear::rdfs:label"
 msgstr "ལོ་ཚིགས།"
 
-#. Indicates a Nibling of the Person
+#. Indicates a nibling of the person
 msgid "bdo:hasNibling::rdfs:label"
 msgstr "ཚ་བོ་འམ་ཚ་མོ།"
 
@@ -1157,15 +1157,15 @@ msgstr "བཀའ་བསྟན་ཞིབ་འཇུག་ཚོགས་པ
 msgid "bdo:PersonLeavesOffice::rdfs:label"
 msgstr "ལས་འཁྱུར་བྱས་པའི་དུས།"
 
-#. Indicates a Sister of the Person
+#. Indicates a sister of the person
 msgid "bdo:hasSister::rdfs:label"
 msgstr "སྲིང་མོ།"
 
-#. Indicates a Granddaughter of the Person
+#. Indicates a granddaughter of the person
 msgid "bdo:hasGranddaughter::rdfs:label"
 msgstr "ཚ་མོ།"
 
-#. Indicates a Husband of the Person
+#. Indicates a husband of the person
 msgid "bdo:hasHusband::rdfs:label"
 msgstr "ཁྱོ་བོ།"
 
@@ -1186,7 +1186,7 @@ msgstr "མཚན་བྱང་བསྡུས་པ།"
 msgid "bdo:instanceHasVolume::rdfs:label"
 msgstr "པོད།"
 
-#. Indicates the Father-in-law of the Person
+#. Indicates the father-in-law of the person
 msgid "bdo:hasFatherInLaw::rdfs:label"
 msgstr "སྒྱུག་པོ།"
 
@@ -1245,7 +1245,7 @@ msgstr "དངོས་མིང་།"
 msgid "bdo:workKaTenSiglaV::rdfs:label"
 msgstr "ཐེམ་སྤངས་མ་བཀའ་འགྱུར་དཀར་ཆག་ཨང་།"
 
-#. Indicates an Older brother of the Person
+#. Indicates an older brother of the person
 msgid "bdo:hasOlderBrother::rdfs:label"
 msgstr "གཅེན་པོ།"
 
@@ -1257,7 +1257,7 @@ msgstr "ཡིག་འཕྲེང་།"
 msgid "bdo:eventWhere::rdfs:label"
 msgstr "ས་གནས།"
 
-#. Indicates the Father of the Person
+#. Indicates the father of the person
 msgid "bdo:hasFather::rdfs:label"
 msgstr "ཕ།"
 
@@ -1282,7 +1282,7 @@ msgstr "མཚན་བྱང་བར་མ།"
 msgid "bdo:Note::rdfs:label"
 msgstr "ཟིན་བྲིས།"
 
-#. Indicates a Spouse of the Person
+#. Indicates a spouse of the person
 msgid "bdo:hasSpouse::rdfs:label"
 msgstr "གཟའ་ཟླ།"
 
@@ -1298,7 +1298,7 @@ msgstr "འཕྲུལ་པོད།"
 msgid "bdo:Topic::rdfs:label"
 msgstr "བརྗོད་བྱ།"
 
-#. Indicates an Aunt of the Person
+#. Indicates an aunt of the person
 msgid "bdo:hasAunt::rdfs:label"
 msgstr "ཨ་སྲུ་འམ་ཨ་ནེ།"
 
@@ -1306,7 +1306,7 @@ msgstr "ཨ་སྲུ་འམ་ཨ་ནེ།"
 msgid "bdo:incarnationActivities::rdfs:label"
 msgstr "འཕྲིན་ལས་ཀྱི་སྤྲུལ་གཞི།"
 
-#. Indicates a Maternal uncle of the Person
+#. Indicates a maternal uncle of the person
 msgid "bdo:hasMaternalUncle::rdfs:label"
 msgstr "ཨ་ཞང་།"
 
@@ -1373,8 +1373,7 @@ msgstr "ཚོགས་སྡེའི་ཚོགས་མི།"
 msgid "bdo:workKaTenSiglaN::rdfs:label"
 msgstr "སྣར་ཐང་བཀའ་བསྟན་དཀར་ཆག་ཨང་།"
 
-#. An (abstreact) Work representing a series of volumes/numbers published over
-#. time
+#. An Work representing a series of volumes/numbers published over time
 #. see also: https://www.abc-clio.com/ODLIS/odlis_S.aspx?#serial
 msgid "bdo:SerialWork::rdfs:label"
 msgstr "དེབ་ཕྲེང་ཨང་།"
@@ -1385,7 +1384,8 @@ msgstr "དེབ་ཕྲེང་ཨང་།"
 msgid "bdo:WorkCopyrightPageTitle::rdfs:label"
 msgstr "པར་དབང་གསལ་བཤད་ནང་གི་མཚན་བྱང་།"
 
-#. The longitude of the Place
+#. The longitude of the place, using GPS coordinates (WGS84), formatted as
+#. decimal degrees
 msgid "bdo:placeLong::rdfs:label"
 msgstr "གཞུང་ཐིག"
 
@@ -1394,7 +1394,7 @@ msgstr "གཞུང་ཐིག"
 msgid "bdo:workPartType::rdfs:label"
 msgstr "ནང་གསེས་རིགས།"
 
-#. Indicates a Sibling-in-law of the Person
+#. Indicates a sibling-in-law of the person
 msgid "bdo:hasSiblingInLaw::rdfs:label"
 msgstr "གཟའ་ཟླའི་མིང་སྲིང་།"
 
@@ -1415,7 +1415,7 @@ msgstr "ཡོན་ཏན་གྱི་སྤྲུལ་གཞི།"
 msgid "bdo:workIllustrations::rdfs:label"
 msgstr "པར་རིས།"
 
-#. Indicates a Nephew of the Person
+#. Indicates a nephew of the person
 msgid "bdo:hasNephew::rdfs:label"
 msgstr "ཚ་བོ།"
 
@@ -1441,7 +1441,7 @@ msgstr "དཔེ་ཚོགས།"
 msgid "bdo:RevisedEvent::rdfs:label"
 msgstr "བསྐྱར་སྒྲིག"
 
-#. A statement of the extent of the Instance
+#. A statement of the extent of the instance
 msgid "bdo:instanceExtentStatement::rdfs:label"
 msgstr "ཤོག་གྲངས་གསལ་བཤད།"
 
@@ -1500,7 +1500,7 @@ msgstr "སྐད་ཡིག"
 msgid "bdo:workRefrKTsT::rdfs:label"
 msgstr "བཀའ་བསྟན་ཞིབ་འཇུག་ཚོགས་པའི་བསྟན་འགྱུར་དཀར་ཆག་ཨང་།"
 
-#. Indicates a Mother-in-law of the Person
+#. Indicates a mother-in-law of the person
 msgid "bdo:hasMotherInLaw::rdfs:label"
 msgstr "སྒྱུག་མོ།"
 
@@ -1537,7 +1537,8 @@ msgstr "ས་གནས་གསལ་ཁ་མེད་པ།"
 msgid "bdr:R0ER0020::skos:prefLabel"
 msgstr "སྐད་བསྒྱུར།"
 
-#. a person who requests the author to compose the work
+#. a person who requests the author (resp. scribe) to compose the work (resp.
+#. instance)
 msgid "bdr:R0ER0028::skos:prefLabel"
 msgstr "རྩོམ་པར་བསྐུལ་བ་པོ།"
 
@@ -1547,8 +1548,8 @@ msgstr "རྩོམ་པར་བསྐུལ་བ་པོ།"
 msgid "bdr:R0ER0016::skos:prefLabel"
 msgstr "རྩོམ་རོགས།"
 
-#. An individual that wrote the text typically during recitation by the
-#. author. Cf., W8145
+#. An individual who physically wrote the text. Can be during recitation by
+#. the author (ex. bdr:W8145)
 msgid "bdr:R0ER0024::skos:prefLabel"
 msgstr "ཡི་གེ་པ།"
 
@@ -1557,6 +1558,8 @@ msgstr "ཡི་གེ་པ།"
 msgid "bdr:R0ER0013::skos:prefLabel"
 msgstr "ཡིག་མཁན།"
 
+#. An individual who revealed the Work as treasure texts (specific to the
+#. Tibetan context)
 msgid "bdr:R0ER0025::skos:prefLabel"
 msgstr "གཏེར་སྟོན།"
 
@@ -1574,6 +1577,8 @@ msgstr "ཡི་གེ་པ།"
 msgid "bdr:R0ER0011::skos:prefLabel"
 msgstr "ཁ་ཅིག་གིས་ངོས་འཛིན་པའི་རྩོམ་པ་པོ།"
 
+#. An individual who is known to have revised a previoius work or translation
+#. (ex. bdr:MW3CN4970)
 msgid "bdr:R0ER0023::skos:prefLabel"
 msgstr "བསྐྱར་སྒྲིག་པ།"
 
@@ -1605,16 +1610,18 @@ msgstr "རྩོམ་པ་པོ་གཙོ་བོ།"
 msgid "bdr:R0ER0017::skos:prefLabel"
 msgstr "ལོ་ཙཱ་བ་གཙོ་བོ།"
 
-#. a person who recites an original text (usually Indic) in an original
-#. (usually Indic) language during the process of translation; Chn. koushou
-#. 口授, tongxuan 同宣 etc., though this function can also sometimes overlap with
-#. "IndicScholar" (see below)
+#. a person who recites a text in its original (typically Indic) language
+#. during the process of translation; Chn. koushou 口授, tongxuan 同宣 etc.,
+#. though this function can also sometimes overlap with "IndicScholar" (see
+#. below)
 msgid "bdr:R0ER0022::skos:prefLabel"
 msgstr "སྒྲོག་འདོན་པ།"
 
+#. An individual to whom answers in a Work are addressed (ex: bdr:MW22146)
 msgid "bdr:R0ER0021::skos:prefLabel"
 msgstr "ཞུ་བ་པོ།"
 
+#. A translator of the Work
 msgid "bdr:R0ER0026::skos:prefLabel"
 msgstr "ལོ་ཙཱ་བ།"
 
@@ -1640,15 +1647,18 @@ msgid "bdr:R0ER0012::skos:prefLabel"
 msgstr "སྒོ་ཁ་འགྲིམ་པའི་གླུ་པ།"
 
 #. a person for whom our source or evidence tells us only that they were
-#. involved in the translation or composition process, without allowing us to
+#. involved in the production of a work or instance, without allowing us to
 #. further specify the specific role they played in that process.
 msgid "bdr:Unspecified::skos:prefLabel"
 msgstr "ལས་འགན་གསལ་ཁ་མེད་པ།"
 
+#. a person who assembles a text out of pre-existing smaller texts or
+#. portions, such that the larger text has the nature of a compilation,
+#. anthology, chrestomathy etc. (ex. bdr:MW1KG4337).
 msgid "bdr:R0ER0015::skos:prefLabel"
 msgstr "ཕྱོགས་སྒྲིག་པ།"
 
-#. a person who sponsors a work (most of the time a translation)
+#. a person who sponsors a work or instance
 msgid "bdr:R0ER0030::skos:prefLabel"
 msgstr "ཡོན་བདག"
 
@@ -1663,7 +1673,7 @@ msgstr "བརྩམས་ཆོས་རྫུུན་མ་བཟོ་མཁ
 msgid "bdr:PrintMethod_Manuscript::skos:prefLabel"
 msgstr "བྲིས་མ།"
 
-#. Indicates that the Work was handwritten.
+#. Indicates that the Work was produced manually
 msgid "bdo:PrintMethod_Manuscript::rdfs:label"
 msgstr "བྲིས་མ།"
 
@@ -1723,7 +1733,7 @@ msgid "bdr:ScriptSouthernIndia::skos:prefLabel"
 msgstr "རྒྱ་གར་ལྷོ་ཕྱོགས་ཡི་གེ།"
 
 #. This script is not normalized in ISO 15924
-#. Use it for Landza and Vartu
+#. Use it for Ranjana, Landza and Vartu
 #. see also: http://scriptsource.org/scr/Qabb
 msgid "bdr:ScriptRanj::skos:prefLabel"
 msgstr "ལཉྫ།"
@@ -2007,9 +2017,8 @@ msgstr "དྭགས་པོ་བཀའ་བརྒྱུད།"
 msgid "bdr:TraditionNyingma::skos:prefLabel"
 msgstr "རྙིང་མ།"
 
-#. see also: http://purl.bdrc.io/resource/G1180
+#. see also: http://purl.bdrc.io/resource/G275
 #. see also: http://purl.bdrc.io/resource/T1198
-#. see also: https://en.wikipedia.org/wiki/Shalu_Monastery
 msgid "bdr:TraditionZhalu::skos:prefLabel"
 msgstr "ཞྭ་ལུ།"
 
@@ -2750,16 +2759,16 @@ msgid "bdo:noteType::adm:userTooltip"
 msgstr ""
 
 #. An instance that is a bundle of unrelated instances that were not designed
-#. to be in the same package.
+#. to be in the same package. It typically has no associated work.
 msgid "bdo:BundleInstance::rdfs:label"
 msgstr ""
 
 #. An instance that is a bundle of unrelated instances that were not designed
-#. to be in the same package.
+#. to be in the same package. It typically has no associated work.
 msgid "bdo:BundleInstance::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Spouse of the Person
+#. Indicates a spouse of the person
 msgid "bdo:hasSpouse::adm:userTooltip"
 msgstr ""
 
@@ -2812,7 +2821,7 @@ msgstr ""
 msgid "bdo:note::adm:userTooltip"
 msgstr ""
 
-#. Indicates an Aunt of the Person
+#. Indicates an aunt of the person
 msgid "bdo:hasAunt::adm:userTooltip"
 msgstr ""
 
@@ -2838,7 +2847,7 @@ msgstr ""
 msgid "bdo:workHasInstance::adm:userTooltip"
 msgstr ""
 
-#. A statement of the extent of the Instance
+#. A statement of the extent of the instance
 msgid "bdo:instanceExtentStatement::adm:userTooltip"
 msgstr ""
 
@@ -2871,7 +2880,7 @@ msgstr ""
 msgid "bdo:CarvedEvent::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Paternal aunt of the Person
+#. Indicates a paternal aunt of the person
 msgid "bdo:hasPaternalAunt::adm:userTooltip"
 msgstr ""
 
@@ -2899,7 +2908,7 @@ msgstr ""
 msgid "bdo:eventWhere::adm:userTooltip"
 msgstr ""
 
-#. Indicates an in-law of the Person
+#. Indicates an in-law of the person
 msgid "bdo:hasInLaw::adm:userTooltip"
 msgstr ""
 
@@ -2911,11 +2920,11 @@ msgstr ""
 msgid "bdo:dimensionsStatement::adm:userTooltip"
 msgstr "པོ་ཏིའི་ཆེ་ཆུང་།"
 
-#. Indicates a Paternal uncle of the Person
+#. Indicates a paternal uncle of the person
 msgid "bdo:hasPaternalUncle::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Parent of the Person
+#. Indicates a parent of the person
 msgid "bdo:hasParent::adm:userTooltip"
 msgstr ""
 
@@ -2927,7 +2936,7 @@ msgstr "ཕྱོགས་སྒྲིག་བརྩམས་ཆོས།"
 msgid "bdo:VirtualInstance::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Nephew of the Person
+#. Indicates a nephew of the person
 msgid "bdo:hasNephew::adm:userTooltip"
 msgstr ""
 
@@ -2964,7 +2973,7 @@ msgstr ""
 msgid "bdo:itemMissingVolumes::adm:userTooltip"
 msgstr ""
 
-#. Indicates an Older brother of the Person
+#. Indicates an older brother of the person
 msgid "bdo:hasOlderBrother::adm:userTooltip"
 msgstr ""
 
@@ -2977,7 +2986,7 @@ msgstr ""
 msgid "bdo:labelConnection::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Sibling-in-law of the Person
+#. Indicates a sibling-in-law of the person
 msgid "bdo:hasSiblingInLaw::adm:userTooltip"
 msgstr ""
 
@@ -2990,7 +2999,7 @@ msgstr ""
 msgid "bdo:PlaceEventNotSpecified::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Granddaughter of the Person
+#. Indicates a granddaughter of the person
 msgid "bdo:hasGranddaughter::adm:userTooltip"
 msgstr ""
 
@@ -3038,7 +3047,7 @@ msgstr ""
 msgid "bdo:PersonPersonalName::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Wife of the Person
+#. Indicates a wife of the person
 msgid "bdo:hasWife::adm:userTooltip"
 msgstr ""
 
@@ -3062,10 +3071,11 @@ msgstr ""
 msgid "bdo:PersonPenName::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Sibling of the Person
+#. Indicates a sibling of the person
 msgid "bdo:hasSibling::adm:userTooltip"
 msgstr ""
 
+#. The main title of a work, the title by which it is the most often known.
 msgid "bdo:BibliographicalTitle::rdfs:label"
 msgstr "དཔེ་ཐོའི་མཚན་བྱང་།"
 
@@ -3129,7 +3139,7 @@ msgstr ""
 msgid "bdo:CompletedEvent::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Maternal uncle of the Person
+#. Indicates a maternal uncle of the person
 msgid "bdo:hasMaternalUncle::adm:userTooltip"
 msgstr ""
 
@@ -3145,7 +3155,7 @@ msgstr "ཡོང་ཁུངས།"
 msgid "bdo:contentLocation::adm:userTooltip"
 msgstr ""
 
-#. Event occurring upon a divorce of the Person
+#. Event occurring upon a divorce of the person
 msgid "bdo:PersonDivorce::adm:userTooltip"
 msgstr ""
 
@@ -3165,7 +3175,7 @@ msgstr ""
 msgid "bdo:noteText::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Grandfather of the Person
+#. Indicates a grandfather of the person
 msgid "bdo:hasGrandfather::adm:userTooltip"
 msgstr ""
 
@@ -3222,7 +3232,9 @@ msgstr ""
 #. however a second blank page 2 was included to simplify processing of
 #. volumes for display and so on. The intention being to capture some relevant
 #. metadata in along with the digitized images so that the volume is
-#. essentially standalone.
+#. essentially standalone. Note that for historical reasons this can be
+#. greater than the total number of images if we don't have any image for the
+#. image group.
 msgid "bdo:volumePagesTbrcIntro::adm:userTooltip"
 msgstr ""
 
@@ -3249,7 +3261,7 @@ msgstr ""
 msgid "bdo:lineageFrom::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Grandson of the Person
+#. Indicates a grandson of the person
 msgid "bdo:hasGrandson::adm:userTooltip"
 msgstr ""
 
@@ -3265,7 +3277,7 @@ msgstr ""
 msgid "bdo:hasIncarnation::adm:userTooltip"
 msgstr ""
 
-#. Indicates an Uncle of the Person
+#. Indicates an uncle of the person
 msgid "bdo:hasUncle::adm:userTooltip"
 msgstr ""
 
@@ -3277,11 +3289,11 @@ msgstr ""
 msgid "bdo:PersonReversal::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Sister-in-law of the Person
+#. Indicates a sister-in-law of the person
 msgid "bdo:hasSisterInLaw::adm:userTooltip"
 msgstr ""
 
-#. Indicates the Father-in-law of the Person
+#. Indicates the father-in-law of the person
 msgid "bdo:hasFatherInLaw::adm:userTooltip"
 msgstr ""
 
@@ -3306,7 +3318,7 @@ msgstr ""
 msgid "bdo:eTextVolumeIndex::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Parent-in-law of the Person
+#. Indicates a parent-in-law of the person
 msgid "bdo:hasParentInLaw::adm:userTooltip"
 msgstr ""
 
@@ -3530,7 +3542,7 @@ msgstr ""
 msgid "bdo:personConsortOf::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Grandparent of the Person
+#. Indicates a grandparent of the person
 msgid "bdo:hasGrandParent::adm:userTooltip"
 msgstr ""
 
@@ -3548,7 +3560,7 @@ msgstr "གཤམ་ཡིག"
 msgid "bdo:Subtitle::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Brother-in-law of the Person
+#. Indicates a brother-in-law of the person
 msgid "bdo:hasBrotherInLaw::adm:userTooltip"
 msgstr ""
 
@@ -3580,7 +3592,7 @@ msgstr "མཚན་བྱང་ཆ་ཚང་།"
 msgid "bdo:FullTitle::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Younger brother of the Person
+#. Indicates a younger brother of the person
 msgid "bdo:hasYoungerBrother::adm:userTooltip"
 msgstr ""
 
@@ -3614,14 +3626,11 @@ msgstr ""
 msgid "bdo:Event::adm:userTooltip"
 msgstr ""
 
-#. A Work fo which there is at least one physical manifestation. Versus
-#. Abstract Work
-#. An individual material (or electronic) embodiement, for instance a
-#. particular published form.
+#. An expression of a work, for instance a particular published form.
 msgid "bdo:Instance::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Mother-in-law of the Person
+#. Indicates a mother-in-law of the person
 msgid "bdo:hasMotherInLaw::adm:userTooltip"
 msgstr ""
 
@@ -3633,13 +3642,13 @@ msgstr ""
 msgid "bdo:PersonTitle::adm:userTooltip"
 msgstr ""
 
-#. The ending page in the volume of the Work indicated by the other statements
-#. for this :ContentLocation
+#. The ending image number in the image group of the Work indicated by the
+#. other statements for this :ContentLocation
 msgid "bdo:contentLocationEndPage::rdfs:label"
 msgstr "ཤོག་ངོས་ཐ་མ།"
 
-#. The ending page in the volume of the Work indicated by the other statements
-#. for this :ContentLocation
+#. The ending image number in the image group of the Work indicated by the
+#. other statements for this :ContentLocation
 msgid "bdo:contentLocationEndPage::adm:userTooltip"
 msgstr ""
 
@@ -3667,7 +3676,7 @@ msgstr ""
 msgid "bdo:VolumeEtextAsset::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Grandchild of the Person
+#. Indicates a grandchild of the person
 msgid "bdo:hasGrandChild::adm:userTooltip"
 msgstr ""
 
@@ -3714,7 +3723,7 @@ msgstr ""
 msgid "bdo:PersonVariantOrthography::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Brother of the Person
+#. Indicates a brother of the person
 msgid "bdo:hasBrother::adm:userTooltip"
 msgstr ""
 
@@ -3752,7 +3761,7 @@ msgstr ""
 msgid "bdo:printMethod::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Younger sister of the Person
+#. Indicates a younger sister of the person
 msgid "bdo:hasYoungerSister::adm:userTooltip"
 msgstr ""
 
@@ -3765,11 +3774,11 @@ msgstr ""
 msgid "bdo:placeLocatedIn::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Cousin of the Person
+#. Indicates a cousin of the person
 msgid "bdo:hasCousin::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Niece of the Person
+#. Indicates a niece of the person
 msgid "bdo:hasNiece::adm:userTooltip"
 msgstr ""
 
@@ -3777,7 +3786,7 @@ msgstr ""
 msgid "bdo:workGenre::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Daughter of the Person
+#. Indicates a daughter of the person
 msgid "bdo:hasDaughter::adm:userTooltip"
 msgstr ""
 
@@ -3819,7 +3828,7 @@ msgstr ""
 msgid "bdo:Lineage::adm:userTooltip"
 msgstr ""
 
-#. Indicates the Father of the Person
+#. Indicates the father of the person
 msgid "bdo:hasFather::adm:userTooltip"
 msgstr ""
 
@@ -3932,7 +3941,7 @@ msgstr "ཆ་ཚང་བ།"
 msgid "bdo:isComplete::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Son of the Person
+#. Indicates a son of the person
 msgid "bdo:hasSon::adm:userTooltip"
 msgstr ""
 
@@ -3950,7 +3959,8 @@ msgstr ""
 msgid "bdo:SingletonInstance::adm:userTooltip"
 msgstr ""
 
-#. The latitude of the Place
+#. The latitude of the place, using GPS coordinates (WGS84), formatted as
+#. decimal degrees
 msgid "bdo:placeLat::adm:userTooltip"
 msgstr ""
 
@@ -3963,7 +3973,7 @@ msgstr ""
 msgid "bdo:role::adm:userTooltip"
 msgstr ""
 
-#. The gender of the Person
+#. The gender of the person
 msgid "bdo:personGender::adm:userTooltip"
 msgstr ""
 
@@ -3974,14 +3984,14 @@ msgstr ""
 #. A work that is made of a collection of other works (ex: gsung bum,
 #. canonical collection, etc.).
 msgid "bdo:WorkCollection::rdfs:label"
-msgstr ""
+msgstr "དཔེ་ཚོགས།"
 
 #. A work that is made of a collection of other works (ex: gsung bum,
 #. canonical collection, etc.).
 msgid "bdo:WorkCollection::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Sister of the Person
+#. Indicates a sister of the person
 msgid "bdo:hasSister::adm:userTooltip"
 msgstr ""
 
@@ -3999,7 +4009,7 @@ msgstr ""
 msgid "bdo:ImageInstance::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Grandmother of the Person
+#. Indicates a grandmother of the person
 msgid "bdo:hasGrandmother::adm:userTooltip"
 msgstr ""
 
@@ -4066,7 +4076,8 @@ msgstr ""
 msgid "bdo:PlaceFounded::adm:userTooltip"
 msgstr ""
 
-#. The longitude of the Place
+#. The longitude of the place, using GPS coordinates (WGS84), formatted as
+#. decimal degrees
 msgid "bdo:placeLong::adm:userTooltip"
 msgstr ""
 
@@ -4084,12 +4095,11 @@ msgstr ""
 msgid "bdo:instanceHasReproduction::adm:userTooltip"
 msgstr ""
 
-#. Indicates an Older sister of the Person
+#. Indicates an older sister of the person
 msgid "bdo:hasOlderSister::adm:userTooltip"
 msgstr ""
 
-#. An (abstreact) Work representing a series of volumes/numbers published over
-#. time
+#. An Work representing a series of volumes/numbers published over time
 #. see also: https://www.abc-clio.com/ODLIS/odlis_S.aspx?#serial
 msgid "bdo:SerialWork::adm:userTooltip"
 msgstr ""
@@ -4113,13 +4123,11 @@ msgid "bdo:PersonDeath::adm:userTooltip"
 msgstr ""
 
 #. Title appearing on the copyright page of a Work, if present.
-#. see also: http://cip.loc.gov/cipman/
 #. see also: https://www.loc.gov/publish/cip/news/lccn_art.html
 msgid "bdo:CopyrightPageTitle::rdfs:label"
 msgstr "པར་དབང་གསལ་བཤད་ནང་གི་མཚན་བྱང་།"
 
 #. Title appearing on the copyright page of a Work, if present.
-#. see also: http://cip.loc.gov/cipman/
 #. see also: https://www.loc.gov/publish/cip/news/lccn_art.html
 msgid "bdo:CopyrightPageTitle::adm:userTooltip"
 msgstr ""
@@ -4151,7 +4159,7 @@ msgstr "མ་ཡིག་དང་འབྲེལ་བའི་ཟིན་བ
 msgid "bdo:sourceNote::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Husband of the Person
+#. Indicates a husband of the person
 msgid "bdo:hasHusband::adm:userTooltip"
 msgstr ""
 
@@ -4159,11 +4167,13 @@ msgstr ""
 msgid "bdo:binding::adm:userTooltip"
 msgstr ""
 
-#. used to indicate the printery of a traditional artefact
+#. used to indicate the place of production of a traditional artefact
+#. (manuscript or woodblock)
 msgid "bdo:hasSourcePrintery::rdfs:label"
 msgstr "པར་གནས།"
 
-#. used to indicate the printery of a traditional artefact
+#. used to indicate the place of production of a traditional artefact
+#. (manuscript or woodblock)
 msgid "bdo:hasSourcePrintery::adm:userTooltip"
 msgstr ""
 
@@ -4184,13 +4194,13 @@ msgstr ""
 msgid "bdo:instanceReproductionOf::adm:userTooltip"
 msgstr ""
 
-#. The page in the volume of the Instance indicated by the other statements
-#. for this :ContentLocation
+#. The image number in the image group of the Instance indicated by the other
+#. statements for this :ContentLocation
 msgid "bdo:contentLocationPage::rdfs:label"
 msgstr "ཤོག་ངོས།"
 
-#. The page in the volume of the Instance indicated by the other statements
-#. for this :ContentLocation
+#. The image number in the image group of the Instance indicated by the other
+#. statements for this :ContentLocation
 msgid "bdo:contentLocationPage::adm:userTooltip"
 msgstr ""
 
@@ -4272,7 +4282,7 @@ msgstr ""
 msgid "bdo:SecondRevisedEvent::adm:userTooltip"
 msgstr ""
 
-#. Indicates the Mother of the Person
+#. Indicates the mother of the person
 msgid "bdo:hasMother::adm:userTooltip"
 msgstr ""
 
@@ -4284,7 +4294,7 @@ msgstr "འཕྲོས་གཞི།"
 msgid "bdo:partOf::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Child of the Person
+#. Indicates a child of the person
 msgid "bdo:hasChild::adm:userTooltip"
 msgstr ""
 
@@ -4304,15 +4314,15 @@ msgstr "མཚན་བྱང་གཞན།"
 msgid "bdo:OtherTitle::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Nibling of the Person
+#. Indicates a nibling of the person
 msgid "bdo:hasNibling::adm:userTooltip"
 msgstr ""
 
-#. Summary information about the Instance
+#. Short description of the work
 msgid "bdo:catalogInfo::rdfs:label"
 msgstr "བསྡུས་དོན།"
 
-#. Summary information about the Instance
+#. Short description of the work
 msgid "bdo:catalogInfo::adm:userTooltip"
 msgstr ""
 
@@ -4336,7 +4346,7 @@ msgstr ""
 msgid "bdo:workTranslationOf::adm:userTooltip"
 msgstr ""
 
-#. Indicates a Maternal aunt of the Person
+#. Indicates a maternal aunt of the person
 msgid "bdo:hasMaternalAunt::adm:userTooltip"
 msgstr ""
 
@@ -4362,7 +4372,7 @@ msgstr ""
 msgid "bdo:PrintMethod::adm:userTooltip"
 msgstr ""
 
-#. Indicates that the Work was handwritten.
+#. Indicates that the Work was produced manually
 msgid "bdo:PrintMethod_Manuscript::adm:userTooltip"
 msgstr ""
 
@@ -4576,871 +4586,373 @@ msgstr "པར་མཁན།"
 msgid "bdo:publisherName::adm:userTooltip"
 msgstr ""
 
-#. the tbrc legacy outline node rid used to route legacy outline URL
-#. references
-msgid "bdo:legacyOutlineNodeRID::rdfs:label"
+#. Statement of sponsorship of the instance (typically the donor of a
+#. manuscript copy, not the work itself) indicated in the instance
+msgid "bdo:sponsoshipStatement::rdfs:label"
 msgstr ""
 
-#. the tbrc legacy outline node rid used to route legacy outline URL
-#. references
-msgid "bdo:legacyOutlineNodeRID::adm:userTooltip"
+#. Statement of sponsorship of the instance (typically the donor of a
+#. manuscript copy, not the work itself) indicated in the instance
+msgid "bdo:sponsoshipStatement::adm:userTooltip"
 msgstr ""
 
-#. The part index is used to provide a simple way to order the parts of a
-#. parent Work.
-msgid "bdo:partIndex::rdfs:label"
+#. In the case of an instance or a part, this reflects how the part is
+#. organized codicologically
+msgid "bdo:codicologicalpartType::rdfs:label"
 msgstr ""
 
-#. The part index is used to provide a simple way to order the parts of a
-#. parent Work.
-msgid "bdo:partIndex::adm:userTooltip"
+#. In the case of an instance or a part, this reflects how the part is
+#. organized codicologically
+msgid "bdo:codicologicalpartType::adm:userTooltip"
 msgstr ""
 
-#. domain of :DDBCAId which is used to record ids of Dharma Drum authority
-#. resources
-msgid "bdo:PersonOrPlace::rdfs:label"
+#. Name associated with the person's place of residence. This is specific to a
+#. few socio linguistic contexts, such as the Burmese one.
+msgid "bdo:PersonResidenceName::rdfs:label"
 msgstr ""
 
-#. An etext with pagination corresponding to digitized images of the Work
-msgid "bdo:ItemEtextPaginated::rdfs:label"
+#. Name associated with the person's place of residence. This is specific to a
+#. few socio linguistic contexts, such as the Burmese one.
+msgid "bdo:PersonResidenceName::adm:userTooltip"
 msgstr ""
 
-#. An etext with pagination corresponding to digitized images of the Work
-msgid "bdo:ItemEtextPaginated::adm:userTooltip"
+#. An excerpt from the end of the text (before the colophon)
+msgid "bdo:excerptEnd::rdfs:label"
 msgstr ""
 
-#. set to true to indicate that the date information in an :Event or :Period
-#. is approximate or uncertain
-msgid "bdo:dateApproximate::rdfs:label"
+#. An excerpt from the end of the text (before the colophon)
+msgid "bdo:excerptEnd::adm:userTooltip"
 msgstr ""
 
-#. set to true to indicate that the date information in an :Event or :Period
-#. is approximate or uncertain
-msgid "bdo:dateApproximate::adm:userTooltip"
+msgid "bdo:Label::rdfs:label"
 msgstr ""
 
-#. Starting side of the folio in a folio-based location.
-msgid "bdo:contentLocationSide::rdfs:label"
+#. An event describing the second revision of a work
+msgid "bdo:SecondRevisedEvent::rdfs:label"
 msgstr ""
 
-#. Starting side of the folio in a folio-based location.
-msgid "bdo:contentLocationSide::adm:userTooltip"
+#. Name associated with the person's place of origin. This is specific to a
+#. few socio linguistic contexts, such as the Burmese one.
+msgid "bdo:PersonOriginName::rdfs:label"
 msgstr ""
 
-#. If true then the location is specified in terms of folio # and side:
-#. verso/recto
-msgid "bdo:contentLocationByFolio::rdfs:label"
+#. Name associated with the person's place of origin. This is specific to a
+#. few socio linguistic contexts, such as the Burmese one.
+msgid "bdo:PersonOriginName::adm:userTooltip"
 msgstr ""
 
-#. If true then the location is specified in terms of folio # and side:
-#. verso/recto
-msgid "bdo:contentLocationByFolio::adm:userTooltip"
+msgid "bdo:DigitalInstance::rdfs:label"
 msgstr ""
 
-#. pages of text content in the volume
-msgid "bdo:volumePagesText::rdfs:label"
+#. A note on the custodial history of the physical object
+msgid "bdo:custodialHistory::rdfs:label"
 msgstr ""
 
-#. pages of text content in the volume
-msgid "bdo:volumePagesText::adm:userTooltip"
+#. A note on the custodial history of the physical object
+msgid "bdo:custodialHistory::adm:userTooltip"
 msgstr ""
 
-#. for use with abstract works such as from the SEA project that have many
-#. different expressions with the same putative title
-msgid "bdo:ReferenceTitle::rdfs:label"
+#. When a person's activity occured. This is a range of dates, indicated with
+#. :notBefore / :notAfter
+msgid "bdo:PersonFlourished::rdfs:label"
 msgstr ""
 
-#. for use with abstract works such as from the SEA project that have many
-#. different expressions with the same putative title
-msgid "bdo:ReferenceTitle::adm:userTooltip"
+#. When a person's activity occured. This is a range of dates, indicated with
+#. :notBefore / :notAfter
+msgid "bdo:PersonFlourished::adm:userTooltip"
 msgstr ""
 
-#. The microfilm item from which the instance was digitized.
-msgid "bdo:microfilmItem::rdfs:label"
+#. The main title of a work, the title by which it is the most often known.
+msgid "bdo:BibliographicalTitle::adm:userTooltip"
 msgstr ""
 
-#. The microfilm item from which the instance was digitized.
-msgid "bdo:microfilmItem::adm:userTooltip"
+#. Monastic name associated with the person's monastery of residence. This is
+#. specific to a few socio linguistic contexts, such as the Burmese one.
+msgid "bdo:PersonMonasteryName::rdfs:label"
 msgstr ""
 
-#. Physical assets are indicated for libraries that are representing their
-#. assets as physical items.
-msgid "bdo:VolumePhysicalAsset::rdfs:label"
+#. Monastic name associated with the person's monastery of residence. This is
+#. specific to a few socio linguistic contexts, such as the Burmese one.
+msgid "bdo:PersonMonasteryName::adm:userTooltip"
 msgstr ""
 
-#. Physical assets are indicated for libraries that are representing their
-#. assets as physical items.
-msgid "bdo:VolumePhysicalAsset::adm:userTooltip"
+#. Free-text expression of the source printery for the Instance.
+msgid "bdo:sourcePrinteryStatement::rdfs:label"
 msgstr ""
 
-#. A list of fascicles contained in the physical instance of a Work
-msgid "bdo:hasFascicles::rdfs:label"
+#. Free-text expression of the source printery for the Instance.
+msgid "bdo:sourcePrinteryStatement::adm:userTooltip"
 msgstr ""
 
-#. A list of fascicles contained in the physical instance of a Work
-msgid "bdo:hasFascicles::adm:userTooltip"
+#. An :ItemMicrofilmAsset describes the physical microfilm from which the
+#. associated Instance was digitized.
+msgid "bdo:ItemMicrofilmAsset::rdfs:label"
 msgstr ""
 
-#. refers to the volume by name, e.g., ca, ta, nga
-msgid "bdo:contentLocationVolumeName::rdfs:label"
+#. An instance of a SeriesMember.
+msgid "bdo:SerialInstance::rdfs:label"
 msgstr ""
 
-#. refers to the volume by name, e.g., ca, ta, nga
-msgid "bdo:contentLocationVolumeName::adm:userTooltip"
+#. Indicates a Tradition that the subject is associated with
+msgid "bdo:associatedTradition::rdfs:label"
+msgstr "འབྲེལ་ཡོད་ཆོས་བརྒྱུད།"
+
+#. Indicates a Tradition that the subject is associated with
+msgid "bdo:associatedTradition::adm:userTooltip"
 msgstr ""
 
-#. The class of DILA Chinese date individuals
-msgid "bdo:ChineseDate::rdfs:label"
+#. The type of copy
+msgid "bdo:typeOfCopy::rdfs:label"
 msgstr ""
 
-#. The class of DILA Chinese date individuals
-msgid "bdo:ChineseDate::adm:userTooltip"
+#. The type of copy
+msgid "bdo:typeOfCopy::adm:userTooltip"
 msgstr ""
 
-#. A free-text statement of the holdings by BDRC of this Item (and its
-#. relatives).
-msgid "bdo:itemBDRCHoldingStatement::rdfs:label"
+#. An event describing the second translation of a work
+msgid "bdo:SecondTranslatedEvent::rdfs:label"
 msgstr ""
 
-#. A free-text statement of the holdings by BDRC of this Item (and its
-#. relatives).
-msgid "bdo:itemBDRCHoldingStatement::adm:userTooltip"
+#. An event describing the third translation of a work
+msgid "bdo:ThirdTranslatedEvent::rdfs:label"
 msgstr ""
 
-msgid "bdo:sliceStartChar::rdfs:label"
+msgid "bdo:volumeNote::rdfs:label"
 msgstr ""
 
-#. can be v2.1.* or v3.0.*
-msgid "bdo:IIIFCollection::rdfs:label"
+#. This work is an extract of another work
+msgid "bdo:workExtractOf::rdfs:label"
 msgstr ""
 
-#. can be v2.1.* or v3.0.*
-msgid "bdo:IIIFCollection::adm:userTooltip"
+#. This work is an extract of another work
+msgid "bdo:workExtractOf::adm:userTooltip"
 msgstr ""
 
-#. Indicates a statement of error in the content
-msgid "bdo:instanceErrata::rdfs:label"
+#. Monastic name of the person that is associated with the person's position
+#. in monastic hierarchy or sectarian groups. This is specific to a few socio
+#. linguistic contexts, such as the Burmese one.
+msgid "bdo:PersonMonasticPositionName::rdfs:label"
 msgstr ""
 
-#. Indicates a statement of error in the content
-msgid "bdo:instanceErrata::adm:userTooltip"
+#. Monastic name of the person that is associated with the person's position
+#. in monastic hierarchy or sectarian groups. This is specific to a few socio
+#. linguistic contexts, such as the Burmese one.
+msgid "bdo:PersonMonasticPositionName::adm:userTooltip"
 msgstr ""
 
-#. two- or three-character lowercase alphabetic codes that designate countries
-#. and regions (such as states in the U.S.)
-#. see also: http://id.loc.gov/vocabulary/countries.html
-#. see also: http://www.loc.gov/marc/countries/
-msgid "bdo:placeMARCCountryCode::rdfs:label"
+#. Indicates a BiblioEntity that is a member of the Collection
+msgid "bdo:collectionMember::rdfs:label"
+msgstr "ཁོངས་མི།"
+
+#. Indicates a BiblioEntity that is a member of the Collection
+msgid "bdo:collectionMember::adm:userTooltip"
 msgstr ""
 
-#. two- or three-character lowercase alphabetic codes that designate countries
-#. and regions (such as states in the U.S.)
-#. see also: http://id.loc.gov/vocabulary/countries.html
-#. see also: http://www.loc.gov/marc/countries/
-msgid "bdo:placeMARCCountryCode::adm:userTooltip"
+#. true if the instance or item is damaged
+msgid "bdo:isDamaged::rdfs:label"
 msgstr ""
 
-#. used as labels for items such as canon catalog sigLas and date eras. The
-#. value is a string such as "T %s"or "%s C.E."
-msgid "bdo:uiAbbrFormat::rdfs:label"
+#. true if the instance or item is damaged
+msgid "bdo:isDamaged::adm:userTooltip"
 msgstr ""
 
-#. used as labels for items such as canon catalog sigLas and date eras. The
-#. value is a string such as "T %s"or "%s C.E."
-msgid "bdo:uiAbbrFormat::adm:userTooltip"
+#. Indicates if the digital instance can be in a Controlled Digital Lending
+#. program. In other words, indicates if a physical copy circulates.
+#. see also: https://controlleddigitallending.org/
+msgid "bdo:digitalLendingPossible::rdfs:label"
 msgstr ""
 
-#. Entities are the principle types or concepts in the BDRC ontology.
-#. Individuals of type subclass of :Entity will correspond to distinct
-#. individuals in the domain of discourse of BDRC, such as Persons, Places,
-#. and Works.
-msgid "bdo:Entity::rdfs:label"
+#. Indicates if the digital instance can be in a Controlled Digital Lending
+#. program. In other words, indicates if a physical copy circulates.
+#. see also: https://controlleddigitallending.org/
+msgid "bdo:digitalLendingPossible::adm:userTooltip"
 msgstr ""
 
-#. Entities are the principle types or concepts in the BDRC ontology.
-#. Individuals of type subclass of :Entity will correspond to distinct
-#. individuals in the domain of discourse of BDRC, such as Persons, Places,
-#. and Works.
-msgid "bdo:Entity::adm:userTooltip"
-msgstr ""
-
-msgid "bdo:sliceEndChar::rdfs:label"
-msgstr ""
-
-#. This Resource is a root Resource of a graph.
-msgid "bdo:isRoot::rdfs:label"
-msgstr ""
-
-#. This Resource is a root Resource of a graph.
-msgid "bdo:isRoot::adm:userTooltip"
-msgstr ""
-
-#. a component material of the source (can be the type of paper, type of ink,
+#. An excerpt from the beginning of the text (skipping the incipit, hommage,
 #. etc.)
-msgid "bdo:material::rdfs:label"
-msgstr "རྒྱུ་རྫས།"
+msgid "bdo:excerptBeginning::rdfs:label"
+msgstr ""
 
-#. a component material of the source (can be the type of paper, type of ink,
+#. An excerpt from the beginning of the text (skipping the incipit, hommage,
 #. etc.)
-msgid "bdo:material::adm:userTooltip"
+msgid "bdo:excerptBeginning::adm:userTooltip"
 msgstr ""
 
-#. Library of Congress Call Number
-#. see also: https://www.loc.gov/catdir/cpso/lcco/
-msgid "bdo:LCCallNumber::rdfs:label"
+#. Indicates the place where the collection resides.
+msgid "bdo:collectionPlace::rdfs:label"
 msgstr ""
 
-#. Library of Congress Call Number
-#. see also: https://www.loc.gov/catdir/cpso/lcco/
-msgid "bdo:LCCallNumber::adm:userTooltip"
+#. Indicates the place where the collection resides.
+msgid "bdo:collectionPlace::adm:userTooltip"
 msgstr ""
 
-#. An unspecified Chinese date.
-msgid "bdr:ChineseDateNotSpecified::rdfs:label"
+#. Monastic name associated with the name of the donor who sponsored a
+#. monastery of residence. This is specific to a few socio linguistic
+#. contexts, such as the Burmese one.
+msgid "bdo:PersonDonorName::rdfs:label"
 msgstr ""
 
-#. An unspecified Chinese date.
-msgid "bdr:ChineseDateNotSpecified::adm:userTooltip"
+#. Monastic name associated with the name of the donor who sponsored a
+#. monastery of residence. This is specific to a few socio linguistic
+#. contexts, such as the Burmese one.
+msgid "bdo:PersonDonorName::adm:userTooltip"
 msgstr ""
 
-#. An organization that preserves and makes metadata and images/etexts
-#. available digitally
-msgid "bdo:hasSteward::rdfs:label"
+#. Indicates the agent that holds the collection
+msgid "bdo:collectionAgent::rdfs:label"
 msgstr ""
 
-#. An organization that preserves and makes metadata and images/etexts
-#. available digitally
-msgid "bdo:hasSteward::adm:userTooltip"
+#. Indicates the agent that holds the collection
+msgid "bdo:collectionAgent::adm:userTooltip"
 msgstr ""
 
-#. The China Historical GIS identifier for the Place
-msgid "bdo:placeChgisId::rdfs:label"
+#. An event describing the third revision of a work
+msgid "bdo:ThirdRevisedEvent::rdfs:label"
 msgstr ""
 
-#. The China Historical GIS identifier for the Place
-msgid "bdo:placeChgisId::adm:userTooltip"
+#. An excerpt from the text
+msgid "bdo:excerpt::rdfs:label"
 msgstr ""
 
-#. this property refers to a named IIIF Manifest resource. The resource may be
-#. local or at another location such as the British Library EAP
-msgid "bdo:hasIIIFManifest::rdfs:label"
+#. An excerpt from the text
+msgid "bdo:excerpt::adm:userTooltip"
 msgstr ""
 
-#. The accuracy of the latitude and longitude
-msgid "bdo:placeAccuracy::rdfs:label"
-msgstr ""
-
-#. The accuracy of the latitude and longitude
-msgid "bdo:placeAccuracy::adm:userTooltip"
-msgstr ""
-
-msgid "bdo:hasIIIFCollection::rdfs:label"
-msgstr ""
-
-#. A transliteration for a LangScript.
-msgid "bdo:transliteration::rdfs:label"
-msgstr ""
-
-#. A transliteration for a LangScript.
-msgid "bdo:transliteration::adm:userTooltip"
-msgstr ""
-
-#. A dotted list of indexes of the part among its siblings under each parent
-#. up to the root.
-msgid "bdo:partTreeIndex::rdfs:label"
-msgstr ""
-
-#. A dotted list of indexes of the part among its siblings under each parent
-#. up to the root.
-msgid "bdo:partTreeIndex::adm:userTooltip"
-msgstr ""
-
-#. Indicates an alternative restoration of the original PersonName or
-#. WorkTitle
-#. see also: http://purl.bdrc.io/ontology/core/restored
-msgid "bdo:restoredAlt::rdfs:label"
-msgstr ""
-
-#. Indicates an alternative restoration of the original PersonName or
-#. WorkTitle
-#. see also: http://purl.bdrc.io/ontology/core/restored
-msgid "bdo:restoredAlt::adm:userTooltip"
-msgstr ""
-
-#. Exception notes such a missing volume, damage to pages and so on
-#. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
-msgid "bdo:itemException::rdfs:label"
-msgstr ""
-
-#. Exception notes such a missing volume, damage to pages and so on
-#. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
-msgid "bdo:itemException::adm:userTooltip"
-msgstr ""
-
-#. A positive integer indicating the total number of images in the ImageGroup
-msgid "bdo:imageCount::rdfs:label"
-msgstr ""
-
-#. A positive integer indicating the total number of images in the ImageGroup
-msgid "bdo:imageCount::adm:userTooltip"
-msgstr ""
-
-#. Associates modern address information with a Place
-msgid "bdo:placeAddress::rdfs:label"
-msgstr ""
-
-#. Associates modern address information with a Place
-msgid "bdo:placeAddress::adm:userTooltip"
-msgstr ""
-
-#. The number of monasteries per ecumen in this Place (presumably a region)
-#. from data provided by Karl Ryavec
-msgid "bdo:placeGonpaPerEcumen::rdfs:label"
-msgstr ""
-
-#. The number of monasteries per ecumen in this Place (presumably a region)
-#. from data provided by Karl Ryavec
-msgid "bdo:placeGonpaPerEcumen::adm:userTooltip"
-msgstr ""
-
-#. indicates the id of the canister that the microfilm was stored in
-#. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
-msgid "bdo:microfilmCanister::rdfs:label"
-msgstr ""
-
-#. indicates the id of the canister that the microfilm was stored in
-#. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
-msgid "bdo:microfilmCanister::adm:userTooltip"
-msgstr ""
-
-#. International Standard Book Number
-msgid "bdo:ISBN::rdfs:label"
-msgstr "ISBN རྒྱལ་སྤྱིའི་དཔེ་རྟགས།"
-
-#. International Standard Book Number
-msgid "bdo:ISBN::adm:userTooltip"
-msgstr ""
-
-msgid "bdo:placeRegionPoly::rdfs:label"
-msgstr ""
-
-#. see also: http://purl.bdrc.io/ontology/core/Etext
-msgid "bdo:chunkContents::rdfs:label"
-msgstr ""
-
-#. A slice of text is a character range, used to identify portions of an Etext
-#. for any purpose: correspondence with original pages, lines, etc.
-msgid "bdo:EtextSlice::rdfs:label"
-msgstr ""
-
-#. A slice of text is a character range, used to identify portions of an Etext
-#. for any purpose: correspondence with original pages, lines, etc.
-msgid "bdo:EtextSlice::adm:userTooltip"
-msgstr ""
-
-msgid "bdo:eTextHasChunk::rdfs:label"
-msgstr ""
-
-#. the method for creating the content
-msgid "bdo:contentMethod::rdfs:label"
-msgstr "དཔེ་ཆ་སྒྲིག་སྟངས།"
-
-#. the method for creating the content
-msgid "bdo:contentMethod::adm:userTooltip"
-msgstr ""
-
-#. An Insitution containing a collection of works such as "Bibliothèque EFEO -
-#. Preah Vanarât Ken Vong", "Fragile Palm Leaves Foundation" or "National
-#. Library of Mongolia"
-msgid "bdo:CollectionInstitution::adm:userTooltip"
-msgstr ""
-
-#. A count of the ending phrase (in language specific units) of a Work
-#. location
-msgid "bdo:contentLocationEndPhrase::rdfs:label"
-msgstr ""
-
-#. A count of the ending phrase (in language specific units) of a Work
-#. location
-msgid "bdo:contentLocationEndPhrase::adm:userTooltip"
-msgstr ""
-
-#. A count of the starting phrase (in language specific units) of a Work
-#. location.
-msgid "bdo:contentLocationPhrase::rdfs:label"
-msgstr ""
-
-#. A count of the starting phrase (in language specific units) of a Work
-#. location.
-msgid "bdo:contentLocationPhrase::adm:userTooltip"
-msgstr ""
-
-#. can be v2.1.* or v3.0.*
-msgid "bdo:IIIFManifest::rdfs:label"
-msgstr ""
-
-#. can be v2.1.* or v3.0.*
-msgid "bdo:IIIFManifest::adm:userTooltip"
-msgstr ""
-
-#. Indicates a restoration of the original PersonName or WorkTitle
-msgid "bdo:restored::rdfs:label"
-msgstr ""
-
-#. Indicates a restoration of the original PersonName or WorkTitle
-msgid "bdo:restored::adm:userTooltip"
-msgstr ""
-
-#. :Facets are essentially n-ary relations that apply to one or more
-#. Resources. Facets are compound features or properties of Resources.
-msgid "bdo:Facet::rdfs:label"
-msgstr ""
-
-#. :Facets are essentially n-ary relations that apply to one or more
-#. Resources. Facets are compound features or properties of Resources.
-msgid "bdo:Facet::adm:userTooltip"
-msgstr ""
-
-#. indicates the id of the film strip that contains the digitized content
-msgid "bdo:microfilmStrip::rdfs:label"
-msgstr ""
-
-#. indicates the id of the film strip that contains the digitized content
-msgid "bdo:microfilmStrip::adm:userTooltip"
-msgstr ""
-
-#. class of various resources that may have :Note attached
-msgid "bdo:EntitiesOrFacets::rdfs:label"
-msgstr ""
-
-#. :TextualEntity is a subclass of :Work, or :Item or :Etext that is
-#. constructed so that the adm:license range can be applied across
-msgid "bdo:TextualEntity::rdfs:label"
-msgstr ""
-
-#. Total number of pages in the volume
-msgid "bdo:volumePagesTotal::rdfs:label"
-msgstr ""
-
-#. Total number of pages in the volume
-msgid "bdo:volumePagesTotal::adm:userTooltip"
-msgstr ""
-
-#. Indicates whether the pagination is absolute across all pages of a Work or
-#. relative to the contents of a part of the Work.
-#. see also: http://purl.bdrc.io/ontology/core/PaginationType
-msgid "bdo:contentPagination::rdfs:label"
-msgstr ""
-
-#. Indicates whether the pagination is absolute across all pages of a Work or
-#. relative to the contents of a part of the Work.
-#. see also: http://purl.bdrc.io/ontology/core/PaginationType
-msgid "bdo:contentPagination::adm:userTooltip"
-msgstr ""
-
-msgid "bdo:corporationMemberType::rdfs:label"
-msgstr "ས་གནས་རིགས།"
-
-#. Indicates a Person that is a member of the corporation
-msgid "bdo:corporationMember::rdfs:label"
-msgstr ""
-
-#. Indicates a Person that is a member of the corporation
-msgid "bdo:corporationMember::adm:userTooltip"
-msgstr ""
-
-#. The source path, for an InputEtext.
-msgid "bdo:eTextSourcePath::rdfs:label"
-msgstr ""
-
-#. The source path, for an InputEtext.
-msgid "bdo:eTextSourcePath::adm:userTooltip"
-msgstr ""
-
-#. captures ad hoc text associated with the event
-msgid "bdo:eventText::rdfs:label"
-msgstr ""
-
-#. captures ad hoc text associated with the event
-msgid "bdo:eventText::adm:userTooltip"
-msgstr ""
-
-#. Indicates that a Work has no colophon
-msgid "bdo:NoColophon::rdfs:label"
-msgstr ""
-
-#. Indicates that a Work has no colophon
-msgid "bdo:NoColophon::adm:userTooltip"
-msgstr ""
-
-#. sequence number of the work location in a list of locations
-msgid "bdo:contentLocationSeqNum::rdfs:label"
-msgstr ""
-
-#. sequence number of the work location in a list of locations
-msgid "bdo:contentLocationSeqNum::adm:userTooltip"
-msgstr ""
-
-#. the number of this work within a containing work
-msgid "bdo:hasInstanceNum::rdfs:label"
-msgstr ""
-
-#. the number of this work within a containing work
-msgid "bdo:hasInstanceNum::adm:userTooltip"
-msgstr ""
-
-#. domain of :restored and :restoredAlt that are used for name and title
-#. variants restored from corrupt textual content
-msgid "bdo:PersonNameOrBiblioTitle::rdfs:label"
-msgstr ""
-
-#. a union of core and adm classes
-msgid "bdo:MixedUnion::rdfs:label"
-msgstr ""
-
-#. The various sorts of agents represented in the ontology, such as Persons,
-#. Organizations and so on
-msgid "bdo:Agents::rdfs:label"
-msgstr ""
-
-#. The various sorts of agents represented in the ontology, such as Persons,
-#. Organizations and so on
-msgid "bdo:Agents::adm:userTooltip"
-msgstr ""
-
-#. a union of core ontology classes
-msgid "bdo:CoreUnion::rdfs:label"
-msgstr ""
-
-msgid "bdo:workFEMCManuscriptCode::rdfs:label"
-msgstr ""
-
-msgid "bdo:IIIF2Or3Collection::rdfs:label"
-msgstr ""
-
-msgid "bdo:IIIF2Or3Manifest::rdfs:label"
-msgstr ""
-
-#. Indicates the ending side of the folio in a folio-based location.
-msgid "bdo:contentLocationEndSide::rdfs:label"
-msgstr ""
-
-#. Indicates the ending side of the folio in a folio-based location.
-msgid "bdo:contentLocationEndSide::adm:userTooltip"
-msgstr ""
-
-#. Print type indicates the form of the Work such as blockprint, palm-leaf,
-#. manuscript, and so on
-msgid "bdo:ObjectType::rdfs:label"
-msgstr ""
-
-#. Print type indicates the form of the Work such as blockprint, palm-leaf,
-#. manuscript, and so on
-msgid "bdo:ObjectType::adm:userTooltip"
-msgstr ""
-
-#. The 2013 Chinese GB code for the Place. Similar to U.S. Zipcode
-msgid "bdo:placeGB2260-2013::rdfs:label"
-msgstr ""
-
-#. The 2013 Chinese GB code for the Place. Similar to U.S. Zipcode
-msgid "bdo:placeGB2260-2013::adm:userTooltip"
-msgstr ""
-
-#. a union of iiif classes
-msgid "bdo:IIIFUnion::rdfs:label"
-msgstr ""
-
-#. a union of iiif classes
-msgid "bdo:IIIFUnion::adm:userTooltip"
-msgstr ""
-
-msgid "bdo:paginatedBy::rdfs:label"
-msgstr ""
-
-#. For a sub(sub, etc) Work the target Work is the top-level containing Work.
-msgid "bdo:inRootInstance::rdfs:label"
-msgstr ""
-
-#. For a sub(sub, etc) Work the target Work is the top-level containing Work.
-msgid "bdo:inRootInstance::adm:userTooltip"
-msgstr ""
-
-#. An etext that does not include correspondence to any digitized images of
-#. the Work
-msgid "bdo:ItemEtextNonPaginated::rdfs:label"
-msgstr ""
-
-#. An etext that does not include correspondence to any digitized images of
-#. the Work
-msgid "bdo:ItemEtextNonPaginated::adm:userTooltip"
-msgstr ""
-
-#. The World Bank 2010 population for the Place
-msgid "bdo:placeWB2010::rdfs:label"
-msgstr ""
-
-#. The World Bank 2010 population for the Place
-msgid "bdo:placeWB2010::adm:userTooltip"
-msgstr ""
-
-#. The number of copies of the Work in this holding
-#. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
-msgid "bdo:itemCopies::rdfs:label"
-msgstr ""
-
-#. The number of copies of the Work in this holding
-#. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
-msgid "bdo:itemCopies::adm:userTooltip"
-msgstr ""
-
-msgid "bdo:dateIndication::rdfs:label"
-msgstr ""
-
-#. Indicates a member Instance of a VirtualInstance
-msgid "bdo:virtualLinkTo::rdfs:label"
-msgstr ""
+#. Statement of ownership indicated in the instance
+msgid "bdo:ownershipStatement::rdfs:label"
+msgstr "མཛད་པ་པོ་གསལ་བཤད།"
 
-#. Indicates a member Instance of a VirtualInstance
-msgid "bdo:virtualLinkTo::adm:userTooltip"
+#. Statement of ownership indicated in the instance
+msgid "bdo:ownershipStatement::adm:userTooltip"
 msgstr ""
 
-#. Types are used to indicate features names, titles, events and so on.
-msgid "bdo:Type::rdfs:label"
+#. This is the number or other id of this SerialInstance in a SerialWork.
+msgid "bdo:seriesNumber::rdfs:label"
 msgstr ""
 
-#. Types are used to indicate features names, titles, events and so on.
-msgid "bdo:Type::adm:userTooltip"
+#. This is the number or other id of this SerialInstance in a SerialWork.
+msgid "bdo:seriesNumber::adm:userTooltip"
 msgstr ""
 
-#. This property records a Place characterizing the region in which the
-#. Corporation occured/occurs.
-msgid "bdo:corporationRegion::rdfs:label"
+#. An event of originally copying the text. Happens in some contexts (ex:
+#. Burmese), where manuscripts can have an attributed original scribe (acring
+#. somewhat as an editor) even though the physical copy we have is a copy of
+#. the 'original' copy.
+msgid "bdo:OriginalCopyEvent::rdfs:label"
 msgstr ""
 
-#. This property records a Place characterizing the region in which the
-#. Corporation occured/occurs.
-msgid "bdo:corporationRegion::adm:userTooltip"
+#. An event of originally copying the text. Happens in some contexts (ex:
+#. Burmese), where manuscripts can have an attributed original scribe (acring
+#. somewhat as an editor) even though the physical copy we have is a copy of
+#. the 'original' copy.
+msgid "bdo:OriginalCopyEvent::adm:userTooltip"
 msgstr ""
 
-#. Free text comment on where the copy of the Instance that was digitized was
-#. printed.
-msgid "bdo:instancePrintery::rdfs:label"
-msgstr "པར་ཁང་།"
-
-#. Free text comment on where the copy of the Instance that was digitized was
-#. printed.
-msgid "bdo:instancePrintery::adm:userTooltip"
-msgstr ""
-
-#. The type of various sorts of date individuals such as DILA's Chinese date
-#. individuals - see subclass bdo:ChineseDateType
-msgid "bdo:Date::rdfs:label"
-msgstr ""
-
-#. The type of various sorts of date individuals such as DILA's Chinese date
-#. individuals - see subclass bdo:ChineseDateType
-msgid "bdo:Date::adm:userTooltip"
-msgstr ""
-
-#. This instance is contained at the identified institution
-msgid "bdo:inCollection::rdfs:label"
-msgstr ""
-
-#. This instance is contained at the identified institution
-msgid "bdo:inCollection::adm:userTooltip"
-msgstr ""
-
-#. see also: https://en.wikipedia.org/wiki/Has-a
-msgid "bdo:taxHasSubClass::rdfs:label"
-msgstr ""
-
-#. This identifies a property that is used in a custom taxonomy to represent
-#. the subclass relation for the taxonomy
-#. see also: http://purl.bdrc.io/ontology/core/Taxonomy
-msgid "bdo:taxSubclassRelation::rdfs:label"
-msgstr ""
-
-msgid "bdo:Taxonomy::rdfs:label"
-msgstr ""
-
-#. see also: http://purl.bdrc.io/ontology/core/Taxonomy
-#. see also: https://en.wikipedia.org/wiki/Is-a
-msgid "bdo:taxSubClassOf::rdfs:label"
-msgstr ""
-
-msgid "bdr:PrintMethod_Intaglio_Copper::skos:prefLabel"
-msgstr ""
-
-#. Indicates a relief method such as carved woodblocks were used.
-msgid "bdo:PrintMethod_Relief::adm:userTooltip"
-msgstr ""
-
-#. Indicates an Intaglio method was used.
-msgid "bdo:PrintMethod_Intaglio::adm:userTooltip"
-msgstr ""
-
-msgid "bdr:PrintMethod_Intaglio_Zinc::skos:prefLabel"
-msgstr ""
-
-#. mechanical relief printing typically via wood
-msgid "bdr:PrintMethod_Relief_Letterpress::skos:prefLabel"
-msgstr ""
-
-#. Indicates an offset method method was used.
-msgid "bdo:PrintMethod_Offset::rdfs:label"
-msgstr ""
-
-#. Indicates an offset method method was used.
-msgid "bdo:PrintMethod_Offset::adm:userTooltip"
-msgstr ""
-
-msgid "bdr:ScriptGilgitBamiyan2::skos:prefLabel"
-msgstr ""
-
-#. see also: http://lexvo.org/id/script/Khar
-msgid "bdr:ScriptKhar::skos:prefLabel"
-msgstr ""
-
-msgid "bdr:ScriptEasternNagari::skos:prefLabel"
-msgstr ""
-
-msgid "bdr:ScriptGupta::skos:prefLabel"
-msgstr ""
-
-#. Differs from Eastern Nāgarī
-msgid "bdr:ScriptNagari::skos:prefLabel"
-msgstr ""
-
-msgid "bdr:ScriptPostGupta::skos:prefLabel"
-msgstr ""
-
-#. Broader category than Post-gupta
-msgid "bdr:ScriptTransitionalGupta::skos:prefLabel"
-msgstr ""
-
-msgid "bdr:ScriptGilgitBamiyan1::skos:prefLabel"
-msgstr ""
-
-#. see also: http://lexvo.org/id/script/Tirh
-msgid "bdr:ScriptTirh::skos:prefLabel"
+#. The official title given to a person. In the Burmese context these would be
+#. given by the King, or in other rare contexts by the colonial
+#. administration.
+msgid "bdo:PersonOfficialTitle::rdfs:label"
 msgstr ""
 
-#. A (traditional) Chinese Era is reckoned in terms of the reign of an Emperor
-msgid "bdo:ChineseEra::rdfs:label"
+#. The official title given to a person. In the Burmese context these would be
+#. given by the King, or in other rare contexts by the colonial
+#. administration.
+msgid "bdo:PersonOfficialTitle::adm:userTooltip"
 msgstr ""
 
-#. A (traditional) Chinese Era is reckoned in terms of the reign of an Emperor
-msgid "bdo:ChineseEra::adm:userTooltip"
+#. A transcription of the explicit of the Instance (a part of the colophon).
+msgid "bdo:explicit::rdfs:label"
 msgstr ""
 
-#. Tibetan dates are designated in terms of the rabjung, year, month and day.
-msgid "bdo:DateIndicationTibetan::rdfs:label"
+#. A transcription of the explicit of the Instance (a part of the colophon).
+msgid "bdo:explicit::adm:userTooltip"
 msgstr ""
 
-#. Tibetan dates are designated in terms of the rabjung, year, month and day.
-msgid "bdo:DateIndicationTibetan::adm:userTooltip"
+#. This work has some parallels parts in another work, meaning some parts
+#. display intertextuality patterns but not the whole text.
+msgid "bdo:workHasParallelPartsIn::rdfs:label"
 msgstr ""
 
-#. A Chinese date indication usually includes dynasty, reign, era, year,
-#. month, day
-msgid "bdo:ChineseDateIndication::rdfs:label"
+#. This work has some parallels parts in another work, meaning some parts
+#. display intertextuality patterns but not the whole text.
+msgid "bdo:workHasParallelPartsIn::adm:userTooltip"
 msgstr ""
 
-#. A Chinese date indication usually includes dynasty, reign, era, year,
-#. month, day
-msgid "bdo:ChineseDateIndication::adm:userTooltip"
+#. The associated with the subject (can be a :DigitalInstance), using a grade
+#. from 0 to 5.
+msgid "bdo:qualityGrade::rdfs:label"
 msgstr ""
 
-#. An Era is a span of years usually reckoned as starting and ending in
-#. reference to a Reference Era
-msgid "bdo:Era::rdfs:label"
+#. The associated with the subject (can be a :DigitalInstance), using a grade
+#. from 0 to 5.
+msgid "bdo:qualityGrade::adm:userTooltip"
 msgstr ""
 
-#. An Era is a span of years usually reckoned as starting and ending in
-#. reference to a Reference Era
-msgid "bdo:Era::adm:userTooltip"
+#. a person who is attributed as the original scribe of a manuscript, even
+#. though the manuscript itself is a copy of this 'original' copy. Happens in
+#. the Burmese context.
+msgid "bdr:R0ER0031::skos:prefLabel"
 msgstr ""
 
-#. Time periods are specified in terms of year ranges via :notBefore and
-#. :notAfter. Years are signed integers using Western "Common Era" reckoning.
-#. see also: bdo:EventOrPeriod
-msgid "bdo:DateIndication::rdfs:label"
+#. In some contexts (Tibetan, Burmese), we have records of instructions by a
+#. certain teacher, even though the author of the actual instruction record
+#. are not the teacher themselves. This role represents the teacher.
+msgid "bdr:R0ER0032::skos:prefLabel"
 msgstr ""
 
-#. folded concertina or accordion style
-msgid "bdr:Binding_Continuous_Folded::skos:prefLabel"
-msgstr ""
-
-#. Examples of continuous binding include scrolls and leporellos
-msgid "bdo:Binding_Continuous::rdfs:label"
-msgstr ""
-
-#. Examples of continuous binding include scrolls and leporellos
-msgid "bdo:Binding_Continuous::adm:userTooltip"
-msgstr ""
-
-#. The codex form of binding is the precursor to the modern Western-style
-#. bound book
-msgid "bdo:Binding_Codex::adm:userTooltip"
-msgstr ""
+#. modern print, undetermined process
+msgid "bdr:PrintMethod_Modern::skos:prefLabel"
+msgstr "དེབ་གཟུགས།"
 
-msgid "bdo:ChinesePeriods::rdfs:label"
+#. The manuscript was carved with a stylus cutter (typically the case in the
+#. Southeast Asian context)
+msgid "bdr:PrintMethod_ManuscriptStylus::skos:prefLabel"
 msgstr ""
 
-msgid "bdo:QuarterCentury::rdfs:label"
+#. The manuscript was carved with a stylus cutter (typically the case in the
+#. Southeast Asian context)
+msgid "bdr:PrintMethod_ManuscriptStylus::adm:userTooltip"
 msgstr ""
 
-msgid "bdo:ChineseDynasty::rdfs:label"
+msgid "bdr:ScriptMymrRound::skos:prefLabel"
 msgstr ""
 
-#. Not currently used. May be incorporated as more info on Chinese dates and
-#. so on are included
-#. Time periods are specified in terms of year ranges via :notBefore and
-#. :notAfter. Years are signed integers using Western "Common Era" reckoning.
-#. see also: bdo:EventOrPeriod
-msgid "bdo:TimePeriod::rdfs:label"
+msgid "bdr:ScriptMymrCursive::skos:prefLabel"
 msgstr ""
 
-msgid "bdr:GenderMixed::skos:prefLabel"
+#. see also: http://www.wikidata.org/entity/Q8009382
+msgid "bdr:ScriptSoyo::skos:prefLabel"
 msgstr ""
 
-msgid "bdr:PaginationAbsolute::skos:prefLabel"
+msgid "bdr:ScriptMymrDiamond::skos:prefLabel"
 msgstr ""
 
-#. The pagination type indicates whether pagination is absolute across all
-#. pages of a Work or relative to a text within a Work
-msgid "bdo:PaginationType::rdfs:label"
+msgid "bdr:ScriptMymrSquare::skos:prefLabel"
 msgstr ""
 
-#. The pagination type indicates whether pagination is absolute across all
-#. pages of a Work or relative to a text within a Work
-msgid "bdo:PaginationType::adm:userTooltip"
+msgid "bdr:ScriptMymrTS::skos:prefLabel"
 msgstr ""
 
-msgid "bdr:PaginationRelative::skos:prefLabel"
+#. represents the type of copy (values are tuned for Southeast Asian
+#. philology)
+msgid "bdo:TypeOfCopy::rdfs:label"
 msgstr ""
 
-#. underlying physical material of a manifestation of a Work
-#. see also: http://rdaregistry.info/Elements/m/P30208
-msgid "bdo:BaseMaterial::adm:userTooltip"
+#. represents the type of copy (values are tuned for Southeast Asian
+#. philology)
+msgid "bdo:TypeOfCopy::adm:userTooltip"
 msgstr ""
 
-#. paper dyed with indigo is called Nīlapattra in some contexts
-msgid "bdr:AppliedMaterial_IndigoDye::skos:prefLabel"
+#. represents the codicological type of an instance (or part), typically used
+#. in the Southeast Asian context
+msgid "bdo:CodicologicalPartType::rdfs:label"
 msgstr ""
 
-msgid "bdr:MaterialMixed::skos:prefLabel"
+#. represents the codicological type of an instance (or part), typically used
+#. in the Southeast Asian context
+msgid "bdo:CodicologicalPartType::adm:userTooltip"
 msgstr ""
-
-#. The material such as ink and so on that is used to impose writing on the
-#. base material
-#. see also: http://rdaregistry.info/Elements/m/P30084
-msgid "bdo:AppliedMaterial::rdfs:label"
-msgstr "བྱུགས་རྫས།"
 
-#. The material such as ink and so on that is used to impose writing on the
-#. base material
-#. see also: http://rdaregistry.info/Elements/m/P30084
-msgid "bdo:AppliedMaterial::adm:userTooltip"
+#. see also: http://lexvo.org/id/iso639-3/sin
+msgid "bdr:LangSi::skos:prefLabel"
 msgstr ""
