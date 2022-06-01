@@ -970,7 +970,7 @@ msgstr "གཞུང་ཚིག་བཀོལ་པའི་མཚན་བྱ
 
 #. A unit of searchable etext
 msgid "bdo:EtextChunk::rdfs:label"
-msgstr "འཕྲུལ་ཡིག་བམ་པོ།"
+msgstr "ཡིག་རྐྱང་གི་དུམ་ཚན།"
 
 #. The ending page in the volume of the Work indicated by the other statements
 #. for this :WorkLocation
@@ -1084,7 +1084,7 @@ msgstr "མཚན།"
 
 #. links an etext volume to its various etexts (often 1)
 msgid "bdo:EtextRef::rdfs:label"
-msgstr "འཕྲུལ་ཡིག"
+msgstr "ཡིག་རྐྱང་།"
 
 #. The event of origin of a work
 msgid "bdo:OriginatedEvent::rdfs:label"
@@ -1288,7 +1288,7 @@ msgstr "པོ་ཏིའི་ཆེ་ཆུང་།"
 
 #. A searchable etext volume versus a physical or digitized pzges images.
 msgid "bdo:VolumeEtextAsset::rdfs:label"
-msgstr "འཕྲུལ་པོད།"
+msgstr "ཡིག་རྐྱང་གི་པོ་ཏི།"
 
 #. Subjects and genres of works, just as in a traditional library catalog
 msgid "bdo:Topic::rdfs:label"
@@ -1317,7 +1317,7 @@ msgstr "བརྩམས་ཆོས་དང་འབྲེལ་བའི་ག
 
 #. position of the eText in the volume that contains it
 msgid "bdo:eTextVolumeIndex::rdfs:label"
-msgstr "པོད་དེའི་ནང་འཕྲུལ་ཡིག་འདི་ཡོད་སའི་ཆོས་ཚན་གྱིཨང་།"
+msgstr "པོད་དེའི་ནང་ཡིག་རྐྱང་ཡོད་ས།"
 
 #. The subject instance is a reproduction of the referenced instance such as a
 #. photocopy or an offset print of an original or photocopy and so on.
@@ -1350,7 +1350,7 @@ msgid "bdo:eTextIsVolume::rdfs:label"
 msgstr "པོད་གྲངས་གང་ཡིན་པ།"
 
 msgid "bdo:Etext::rdfs:label"
-msgstr "འཕྲུལ་ཡིག"
+msgstr "ཡིག་རྐྱང་།"
 
 #. Title given in the colophon of a Work or text
 msgid "bdo:WorkColophonTitle::rdfs:label"
