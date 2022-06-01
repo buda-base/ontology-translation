@@ -10,4 +10,4 @@ git:
       file_format: PO
       source_language: en
       source_file: transifex-output/core_en.po
-      translation_files_expression: 'transifex-output/core_<lang>.po'
+      translation_files_expression: 'transifex-output/core_<lang>.po'```
