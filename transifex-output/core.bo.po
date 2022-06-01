@@ -417,7 +417,7 @@ msgstr "གསལ་ཁ་མེད་པ།"
 #. refers to an :EtextRef that identifies an :Etext and the position of that
 #. :Etext in a containing :VolumeEtextAsset
 msgid "bdo:volumeHasEtext::rdfs:label"
-msgstr "འཕྲུལ་ཡིག"
+msgstr "ཡིག་རྐྱང་།"
 
 #. event type describing when a place was founded
 msgid "bdo:PlaceFounded::rdfs:label"
@@ -543,7 +543,7 @@ msgstr "ཡོངས་རྫོགས་དགེ་བསྙེན།"
 #. An Instance consisting of some form of searchable text
 #. see also: http://purl.bdrc.io/ontology/core/Etext
 msgid "bdo:EtextInstance::rdfs:label"
-msgstr "འཕྲུལ་ཡིག་གི་མཚན་གཞི།"
+msgstr "ཡིག་རྐྱང་།"
 
 #. Indicates that the event is known to have not occurred prior to the
 #. year/date given, unless otherwise specified the year/date is reckoned in
@@ -800,7 +800,7 @@ msgstr "གཉེན་ཉེའི་འབྲེལ་བ་བརྒྱུད
 #. An etext with associated pagination information corresponding to digitized
 #. images of a Work
 msgid "bdo:EtextPaginated::rdfs:label"
-msgstr "འཕྲུལ་ཡིག་མ་དཔེའི་ཤོག་གྲངས་ཅན།"
+msgstr "ཡིག་རྐྱང་མ་དཔེའི་ཤོག་གྲངས་ཅན།"
 
 #. An event of work translation.
 msgid "bdo:TranslatedEvent::rdfs:label"
@@ -952,7 +952,7 @@ msgstr "ཨ་ནེ།"
 
 #. Refers to an :Etext that is contained in a particular :VolumeEtextAsset
 msgid "bdo:eTextResource::rdfs:label"
-msgstr "འཕྲུལ་ཡིག་རྒྱུ་ཆ།"
+msgstr "ཡིག་རྐྱང་རྒྱུ་ཆ།"
 
 #. In some cases volumes of a :Work are given names. For example, in Tibetan a
 #. three volume work might have volumes named O, a, huM or a 10 volume work
