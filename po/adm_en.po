@@ -123,11 +123,11 @@ msgstr "Product"
 msgid "adm:logMessage::rdfs:label"
 msgstr "message"
 
-#. this resource is about the same resource as the resource in Markus
+#. this resource is about the same resource as the resource in Marcus
 #. Bingenheimer's Bibliography of Translations from the Chinese Buddhist Canon
 #. into Western Languages
 msgid "adm:sameAsMBBT::rdfs:label"
-msgstr "same as Markus Bingenheimer's Bibliography of Translations"
+msgstr "same as Marcus Bingenheimer's Bibliography of Translations"
 
 #. Name used when attributing a work or images to the corresponding author or
 #. provider
@@ -549,3 +549,6 @@ msgstr ""
 #. see also: http://creativecommons.org/licenses/by/4.0/
 msgid "bda:LicenseCCBY4::skos:prefLabel"
 msgstr "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+
+msgid "bda:LD_SAT_metadata::skos:prefLabel"
+msgstr "Provided by SAT"

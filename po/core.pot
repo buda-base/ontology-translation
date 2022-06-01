@@ -1999,7 +1999,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/PersonFinalOrdination"
 msgid "bdo:PersonFinalOrdination::rdfs:label"
 msgstr ""
 
-#. Indicates the printing method of the Item associated with the Work.
+#. Indicates the printing method of the Instance
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/printMethod"
 msgid "bdo:printMethod::rdfs:label"
@@ -2133,6 +2133,7 @@ msgstr ""
 #. an Indic language, and sometimes under the pretense that it was
 #. "translated" by a person other than the forger (i.e. with a false
 #. ascription attached).
+#. see also: http://www.wikidata.org/entity/Q3738757
 #: roles/creators.ttl
 msgctxt "http://purl.bdrc.io/resource/R0ER0027"
 msgid "bdr:R0ER0027::skos:prefLabel"
@@ -2198,6 +2199,7 @@ msgstr ""
 
 #. An individual who revealed the Work as treasure texts (specific to the
 #. Tibetan context)
+#. see also: http://www.wikidata.org/entity/Q2493637
 #: roles/creators.ttl
 msgctxt "http://purl.bdrc.io/resource/R0ER0025"
 msgid "bdr:R0ER0025::skos:prefLabel"
@@ -2229,6 +2231,7 @@ msgid "bdr:R0ER0014::skos:prefLabel"
 msgstr ""
 
 #. A translator of the Work
+#. see also: http://www.wikidata.org/entity/Q333634
 #: roles/creators.ttl
 msgctxt "http://purl.bdrc.io/resource/R0ER0026"
 msgid "bdr:R0ER0026::skos:prefLabel"
@@ -2242,6 +2245,7 @@ msgid "bdr:R0ER0013::skos:prefLabel"
 msgstr ""
 
 #. a person who sponsors a work or instance
+#. see also: http://www.wikidata.org/entity/Q152478
 #: roles/creators.ttl
 msgctxt "http://purl.bdrc.io/resource/R0ER0030"
 msgid "bdr:R0ER0030::skos:prefLabel"
@@ -2266,6 +2270,7 @@ msgstr ""
 #. the Buddha was generally understood to have been active in India); but the
 #. implications might be quite different if we identify someone as the
 #. "author" of a commentary
+#. see also: http://www.wikidata.org/entity/Q36180
 #: roles/creators.ttl
 msgctxt "http://purl.bdrc.io/resource/R0ER0019"
 msgid "bdr:R0ER0019::skos:prefLabel"
@@ -2291,6 +2296,7 @@ msgstr ""
 
 #. An individual who physically wrote the text. Can be during recitation by
 #. the author (ex. bdr:W8145)
+#. see also: http://www.wikidata.org/entity/Q916292
 #: roles/creators.ttl
 msgctxt "http://purl.bdrc.io/resource/R0ER0024"
 msgid "bdr:R0ER0024::skos:prefLabel"
@@ -2302,6 +2308,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/PrintMethod_Manuscript"
 msgid "bdo:PrintMethod_Manuscript::rdfs:label"
 msgstr ""
 
+#. facsimile from the 20th c., photocopies, etc.
 #: types/print_methods.ttl
 msgctxt "http://purl.bdrc.io/resource/PrintMethod_Xerography"
 msgid "bdr:PrintMethod_Xerography::skos:prefLabel"
@@ -2347,7 +2354,6 @@ msgid "bdr:ScriptHans::skos:prefLabel"
 msgstr ""
 
 #. This script is not normalized in ISO 15924
-#. Use it for Ranjana, Landza and Vartu
 #. see also: http://scriptsource.org/scr/Qabb
 #: types/scripts.ttl
 msgctxt "http://purl.bdrc.io/resource/ScriptRanj"
@@ -2492,8 +2498,7 @@ msgctxt "http://purl.bdrc.io/resource/Binding_Continuous_Scroll"
 msgid "bdr:Binding_Continuous_Scroll::skos:prefLabel"
 msgstr ""
 
-#. loose leaves with holes for string to keep the leaves together and wrapped
-#. in cloth
+#. loose leaves with holes for string to keep the leaves together
 #: types/bindings.ttl
 msgctxt "http://purl.bdrc.io/resource/Binding_LooseLeaf_Pothi"
 msgid "bdr:Binding_LooseLeaf_Pothi::skos:prefLabel"
@@ -2547,6 +2552,7 @@ msgctxt "http://purl.bdrc.io/resource/WorkText"
 msgid "bdr:WorkText::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T247
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionBon"
 msgid "bdr:TraditionBon::skos:prefLabel"
@@ -2557,12 +2563,14 @@ msgctxt "http://purl.bdrc.io/resource/TR0003"
 msgid "bdr:TR0003::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T1387
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionTsalpaKagyu"
 msgid "bdr:TraditionTsalpaKagyu::skos:prefLabel"
 msgstr ""
 
 #. one of sa ngor tsar gsum
+#. see also: http://purl.bdrc.io/resource/T8LS16958
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionNgorSakya"
 msgid "bdr:TraditionNgorSakya::skos:prefLabel"
@@ -2579,21 +2587,25 @@ msgctxt "http://purl.bdrc.io/ontology/core/ChineseTradition"
 msgid "bdo:ChineseTradition::rdfs:label"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T2MS13225
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionTrophuKagyu"
 msgid "bdr:TraditionTrophuKagyu::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T2446
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionZurmangKagyu"
 msgid "bdr:TraditionZurmangKagyu::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T1187
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionKagyu"
 msgid "bdr:TraditionKagyu::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T3JT13056
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionBardrukKagyu"
 msgid "bdr:TraditionBardrukKagyu::skos:prefLabel"
@@ -2604,6 +2616,7 @@ msgctxt "http://purl.bdrc.io/resource/TraditionTheravada"
 msgid "bdr:TraditionTheravada::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T2MS13227
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionShugsepKagyu"
 msgid "bdr:TraditionShugsepKagyu::skos:prefLabel"
@@ -2615,11 +2628,13 @@ msgctxt "http://purl.bdrc.io/resource/TraditionMulasarvastivada"
 msgid "bdr:TraditionMulasarvastivada::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T1385
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionPhagGruKagyu"
 msgid "bdr:TraditionPhagGruKagyu::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T1386
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionKarmaKagyu"
 msgid "bdr:TraditionKarmaKagyu::skos:prefLabel"
@@ -2631,31 +2646,37 @@ msgctxt "http://purl.bdrc.io/resource/TraditionDharmaguptaka"
 msgid "bdr:TraditionDharmaguptaka::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T1186
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionYelpaKagyu"
 msgid "bdr:TraditionYelpaKagyu::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T791
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionKadam"
 msgid "bdr:TraditionKadam::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T1KG8538
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionNedoKagyu"
 msgid "bdr:TraditionNedoKagyu::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T1678
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionMartsangKagyu"
 msgid "bdr:TraditionMartsangKagyu::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T194
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionChod"
 msgid "bdr:TraditionChod::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T3JT13055
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionMadrukKagyu"
 msgid "bdr:TraditionMadrukKagyu::skos:prefLabel"
@@ -2688,6 +2709,7 @@ msgctxt "http://purl.bdrc.io/resource/TR0001"
 msgid "bdr:TR0001::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T360
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionJonang"
 msgid "bdr:TraditionJonang::skos:prefLabel"
@@ -2701,6 +2723,7 @@ msgstr ""
 #. Some might not count Rime as a Tradition but since there are Works and
 #. Persons who are identified as such it is approapriate to include for
 #. purposes of classification
+#. see also: http://purl.bdrc.io/resource/T808
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionRime"
 msgid "bdr:TraditionRime::skos:prefLabel"
@@ -2718,27 +2741,32 @@ msgctxt "http://purl.bdrc.io/resource/TR0002"
 msgid "bdr:TR0002::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T617
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionSakya"
 msgid "bdr:TraditionSakya::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T869
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionTaklungKagyu"
 msgid "bdr:TraditionTaklungKagyu::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T2MS13229
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionYazangKagyu"
 msgid "bdr:TraditionYazangKagyu::skos:prefLabel"
 msgstr ""
 
 #. one of  sa ngor tsar gsum
+#. see also: http://purl.bdrc.io/resource/T00AG02467
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionTsarSakya"
 msgid "bdr:TraditionTsarSakya::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T1542
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionOrgyenNyengyu"
 msgid "bdr:TraditionOrgyenNyengyu::skos:prefLabel"
@@ -2749,21 +2777,28 @@ msgctxt "http://purl.bdrc.io/resource/FourMainKagyuTraditions"
 msgid "bdr:FourMainKagyuTraditions::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T2054
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionBodong"
 msgid "bdr:TraditionBodong::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T1082
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionNyingma"
 msgid "bdr:TraditionNyingma::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T1190
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionDrigungKagyu"
 msgid "bdr:TraditionDrigungKagyu::skos:prefLabel"
 msgstr ""
 
+#. term applied to followers of the tradition of zhwa lu monastery in central
+#. tibet; the monastery originally was owned by the lce lineage and was bka'
+#. brgyud; subsequently became best known for its teachings of the kalacakra
+#. and mandala
 #. see also: http://purl.bdrc.io/resource/G275
 #. see also: http://purl.bdrc.io/resource/T1198
 #: types/traditions.ttl
@@ -2771,11 +2806,13 @@ msgctxt "http://purl.bdrc.io/resource/TraditionZhalu"
 msgid "bdr:TraditionZhalu::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T816
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionDrukpaKagyu"
 msgid "bdr:TraditionDrukpaKagyu::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T1384
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionBaromKagyu"
 msgid "bdr:TraditionBaromKagyu::skos:prefLabel"
@@ -2783,22 +2820,26 @@ msgstr ""
 
 #. Traditions that arise from Marpa, Milarepa, and Gampopa. The four greater
 #. and the minor eight.
-#. see also: http://purl.bdrc.io/resource/T1187
+#. see also: http://purl.bdrc.io/resource/T2MS13223
+#. see also: http://purl.bdrc.io/resource/T807
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionDakpoKagyu"
 msgid "bdr:TraditionDakpoKagyu::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T383
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionShangpaKagyu"
 msgid "bdr:TraditionShangpaKagyu::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T819
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionGeluk"
 msgid "bdr:TraditionGeluk::skos:prefLabel"
 msgstr ""
 
+#. see also: http://purl.bdrc.io/resource/T10MS14532
 #: types/traditions.ttl
 msgctxt "http://purl.bdrc.io/resource/TraditionTodrukKagyu"
 msgid "bdr:TraditionTodrukKagyu::skos:prefLabel"
@@ -3873,7 +3914,7 @@ msgid "bdr:AppliedMaterial_BlackInk::skos:prefLabel"
 msgstr ""
 
 #. paper made from bark of the Daphne bush (Daphne bholua and Daphne
-#. papyracea). Indeginous to Bhutan, distinct from the Lokta paper.
+#. papyracea). Used in Bhutan and Nepal.
 #. see also:
 #. http://bhutan.ims.tuwien.ac.at/ahtcde00/c-viex/j-02-03-02-11/start.html
 #. see also: http://purl.bdrc.io/resource/MaterialLoktaPaper
@@ -3899,8 +3940,7 @@ msgctxt "http://purl.bdrc.io/resource/AppliedMaterial_Poison"
 msgid "bdr:AppliedMaterial_Poison::skos:prefLabel"
 msgstr ""
 
-#. digital material for content which is held in digital format in the archive
-#. (:Etexts)
+#. digital material for content which is born digital
 #: types/materials.ttl
 msgctxt "http://purl.bdrc.io/resource/MaterialDigital"
 msgid "bdr:MaterialDigital::skos:prefLabel"
@@ -3911,6 +3951,7 @@ msgctxt "http://purl.bdrc.io/resource/MaterialSaPaper"
 msgid "bdr:MaterialSaPaper::skos:prefLabel"
 msgstr ""
 
+#. Paper made from the bark of the streblus asper.
 #: types/materials.ttl
 msgctxt "http://purl.bdrc.io/resource/MaterialKhoiPaper"
 msgid "bdr:MaterialKhoiPaper::skos:prefLabel"
@@ -4828,16 +4869,14 @@ msgctxt "http://purl.bdrc.io/ontology/core/hasMaternalUncle"
 msgid "bdo:hasMaternalUncle::adm:userTooltip"
 msgstr ""
 
-#. This is the location of the source information for this :Lineage in a
-#. specified gsan / thob yig.
+#. This is the location of the source information
 #. see also: http://purl.bdrc.io/ontology/core/Lineage
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/contentLocation"
 msgid "bdo:contentLocation::rdfs:label"
 msgstr ""
 
-#. This is the location of the source information for this :Lineage in a
-#. specified gsan / thob yig.
+#. This is the location of the source information
 #. see also: http://purl.bdrc.io/ontology/core/Lineage
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/contentLocation"
@@ -5719,7 +5758,7 @@ msgctxt "http://purl.bdrc.io/ontology/core/biblioNote"
 msgid "bdo:biblioNote::adm:userTooltip"
 msgstr ""
 
-#. Indicates the printing method of the Item associated with the Work.
+#. Indicates the printing method of the Instance
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/printMethod"
 msgid "bdo:printMethod::adm:userTooltip"
@@ -6381,17 +6420,15 @@ msgctxt "http://purl.bdrc.io/ontology/core/lineageReceived"
 msgid "bdo:lineageReceived::adm:userTooltip"
 msgstr ""
 
-#. A statement of the location of this Instance in a containing Instance or of
-#. the pagination present in the text versus the formal location in terms of
-#. page images.
+#. A statement of the location in an Instance (usually the pagination, in
+#. abbreviated form)
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/contentLocationStatement"
 msgid "bdo:contentLocationStatement::rdfs:label"
 msgstr ""
 
-#. A statement of the location of this Instance in a containing Instance or of
-#. the pagination present in the text versus the formal location in terms of
-#. page images.
+#. A statement of the location in an Instance (usually the pagination, in
+#. abbreviated form)
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/contentLocationStatement"
 msgid "bdo:contentLocationStatement::adm:userTooltip"
@@ -6999,15 +7036,13 @@ msgctxt "http://purl.bdrc.io/ontology/core/custodialHistory"
 msgid "bdo:custodialHistory::adm:userTooltip"
 msgstr ""
 
-#. When a person's activity occured. This is a range of dates, indicated with
-#. :notBefore / :notAfter
+#. When a person's activity occured (less specific than birth or date)
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/PersonFlourished"
 msgid "bdo:PersonFlourished::rdfs:label"
 msgstr ""
 
-#. When a person's activity occured. This is a range of dates, indicated with
-#. :notBefore / :notAfter
+#. When a person's activity occured (less specific than birth or date)
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/PersonFlourished"
 msgid "bdo:PersonFlourished::adm:userTooltip"
@@ -7323,15 +7358,15 @@ msgctxt "http://purl.bdrc.io/ontology/core/workHasParallelPartsIn"
 msgid "bdo:workHasParallelPartsIn::adm:userTooltip"
 msgstr ""
 
-#. The associated with the subject (can be a :DigitalInstance), using a grade
-#. from 0 to 5.
+#. The quality of the digital reproduction, using a grade from 0 (barely
+#. legible) to 5 (perfect).
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/qualityGrade"
 msgid "bdo:qualityGrade::rdfs:label"
 msgstr ""
 
-#. The associated with the subject (can be a :DigitalInstance), using a grade
-#. from 0 to 5.
+#. The quality of the digital reproduction, using a grade from 0 (barely
+#. legible) to 5 (perfect).
 #: core/bdo.ttl
 msgctxt "http://purl.bdrc.io/ontology/core/qualityGrade"
 msgid "bdo:qualityGrade::adm:userTooltip"
@@ -7353,7 +7388,7 @@ msgctxt "http://purl.bdrc.io/resource/R0ER0032"
 msgid "bdr:R0ER0032::skos:prefLabel"
 msgstr ""
 
-#. modern print, undetermined process
+#. modern print, undetermined process, use for computer input
 #: types/print_methods.ttl
 msgctxt "http://purl.bdrc.io/resource/PrintMethod_Modern"
 msgid "bdr:PrintMethod_Modern::skos:prefLabel"
@@ -7436,4 +7471,213 @@ msgstr ""
 #: types/languages.ttl
 msgctxt "http://purl.bdrc.io/resource/LangSi"
 msgid "bdr:LangSi::skos:prefLabel"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/missingVolumes"
+msgid "bdo:missingVolumes::rdfs:label"
+msgstr ""
+
+#. The quality of the physical preservation, using a grade from 0 (almost
+#. destroyed) to 5 (perfect).
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/preservationGrade"
+msgid "bdo:preservationGrade::rdfs:label"
+msgstr ""
+
+#. The quality of the physical preservation, using a grade from 0 (almost
+#. destroyed) to 5 (perfect).
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/preservationGrade"
+msgid "bdo:preservationGrade::adm:userTooltip"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/copyrightStatus"
+msgid "bdo:copyrightStatus::rdfs:label"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/TulkuLine"
+msgid "bdo:TulkuLine::skos:prefLabel"
+msgstr ""
+
+#. A statement of the extent (mostly for instances)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/extentStatement"
+msgid "bdo:extentStatement::rdfs:label"
+msgstr ""
+
+#. A statement of the extent (mostly for instances)
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/extentStatement"
+msgid "bdo:extentStatement::adm:userTooltip"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/reproductionPrintMethod"
+msgid "bdo:reproductionPrintMethod::rdfs:label"
+msgstr ""
+
+#. Indicates a Corporation that is associated with the subject.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/corporation"
+msgid "bdo:corporation::rdfs:label"
+msgstr ""
+
+#. Indicates a Corporation that is associated with the subject.
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/corporation"
+msgid "bdo:corporation::adm:userTooltip"
+msgstr ""
+
+#: core/bdo.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/serialHasInstance"
+msgid "bdo:serialHasInstance::rdfs:label"
+msgstr ""
+
+#. Someone involved in the process of carving wood blocks for printing.
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0034"
+msgid "bdr:R0ER0034::skos:prefLabel"
+msgstr ""
+
+#. Someone involved in the printing process.
+#: roles/creators.ttl
+msgctxt "http://purl.bdrc.io/resource/R0ER0033"
+msgid "bdr:R0ER0033::skos:prefLabel"
+msgstr ""
+
+#: types/copyrights.ttl
+msgctxt "http://purl.bdrc.io/resource/CopyrightInCopyright"
+msgid "bdr:CopyrightInCopyright::skos:prefLabel"
+msgstr ""
+
+#: types/copyrights.ttl
+msgctxt "http://purl.bdrc.io/resource/CopyrightPublicDomain"
+msgid "bdr:CopyrightPublicDomain::skos:prefLabel"
+msgstr ""
+
+#: types/copyrights.ttl
+msgctxt "http://purl.bdrc.io/resource/CopyrightUndetermined"
+msgid "bdr:CopyrightUndetermined::skos:prefLabel"
+msgstr ""
+
+#: types/copyrights.ttl
+msgctxt "http://purl.bdrc.io/resource/CopyrightClaimed"
+msgid "bdr:CopyrightClaimed::skos:prefLabel"
+msgstr ""
+
+#: types/copyrights.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/CopyrightStatus"
+msgid "bdo:CopyrightStatus::rdfs:label"
+msgstr ""
+
+#: types/print_methods.ttl
+msgctxt "http://purl.bdrc.io/resource/PrintMethod_Mimeography"
+msgid "bdr:PrintMethod_Mimeography::skos:prefLabel"
+msgstr ""
+
+#. Microfilm, microfiche, etc. Most of the time this is an intermediate
+#. reproduction.
+#: types/print_methods.ttl
+msgctxt "http://purl.bdrc.io/resource/PrintMethod_Microfilm"
+msgid "bdr:PrintMethod_Microfilm::skos:prefLabel"
+msgstr ""
+
+#. Formats are concepts related to the physical size or layout of instances.
+#. see also: http://www.rdaregistry.info/termList/bookFormat/
+#. see also: http://www.rdaregistry.info/termList/layout/
+#: types/formats.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Format"
+msgid "bdo:Format::rdfs:label"
+msgstr ""
+
+#. Formats are concepts related to the physical size or layout of instances.
+#. see also: http://www.rdaregistry.info/termList/bookFormat/
+#. see also: http://www.rdaregistry.info/termList/layout/
+#: types/formats.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Format"
+msgid "bdo:Format::adm:userTooltip"
+msgstr ""
+
+#: types/formats.ttl
+msgctxt "http://purl.bdrc.io/resource/FormatShortPalmLeaf"
+msgid "bdr:FormatShortPalmLeaf::skos:prefLabel"
+msgstr ""
+
+#. Concept used in the Khmer-Thai communities, designating the most common
+#. type of palm leaf format, generally between 50 and 60 centimeters in length
+#. and around 5 centimeters in width.
+#: types/formats.ttl
+msgctxt "http://purl.bdrc.io/resource/FormatLongPalmLeaf"
+msgid "bdr:FormatLongPalmLeaf::skos:prefLabel"
+msgstr ""
+
+#. The binding records how a collection of pages/folia are kept together
+#: types/bindings.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Binding"
+msgid "bdo:Binding::rdfs:label"
+msgstr ""
+
+#. A binding form in which some sort of container, cloth wrapping, box, pecha
+#. between boards, and so on
+#: types/bindings.ttl
+msgctxt "http://purl.bdrc.io/ontology/core/Binding_LooseLeaf"
+msgid "bdo:Binding_LooseLeaf::rdfs:label"
+msgstr ""
+
+#. see also: http://purl.bdrc.io/resource/T1710
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionBonSar"
+msgid "bdr:TraditionBonSar::skos:prefLabel"
+msgstr ""
+
+#. Fusion of Nyingma and Kagyu practices followed at Drakar Taso in western
+#. Tibet
+#. see also: http://purl.bdrc.io/resource/T2447
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionMadunKagyu"
+msgid "bdr:TraditionMadunKagyu::skos:prefLabel"
+msgstr ""
+
+#. see also: http://purl.bdrc.io/resource/T1104
+#: types/traditions.ttl
+msgctxt "http://purl.bdrc.io/resource/TraditionBaraKagyu"
+msgid "bdr:TraditionBaraKagyu::skos:prefLabel"
+msgstr ""
+
+#: types/part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PartTypeReproductionCodex"
+msgid "bdr:PartTypeReproductionCodex::skos:prefLabel"
+msgstr ""
+
+#: types/part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PartTypeCodex"
+msgid "bdr:PartTypeCodex::skos:prefLabel"
+msgstr ""
+
+#: types/part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PartTypeSetOfFascicles"
+msgid "bdr:PartTypeSetOfFascicles::skos:prefLabel"
+msgstr ""
+
+#: types/part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PartTypeCollection"
+msgid "bdr:PartTypeCollection::skos:prefLabel"
+msgstr ""
+
+#: types/part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PartTypeFascicle"
+msgid "bdr:PartTypeFascicle::skos:prefLabel"
+msgstr ""
+
+#: types/part_types.ttl
+msgctxt "http://purl.bdrc.io/resource/PartTypeDigitalCodex"
+msgid "bdr:PartTypeDigitalCodex::skos:prefLabel"
+msgstr ""
+
+#: types/languages.ttl
+msgctxt "http://purl.bdrc.io/resource/LangPiKm"
+msgid "bdr:LangPiKm::skos:prefLabel"
 msgstr ""

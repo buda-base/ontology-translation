@@ -72,7 +72,7 @@ msgctxt "http://purl.bdrc.io/ontology/admin/sameAsWorldCat"
 msgid "adm:sameAsWorldCat::rdfs:label"
 msgstr ""
 
-#. this resource is about the same resource as the resource in Markus
+#. this resource is about the same resource as the resource in Marcus
 #. Bingenheimer's Bibliography of Translations from the Chinese Buddhist Canon
 #. into Western Languages
 #: adm/admin.ttl
@@ -814,4 +814,9 @@ msgstr ""
 #: adm/types/license_types.ttl
 msgctxt "http://purl.bdrc.io/admindata/LicenseCCBY4"
 msgid "bda:LicenseCCBY4::skos:prefLabel"
+msgstr ""
+
+#: adm/legal_entities.ttl
+msgctxt "http://purl.bdrc.io/admindata/LD_SAT_metadata"
+msgid "bda:LD_SAT_metadata::skos:prefLabel"
 msgstr ""

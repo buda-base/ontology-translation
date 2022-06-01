@@ -1547,6 +1547,7 @@ msgstr "རྩོམ་རོགས།"
 
 #. An individual who physically wrote the text. Can be during recitation by
 #. the author (ex. bdr:W8145)
+#. see also: http://www.wikidata.org/entity/Q916292
 msgid "bdr:R0ER0024::skos:prefLabel"
 msgstr "ཡི་གེ་བ།"
 
@@ -1557,6 +1558,7 @@ msgstr "ཡིག་མཁན།"
 
 #. An individual who revealed the Work as treasure texts (specific to the
 #. Tibetan context)
+#. see also: http://www.wikidata.org/entity/Q2493637
 msgid "bdr:R0ER0025::skos:prefLabel"
 msgstr "གཏེར་སྟོན།"
 
@@ -1650,6 +1652,7 @@ msgid "bdr:R0ER0015::skos:prefLabel"
 msgstr "ཕྱོགས་སྒྲིག་པ།"
 
 #. a person who sponsors a work or instance
+#. see also: http://www.wikidata.org/entity/Q152478
 msgid "bdr:R0ER0030::skos:prefLabel"
 msgstr "ཡོན་བདག"
 
@@ -1668,8 +1671,9 @@ msgstr "བྲིས་མ།"
 msgid "bdo:PrintMethod_Manuscript::rdfs:label"
 msgstr "བྲིས་མ།"
 
+#. facsimile from the 20th c., photocopies, etc.
 msgid "bdr:PrintMethod_Xerography::skos:prefLabel"
-msgstr "པར་སློག"
+msgstr "རྡོ་པར།"
 
 #. manual pressing of paper or other material on a woodblock
 msgid "bdr:PrintMethod_Relief_WoodBlock::skos:prefLabel"
@@ -1724,7 +1728,6 @@ msgid "bdr:ScriptSouthernIndia::skos:prefLabel"
 msgstr "རྒྱ་གར་ལྷོ་ཕྱོགས་ཡི་གེ།"
 
 #. This script is not normalized in ISO 15924
-#. Use it for Ranjana, Landza and Vartu
 #. see also: http://scriptsource.org/scr/Qabb
 msgid "bdr:ScriptRanj::skos:prefLabel"
 msgstr "ལཉྫ"
@@ -1875,15 +1878,18 @@ msgstr "པོད།"
 msgid "bdo:WorkPartType::rdfs:label"
 msgstr "བརྩམས་ཆོས་ཀྱི་ནང་གསེས་རིགས།"
 
+#. see also: http://purl.bdrc.io/resource/T2MS13227
 msgid "bdr:TraditionShugsepKagyu::skos:prefLabel"
 msgstr "ཤུག་གསེབ་བཀའ་བརྒྱུད།"
 
 msgid "bdr:TraditionTheravada::skos:prefLabel"
 msgstr "ཐེ་ར་ཝ་དྷ།"
 
+#. see also: http://purl.bdrc.io/resource/T2MS13229
 msgid "bdr:TraditionYazangKagyu::skos:prefLabel"
 msgstr "གཡའ་བཟང་བཀའ་བརྒྱུད།"
 
+#. see also: http://purl.bdrc.io/resource/T1384
 msgid "bdr:TraditionBaromKagyu::skos:prefLabel"
 msgstr "འབའ་རོམ་བཀའ་བརྒྱུད།"
 
@@ -1895,33 +1901,42 @@ msgstr "བརྒྱུད་པ་གཙོ་བོ་གསུམ།"
 msgid "bdr:EightMinorKagyuTraditions::skos:prefLabel"
 msgstr "བཀའ་བརྒྱུད་ཆུང་བརྒྱད།"
 
+#. see also: http://purl.bdrc.io/resource/T383
 msgid "bdr:TraditionShangpaKagyu::skos:prefLabel"
 msgstr "ཤངས་པ་བཀའ་བརྒྱུད།"
 
+#. see also: http://purl.bdrc.io/resource/T1542
 msgid "bdr:TraditionOrgyenNyengyu::skos:prefLabel"
 msgstr "ཨོ་རྒྱན་བསྙེན་སྒྲུབ།"
 
 msgid "bdr:TR0002::skos:prefLabel"
 msgstr "ཐའེན་ཐའེ་བརྒྱུད་པ།"
 
+#. see also: http://purl.bdrc.io/resource/T360
 msgid "bdr:TraditionJonang::skos:prefLabel"
 msgstr "ཇོ་ནང་།"
 
+#. see also: http://purl.bdrc.io/resource/T1190
 msgid "bdr:TraditionDrigungKagyu::skos:prefLabel"
 msgstr "འབྲི་གུང་བཀའ་བརྒྱུད།"
 
+#. see also: http://purl.bdrc.io/resource/T816
 msgid "bdr:TraditionDrukpaKagyu::skos:prefLabel"
 msgstr "འབྲུག་པ་བཀའ་བརྒྱུད།"
 
+#. see also: http://purl.bdrc.io/resource/T2446
 msgid "bdr:TraditionZurmangKagyu::skos:prefLabel"
 msgstr "ཟུར་མང་བཀའ་བརྒྱུད།"
 
+#. see also: http://purl.bdrc.io/resource/T791
 msgid "bdr:TraditionKadam::skos:prefLabel"
 msgstr "བཀའ་གདམས་པ།"
 
+#. see also: http://purl.bdrc.io/resource/T2054
 msgid "bdr:TraditionBodong::skos:prefLabel"
 msgstr "བོ་དོང་།"
 
+#. see also: http://purl.bdrc.io/resource/T2MS13225
 msgid "bdr:TraditionTrophuKagyu::skos:prefLabel"
 msgstr "ཁྲོ་ཕུ་བཀའ་བརྒྱུད"
 
@@ -1935,21 +1950,26 @@ msgstr "དུས་འཁོར།"
 msgid "bdo:ChineseTradition::rdfs:label"
 msgstr "རྒྱ་བརྒྱུད།"
 
+#. see also: http://purl.bdrc.io/resource/T1386
 msgid "bdr:TraditionKarmaKagyu::skos:prefLabel"
 msgstr "ཀམ་ཚང་བཀའ་བརྒྱུད།"
 
+#. see also: http://purl.bdrc.io/resource/T194
 msgid "bdr:TraditionChod::skos:prefLabel"
 msgstr "གཅོད།"
 
+#. see also: http://purl.bdrc.io/resource/T3JT13055
 msgid "bdr:TraditionMadrukKagyu::skos:prefLabel"
 msgstr "སྨད་དྲུག་བཀའ་བརྒྱུད།"
 
+#. see also: http://purl.bdrc.io/resource/T1KG8538
 msgid "bdr:TraditionNedoKagyu::skos:prefLabel"
 msgstr "གནས་མདོ་བཀའ་བརྒྱུད།"
 
 msgid "bdr:TraditionZhije::skos:prefLabel"
 msgstr "ཞི་བྱེད།"
 
+#. see also: http://purl.bdrc.io/resource/T1187
 msgid "bdr:TraditionKagyu::skos:prefLabel"
 msgstr "བཀའ་བརྒྱུད།"
 
@@ -1957,36 +1977,44 @@ msgstr "བཀའ་བརྒྱུད།"
 msgid "bdr:TraditionDharmaguptaka::skos:prefLabel"
 msgstr "དྷརྨ་གུཔྟ་ཀའི་བརྒྱུད་པ།"
 
+#. see also: http://purl.bdrc.io/resource/T3JT13056
 msgid "bdr:TraditionBardrukKagyu::skos:prefLabel"
 msgstr "བར་འབྲུག་བཀའ་བརྒྱུད།"
 
+#. see also: http://purl.bdrc.io/resource/T1387
 msgid "bdr:TraditionTsalpaKagyu::skos:prefLabel"
 msgstr "ཚལ་པ་བཀའ་བརྒྱུད།"
 
 #. Some might not count Rime as a Tradition but since there are Works and
 #. Persons who are identified as such it is approapriate to include for
 #. purposes of classification
+#. see also: http://purl.bdrc.io/resource/T808
 msgid "bdr:TraditionRime::skos:prefLabel"
 msgstr "རིས་མེད།"
 
+#. see also: http://purl.bdrc.io/resource/T869
 msgid "bdr:TraditionTaklungKagyu::skos:prefLabel"
 msgstr "སྟག་ལུང་བཀའ་བརྒྱུད།"
 
+#. see also: http://purl.bdrc.io/resource/T10MS14532
 msgid "bdr:TraditionTodrukKagyu::skos:prefLabel"
 msgstr "སྟོད་འབྲུག་བཀའ་བརྒྱུད།"
 
 #. Traditions that arise from Marpa, Milarepa, and Gampopa. The four greater
 #. and the minor eight.
-#. see also: http://purl.bdrc.io/resource/T1187
+#. see also: http://purl.bdrc.io/resource/T2MS13223
+#. see also: http://purl.bdrc.io/resource/T807
 msgid "bdr:TraditionDakpoKagyu::skos:prefLabel"
 msgstr "དྭགས་པོ་བཀའ་བརྒྱུད།"
 
+#. see also: http://purl.bdrc.io/resource/T819
 msgid "bdr:TraditionGeluk::skos:prefLabel"
 msgstr "དགེ་ལུགས།"
 
 msgid "bdr:TR0001::skos:prefLabel"
 msgstr "ཆོས་འཁོར་གསུམ་གྱི་ལུགས།"
 
+#. see also: http://purl.bdrc.io/resource/T617
 msgid "bdr:TraditionSakya::skos:prefLabel"
 msgstr "ས་སྐྱ།"
 
@@ -1996,33 +2024,44 @@ msgid "bdo:TibetanTradition::rdfs:label"
 msgstr "བོད་བརྒྱུད།"
 
 #. one of  sa ngor tsar gsum
+#. see also: http://purl.bdrc.io/resource/T00AG02467
 msgid "bdr:TraditionTsarSakya::skos:prefLabel"
 msgstr "ཚར་པ།"
 
+#. see also: http://purl.bdrc.io/resource/T247
 msgid "bdr:TraditionBon::skos:prefLabel"
 msgstr "བོན།"
 
 msgid "bdr:FourMainKagyuTraditions::skos:prefLabel"
 msgstr "དྭགས་པོ་བཀའ་བརྒྱུད།"
 
+#. see also: http://purl.bdrc.io/resource/T1082
 msgid "bdr:TraditionNyingma::skos:prefLabel"
 msgstr "རྙིང་མ།"
 
+#. term applied to followers of the tradition of zhwa lu monastery in central
+#. tibet; the monastery originally was owned by the lce lineage and was bka'
+#. brgyud; subsequently became best known for its teachings of the kalacakra
+#. and mandala
 #. see also: http://purl.bdrc.io/resource/G275
 #. see also: http://purl.bdrc.io/resource/T1198
 msgid "bdr:TraditionZhalu::skos:prefLabel"
 msgstr "ཞྭ་ལུ།"
 
+#. see also: http://purl.bdrc.io/resource/T1385
 msgid "bdr:TraditionPhagGruKagyu::skos:prefLabel"
 msgstr "ཕག་གྲུ་བཀའ་བརྒྱུད།"
 
 #. one of sa ngor tsar gsum
+#. see also: http://purl.bdrc.io/resource/T8LS16958
 msgid "bdr:TraditionNgorSakya::skos:prefLabel"
 msgstr "ངོར་པ།"
 
+#. see also: http://purl.bdrc.io/resource/T1678
 msgid "bdr:TraditionMartsangKagyu::skos:prefLabel"
 msgstr "སྨར་ཚང་བཀའ་བརྒྱུད།"
 
+#. see also: http://purl.bdrc.io/resource/T1186
 msgid "bdr:TraditionYelpaKagyu::skos:prefLabel"
 msgstr "ཡེལ་པ་བཀའ་བརྒྱུད།"
 
@@ -4544,3 +4583,23 @@ msgstr ""
 
 msgid "bdr:MaterialCardboard::skos:prefLabel"
 msgstr ""
+
+msgid "bdo:TulkuLine::skos:prefLabel"
+msgstr "སྐྱེ་བརྒྱུད"
+
+msgid "bdr:PrintMethod_Mimeography::skos:prefLabel"
+msgstr "སྣུམ་པར།"
+
+#. see also: http://purl.bdrc.io/resource/T1710
+msgid "bdr:TraditionBonSar::skos:prefLabel"
+msgstr "བོན་སར།"
+
+#. Fusion of Nyingma and Kagyu practices followed at Drakar Taso in western
+#. Tibet
+#. see also: http://purl.bdrc.io/resource/T2447
+msgid "bdr:TraditionMadunKagyu::skos:prefLabel"
+msgstr "མ་བདུན་བཀའ་བརྒྱུད།"
+
+#. see also: http://purl.bdrc.io/resource/T1104
+msgid "bdr:TraditionBaraKagyu::skos:prefLabel"
+msgstr "འབའ་ར་བཀའ་བརྒྱུད།"

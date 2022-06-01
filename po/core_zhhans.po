@@ -34,6 +34,7 @@ msgstr "译主"
 #. an Indic language, and sometimes under the pretense that it was
 #. "translated" by a person other than the forger (i.e. with a false
 #. ascription attached).
+#. see also: http://www.wikidata.org/entity/Q3738757
 msgid "bdr:R0ER0027::skos:prefLabel"
 msgstr "伪作"
 
