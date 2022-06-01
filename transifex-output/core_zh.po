@@ -1,18 +1,17 @@
 # 
 # Translators:
-# Elie Roux <roux.elie@gmail.com>, 2019
-# Penghao Sun <rinchenbzangpo@gmail.com>, 2021
+# Ngawang Trinley <ngawangtrinley@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Buddhist Digital Ontology e3c569c\n"
 "Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
-"Last-Translator: Penghao Sun <rinchenbzangpo@gmail.com>, 2021\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/bdrc/teams/103997/zh_CN/)\n"
+"Last-Translator: Ngawang Trinley <ngawangtrinley@gmail.com>, 2022\n"
+"Language-Team: Chinese (https://www.transifex.com/bdrc/teams/123474/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
+"Language: zh\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. The name by which a Person is commonly known
@@ -147,7 +146,7 @@ msgstr "包含"
 #. The Library (Place) that contains the physical holding
 #. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
 msgid "bdo:itemLibrary::rdfs:label"
-msgstr "原件收藏于"
+msgstr "书馆"
 
 #. The event of completing a work
 msgid "bdo:CompletedEvent::rdfs:label"
@@ -167,7 +166,7 @@ msgstr "逐页标题"
 
 #. The ending line on the ending page that is referenced
 msgid "bdo:workLocationEndLine::rdfs:label"
-msgstr "结尾句"
+msgstr "末尾句"
 
 #. from Mibu's catalogue
 #. see also: http://www.worldcat.org/oclc/603601029
@@ -409,7 +408,7 @@ msgstr "标签"
 
 #. indicates a Place Event of unknown type!?
 msgid "bdo:PlaceEventNotSpecified::rdfs:label"
-msgstr "未指定的"
+msgstr "未详"
 
 #. refers to an :EtextRef that identifies an :Etext and the position of that
 #. :Etext in a containing :VolumeEtextAsset
@@ -1021,7 +1020,7 @@ msgstr "装订方式"
 
 #. This is the number of volumes associated with the original work.
 msgid "bdo:workNumberOfVolumes::rdfs:label"
-msgstr "总卷数"
+msgstr "卷数"
 
 #. Indicates a younger sister of the person
 msgid "bdo:hasYoungerSister::rdfs:label"
@@ -1872,7 +1871,7 @@ msgstr "章"
 #. fragment is specified as a part of a containing :Work via a :WorkLocation
 #. as with any similar :workPartOf
 msgid "bdr:WorkFragment::skos:prefLabel"
-msgstr "片段"
+msgstr "部分"
 
 msgid "bdr:WorkVolume::skos:prefLabel"
 msgstr "卷"
@@ -2455,7 +2454,7 @@ msgstr "未详"
 #. Subclasses record different lineage types by culture, e.g., Tibetan or
 #. Chinese
 msgid "bdo:LineageType::rdfs:label"
-msgstr "传承的类型"
+msgstr "传承类型"
 
 msgid "bdr:LT0004::skos:prefLabel"
 msgstr "指导"
@@ -2541,7 +2540,7 @@ msgid "bdr:ZhHani::skos:prefLabel"
 msgstr "中文"
 
 msgid "bdr:New::skos:prefLabel"
-msgstr "尼瓦尔文"
+msgstr "尼瓦尔语"
 
 msgid "bdr:SaPostGupta::skos:prefLabel"
 msgstr "梵文 (后笈多字母)"
@@ -2569,7 +2568,7 @@ msgid "bdr:PiKhmr::skos:prefLabel"
 msgstr "巴利文 (高棉体)"
 
 msgid "bdr:Es::skos:prefLabel"
-msgstr "西班牙语"
+msgstr "西班牙文"
 
 msgid "bdr:PgdKhar::skos:prefLabel"
 msgstr "健驮逻语 (佉卢文书写)"
@@ -2939,7 +2938,7 @@ msgstr "表示此人的侄子"
 
 #. Title given in the colophon of a Work or text
 msgid "bdo:ColophonTitle::rdfs:label"
-msgstr "跋文所记标题"
+msgstr "跋文中的标题"
 
 #. Title given in the colophon of a Work or text
 msgid "bdo:ColophonTitle::adm:userTooltip"
@@ -3412,7 +3411,7 @@ msgstr "与传承有关的事件，如给予/接受灌顶或口传，等等。"
 
 #. A title by which is known or referenced.
 msgid "bdo:Title::rdfs:label"
-msgstr "题目"
+msgstr "标题"
 
 #. A title by which is known or referenced.
 msgid "bdo:Title::adm:userTooltip"
@@ -3583,7 +3582,7 @@ msgstr "作品写作的事件"
 #. Title on the first page of the text of the Tibetan traditional Pecha
 #. format.
 msgid "bdo:FullTitle::rdfs:label"
-msgstr "完整题目"
+msgstr "完整标题"
 
 #. Title on the first page of the text of the Tibetan traditional Pecha
 #. format.
@@ -4582,161 +4581,161 @@ msgstr "出版者名称"
 
 #. The name of the publisher transcribed from the Work
 msgid "bdo:publisherName::adm:userTooltip"
-msgstr "自作品内转录的出版社名称"
+msgstr ""
 
 #. Statement of sponsorship of the instance (typically the donor of a
 #. manuscript copy, not the work itself) indicated in the instance
 msgid "bdo:sponsoshipStatement::rdfs:label"
-msgstr "赞助声明"
+msgstr ""
 
 #. Statement of sponsorship of the instance (typically the donor of a
 #. manuscript copy, not the work itself) indicated in the instance
 msgid "bdo:sponsoshipStatement::adm:userTooltip"
-msgstr "实例中注明的赞助者（通常是手稿副本的捐赠者，而不是作品本身）的声明"
+msgstr ""
 
 #. In the case of an instance or a part, this reflects how the part is
 #. organized codicologically
 msgid "bdo:codicologicalpartType::rdfs:label"
-msgstr "实例或其中一部分的编码类型"
+msgstr ""
 
 #. In the case of an instance or a part, this reflects how the part is
 #. organized codicologically
 msgid "bdo:codicologicalpartType::adm:userTooltip"
-msgstr "就一个实例或一个部分而言，这反映了该部分在编码上是如何组织的"
+msgstr ""
 
 #. Name associated with the person's place of residence. This is specific to a
 #. few socio linguistic contexts, such as the Burmese one.
 msgid "bdo:PersonResidenceName::rdfs:label"
-msgstr "表达其居住地的名字"
+msgstr ""
 
 #. Name associated with the person's place of residence. This is specific to a
 #. few socio linguistic contexts, such as the Burmese one.
 msgid "bdo:PersonResidenceName::adm:userTooltip"
-msgstr "与该人的居住地相关的名字。这是一些社会语言的环境所特有的，如缅甸。"
+msgstr ""
 
 #. An excerpt from the end of the text (before the colophon)
 msgid "bdo:excerptEnd::rdfs:label"
-msgstr "摘录（文末）"
+msgstr ""
 
 #. An excerpt from the end of the text (before the colophon)
 msgid "bdo:excerptEnd::adm:userTooltip"
-msgstr "文本（跋文之前的）结尾处的摘录"
+msgstr ""
 
 msgid "bdo:Label::rdfs:label"
-msgstr "标签"
+msgstr ""
 
 #. An event describing the second revision of a work
 msgid "bdo:SecondRevisedEvent::rdfs:label"
-msgstr "第二次修订的事件"
+msgstr ""
 
 #. Name associated with the person's place of origin. This is specific to a
 #. few socio linguistic contexts, such as the Burmese one.
 msgid "bdo:PersonOriginName::rdfs:label"
-msgstr "表达原始出生地的名字"
+msgstr ""
 
 #. Name associated with the person's place of origin. This is specific to a
 #. few socio linguistic contexts, such as the Burmese one.
 msgid "bdo:PersonOriginName::adm:userTooltip"
-msgstr "与该人的原始出生地相关的名字。这是一些社会语言的环境所特有的，如缅甸。"
+msgstr ""
 
 msgid "bdo:DigitalInstance::rdfs:label"
-msgstr "数字化的实例"
+msgstr ""
 
 #. A note on the custodial history of the physical object
 msgid "bdo:custodialHistory::rdfs:label"
-msgstr "保管历史"
+msgstr ""
 
 #. A note on the custodial history of the physical object
 msgid "bdo:custodialHistory::adm:userTooltip"
-msgstr "关于实物的保管历史的说明"
+msgstr ""
 
 #. When a person's activity occured. This is a range of dates, indicated with
 #. :notBefore / :notAfter
 msgid "bdo:PersonFlourished::rdfs:label"
-msgstr "活跃于"
+msgstr ""
 
 #. When a person's activity occured. This is a range of dates, indicated with
 #. :notBefore / :notAfter
 msgid "bdo:PersonFlourished::adm:userTooltip"
-msgstr "一个人的活动是什么时候发生的。这是一个日期范围，用 :notBefore / :notAfter 表示。"
+msgstr ""
 
 #. The main title of a work, the title by which it is the most often known.
 msgid "bdo:BibliographicalTitle::adm:userTooltip"
-msgstr "一部作品的主要标题，即它最常用的标题。"
+msgstr ""
 
 #. Monastic name associated with the person's monastery of residence. This is
 #. specific to a few socio linguistic contexts, such as the Burmese one.
 msgid "bdo:PersonMonasteryName::rdfs:label"
-msgstr "表达其常住寺院的名字。"
+msgstr ""
 
 #. Monastic name associated with the person's monastery of residence. This is
 #. specific to a few socio linguistic contexts, such as the Burmese one.
 msgid "bdo:PersonMonasteryName::adm:userTooltip"
-msgstr "与其常住寺院相关的名字。这是一些社会语言的环境所特有的，如缅甸。"
+msgstr ""
 
 #. Free-text expression of the source printery for the Instance.
 msgid "bdo:sourcePrinteryStatement::rdfs:label"
-msgstr "source printery?"
+msgstr ""
 
 #. Free-text expression of the source printery for the Instance.
 msgid "bdo:sourcePrinteryStatement::adm:userTooltip"
-msgstr "Free-text expression of the source printery for the Instance?"
+msgstr ""
 
 #. An :ItemMicrofilmAsset describes the physical microfilm from which the
 #. associated Instance was digitized.
 msgid "bdo:ItemMicrofilmAsset::rdfs:label"
-msgstr "单件缩微胶片资产"
+msgstr ""
 
 #. An instance of a SeriesMember.
 msgid "bdo:SerialInstance::rdfs:label"
-msgstr "属于某系列的实例"
+msgstr ""
 
 #. Indicates a Tradition that the subject is associated with
 msgid "bdo:associatedTradition::rdfs:label"
-msgstr "相关的传统"
+msgstr ""
 
 #. Indicates a Tradition that the subject is associated with
 msgid "bdo:associatedTradition::adm:userTooltip"
-msgstr "表示与主题相关的一个传统"
+msgstr ""
 
 #. The type of copy
 msgid "bdo:typeOfCopy::rdfs:label"
-msgstr "拷贝的类型"
+msgstr ""
 
 #. The type of copy
 msgid "bdo:typeOfCopy::adm:userTooltip"
-msgstr "拷贝的类型"
+msgstr ""
 
 #. An event describing the second translation of a work
 msgid "bdo:SecondTranslatedEvent::rdfs:label"
-msgstr "第二次翻译的事件"
+msgstr ""
 
 #. An event describing the third translation of a work
 msgid "bdo:ThirdTranslatedEvent::rdfs:label"
-msgstr "第三次翻译的事件"
+msgstr ""
 
 msgid "bdo:volumeNote::rdfs:label"
-msgstr "卷册说明"
+msgstr ""
 
 #. This work is an extract of another work
 msgid "bdo:workExtractOf::rdfs:label"
-msgstr "摘录于"
+msgstr ""
 
 #. This work is an extract of another work
 msgid "bdo:workExtractOf::adm:userTooltip"
-msgstr "这部作品是另一部作品的摘录"
+msgstr ""
 
 #. Monastic name of the person that is associated with the person's position
 #. in monastic hierarchy or sectarian groups. This is specific to a few socio
 #. linguistic contexts, such as the Burmese one.
 msgid "bdo:PersonMonasticPositionName::rdfs:label"
-msgstr "表达其常住寺院的名字"
+msgstr ""
 
 #. Monastic name of the person that is associated with the person's position
 #. in monastic hierarchy or sectarian groups. This is specific to a few socio
 #. linguistic contexts, such as the Burmese one.
 msgid "bdo:PersonMonasticPositionName::adm:userTooltip"
-msgstr "表示与该人在寺院等级制度或教派团体中的地位有关的寺院的名字。这是在少数社会语言环境中特有的，如缅甸。"
+msgstr ""
 
 #. Indicates a BiblioEntity that is a member of the Collection
 msgid "bdo:collectionMember::rdfs:label"
@@ -4744,78 +4743,77 @@ msgstr "成员"
 
 #. Indicates a BiblioEntity that is a member of the Collection
 msgid "bdo:collectionMember::adm:userTooltip"
-msgstr "表示一个属于该集合的BiblioEntity。"
+msgstr ""
 
 #. true if the instance or item is damaged
 msgid "bdo:isDamaged::rdfs:label"
-msgstr "破损的"
+msgstr ""
 
 #. true if the instance or item is damaged
 msgid "bdo:isDamaged::adm:userTooltip"
-msgstr "如单件破损，则为真"
+msgstr ""
 
 #. Indicates if the digital instance can be in a Controlled Digital Lending
 #. program. In other words, indicates if a physical copy circulates.
 #. see also: https://controlleddigitallending.org/
 msgid "bdo:digitalLendingPossible::rdfs:label"
-msgstr "可以数字化借贷"
+msgstr ""
 
 #. Indicates if the digital instance can be in a Controlled Digital Lending
 #. program. In other words, indicates if a physical copy circulates.
 #. see also: https://controlleddigitallending.org/
 msgid "bdo:digitalLendingPossible::adm:userTooltip"
 msgstr ""
-"表示数字实例是否可以进入受控数字借阅计划（Controlled Digital Lending program）。换句话说，表示是否有实体副本流通。"
 
 #. An excerpt from the beginning of the text (skipping the incipit, hommage,
 #. etc.)
 msgid "bdo:excerptBeginning::rdfs:label"
-msgstr "摘录（开头）"
+msgstr ""
 
 #. An excerpt from the beginning of the text (skipping the incipit, hommage,
 #. etc.)
 msgid "bdo:excerptBeginning::adm:userTooltip"
-msgstr "文本开头（跳过序言、归敬等）的摘录。"
+msgstr ""
 
 #. Indicates the place where the collection resides.
 msgid "bdo:collectionPlace::rdfs:label"
-msgstr "地点"
+msgstr ""
 
 #. Indicates the place where the collection resides.
 msgid "bdo:collectionPlace::adm:userTooltip"
-msgstr "表示藏品所在的地方。"
+msgstr ""
 
 #. Monastic name associated with the name of the donor who sponsored a
 #. monastery of residence. This is specific to a few socio linguistic
 #. contexts, such as the Burmese one.
 msgid "bdo:PersonDonorName::rdfs:label"
-msgstr "表达其常住寺院的名字"
+msgstr ""
 
 #. Monastic name associated with the name of the donor who sponsored a
 #. monastery of residence. This is specific to a few socio linguistic
 #. contexts, such as the Burmese one.
 msgid "bdo:PersonDonorName::adm:userTooltip"
-msgstr "表示与赞助住持寺院的捐赠者的名字有关的寺院名。这是少数社会语言环境所特有的，如缅甸。"
+msgstr ""
 
 #. Indicates the agent that holds the collection
 msgid "bdo:collectionAgent::rdfs:label"
-msgstr "有行为者。"
+msgstr ""
 
 #. Indicates the agent that holds the collection
 msgid "bdo:collectionAgent::adm:userTooltip"
-msgstr "表示持有该集合的行为者"
+msgstr ""
 
 #. An event describing the third revision of a work
 msgid "bdo:ThirdRevisedEvent::rdfs:label"
-msgstr "第三次修订事件"
+msgstr ""
 
 #. An excerpt from the text
 msgid "bdo:excerpt::rdfs:label"
-msgstr "摘录"
+msgstr ""
 
 #. An excerpt from the text
 msgid "bdo:excerpt::adm:userTooltip"
-msgstr "文本中的一段摘录"
+msgstr ""
 
 #. Statement of ownership indicated in the instance
 msgid "bdo:ownershipStatement::rdfs:label"
@@ -4823,11 +4821,11 @@ msgstr "著作者身份说明"
 
 #. Statement of ownership indicated in the instance
 msgid "bdo:ownershipStatement::adm:userTooltip"
-msgstr "实例中注明的所有权声明"
+msgstr ""
 
 #. This is the number or other id of this SerialInstance in a SerialWork.
 msgid "bdo:seriesNumber::rdfs:label"
-msgstr "第几期"
+msgstr ""
 
 #. This is the number or other id of this SerialInstance in a SerialWork.
 msgid "bdo:seriesNumber::adm:userTooltip"
@@ -4838,120 +4836,120 @@ msgstr "这是该系列实例在SerialWork中的编号或其他ID。"
 #. somewhat as an editor) even though the physical copy we have is a copy of
 #. the 'original' copy.
 msgid "bdo:OriginalCopyEvent::rdfs:label"
-msgstr "最初的复制"
+msgstr ""
 
 #. An event of originally copying the text. Happens in some contexts (ex:
 #. Burmese), where manuscripts can have an attributed original scribe (acring
 #. somewhat as an editor) even though the physical copy we have is a copy of
 #. the 'original' copy.
 msgid "bdo:OriginalCopyEvent::adm:userTooltip"
-msgstr "最初复制文本的事件。在某些情况下（例如：缅甸语），手稿可以有一个原始抄写员（有点像编辑），即使我们拥有的实体副本是“原始”副本的副本。"
+msgstr ""
 
 #. The official title given to a person. In the Burmese context these would be
 #. given by the King, or in other rare contexts by the colonial
 #. administration.
 msgid "bdo:PersonOfficialTitle::rdfs:label"
-msgstr "正式职称"
+msgstr ""
 
 #. The official title given to a person. In the Burmese context these would be
 #. given by the King, or in other rare contexts by the colonial
 #. administration.
 msgid "bdo:PersonOfficialTitle::adm:userTooltip"
-msgstr "给予一个人的官方称号。在缅甸，这些头衔是由国王授予的，或者在其他罕见的情况下由殖民政府授予。"
+msgstr ""
 
 #. A transcription of the explicit of the Instance (a part of the colophon).
 msgid "bdo:explicit::rdfs:label"
-msgstr "末尾"
+msgstr ""
 
 #. A transcription of the explicit of the Instance (a part of the colophon).
 msgid "bdo:explicit::adm:userTooltip"
-msgstr "转录了实例的末尾（跋文的一部分）。"
+msgstr ""
 
 #. This work has some parallels parts in another work, meaning some parts
 #. display intertextuality patterns but not the whole text.
 msgid "bdo:workHasParallelPartsIn::rdfs:label"
-msgstr "与之平行的部分存在于"
+msgstr ""
 
 #. This work has some parallels parts in another work, meaning some parts
 #. display intertextuality patterns but not the whole text.
 msgid "bdo:workHasParallelPartsIn::adm:userTooltip"
-msgstr "这部作品在另一部作品中有一些相似的部分，意味着有些部分显示出互文性模式，但不是整个文本。"
+msgstr ""
 
 #. The associated with the subject (can be a :DigitalInstance), using a grade
 #. from 0 to 5.
 msgid "bdo:qualityGrade::rdfs:label"
-msgstr "数字复制的质量"
+msgstr ""
 
 #. The associated with the subject (can be a :DigitalInstance), using a grade
 #. from 0 to 5.
 msgid "bdo:qualityGrade::adm:userTooltip"
-msgstr "与主题相关的（可以是:DigitalInstance），使用从0到5的等级。"
+msgstr ""
 
 #. a person who is attributed as the original scribe of a manuscript, even
 #. though the manuscript itself is a copy of this 'original' copy. Happens in
 #. the Burmese context.
 msgid "bdr:R0ER0031::skos:prefLabel"
-msgstr "文本的最初抄写者"
+msgstr ""
 
 #. In some contexts (Tibetan, Burmese), we have records of instructions by a
 #. certain teacher, even though the author of the actual instruction record
 #. are not the teacher themselves. This role represents the teacher.
 msgid "bdr:R0ER0032::skos:prefLabel"
-msgstr "指示是关于"
+msgstr ""
 
 #. modern print, undetermined process
 msgid "bdr:PrintMethod_Modern::skos:prefLabel"
-msgstr "现代"
+msgstr ""
 
 #. The manuscript was carved with a stylus cutter (typically the case in the
 #. Southeast Asian context)
 msgid "bdr:PrintMethod_ManuscriptStylus::skos:prefLabel"
-msgstr "写本（笔刻的）"
+msgstr ""
 
 #. The manuscript was carved with a stylus cutter (typically the case in the
 #. Southeast Asian context)
 msgid "bdr:PrintMethod_ManuscriptStylus::adm:userTooltip"
-msgstr "该写本是用笔刀雕刻的（在东南亚背景下通常如此）"
+msgstr ""
 
 msgid "bdr:ScriptMymrRound::skos:prefLabel"
-msgstr "圆形缅文字体"
+msgstr ""
 
 msgid "bdr:ScriptMymrCursive::skos:prefLabel"
-msgstr "草书缅文字体"
+msgstr ""
 
 #. see also: http://www.wikidata.org/entity/Q8009382
 msgid "bdr:ScriptSoyo::skos:prefLabel"
-msgstr "索永布文字"
+msgstr ""
 
 msgid "bdr:ScriptMymrDiamond::skos:prefLabel"
-msgstr "钻石形缅文字体"
+msgstr ""
 
 msgid "bdr:ScriptMymrSquare::skos:prefLabel"
-msgstr "方形缅文字体"
+msgstr ""
 
 msgid "bdr:ScriptMymrTS::skos:prefLabel"
-msgstr "'罗望子'缅文字体"
+msgstr ""
 
 #. represents the type of copy (values are tuned for Southeast Asian
 #. philology)
 msgid "bdo:TypeOfCopy::rdfs:label"
-msgstr "拷贝的类型"
+msgstr ""
 
 #. represents the type of copy (values are tuned for Southeast Asian
 #. philology)
 msgid "bdo:TypeOfCopy::adm:userTooltip"
-msgstr "代表拷贝的类型（数值为了东南亚语文学而做出了调整）"
+msgstr ""
 
 #. represents the codicological type of an instance (or part), typically used
 #. in the Southeast Asian context
 msgid "bdo:CodicologicalPartType::rdfs:label"
-msgstr "编码学类型"
+msgstr ""
 
 #. represents the codicological type of an instance (or part), typically used
 #. in the Southeast Asian context
 msgid "bdo:CodicologicalPartType::adm:userTooltip"
-msgstr "代表一个实例（或部分）的编码学类型，通常在东南亚范围内使用"
+msgstr ""
 
 #. see also: http://lexvo.org/id/iso639-3/sin
 msgid "bdr:LangSi::skos:prefLabel"
-msgstr "僧伽罗文"
+msgstr ""

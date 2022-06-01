@@ -1,319 +1,311 @@
-# 
-# Translators:
-# Kunga Rinchen <Kuinchen1p@gmail.com>, 2022
-# Tashi Dhondup <dhonduptiger658@gmail.com>, 2022
-# Ngawang Trinley <ngawangtrinley@gmail.com>, 2022
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Buddhist Digital Ontology (Admin part) e3c569c\n"
 "Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
-"Last-Translator: Ngawang Trinley <ngawangtrinley@gmail.com>, 2022\n"
-"Language-Team: Tibetan (https://www.transifex.com/bdrc/teams/123474/bo/)\n"
+"Last-Translator: Buddhist Digital Resource Center\n"
+"Language-Team: Buddhist Digital Resource Center <inquiry@tbrc.org>\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bo\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Has value true if the contents of the associated Work are restricted in
 #. China
 msgid "adm:isRestrictedInChina::rdfs:label"
-msgstr "རྒྱ་ནག་གི་བཀའ་རྒྱ་ཅན།"
+msgstr "is restricted in China"
 
 msgid "adm:catalogingConvention::rdfs:label"
-msgstr "དཀར་ཆག་སྒྲིག་ལུགས།"
+msgstr "cataloging convention"
 
 #. A statement of the authorship of the outline of this Work
 msgid "adm:outlineAuthorStatement::rdfs:label"
-msgstr "དཀར་ཆག་སྒྲིག་མཁན།"
+msgstr "outline author"
 
 #. this resource is about the same resource as the Treasury of Lives resource
 msgid "adm:sameAsToL::rdfs:label"
-msgstr "རྣམ་ཐར་མཛོད་དང་མཚུངས།"
+msgstr "same as Treasury of Lives"
 
 #. this resource is about the same resource as the DILA resource
 msgid "adm:sameAsDILA::rdfs:label"
-msgstr "DILA སློབ་ཆེན་དང་མཚུངས།"
+msgstr "same as DILA"
 
 #. use to indicate url of the original metadata record or content (for
 #. imported records)
 msgid "adm:originalRecord::rdfs:label"
-msgstr "ཡོང་ཁུངས་ཀྱི་དྲྭ་ཚིགས་ལ་གཟིགས།"
+msgstr "see original"
 
 #. this resource is about the same resource as the Wikidata resource
 msgid "adm:sameAsWikidata::rdfs:label"
-msgstr "ཝི་ཀི་དན་གྲངས་དང་མཚུངས།"
+msgstr "same as Wikidata"
 
 #. this resource is about the same resource as the WorldCat resource
 msgid "adm:sameAsWorldCat::rdfs:label"
-msgstr "འཛམ་གླིང་དཀར་ཆག་དང་མཚུངས།"
+msgstr "same as WorldCat"
 
 #. Log entry for updates to resources
 msgid "adm:logEntry::rdfs:label"
-msgstr "ཟིན་ཐོ།"
+msgstr "log entry"
 
 msgid "adm:seeOtherSAT::rdfs:label"
-msgstr "SAT དྲྭ་ཚིགས་ལ་གཟིགས།"
+msgstr "see on SAT"
 
 #. who performed the update  described by the log entry
 msgid "adm:logWho::rdfs:label"
-msgstr "འགོད་མཁན།"
+msgstr "who"
 
 #. The copyright holder to the metadata representation of the :Entity resource
 #. see also: http://purl.bdrc.io/ontology/admin/Organization
 msgid "adm:copyrightOwner::rdfs:label"
-msgstr "དན་གྲངས་གོང་མའི་བདག་དབང་འཛིན་མཁན།"
+msgstr "copyright holder to resource metadata"
 
 #. Indicates the equivalent resource in BDRC
 msgid "adm:sameAsBDRC::rdfs:label"
-msgstr "BDRC དང་མཚུངས།"
+msgstr "same as BDRC"
 
 msgid "adm:seeOtherToL::rdfs:label"
-msgstr "རྣམ་ཐར་མཛོད་ལ་གཟིགས།"
+msgstr "See Treasury of Lives entry"
 
 #. The initial provider of the metadata representation and/or images of the
 #. :Entity resource. For example, EAP105/1 has adm:initialProvider
 #. bdo:G1KG116095 and adm:contentProvider bda:Provider_BL_EAP
 #. see also: http://purl.bdrc.io/ontology/admin/ContentProvider
 msgid "adm:initialProvider::rdfs:label"
-msgstr "དན་གྲངས་གོང་མ་ཐོག་མར་མཁོ་སྤྲོད་བྱེད་མཁན།"
+msgstr "initial provider of metadata"
 
 #. URL used when attributing a work or images to the corresponding author or
 #. provider
 msgid "adm:attributionURL::rdfs:label"
-msgstr "ལུང་ཁུངས་དྲྭ་ཐག"
+msgstr "attribution url"
 
 #. Log entries for :Entity updates. Includes the agent, date and message
 #. explaing the update.
 msgid "adm:LogEntry::rdfs:label"
-msgstr "ཟིན་ཐོ།"
+msgstr "Log Entry"
 
 #. A link to the html representation of the entity.
 msgid "adm:canonicalHtml::rdfs:label"
-msgstr "དྲྭ་ཐག"
+msgstr "link"
 
 #. The terms of use for the metadata representation of the :Entity resource
 #. see also: http://purl.bdrc.io/ontology/admin/TermsOfUse
 msgid "adm:termsOfUse::rdfs:label"
-msgstr "དན་གྲངས་གོང་མའི་སྤྱོད་ཁྲིམས།"
+msgstr "terms of use for the resource metadata"
 
 #. When the update  described by the log entry was performed
 msgid "adm:logDate::rdfs:label"
-msgstr "ཟླ་ཚེས།"
+msgstr "date"
 
 msgid "adm:seeOtherHA::rdfs:label"
-msgstr "ཧི་མ་ལ་ཡའི་སྒྱུ་རྩལ་དྲྭ་ཚིགས་སུ་གཟིགས།"
+msgstr "see Himalayan Art entry"
 
 #. this resource is about the same resource as the CBC@ resource
 msgid "adm:sameAsCBCAt::rdfs:label"
-msgstr "རྒྱའི་བཀའ་བསྟན་དང་མཚུངས།"
+msgstr "same as CBC@"
 
 #. this resource is about the same resource as the rKTs resource
 msgid "adm:sameAsrKTs::rdfs:label"
-msgstr "བཀའ་བསྟན་ཞིབ་འཇུག་ཚོགས་པ་དང་མཚུངས།"
+msgstr "same as rKTs"
 
 #. records the status of the associated resource metadata
 msgid "adm:status::rdfs:label"
-msgstr "གནས་བབས།"
+msgstr "has status"
 
 msgid "adm:seeOtherSRC::rdfs:label"
-msgstr "ས་སྐྱ་ཞིབ་འཇུག་དྲྭ་ཚིགས་ལ་གཟིགས།"
+msgstr "See Sakya Research Center entry"
 
 #. Names are represented by rdfs:label
 msgid "adm:Product::rdfs:label"
-msgstr "དཔེ་ཚོགས།"
+msgstr "Product"
 
 #. Explanation of the update described by the log entry
 msgid "adm:logMessage::rdfs:label"
-msgstr "འཕྲིན་ཐུང་།"
+msgstr "message"
 
 #. this resource is about the same resource as the resource in Markus
 #. Bingenheimer's Bibliography of Translations from the Chinese Buddhist Canon
 #. into Western Languages
 msgid "adm:sameAsMBBT::rdfs:label"
-msgstr "རྒྱ་ཡིག་བཀའ་བསྟན་དབྱིན་འགྱུར་མའི་དཀར་ཆག་དང་མཚུངས།"
+msgstr "same as Markus Bingenheimer's Bibliography of Translations"
 
 #. Name used when attributing a work or images to the corresponding author or
 #. provider
 msgid "adm:attributionName::rdfs:label"
-msgstr "འབྱུང་ཁུངས་ངོས་འཛིན་བྱེད་མཁན།"
+msgstr "attribution name"
 
 #. The type of online access permitted for the etext and/or images for a Work.
 #. see also: http://purl.bdrc.io/ontology/admin/Access
 msgid "adm:access::rdfs:label"
-msgstr "ཆོག་མཆན།"
+msgstr "access"
 
 #. Complete statement used when attributing a work or images to the
 #. corresponding author or provider
 msgid "adm:attributionStatement::rdfs:label"
-msgstr "འབྱུང་ཁུངས་ངོས་འཛིན་གསལ་བཤད།"
+msgstr "attribution statement"
 
 #. this resource is about the same resource as the VIAF resource
 msgid "adm:sameAsVIAF::rdfs:label"
 msgstr "VIAF"
 
 msgid "adm:hasLegal::rdfs:label"
-msgstr "ཁྲིམས་ལུགས་གནས་ཚུལ།"
+msgstr "legal info"
 
 #. Legal data about the metadata of the record
 msgid "adm:metadataLegal::rdfs:label"
-msgstr "དན་གྲངས་གོང་མའི་ཁྲིམས་ལུགས་གནས་ཚུལ།"
+msgstr "metadata legal info"
 
 msgid "bda:CP002::skos:prefLabel"
-msgstr "འབྲི་གུང་ཆེ་ཚང་།"
+msgstr "Drikung Chetsang"
 
 msgid "bda:CP025::skos:prefLabel"
 msgstr "CUDL"
 
 msgid "bda:CP008::skos:prefLabel"
-msgstr "སྤྲུལ་སྐུ་གསང་སྔགས།"
+msgstr "Tulku Sang-ngag"
 
 msgid "bda:CP003::skos:prefLabel"
-msgstr "ནང་བསྟན་སྲི་ཞུ་ཁང་།"
+msgstr "Esukhia"
 
 #. operated in Nepal 2006-2013 by BDRC
 msgid "bda:CP006::skos:prefLabel"
-msgstr "དཔལ་རི་པར་ཁང་།"
+msgstr "Palri Parkhang"
 
 msgid "bda:CP007::skos:prefLabel"
-msgstr "ཞེ་ཆེན།"
+msgstr "Shechen"
 
 #. This is a non-specific content provider
 msgid "bda:CP011::skos:prefLabel"
-msgstr "སྣ་ཚོགས།"
+msgstr "Various"
 
 #. primarily Karma Kagyu texts
 msgid "bda:CP001::skos:prefLabel"
-msgstr "དམ་ཆོས་འབྱུང་གནས།"
+msgstr "DharmaDownload"
 
 msgid "bda:CP005::skos:prefLabel"
-msgstr "བླ་རུང་ཀརྨ་བདེ་ལེགས།"
+msgstr "Karma Delek of Larung Gar"
 
 #. A contemporary organization that provides metadata and/or images
 msgid "adm:ContentProvider::rdfs:label"
-msgstr "བཀག་རྒྱའི་རིགས།"
+msgstr "Work Access Type"
 
 msgid "bda:CP029::skos:prefLabel"
-msgstr "འཛམ་གླིང་དྲྭ་མཛོད།"
+msgstr "Internet Archives"
 
 msgid "bda:CP010::skos:prefLabel"
-msgstr "བཛྲ་བིདྱཱ་གཙུག་ལག་སློབ་གཉེར་ཁང་།"
+msgstr "Vajra Vidya Institute"
 
 msgid "bda:CP030::skos:prefLabel"
-msgstr "ཊོཀྱོ་སློབ་གྲྭ་ཆེན་མོའི་SAT འཕྲུལ་ཡིག་གཏེར་མཛོད།"
+msgstr "The SAT Daizōkyō Text Database"
 
 msgid "bda:CP048::skos:prefLabel"
-msgstr "དྷི་ལ་སློབ་ཆེན་དཔེ་ཐོ་གཅིག་གྱུར།"
+msgstr "DILA Buddhist Studies Authority Database Project"
 
 msgid "bda:CP004::skos:prefLabel"
-msgstr "གུ་རུ་བླ་མ་ས་ཆེན་རྒྱལ་ཡོངས།"
+msgstr "Sachen International, Guru Lama"
 
 #. Namsel OCR used on scanned images held by BDRC
 msgid "bda:CP009::skos:prefLabel"
-msgstr "རྣམ་གསལ་ཡིག་འཛིན།"
+msgstr "Namsel OCR"
 
 msgid "bda:LD_BNF_PD::skos:prefLabel"
-msgstr "ཧྥ་རན་སི་རྒྱལ་ཡོངས་དཔེ་མཛོད་ནས་མཐུན་སྦྱོར་བྱས་པ། སྤྱི་སྤྱོད་ཆབ་ཁོངས།"
+msgstr "Source gallica.bnf.fr / BnF, Public domain"
 
 msgid "bda:LD_IA_PD::skos:prefLabel"
-msgstr "འཛམ་གླིང་དྲྭ་མཛོད་ཀྱིས་མཐུན་སྦྱོར་བྱས་པ། སྤྱི་སྤྱོད་ཁྱབ་ཁོངས།"
+msgstr "Provided by Internet Archive, Public domain"
 
 msgid "bda:LD_BDRC_CC0::skos:prefLabel"
-msgstr "ནང་བསྟན་དཔེ་ཚོགས་ལྟེ་གནས་ཀྱིས་མཐུན་སྦྱོར་བྱས་པ། CC0 བཀའ་འཁྲོལ་ཅན།"
+msgstr "Provided by BDRC under the CC0 license"
 
 msgid "bda:LD_EAP_metadata::skos:prefLabel"
-msgstr "EAP མཐུན་སྦྱོར་བྱས་པ། CC0བཀའ་འཁྲོལ་ཅན།"
+msgstr "Provided by EAP under the CC0 license"
 
 msgid "bda:LD_EAP_content::skos:prefLabel"
-msgstr "EAP ཀྱིས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་གསལ་ཁ་མེད། སྤྱོད་ཁྲིམས་ལ་གཟིགས།"
+msgstr ""
+"Provided by EAP, copyright is semi-explicitely claimed, see terms of use"
 
 msgid "bda:LD_SBB_content::skos:prefLabel"
 msgstr ""
-"འཇར་མན་རྒྱལ་ཡོངས་དཔེ་མཛོད་ཀྱིས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་གསལ་ཁ་མེད། "
-"སྤྱི་སྤྱོད་ཁྱབས་ཁོངས་སུ་ཚུད་ཡོད།"
+"Provided by Staatsbibliothek zu Berlin, copyright unspecified, interpreted "
+"as Public Domain"
 
 msgid "bda:LD_SRC_Metadata::skos:prefLabel"
-msgstr "རྒྱལ་ཡོངས་ས་ཆེན་གྱིས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་ངེས་གཏན་མེད་པ།"
+msgstr "Provided by Sakya Research Centre, Copyright undetermined"
 
 msgid "bda:LD_rKTs_CC0::skos:prefLabel"
-msgstr "བཀའ་བསྟན་ཞིབ་འཇུག་ཚོགས་པས་མཐུན་སྦྱོར་བྱས། CC0བཀའ་འཁྲོལ་ཅན།"
+msgstr "Provided by rKTs under the CC0 license"
 
 msgid "bda:LD_BDRC_Copyright::skos:prefLabel"
-msgstr "BDRC ནས་མཐུན་སྦྱོར་བྱས་པ། ཚང་མར་བདག་དབང་ཡོད།"
+msgstr "Provided by BDRC, under copyright, all rights reserved"
 
 msgid "bda:LD_GRETIL::skos:prefLabel"
-msgstr "GRETIL ནས་མཐུན་སྦྱོར་བྱས་པ། CC0བཀའ་འཁྲོལ་ཅན།"
+msgstr "Provided by GRETIL under the CC0 license"
 
 #. From a private communication: "most metadata comes from others. sometimes
 #. others declare something, but we make not claims about it."
 msgid "bda:LD_IA_Metadata::skos:prefLabel"
-msgstr "འཛམ་གླིང་དྲྭ་མཛོད་ནས་མཐུན་སྦྱོར་བྱས། བདག་དབང་གསལ་བཤད་མེད་པ།"
+msgstr "Provided by Internet Archive, No copyright claim"
 
 msgid "bda:LD_CUDL_content::skos:prefLabel"
 msgstr ""
-"CUDL ནས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་ཅན་གྱི་གཤེར་པར། སྤྱོད་ཁྲིམས་ལ་གཟིགས།"
+"Provided by CUDL, copyright is claimed on the images, see terms of use"
 
 msgid "bda:LD_BDRC_PD::skos:prefLabel"
-msgstr "ནང་བསྟན་དཔེ་ཚོགས་ལྟེ་གནས་ཀྱིས་མཐུན་སྦྱོར་བྱས། སྤྱི་སྤྱོད་ཁྱབ་ཁོངས།"
+msgstr "Provided by BDRC, Public domain"
 
 msgid "bda:LD_DILA_BSADP::skos:prefLabel"
-msgstr ""
-"དྷི་ལ་ནས་མཐུན་སྦྱོར་བྱས་པ། BY-NC-SA 3.0བཀའ་འཁྲོལ "
-"རྒྱལ་ཁབ་བྱེ་བྲག་པར་བཅོས་བསྟུན་མ་བྱས་པ།"
+msgstr "Provided by DILA, Creative Commons BY-NC-SA 3.0 Unported License"
 
 msgid "bda:LD_CUDL_metadata::skos:prefLabel"
 msgstr ""
-"CUDL མཐུན་སྦྱོར་བྱས་པ། CC BY-NC 3.0བཀའ་འཁྲོལ། "
-"གནས་ཚུལ་ཞིབ་ཕྲ་མ་ཕྱིའི་དན་གྲངས་གོང་མར་གཟིགས།"
+"Provided by CUDL under the CC BY NC 3.0 license, see original metadata "
+"record for more information"
 
 msgid "bda:LD_LOC_metadata::skos:prefLabel"
-msgstr ""
-"ཨ་རིའི་གྲོས་ཚོགས་གོང་མའི་དཔེ་མཛོད་ནས་མཐུན་སྦྱོར་བྱས་པ། CC0བཀའ་འཁྲོལ་ཅན།"
+msgstr "Provided by Library of Congress, CC0 license"
 
 msgid "adm:LegalData::rdfs:label"
-msgstr "ཁྲིམས་མཐུན་དན་གྲངས།"
+msgstr "Legal data"
 
 msgid "bda:LD_SAT_images::skos:prefLabel"
-msgstr "SAT ནས་མཐུན་སྦྱོར་བྱས་པ། CC BY-NC-SA 4.0བཀའ་འཁྲོལ་ཅན།"
+msgstr "Provided by SAT under the CC BY-NC-SA 4.0 license"
 
 msgid "bda:LD_NGMCP_Metadata::skos:prefLabel"
-msgstr "NGMCP ནས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་གསལ་བཤད་མེད་པ།"
+msgstr "Provided by NGMCP, Copyright Undetermined"
 
 msgid "bda:LD_LOC_PD::skos:prefLabel"
-msgstr ""
-"ཨ་རིའི་གྲོས་ཚོགས་གོང་མའི་དཔེ་མཛོད་ནས་མཐུན་སྦྱོར་བྱས་པ། སྤྱི་སྤྱོད་ཁྱབ་ཁོངས།"
+msgstr "Provided by Library of Congress, Public Domain"
 
 #. Only limitted access is allowed. The typical case is a copyrighted work,
 #. for which a small portion of the contents can be made available under the
 #. exception for libraries and archives. In the US, this is rules by section
 #. 108 of the copyright law.
 msgid "bda:AccessFairUse::skos:prefLabel"
-msgstr "ཚུལ་མཐུན་བཀོལ་སྤྱོད།"
+msgstr "Fair Use"
 
 msgid "adm:Access::rdfs:label"
-msgstr "ཆོག་མཆན་གྱི་རིགས།"
+msgstr "Work Access Type"
 
 #. The content is sealed by tradition.
 msgid "bda:AccessRestrictedSealed::skos:prefLabel"
-msgstr "བཀའ་རྒྱ་མ།"
+msgstr "Restricted Sealed"
 
 #. BDRC is restricting access to the content
 msgid "bda:AccessRestrictedByTbrc::skos:prefLabel"
-msgstr "ནང་བསྟན་དཔེ་ཚོགས་ལྟེ་གནས་ཀྱི་བཀག་རྒྱ་ཅན།"
+msgstr "Restricted by BDRC"
 
 #. The contents are made openly accessible
 msgid "bda:AccessOpen::skos:prefLabel"
-msgstr "བཀག་རྒྱ་མེད་པ།"
+msgstr "Open Access"
 
 #. The quality of the scanning or eText conversion to poor to warrant making
 #. it available online.
 msgid "bda:AccessRestrictedByQuality::skos:prefLabel"
-msgstr "སྤུས་ཚད་ཞན་པའི་བཀག་རྒྱ་ཅན།"
+msgstr "Restricted by Quality"
 
 #. The content is temporarily restricted.
 msgid "bda:AccessRestrictedTemporarily::skos:prefLabel"
-msgstr "གནས་སྐབས་རིང་གི་བཀག་རྒྱ་ཅན།"
+msgstr "Temporarily Restricted"
 
 #. Mixed access is used on a work or Item to indicate that the access on parts
 #. may vary. E.g., some part of a work may be provided under the Fair Use
@@ -321,66 +313,65 @@ msgstr "གནས་སྐབས་རིང་གི་བཀག་རྒྱ་
 #. (for content published in the 18th century), except for a part marked as
 #. restricted by tradition.
 msgid "bda:AccessMixed::skos:prefLabel"
-msgstr "ཆོག་མཆན་ཡོད་མེད་བསྲེས་མ་ཅན།"
+msgstr "mixed access"
 
 #. The work is made available under Creative Commons, CC0 1.0.
 #. see also: http://creativecommons.org/publicdomain/zero/1.0/
 msgid "bda:LicenseCC0::skos:prefLabel"
-msgstr "སྤྱི་སྤྱོད་གསར་སྐྲུན་ཀླད་གོར། (CC0) "
+msgstr "Creative Commons CC0"
 
 #. see also: http://creativecommons.org/licenses/by-nc-sa/3.0/
 msgid "bda:LicenseCCBYNCSA3U::skos:prefLabel"
-msgstr ""
-"སྤྱི་ལ་དབང་བའི་གསར་སྐྲུན་བཀའ་འཁྲོལ། CC BY-NC-SA 3.0 བཅོས་བསྟུན་མ་བྱས་པ།"
+msgstr "Creative Commons BY-NC-SA 3.0 Unported"
 
 #. Copyright Undetermined
 #. see also: http://rightsstatements.org/vocab/UND/1.0/
 msgid "bda:LicenseCopyrightUndetermined::skos:prefLabel"
-msgstr "བདག་དབང་གསལ་བཤད་མེད་པ།"
+msgstr "Copyright Undetermined"
 
 #. see also: http://creativecommons.org/licenses/by-sa/3.0/
 msgid "bda:LicenseCCBYSA3U::skos:prefLabel"
-msgstr "སྤྱི་སྤྱོད་གསར་སྐྲུན་བཀའ་འཁྲོལ། CC BY-SA 3.0 བཅོས་བསྟུན་མ་བྱས་པ།"
+msgstr "Creative Commons BY-SA 3.0 Unported"
 
 #. Works in the Public Domain. Creative materials that are not protected by
 #. intellectual property laws such as copyright, trademark, or patent laws.
 #. see also: http://creativecommons.org/publicdomain/mark/1.0/
 msgid "bda:LicensePublicDomain::skos:prefLabel"
-msgstr "སྤྱི་སྤྱོད་ཁྱབ་ཁོངས།"
+msgstr "Public Domain"
 
 #. see also: http://rightsstatements.org/vocab/NKC/1.0/
 msgid "bda:LicenseNoKnownCopyright::skos:prefLabel"
-msgstr "བདག་དབང་མེད་ཤས་ཆེ།"
+msgstr "No Known Copyright"
 
 #. see also: https://opendatacommons.org/licenses/by/1.0/
 msgid "bda:LicenseODCBY10::skos:prefLabel"
-msgstr "སྤྱི་ལ་དབང་བའི་དན་གྲངས་བཀའ་འཁྲོལ། (ODC-By) v1.0"
+msgstr "Open Data Commons Attribution License (ODC-By) v1.0"
 
 #. License describes the legal standing of copyright for the Work (All rights
 #. reserved, Public domain, Creative Commons License, etc.).
 msgid "adm:License::rdfs:label"
-msgstr "བཀའ་འཁྲོལ།"
+msgstr "License"
 
 #. see also: http://creativecommons.org/licenses/by-nc-nd/3.0/
 msgid "bda:LicenseCCBYNCND3U::skos:prefLabel"
-msgstr "སྤྱི་སྤྱོད་གསར་སྐྲུན་བཀའ་འཁྲོལ། BY-NC-ND 3.0 བཀའ་འཁྲོལ་ཅན།"
+msgstr "Creative Commons BY-NC-ND 3.0 Unported"
 
 #. see also: http://creativecommons.org/licenses/by-nc-sa/4.0/
 msgid "bda:LicenseCCBYNCSA4U::skos:prefLabel"
-msgstr "སྤྱི་སྤྱོད་གསར་སྐྲུན་བཀའ་འཁྲོལ། BY-NC-SA 4.0 བཀའ་འཁྲོལ་ཅན།"
+msgstr "Creative Commons BY-NC-SA 4.0 Unported"
 
 #. The license varies among the different parts of the work. For example, some
 #. part of a work may be under copyright (i.e. a work containing a
 #. contemporary introduction) and the remaining parts may be in the Public
 #. Domain (i.e. an orginial 19th century work re-typed).
 msgid "bda:LicenseMixed::skos:prefLabel"
-msgstr "བཀའ་འཁྲོལ་ཡོད་མེད་བསྲེས་མ་ཅན།"
+msgstr "mixed licensing"
 
 #. Use it for works under copyright that do not say anything about the
 #. copyrights or saying All Rights Reserved.
 #. see also: http://rightsstatements.org/vocab/InC/1.0/
 msgid "bda:LicenseAllRightsReserved::skos:prefLabel"
-msgstr "ཚང་མར་བདག་དབང་ཡོད།"
+msgstr "All Rights Reserved"
 
 #. The work is made available under Creative Commons Attribution No Commercial
 #. Use version 3.0 Unported
@@ -390,168 +381,171 @@ msgstr "CCBYNC30U"
 
 #. see also: http://creativecommons.org/licenses/by-sa/4.0/
 msgid "bda:LicenseCCBYSA4U::skos:prefLabel"
-msgstr "སྤྱི་སྤྱོད་གསར་སྐྲུན་བཀའ་འཁྲོལ། BY-SA 4.0 བཅོས་བསྟུན་མ་བྱས་པ།"
+msgstr "Creative Commons BY-SA 4.0 Unported"
 
 #. status constants for :Entity metadata: released, provisional, etc
 msgid "adm:Status::rdfs:label"
-msgstr "གནས་བབས།"
+msgstr "Status"
 
 #. asset manager status constants for images assets
 msgid "adm:ImagesStatus::rdfs:label"
-msgstr "གཤེར་པར་གནས་བབས།"
+msgstr "Images Status"
 
 msgid "bda:StatusOnHold::skos:prefLabel"
-msgstr "སྐབས་འཕྲལ་ཕྱི་བཤོལ།"
+msgstr "on hold"
 
 msgid "bda:StatusAcquiring::skos:prefLabel"
-msgstr "སོན་པ།"
+msgstr "acquiring"
 
 msgid "bda:StatusSeekingOut::skos:prefLabel"
-msgstr "འཚོལ་མུས།"
+msgstr "seeking out"
 
 msgid "bda:StatusReleasedPendingWithdrawal::skos:prefLabel"
-msgstr "ཕྱི་བཤོལ་ལ་ཕྱོགས་པ།"
+msgstr "pending withdrawal"
 
 msgid "bda:StatusProvisional::skos:prefLabel"
-msgstr "འཕྲལ་སེལ།"
+msgstr "provisional"
 
 msgid "bda:StatusEditing::skos:prefLabel"
-msgstr "རྩོམ་སྒྲིག་བྱེད་མུས།"
+msgstr "editing"
 
 msgid "bda:StatusReleased::skos:prefLabel"
-msgstr "འགྲེམ་སྤེལ་ཟིན་པ།"
+msgstr "released"
 
 msgid "bda:StatusWithdrawn::skos:prefLabel"
-msgstr "ཕྱིར་འཐེན།"
+msgstr "withdrawn"
 
 msgid "bda:StatusAccessioned::skos:prefLabel"
-msgstr "ཐོ་རུ་བཀོད་ཟིན་པ།"
+msgstr "accessioned"
 
 msgid "bda:StatusScanned::skos:prefLabel"
-msgstr "གཤེར་འབེབས་ཟིན་པ།"
+msgstr "scanned"
 
 msgid "adm:seeOtherCBETA::rdfs:label"
-msgstr "CBETA དྲྭ་ཚིགས་ལ་གཟིགས།"
+msgstr "see on CBETA"
 
 msgid "bda:LD_WD_Metadata::skos:prefLabel"
-msgstr ""
-"ཝི་གི་དན་གྲངས་ཀྱིས་མཐུན་སྦྱོར་བྱས་པ། སྤྱི་སྤྱོད་གསར་སྐྲུན་ཀླད་གོར་(CC0) "
-"གྱི་བཀའ་འཁྲོལ་ཅན།"
+msgstr "Provided by Wikidata under CC0 license"
 
 msgid "bda:LD_NGMPP_Metadata::skos:prefLabel"
-msgstr "NGMPP ཡིས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་གསལ་བཤད་མེད།"
+msgstr "Provided by NGMPP, Copyright undetermined"
 
 #. asset manager status constants for images assets
 msgid "adm:ImagesStatus::adm:userTooltip"
-msgstr ""
+msgstr "asset manager status constants for images assets"
 
 #. status constants for :Entity metadata: released, provisional, etc
 msgid "adm:Status::adm:userTooltip"
-msgstr ""
+msgstr "status constants for :Entity metadata: released, provisional, etc"
 
 #. Has value true if the contents of the associated Work are restricted in
 #. China
 msgid "adm:restrictedInChina::rdfs:label"
-msgstr "རྒྱ་ནག་གི་བཀའ་རྒྱ་ཅན།"
+msgstr "is restricted in China"
 
 #. Log entry for data withdrawl
 msgid "adm:WithdrawData::rdfs:label"
-msgstr ""
+msgstr "Withdraw Data Log Entry"
 
 #. Log entries for data management events such as creation, update, withdrawl,
 #. etc
 msgid "adm:DataLogEntry::rdfs:label"
-msgstr ""
+msgstr "Data Log Entry"
 
 #. Log entry for image scan request
 msgid "adm:ScanRequested::rdfs:label"
-msgstr "བཤེར་འབེབ་སྙན་ཞུ།"
+msgstr "Scan requested"
 
 #. Log entry for initial data creation
 msgid "adm:InitialDataCreation::rdfs:label"
-msgstr ""
+msgstr "Initial Data Log Entry"
 
 msgid "adm:InitialOutlineData::rdfs:label"
-msgstr ""
+msgstr "Initial outline data"
 
 #. what software performed the update  described by the log entry
 msgid "adm:logAgent::rdfs:label"
-msgstr "ཡིག་གཟུགས།"
+msgstr "script"
 
 #. Log entry for minor data update
 msgid "adm:MinorUpdateData::rdfs:label"
-msgstr ""
+msgstr "Minor Data Update  Log Entry"
 
 #. Log entry for image reordiner within an ImageGroup.
 msgid "adm:Reordered::rdfs:label"
-msgstr ""
+msgstr "Images reordered"
 
 msgid "adm:LogMethod::rdfs:label"
-msgstr ""
+msgstr "Log method"
 
 #. Log entry indicating completion of content Quality Control
 msgid "adm:ContentQC::rdfs:label"
-msgstr ""
+msgstr "Content QC'd"
 
 msgid "adm:UpdateOutlineData::rdfs:label"
-msgstr ""
+msgstr "Update outline data"
 
 #. Log entry for data update
 msgid "adm:UpdateData::rdfs:label"
-msgstr ""
+msgstr "Update Data Log Entry"
 
 #. Log entry for images updating such as duplicate deletion, images
 #. conversion, etc
 msgid "adm:ImagesUpdated::rdfs:label"
-msgstr ""
+msgstr "Images updated"
 
 #. Log entry for image scanning process
 msgid "adm:Scanned::rdfs:label"
-msgstr "བཤེར་བེབས་ཟིན།"
+msgstr "Scan done"
 
 #. This modification has been made manually
 msgid "bda:ManualMethod::skos:prefLabel"
-msgstr ""
+msgstr "Manual"
 
 msgid "bda:BatchMethod::skos:prefLabel"
-msgstr ""
+msgstr "Batch"
 
 #. Log entry for initial data creation
 msgid "adm:InitialDataImport::rdfs:label"
-msgstr ""
+msgstr "Initial Data Log Entry"
 
 #. Log entries for ImageGroups to record content management events such scan
 #. creation, sync'ing etc
 msgid "adm:ContentLogEntry::rdfs:label"
-msgstr "ཟིན་ཐོ།"
+msgstr "Log Entry"
 
 #. Log entry for image syncing to archive
 msgid "adm:Synced::rdfs:label"
-msgstr ""
+msgstr "Images synced Log Entry"
 
 msgid "adm:InitialOutlineDataImport::rdfs:label"
-msgstr ""
+msgstr "Initial outline data import"
 
 #. whether the data change is manual or part of a batch
 msgid "adm:logMethod::rdfs:label"
-msgstr ""
+msgstr "method"
 
 #. Log entry for data reinstatement
 msgid "adm:ReinstateData::rdfs:label"
-msgstr ""
+msgstr "Reinstate Data Log Entry"
 
 msgid "bda:LD_LULDC_metadata::skos:prefLabel"
 msgstr ""
+"Provided by Leiden University Libraries under Creative Commons Attribution "
+"License (CC BY 4.0)"
 
 msgid "bda:LD_IDP_metadata::skos:prefLabel"
 msgstr ""
+"Provided by the International Dunhuang Project, copyright unknown, see "
+"original metadata record for more information"
 
 msgid "bda:LD_SBB_metadata::skos:prefLabel"
-msgstr ""
+msgstr "Provided by Staatsbibliothek zu Berlin, copyright unspecified"
 
 msgid "bda:LD_LULDC_content::skos:prefLabel"
 msgstr ""
+"Content provided by Leiden University Libraries, copyright Undetermined.y"
 
 #. see also: http://creativecommons.org/licenses/by/4.0/
 msgid "bda:LicenseCCBY4::skos:prefLabel"
-msgstr ""
+msgstr "Creative Commons Attribution 4.0 International (CC BY 4.0)"

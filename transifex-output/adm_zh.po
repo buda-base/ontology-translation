@@ -1,18 +1,17 @@
 # 
 # Translators:
-# Elie Roux <roux.elie@gmail.com>, 2019
-# Penghao Sun <rinchenbzangpo@gmail.com>, 2021
+# Ngawang Trinley <ngawangtrinley@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Buddhist Digital Ontology (Admin part) e3c569c\n"
 "Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
-"Last-Translator: Penghao Sun <rinchenbzangpo@gmail.com>, 2021\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/bdrc/teams/103997/zh_CN/)\n"
+"Last-Translator: Ngawang Trinley <ngawangtrinley@gmail.com>, 2022\n"
+"Language-Team: Chinese (https://www.transifex.com/bdrc/teams/123474/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
+"Language: zh\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Has value true if the contents of the associated Work are restricted in
@@ -443,23 +442,23 @@ msgstr "尚未开放中国地区的访问"
 
 #. Log entry for data withdrawl
 msgid "adm:WithdrawData::rdfs:label"
-msgstr "撤消数据日志"
+msgstr ""
 
 #. Log entries for data management events such as creation, update, withdrawl,
 #. etc
 msgid "adm:DataLogEntry::rdfs:label"
-msgstr "数据日志"
+msgstr ""
 
 #. Log entry for image scan request
 msgid "adm:ScanRequested::rdfs:label"
-msgstr "请求扫描"
+msgstr ""
 
 #. Log entry for initial data creation
 msgid "adm:InitialDataCreation::rdfs:label"
-msgstr "初始数据日志"
+msgstr ""
 
 msgid "adm:InitialOutlineData::rdfs:label"
-msgstr "初始大纲数据"
+msgstr ""
 
 #. what software performed the update  described by the log entry
 msgid "adm:logAgent::rdfs:label"
@@ -467,45 +466,45 @@ msgstr "字体"
 
 #. Log entry for minor data update
 msgid "adm:MinorUpdateData::rdfs:label"
-msgstr "小型数据更新日志条目"
+msgstr ""
 
 #. Log entry for image reordiner within an ImageGroup.
 msgid "adm:Reordered::rdfs:label"
-msgstr "重新排序的图像"
+msgstr ""
 
 msgid "adm:LogMethod::rdfs:label"
-msgstr "日志录入的方式"
+msgstr ""
 
 #. Log entry indicating completion of content Quality Control
 msgid "adm:ContentQC::rdfs:label"
-msgstr "已经完成质量控制的内容"
+msgstr ""
 
 msgid "adm:UpdateOutlineData::rdfs:label"
-msgstr "更新大纲数据"
+msgstr ""
 
 #. Log entry for data update
 msgid "adm:UpdateData::rdfs:label"
-msgstr "更新数据日志条目"
+msgstr ""
 
 #. Log entry for images updating such as duplicate deletion, images
 #. conversion, etc
 msgid "adm:ImagesUpdated::rdfs:label"
-msgstr "更新的图像"
+msgstr ""
 
 #. Log entry for image scanning process
 msgid "adm:Scanned::rdfs:label"
-msgstr "扫描完成"
+msgstr ""
 
 #. This modification has been made manually
 msgid "bda:ManualMethod::skos:prefLabel"
-msgstr "手动"
+msgstr ""
 
 msgid "bda:BatchMethod::skos:prefLabel"
-msgstr "批次"
+msgstr ""
 
 #. Log entry for initial data creation
 msgid "adm:InitialDataImport::rdfs:label"
-msgstr "初始数据日志"
+msgstr ""
 
 #. Log entries for ImageGroups to record content management events such scan
 #. creation, sync'ing etc
@@ -514,31 +513,31 @@ msgstr "日志条目"
 
 #. Log entry for image syncing to archive
 msgid "adm:Synced::rdfs:label"
-msgstr "图像同步的日志条目"
+msgstr ""
 
 msgid "adm:InitialOutlineDataImport::rdfs:label"
-msgstr "初始大纲数据导入"
+msgstr ""
 
 #. whether the data change is manual or part of a batch
 msgid "adm:logMethod::rdfs:label"
-msgstr "方式"
+msgstr ""
 
 #. Log entry for data reinstatement
 msgid "adm:ReinstateData::rdfs:label"
-msgstr "恢复数据的日志条目"
+msgstr ""
 
 msgid "bda:LD_LULDC_metadata::skos:prefLabel"
-msgstr "由莱顿大学图书馆根据知识共享署名许可（CC BY 4.0）提供。"
+msgstr ""
 
 msgid "bda:LD_IDP_metadata::skos:prefLabel"
-msgstr "由国际敦煌项目提供，版权未知，更多信息见原始元数据记录"
+msgstr ""
 
 msgid "bda:LD_SBB_metadata::skos:prefLabel"
-msgstr "由柏林国家图书馆提供，版权不详"
+msgstr ""
 
 msgid "bda:LD_LULDC_content::skos:prefLabel"
-msgstr "内容由莱顿大学图书馆提供，版权未定。"
+msgstr ""
 
 #. see also: http://creativecommons.org/licenses/by/4.0/
 msgid "bda:LicenseCCBY4::skos:prefLabel"
-msgstr "知识共享署名4.0国际版（CC BY 4.0）"
+msgstr ""
