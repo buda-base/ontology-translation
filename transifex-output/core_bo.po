@@ -2910,7 +2910,7 @@ msgstr ""
 
 #. The physical dimensions of the instance
 msgid "bdo:dimensionsStatement::rdfs:label"
-msgstr ""
+msgstr "ཚད་གཞི།"
 
 #. The physical dimensions of the instance
 msgid "bdo:dimensionsStatement::adm:userTooltip"
