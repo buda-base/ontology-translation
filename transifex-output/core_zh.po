@@ -146,7 +146,7 @@ msgstr "包含"
 #. The Library (Place) that contains the physical holding
 #. see also: http://purl.bdrc.io/ontology/core/ItemPhysicalAsset
 msgid "bdo:itemLibrary::rdfs:label"
-msgstr "原件收藏于"
+msgstr "书馆"
 
 #. The event of completing a work
 msgid "bdo:CompletedEvent::rdfs:label"
@@ -166,7 +166,7 @@ msgstr "逐页标题"
 
 #. The ending line on the ending page that is referenced
 msgid "bdo:workLocationEndLine::rdfs:label"
-msgstr "结尾句"
+msgstr "末尾句"
 
 #. from Mibu's catalogue
 #. see also: http://www.worldcat.org/oclc/603601029
@@ -408,7 +408,7 @@ msgstr "标签"
 
 #. indicates a Place Event of unknown type!?
 msgid "bdo:PlaceEventNotSpecified::rdfs:label"
-msgstr "未指定的"
+msgstr "未详"
 
 #. refers to an :EtextRef that identifies an :Etext and the position of that
 #. :Etext in a containing :VolumeEtextAsset
@@ -1020,7 +1020,7 @@ msgstr "装订方式"
 
 #. This is the number of volumes associated with the original work.
 msgid "bdo:workNumberOfVolumes::rdfs:label"
-msgstr "总卷数"
+msgstr "卷数"
 
 #. Indicates a younger sister of the person
 msgid "bdo:hasYoungerSister::rdfs:label"
@@ -1871,7 +1871,7 @@ msgstr "章"
 #. fragment is specified as a part of a containing :Work via a :WorkLocation
 #. as with any similar :workPartOf
 msgid "bdr:WorkFragment::skos:prefLabel"
-msgstr "片段"
+msgstr "部分"
 
 msgid "bdr:WorkVolume::skos:prefLabel"
 msgstr "卷"
@@ -2454,7 +2454,7 @@ msgstr "未详"
 #. Subclasses record different lineage types by culture, e.g., Tibetan or
 #. Chinese
 msgid "bdo:LineageType::rdfs:label"
-msgstr "传承的类型"
+msgstr "传承类型"
 
 msgid "bdr:LT0004::skos:prefLabel"
 msgstr "指导"
@@ -2540,7 +2540,7 @@ msgid "bdr:ZhHani::skos:prefLabel"
 msgstr "中文"
 
 msgid "bdr:New::skos:prefLabel"
-msgstr "尼瓦尔文"
+msgstr "尼瓦尔语"
 
 msgid "bdr:SaPostGupta::skos:prefLabel"
 msgstr "梵文 (后笈多字母)"
@@ -2568,7 +2568,7 @@ msgid "bdr:PiKhmr::skos:prefLabel"
 msgstr "巴利文 (高棉体)"
 
 msgid "bdr:Es::skos:prefLabel"
-msgstr "西班牙语"
+msgstr "西班牙文"
 
 msgid "bdr:PgdKhar::skos:prefLabel"
 msgstr "健驮逻语 (佉卢文书写)"
@@ -2938,7 +2938,7 @@ msgstr "表示该人物的侄子"
 
 #. Title given in the colophon of a Work or text
 msgid "bdo:ColophonTitle::rdfs:label"
-msgstr "跋文所记标题"
+msgstr "跋文中的标题"
 
 #. Title given in the colophon of a Work or text
 msgid "bdo:ColophonTitle::adm:userTooltip"
@@ -3411,7 +3411,7 @@ msgstr "与传承有关的事件，如给予/接受灌顶或口传，等等。"
 
 #. A title by which is known or referenced.
 msgid "bdo:Title::rdfs:label"
-msgstr "题目"
+msgstr "标题"
 
 #. A title by which is known or referenced.
 msgid "bdo:Title::adm:userTooltip"
@@ -3582,7 +3582,7 @@ msgstr "作品写作的事件"
 #. Title on the first page of the text of the Tibetan traditional Pecha
 #. format.
 msgid "bdo:FullTitle::rdfs:label"
-msgstr "完整题目"
+msgstr "完整标题"
 
 #. Title on the first page of the text of the Tibetan traditional Pecha
 #. format.
