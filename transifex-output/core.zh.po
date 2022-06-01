@@ -4739,7 +4739,7 @@ msgstr ""
 
 #. Indicates a BiblioEntity that is a member of the Collection
 msgid "bdo:collectionMember::rdfs:label"
-msgstr ""
+msgstr "成员"
 
 #. Indicates a BiblioEntity that is a member of the Collection
 msgid "bdo:collectionMember::adm:userTooltip"
@@ -4817,7 +4817,7 @@ msgstr ""
 
 #. Statement of ownership indicated in the instance
 msgid "bdo:ownershipStatement::rdfs:label"
-msgstr ""
+msgstr "著作者身份说明"
 
 #. Statement of ownership indicated in the instance
 msgid "bdo:ownershipStatement::adm:userTooltip"
@@ -4829,7 +4829,7 @@ msgstr ""
 
 #. This is the number or other id of this SerialInstance in a SerialWork.
 msgid "bdo:seriesNumber::adm:userTooltip"
-msgstr ""
+msgstr "这是该系列实例在SerialWork中的编号或其他ID。"
 
 #. An event of originally copying the text. Happens in some contexts (ex:
 #. Burmese), where manuscripts can have an attributed original scribe (acring
