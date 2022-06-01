@@ -1,0 +1,13 @@
+git:
+  filters:
+    - filter_type: file
+      file_format: PO
+      source_language: en
+      source_file: ontology-translation/transifex-output/adm.en.po
+      translation_files_expression: 'ontology-translation/transifex-output/adm.<lang>.po'
+
+    - filter_type: file
+      file_format: PO
+      source_language: en
+      source_file: ontology-translation/transifex-output/core.en.po
+      translation_files_expression: 'ontology-translation/transifex-output/core.<lang>.po'
