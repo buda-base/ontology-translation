@@ -416,7 +416,7 @@ msgid "bda:StatusAccessioned::skos:prefLabel"
 msgstr "已收录"
 
 msgid "bda:StatusScanned::skos:prefLabel"
-msgstr ""
+msgstr "已扫描"
 
 msgid "adm:seeOtherCBETA::rdfs:label"
 msgstr "在中华电子佛典协会上查看"
