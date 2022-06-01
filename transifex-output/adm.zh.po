@@ -1,18 +1,17 @@
 # 
 # Translators:
-# Elie Roux <roux.elie@gmail.com>, 2019
-# Penghao Sun <rinchenbzangpo@gmail.com>, 2020
+# Ngawang Trinley <ngawangtrinley@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Buddhist Digital Ontology (Admin part) e3c569c\n"
 "Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
-"Last-Translator: Penghao Sun <rinchenbzangpo@gmail.com>, 2020\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/bdrc/teams/103997/zh_CN/)\n"
+"Last-Translator: Ngawang Trinley <ngawangtrinley@gmail.com>, 2022\n"
+"Language-Team: Chinese (https://www.transifex.com/bdrc/teams/123474/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
+"Language: zh\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Has value true if the contents of the associated Work are restricted in
@@ -284,15 +283,15 @@ msgstr "合理使用"
 msgid "adm:Access::rdfs:label"
 msgstr "工作访问类型"
 
-#. The Work is sealed by tradition.
+#. The content is sealed by tradition.
 msgid "bda:AccessRestrictedSealed::skos:prefLabel"
 msgstr "为传统规定而未开放访问"
 
-#. BDRC is restricting access to the Work.
+#. BDRC is restricting access to the content
 msgid "bda:AccessRestrictedByTbrc::skos:prefLabel"
 msgstr "佛教数字档案馆未开放此资源的访问权"
 
-#. The contents of the Work are freely avaiable in their entirety.
+#. The contents are made openly accessible
 msgid "bda:AccessOpen::skos:prefLabel"
 msgstr "开放访问"
 
@@ -301,7 +300,7 @@ msgstr "开放访问"
 msgid "bda:AccessRestrictedByQuality::skos:prefLabel"
 msgstr "因质量不佳而未开放访问"
 
-#. The Work is temporarily restricted.
+#. The content is temporarily restricted.
 msgid "bda:AccessRestrictedTemporarily::skos:prefLabel"
 msgstr "暂时未开放访问"
 
@@ -435,3 +434,110 @@ msgstr "图片信息资产的信息资产管理器状态常数"
 #. status constants for :Entity metadata: released, provisional, etc
 msgid "adm:Status::adm:userTooltip"
 msgstr "状态常数：实体元数据：已发布，临时的，等等"
+
+#. Has value true if the contents of the associated Work are restricted in
+#. China
+msgid "adm:restrictedInChina::rdfs:label"
+msgstr ""
+
+#. Log entry for data withdrawl
+msgid "adm:WithdrawData::rdfs:label"
+msgstr ""
+
+#. Log entries for data management events such as creation, update, withdrawl,
+#. etc
+msgid "adm:DataLogEntry::rdfs:label"
+msgstr ""
+
+#. Log entry for image scan request
+msgid "adm:ScanRequested::rdfs:label"
+msgstr ""
+
+#. Log entry for initial data creation
+msgid "adm:InitialDataCreation::rdfs:label"
+msgstr ""
+
+msgid "adm:InitialOutlineData::rdfs:label"
+msgstr ""
+
+#. what software performed the update  described by the log entry
+msgid "adm:logAgent::rdfs:label"
+msgstr ""
+
+#. Log entry for minor data update
+msgid "adm:MinorUpdateData::rdfs:label"
+msgstr ""
+
+#. Log entry for image reordiner within an ImageGroup.
+msgid "adm:Reordered::rdfs:label"
+msgstr ""
+
+msgid "adm:LogMethod::rdfs:label"
+msgstr ""
+
+#. Log entry indicating completion of content Quality Control
+msgid "adm:ContentQC::rdfs:label"
+msgstr ""
+
+msgid "adm:UpdateOutlineData::rdfs:label"
+msgstr ""
+
+#. Log entry for data update
+msgid "adm:UpdateData::rdfs:label"
+msgstr ""
+
+#. Log entry for images updating such as duplicate deletion, images
+#. conversion, etc
+msgid "adm:ImagesUpdated::rdfs:label"
+msgstr ""
+
+#. Log entry for image scanning process
+msgid "adm:Scanned::rdfs:label"
+msgstr ""
+
+#. This modification has been made manually
+msgid "bda:ManualMethod::skos:prefLabel"
+msgstr ""
+
+msgid "bda:BatchMethod::skos:prefLabel"
+msgstr ""
+
+#. Log entry for initial data creation
+msgid "adm:InitialDataImport::rdfs:label"
+msgstr ""
+
+#. Log entries for ImageGroups to record content management events such scan
+#. creation, sync'ing etc
+msgid "adm:ContentLogEntry::rdfs:label"
+msgstr ""
+
+#. Log entry for image syncing to archive
+msgid "adm:Synced::rdfs:label"
+msgstr ""
+
+msgid "adm:InitialOutlineDataImport::rdfs:label"
+msgstr ""
+
+#. whether the data change is manual or part of a batch
+msgid "adm:logMethod::rdfs:label"
+msgstr ""
+
+#. Log entry for data reinstatement
+msgid "adm:ReinstateData::rdfs:label"
+msgstr ""
+
+msgid "bda:LD_LULDC_metadata::skos:prefLabel"
+msgstr ""
+
+msgid "bda:LD_IDP_metadata::skos:prefLabel"
+msgstr ""
+
+msgid "bda:LD_SBB_metadata::skos:prefLabel"
+msgstr ""
+
+msgid "bda:LD_LULDC_content::skos:prefLabel"
+msgstr ""
+
+#. see also: http://creativecommons.org/licenses/by/4.0/
+msgid "bda:LicenseCCBY4::skos:prefLabel"
+msgstr ""
