@@ -1,9 +1,5 @@
 # 
 # Translators:
-# Drongbulobsang <drongbulobsang@gmail.com>, 2022
-# Elie Roux <roux.elie@gmail.com>, 2022
-# Tashi Dhondup <dhonduptiger658@gmail.com>, 2022
-# Kunga Rinchen <Kuinchen1p@gmail.com>, 2022
 # Ngawang Trinley <ngawangtrinley@gmail.com>, 2022
 # 
 msgid ""
@@ -2967,7 +2963,7 @@ msgstr ""
 
 #. Title for the etext.
 msgid "bdo:eTextTitle::adm:userTooltip"
-msgstr ""
+msgstr "ཡིག་རྐྱང་གི་མཚན་བྱང་།"
 
 #. A comma separated list of numbers and ranges of missing volumes
 msgid "bdo:itemMissingVolumes::adm:userTooltip"
