@@ -3,8 +3,8 @@ git:
     - filter_type: file
       file_format: PO
       source_language: en
-      source_file: transifex-output/adm.en.po
-      translation_files_expression: 'transifex-output/adm.<lang>.po'
+      source_file: transifex-output/adm_en.po
+      translation_files_expression: 'transifex-output/adm_<lang>.po'
 
     - filter_type: file
       file_format: PO
