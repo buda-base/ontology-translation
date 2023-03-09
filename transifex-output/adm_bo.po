@@ -1,14 +1,15 @@
 # 
 # Translators:
 # Kunga Rinchen <Kuinchen1p@gmail.com>, 2022
-# Tashi Dhondup <dhonduptiger658@gmail.com>, 2022
 # Ngawang Trinley <ngawangtrinley@gmail.com>, 2022
+# Drongbulobsang <drongbulobsang@gmail.com>, 2022
+# Tashi Dhondup <dhonduptiger658@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Buddhist Digital Ontology (Admin part) e3c569c\n"
 "Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
-"Last-Translator: Ngawang Trinley <ngawangtrinley@gmail.com>, 2022\n"
+"Last-Translator: Tashi Dhondup <dhonduptiger658@gmail.com>, 2022\n"
 "Language-Team: Tibetan (https://www.transifex.com/bdrc/teams/123474/bo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,7 +48,7 @@ msgstr "ཝི་ཀི་དན་གྲངས་དང་མཚུངས།"
 
 #. this resource is about the same resource as the WorldCat resource
 msgid "adm:sameAsWorldCat::rdfs:label"
-msgstr "འཛམ་གླིང་དཀར་ཆག་དང་མཚུངས།"
+msgstr "WorldCatའཛམ་གླིང་དཀར་ཆག་དང་མཚུངས།"
 
 #. Log entry for updates to resources
 msgid "adm:logEntry::rdfs:label"
@@ -398,7 +399,7 @@ msgstr "གནས་བབས།"
 
 #. asset manager status constants for images assets
 msgid "adm:ImagesStatus::rdfs:label"
-msgstr "གཤེར་པར་གནས་བབས།"
+msgstr "བཤེར་པར་གནས་བབས།"
 
 msgid "bda:StatusOnHold::skos:prefLabel"
 msgstr "སྐབས་འཕྲལ་ཕྱི་བཤོལ།"
@@ -456,12 +457,12 @@ msgstr "རྒྱ་ནག་གི་བཀའ་རྒྱ་ཅན།"
 
 #. Log entry for data withdrawl
 msgid "adm:WithdrawData::rdfs:label"
-msgstr ""
+msgstr "གཞི་གྲངས་ཟིན་ཐོའི་ནང་འཇུག་ཕྱིར་འཐེན།"
 
 #. Log entries for data management events such as creation, update, withdrawl,
 #. etc
 msgid "adm:DataLogEntry::rdfs:label"
-msgstr ""
+msgstr "གཞི་གྲངས་ཟིན་ཐོ་ནང་འཇུག"
 
 #. Log entry for image scan request
 msgid "adm:ScanRequested::rdfs:label"
@@ -469,10 +470,10 @@ msgstr "བཤེར་འབེབ་སྙན་ཞུ།"
 
 #. Log entry for initial data creation
 msgid "adm:InitialDataCreation::rdfs:label"
-msgstr ""
+msgstr "ཐོག་མའི་གཞི་གྲངས་ཀྱི་ཟིན་ཐོ་ནང་འཇུག"
 
 msgid "adm:InitialOutlineData::rdfs:label"
-msgstr ""
+msgstr "ཐོག་མའི་དཀར་ཆག་གི་གཞི་གྲངས།"
 
 #. what software performed the update  described by the log entry
 msgid "adm:logAgent::rdfs:label"
@@ -480,30 +481,30 @@ msgstr "ཡིག་གཟུགས།"
 
 #. Log entry for minor data update
 msgid "adm:MinorUpdateData::rdfs:label"
-msgstr ""
+msgstr "གཞི་གྲངས་ཆུང་བ་ཁ་གསབ་ཀྱི་ཟིན་ཐོ་ནང་འཇུག"
 
 #. Log entry for image reordiner within an ImageGroup.
 msgid "adm:Reordered::rdfs:label"
-msgstr ""
+msgstr "བཤེར་པར་ཟིན་ཐོར་བཀོད་ཡོད།"
 
 msgid "adm:LogMethod::rdfs:label"
-msgstr ""
+msgstr "ཟིན་ཐ་འགོད་ཐབས།"
 
 #. Log entry indicating completion of content Quality Control
 msgid "adm:ContentQC::rdfs:label"
-msgstr ""
+msgstr "ནང་དོན་གྱི་ QC'd"
 
 msgid "adm:UpdateOutlineData::rdfs:label"
-msgstr ""
+msgstr "དཀར་ཆག་གི་གཞི་གྲངས་ཁ་གསབ་བྱེད།"
 
 #. Log entry for data update
 msgid "adm:UpdateData::rdfs:label"
-msgstr ""
+msgstr "གཞི་གྲངས་ཟིན་ཐོའི་ནང་འཇུག་ཁ་གསབ།"
 
 #. Log entry for images updating such as duplicate deletion, images
 #. conversion, etc
 msgid "adm:ImagesUpdated::rdfs:label"
-msgstr ""
+msgstr "བཤེར་པར་ཁ་གསབ་བྱས་ཡོད།"
 
 #. Log entry for image scanning process
 msgid "adm:Scanned::rdfs:label"
@@ -511,14 +512,14 @@ msgstr "བཤེར་བེབས་ཟིན།"
 
 #. This modification has been made manually
 msgid "bda:ManualMethod::skos:prefLabel"
-msgstr ""
+msgstr "ལག་སྒྲིག"
 
 msgid "bda:BatchMethod::skos:prefLabel"
-msgstr ""
+msgstr "Batch"
 
 #. Log entry for initial data creation
 msgid "adm:InitialDataImport::rdfs:label"
-msgstr ""
+msgstr "ཐོག་མའི་གཞི་གྲངས་ཀྱི་ཟིན་ཐོ་ནང་འཇུག"
 
 #. Log entries for ImageGroups to record content management events such scan
 #. creation, sync'ing etc
@@ -527,31 +528,34 @@ msgstr "ཟིན་ཐོ།"
 
 #. Log entry for image syncing to archive
 msgid "adm:Synced::rdfs:label"
-msgstr ""
+msgstr "འདྲ་པར་མཉམ་སྦྱར་བྱས་པའི་ཟིན་ཐོ་ནང་འཇུག"
 
 msgid "adm:InitialOutlineDataImport::rdfs:label"
-msgstr ""
+msgstr "ཐོག་མའི་དཀར་ཆག་གི་གཞི་གྲངས་ནང་འདྲེན་བྱེད།"
 
 #. whether the data change is manual or part of a batch
 msgid "adm:logMethod::rdfs:label"
-msgstr ""
+msgstr "ཐབས་ལམ།"
 
 #. Log entry for data reinstatement
 msgid "adm:ReinstateData::rdfs:label"
-msgstr ""
+msgstr "གཞི་གྲངས་ཟིན་ཐོ་ནང་འཇུག་བསྐྱར་གསོ་བྱེད།"
 
 msgid "bda:LD_LULDC_metadata::skos:prefLabel"
 msgstr ""
+"ལེ་ལྡན་སློབ་ཆེན་དཔེ་མཛོད་ཀྱིས་(CC BY 4.0) ཡི་བདག་དབང་འོག་མཐུན་སྦྱོར་བྱས།"
 
 msgid "bda:LD_IDP_metadata::skos:prefLabel"
 msgstr ""
+"རྒྱལ་སྤྱིའི་ཏུན་ཧོང་ལས་གཞི་ཚོགས་པ་ནས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་གསལ་ཁ་མེད། "
+"གནས་ཚུལ་ཞིབ་ཕྲ་མ་ཕྱིའི་དན་གྲངས་གོང་མར་གཟིགས།"
 
 msgid "bda:LD_SBB_metadata::skos:prefLabel"
-msgstr ""
+msgstr "འཇར་མན་རྒྱལ་ཡོངས་དཔེ་མཛོད་ཀྱིས་མཐུན་སྦྱོར་བྱས་པ། བདག་དབང་གསལ་ཁ་མེད།"
 
 msgid "bda:LD_LULDC_content::skos:prefLabel"
-msgstr ""
+msgstr "ལེ་ལྡན་སློབ་ཆེན་གྱིས་མཐུན་སྦྱོར་གནང་། བདག་དབང་གསལ་བཤད་མེད་པ།"
 
 #. see also: http://creativecommons.org/licenses/by/4.0/
 msgid "bda:LicenseCCBY4::skos:prefLabel"
-msgstr ""
+msgstr "Creative Commons Attribution 4.0 International (CC BY 4.0)"
