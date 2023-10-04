@@ -2971,7 +2971,7 @@ msgstr "གསལ་ཁ་མེད་པའི་ཚོགས་མི།"
 
 #. Indicates a Person with an unknown kinship relation to the Person
 msgid "bdo:hasUnknownKinship::adm:userTooltip"
-msgstr ""
+msgstr "མི་སྣ་དེ་དང་ཁྲག་རྒྱུན་གྱི་འབྲེལ་བ་ངེས་གཏན་མེད་པའི་མི་ཞིག་ཡིན་པ་མཚོན།"
 
 #. Title for the etext.
 msgid "bdo:eTextTitle::adm:userTooltip"
