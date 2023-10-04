@@ -1,15 +1,15 @@
 # 
 # Translators:
+# Ngawang Trinley <ngawangtrinley@gmail.com>, 2022
 # Drongbulobsang <drongbulobsang@gmail.com>, 2022
 # Tashi Dhondup <dhonduptiger658@gmail.com>, 2023
-# Ngawang Trinley <ngawangtrinley@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Buddhist Digital Ontology e3c569c\n"
 "Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
-"Last-Translator: Ngawang Trinley <ngawangtrinley@gmail.com>, 2023\n"
-"Language-Team: Tibetan (https://www.transifex.com/bdrc/teams/123474/bo/)\n"
+"Last-Translator: Tashi Dhondup <dhonduptiger658@gmail.com>, 2023\n"
+"Language-Team: Tibetan (https://app.transifex.com/bdrc/teams/123474/bo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2909,7 +2909,7 @@ msgstr ""
 
 #. Indicates a Tradition that the Person is associated with.
 msgid "bdo:personOfTradition::adm:userTooltip"
-msgstr "མི་སྣ་དེ་དང་འབྲེལ་བའི་ཆོས་རྒྱུད། "
+msgstr "མི་སྣ་དེ་དང་འབྲེལ་བའི་ཆོས་བརྒྱུད་མཚོན། "
 
 #. associates an event with at most one place
 msgid "bdo:eventWhere::adm:userTooltip"
@@ -2992,7 +2992,7 @@ msgstr ""
 
 #. indicates a connection between two bdo:Labels
 msgid "bdo:labelConnection::adm:userTooltip"
-msgstr ""
+msgstr "bdo:བྱང་བུ་གཉིས་བར་གྱི་འབྲེལ་ལམ་ཞིག་སྟོན།"
 
 #. Indicates a sibling-in-law of the person
 msgid "bdo:hasSiblingInLaw::adm:userTooltip"
@@ -3113,7 +3113,7 @@ msgstr "བཤེར་པར་གྱི་ཤོག་ངོས་དང་ག
 
 #. Indicates a school, tradition, or sect that the Person is associated with.
 msgid "bdo:personOfSect::adm:userTooltip"
-msgstr "མི་སྣ་དེ་དང་འབྲེལ་བའི་ཆོས་རྒྱུད། "
+msgstr "མི་སྣ་དེ་དང་འབྲེལ་བའི་ཆོས་བརྒྱུད་མཚོན། "
 
 #. Indicates a young incarnation of this Person.
 msgid "bdo:hasIncarnationYangtse::adm:userTooltip"
@@ -4757,11 +4757,11 @@ msgstr ""
 
 #. Indicates a Tradition that the subject is associated with
 msgid "bdo:associatedTradition::rdfs:label"
-msgstr "འབྲེལ་ཡོད་ཆོས་རྒྱུན།"
+msgstr "འབྲེལ་ཡོད་ཆོས་བརྒྱུད།"
 
 #. Indicates a Tradition that the subject is associated with
 msgid "bdo:associatedTradition::adm:userTooltip"
-msgstr "མི་སྣ་དེ་དང་འབྲེལ་བའི་ཆོས་བརྒྱུད། "
+msgstr "བརྗོད་གཞི་དེ་དང་འབྲེལ་བའི་ཆོས་བརྒྱུད་མཚོན།"
 
 #. The type of copy
 msgid "bdo:typeOfCopy::rdfs:label"
