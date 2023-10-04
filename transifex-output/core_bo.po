@@ -2980,6 +2980,8 @@ msgstr "ཡིག་རྐྱང་གི་མཚན་བྱང་།"
 #. A comma separated list of numbers and ranges of missing volumes
 msgid "bdo:itemMissingVolumes::adm:userTooltip"
 msgstr ""
+"ཚེག་འབྲིང་(comma) "
+"གིས་བར་བཅད་པའི་གྲངས་ཀའི་ཐོ་གཞུང་དང་ཆད་ཟིན་པའི་པོད་ཀྱི་གནས་བབ།"
 
 #. Indicates an older brother of the person
 msgid "bdo:hasOlderBrother::adm:userTooltip"
