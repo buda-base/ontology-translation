@@ -3385,7 +3385,7 @@ msgstr "པོ་ཏི་ནི་ཤོག་ལྷེ་འམ་ཤོག་
 
 #. Indicates a Body incarnation of this Person.
 msgid "bdo:hasIncarnationBody::adm:userTooltip"
-msgstr "མི་སྣ་དེའི་གཟུགས་ཀྱི་སྤྲུལ་སྐུ་ལ་ཟེར།"
+msgstr "མི་སྣ་དེའི་སྐུའི་སྤྲུལ་སྐུ་ཞིག་མཚོན།"
 
 #. An Event associated with the Person such as birth, death, ordination, and
 #. so on
