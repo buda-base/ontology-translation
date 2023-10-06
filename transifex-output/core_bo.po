@@ -3349,7 +3349,7 @@ msgstr "ས་གནས་གཏོར་བཤིག་ཐེབས་པའི
 
 #. Indicates a Minds incarnation of this Person.
 msgid "bdo:hasIncarnationMind::adm:userTooltip"
-msgstr "མི་སྣ་འདིའི་བསམ་བློ་ཞིག་མཚོན།"
+msgstr "མི་སྣ་འདིའི་ཐུགས་ཀྱི་སྤྲུལ་སྐུ་ཞིག་མཚོན།"
 
 #. used to reference the number associated with the work in the series
 msgid "bdo:serialHasMember::adm:userTooltip"
