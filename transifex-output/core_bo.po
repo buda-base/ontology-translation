@@ -4076,7 +4076,7 @@ msgstr ""
 
 #. Indicates a Person this Person was a teacher of.
 msgid "bdo:personTeacherOf::adm:userTooltip"
-msgstr ""
+msgstr "མི་སྣ་འདི་ཁོང་གི་སློབ་དཔོན་ཞིག་ཡིན་པ་མཚོན།"
 
 #. An instance of a SeriesMember.
 msgid "bdo:SerialInstance::adm:userTooltip"
