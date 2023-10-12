@@ -4220,7 +4220,7 @@ msgstr ""
 
 #. The target Person is a consort of the subject Person
 msgid "bdo:personHasConsort::adm:userTooltip"
-msgstr ""
+msgstr "དམིགས་འབེན་གྱི་མི་སྣ་དེ་ནི་མི་སྣ་གཙོ་བོ་དེའི་ཡུམ་རེད།"
 
 #. Indicates the Instance that the ContentLocation refers to.
 msgid "bdo:contentLocationInstance::rdfs:label"
