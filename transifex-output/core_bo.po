@@ -4215,6 +4215,8 @@ msgstr "པར་གནས།"
 #. (manuscript or woodblock)
 msgid "bdo:hasSourcePrintery::adm:userTooltip"
 msgstr ""
+"སྲོལ་རྒྱུན་དངོས་རིགས་ཤིག་གི་ཐོན་རྫས་དེའི་བསྐྲུན་གནས་མཚོན་བྱེད་ལ་བཀོལ་སྤྱོད་བྱེད།"
+" (manuscript or woodblock)"
 
 #. The target Person is a consort of the subject Person
 msgid "bdo:personHasConsort::adm:userTooltip"
