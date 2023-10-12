@@ -4080,7 +4080,7 @@ msgstr "མི་སྣ་འདི་ཁོང་གི་སློབ་དཔ
 
 #. An instance of a SeriesMember.
 msgid "bdo:SerialInstance::adm:userTooltip"
-msgstr ""
+msgstr "དེབ་ཕྲེང་ཞིག་གི་བྱེ་བྲག་ཅིག"
 
 #. The referenced Entity (topic, person, work, etc.) is a subject of the Work
 #. - something the Work is about.
