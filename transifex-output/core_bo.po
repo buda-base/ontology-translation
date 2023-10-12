@@ -4186,6 +4186,7 @@ msgstr "བརྩམས་ཆོས་ཞིག་ལ་ལེགས་བཅོ
 #. Links an (abstract) :Work and one of its instances
 msgid "bdo:instanceOf::adm:userTooltip"
 msgstr ""
+"དྲ་ཐག་ (abstract) ཅིག་སྟེ། བརྩམས་ཆོས་དང་དེའི་དཔེ་རྒྱུན་གྱི་བྱེ་བྲག་ཅིག"
 
 #. A note about the origin of the Instance (form of a Work) that was
 #. digitized.
