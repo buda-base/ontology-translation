@@ -4012,7 +4012,7 @@ msgstr "ཕོ་མོའི་དབྱེ་བ།"
 
 #. Indicates a Qualities incarnation of this Person.
 msgid "bdo:hasIncarnationQualities::adm:userTooltip"
-msgstr ""
+msgstr "མི་སྣ་འདིའི་སྤྲུལ་སྐུའི་ཡོན་ཏན་མཚོན།"
 
 #. A work that is made of a collection of other works (ex: gsung bum,
 #. canonical collection, etc.).
