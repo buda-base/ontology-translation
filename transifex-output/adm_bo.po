@@ -64,7 +64,7 @@ msgstr "འགོད་མཁན།"
 #. The copyright holder to the metadata representation of the :Entity resource
 #. see also: http://purl.bdrc.io/ontology/admin/Organization
 msgid "adm:copyrightOwner::rdfs:label"
-msgstr "དན་གྲངས་གོང་མའི་བདག་དབང་འཛིན་མཁན།"
+msgstr "གཞི་གྲངས་རྒྱས་པའི་པར་དབང་འཛིན་མཁན།"
 
 #. Indicates the equivalent resource in BDRC
 msgid "adm:sameAsBDRC::rdfs:label"
