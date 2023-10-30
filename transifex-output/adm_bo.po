@@ -202,7 +202,7 @@ msgid "bda:CP010::skos:prefLabel"
 msgstr "བཛྲ་བིདྱཱ་གཙུག་ལག་སློབ་གཉེར་ཁང་།"
 
 msgid "bda:CP030::skos:prefLabel"
-msgstr "ཊོཀྱོ་སློབ་གྲྭ་ཆེན་མོའི་SAT འཕྲུལ་ཡིག་གཏེར་མཛོད།"
+msgstr "ཊོཀྱོ་སློབ་ཆེན་གྱི་SAT ཡིག་རྐྱང་གཞི་གྲངས་རྟེན་གནས།"
 
 msgid "bda:CP048::skos:prefLabel"
 msgstr "དྷི་ལ་སློབ་ཆེན་དཔེ་ཐོ་གཅིག་གྱུར།"
