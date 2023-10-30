@@ -273,7 +273,7 @@ msgstr ""
 "ཨ་རིའི་གྲོས་ཚོགས་གོང་མའི་དཔེ་མཛོད་ནས་མཐུན་སྦྱོར་བྱས་པ། CC0བཀའ་འཁྲོལ་ཅན།"
 
 msgid "adm:LegalData::rdfs:label"
-msgstr "ཁྲིམས་མཐུན་དན་གྲངས།"
+msgstr "ཁྲིམས་མཐུན་གཞི་གྲངས།"
 
 msgid "bda:LD_SAT_images::skos:prefLabel"
 msgstr "SAT ནས་མཐུན་སྦྱོར་བྱས་པ། CC BY-NC-SA 4.0བཀའ་འཁྲོལ་ཅན།"
