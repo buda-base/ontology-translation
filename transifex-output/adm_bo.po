@@ -196,7 +196,7 @@ msgid "adm:ContentProvider::rdfs:label"
 msgstr "བཀག་རྒྱའི་རིགས།"
 
 msgid "bda:CP029::skos:prefLabel"
-msgstr "འཛམ་གླིང་དྲྭ་མཛོད།"
+msgstr "Internet Archives"
 
 msgid "bda:CP010::skos:prefLabel"
 msgstr "བཛྲ་བིདྱཱ་གཙུག་ལག་སློབ་གཉེར་ཁང་།"
