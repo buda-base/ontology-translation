@@ -499,7 +499,7 @@ msgstr "དཀར་ཆག་གི་གཞི་གྲངས་རིམ་ས
 
 #. Log entry for data update
 msgid "adm:UpdateData::rdfs:label"
-msgstr "གཞི་གྲངས་ཟིན་ཐོའི་ནང་འཇུག་ཁ་གསབ།"
+msgstr "གཞི་གྲངས་ཟིན་ཐོའི་ནང་འཇུག་རིམ་སྤར་བྱེད།"
 
 #. Log entry for images updating such as duplicate deletion, images
 #. conversion, etc
