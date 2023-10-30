@@ -453,7 +453,7 @@ msgstr ""
 #. Has value true if the contents of the associated Work are restricted in
 #. China
 msgid "adm:restrictedInChina::rdfs:label"
-msgstr "རྒྱ་ནག་གི་བཀའ་རྒྱ་ཅན།"
+msgstr "རྒྱ་ནག་ནང་བཀའ་རྒྱ་ཅན།"
 
 #. Log entry for data withdrawl
 msgid "adm:WithdrawData::rdfs:label"
