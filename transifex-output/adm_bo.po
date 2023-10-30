@@ -495,7 +495,7 @@ msgid "adm:ContentQC::rdfs:label"
 msgstr "ནང་དོན་གྱི་ QC'd"
 
 msgid "adm:UpdateOutlineData::rdfs:label"
-msgstr "དཀར་ཆག་གི་གཞི་གྲངས་ཁ་གསབ་བྱེད།"
+msgstr "དཀར་ཆག་གི་གཞི་གྲངས་རིམ་སྤར་བྱེད།"
 
 #. Log entry for data update
 msgid "adm:UpdateData::rdfs:label"
