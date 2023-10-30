@@ -92,7 +92,7 @@ msgstr "ཟིན་ཐོ།"
 
 #. A link to the html representation of the entity.
 msgid "adm:canonicalHtml::rdfs:label"
-msgstr "དྲྭ་ཐག"
+msgstr "དྲ་ཐག"
 
 #. The terms of use for the metadata representation of the :Entity resource
 #. see also: http://purl.bdrc.io/ontology/admin/TermsOfUse
