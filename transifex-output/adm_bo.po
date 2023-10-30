@@ -44,7 +44,7 @@ msgstr "ཡོང་ཁུངས་ཀྱི་དྲྭ་ཚིགས་ལ་
 
 #. this resource is about the same resource as the Wikidata resource
 msgid "adm:sameAsWikidata::rdfs:label"
-msgstr "ཝི་ཀི་དན་གྲངས་དང་མཚུངས།"
+msgstr "ཝེ་ཁེ་གཞི་གྲངས་དང་མཚུངས།"
 
 #. this resource is about the same resource as the WorldCat resource
 msgid "adm:sameAsWorldCat::rdfs:label"
