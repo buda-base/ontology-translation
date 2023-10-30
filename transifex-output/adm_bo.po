@@ -159,7 +159,7 @@ msgstr "ཁྲིམས་ལུགས་གནས་ཚུལ།"
 
 #. Legal data about the metadata of the record
 msgid "adm:metadataLegal::rdfs:label"
-msgstr "དན་གྲངས་གོང་མའི་ཁྲིམས་ལུགས་གནས་ཚུལ།"
+msgstr "གཞི་གྲངས་རྒྱས་པའི་ཁྲིམས་ལུགས་གནས་ཚུལ།"
 
 msgid "bda:CP002::skos:prefLabel"
 msgstr "འབྲི་གུང་ཆེ་ཚང་།"
