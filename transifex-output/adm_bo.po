@@ -3,14 +3,14 @@
 # Kunga Rinchen <Kuinchen1p@gmail.com>, 2022
 # Ngawang Trinley <ngawangtrinley@gmail.com>, 2022
 # Drongbulobsang <drongbulobsang@gmail.com>, 2022
-# Tashi Dhondup <dhonduptiger658@gmail.com>, 2022
+# Tashi Dhondup <dhonduptiger658@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Buddhist Digital Ontology (Admin part) e3c569c\n"
 "Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
-"Last-Translator: Tashi Dhondup <dhonduptiger658@gmail.com>, 2022\n"
-"Language-Team: Tibetan (https://www.transifex.com/bdrc/teams/123474/bo/)\n"
+"Last-Translator: Tashi Dhondup <dhonduptiger658@gmail.com>, 2023\n"
+"Language-Team: Tibetan (https://app.transifex.com/bdrc/teams/123474/bo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. Has value true if the contents of the associated Work are restricted in
 #. China
 msgid "adm:isRestrictedInChina::rdfs:label"
-msgstr "རྒྱ་ནག་གི་བཀའ་རྒྱ་ཅན།"
+msgstr "རྒྱ་ནག་ནང་བཀའ་རྒྱ་ཅན།"
 
 msgid "adm:catalogingConvention::rdfs:label"
 msgstr "དཀར་ཆག་སྒྲིག་ལུགས།"
