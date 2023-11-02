@@ -232,7 +232,7 @@ msgstr "ཁུངས།"
 
 #. Indicates the base material of a work (paper, palm leaf, etc.)
 msgid "bdo:baseMaterial::rdfs:label"
-msgstr "རྒྱུ་ཆ།"
+msgstr "མ་གཞིའི་རྒྱུ་ཆ།"
 
 #. Links an (abstract) :Work and one of its instances
 msgid "bdo:instanceOf::rdfs:label"
