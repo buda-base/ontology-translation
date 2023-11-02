@@ -160,7 +160,7 @@ msgstr "ཏཱི་ཤོ་རྒྱ་ཡིག་བཀའ་བསྟན་
 
 #. Indicates a grandmother of the person
 msgid "bdo:hasGrandmother::rdfs:label"
-msgstr "རྨོ་བོ།"
+msgstr "རྨོ་མོ།"
 
 #. Title indicated in the margins or page headers of a Work.
 msgid "bdo:WorkRunningTitle::rdfs:label"
