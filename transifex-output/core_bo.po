@@ -2871,7 +2871,7 @@ msgstr ""
 
 #. The Work metadata about a member of a :SerialWork
 msgid "bdo:SerialMember::adm:userTooltip"
-msgstr ""
+msgstr "དེབ་ཕྲེང་ཞིག་གི་ཁོངས་གཏོགས་ཡིན་པའི་སྐོར་གྱི་གནས་ཚུལ་རྒྱས་པ།"
 
 #. The opening words of the Work
 msgid "bdo:incipit::rdfs:label"
