@@ -2964,6 +2964,9 @@ msgstr "དཔེ་ཚོགས་ཕྱོགས་སྒྲིག་དང་
 #. as a monastery, governing body, and so on
 msgid "bdo:Organization::adm:userTooltip"
 msgstr ""
+"སྒྲིག་འཛུགས་ཟེར་བ་ནི་། "
+"མི་ཚོགས་མཉམ་འབྲེལ་གྱིས་ལས་ཀ་བྱས་ཏེ་ཐུན་མོང་རྡོག་རྩ་གཅིག་ཏུ་སྒྲིལ་བ་ཞིག་ཡིན། "
+"དཔེར་ན། དགོན་པའམ་འཛིན་སྐྱོང་གི་སྡེ་ལྟ་བུ་སོགས།"
 
 #. An otherwise unspecified member of an organization
 msgid "bdo:CorporationMemberNotSpecified::adm:userTooltip"
