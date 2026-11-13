@@ -624,7 +624,7 @@ msgstr "མི་སྣ།"
 
 #. Indicates a Speech incarnation of this Person.
 msgid "bdo:hasIncarnationSpeech::rdfs:label"
-msgstr "གསུང་གི་སྤྲུལ་གཞི།"
+msgstr "གསུང་གི་སྤྲུལ་པ།"
 
 #. This Person is an incarnation of the target Person
 msgid "bdo:isIncarnation::rdfs:label"
