@@ -244,7 +244,7 @@ msgstr "བསྙེན་པར་རྫོགས་པའི་དུས།"
 
 #. Indicates a Minds incarnation of this Person.
 msgid "bdo:hasIncarnationMind::rdfs:label"
-msgstr "ཐུགས་ཀྱི་སྤྲུལ་གཞི།"
+msgstr "ཐུགས་ཀྱི་སྤྲུལ་པ།"
 
 #. This label is a transliteration of the object label in a form indicated in
 #. the language tag
