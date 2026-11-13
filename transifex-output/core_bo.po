@@ -1043,7 +1043,7 @@ msgstr "བརྩམས་ཆོས།"
 
 #. Indicates an Activities incarnation of this Person.
 msgid "bdo:hasIncarnationActivities::rdfs:label"
-msgstr "འཕྲིན་ལས་ཀྱི་སྤྲུལ་གཞི།"
+msgstr "འཕྲིན་ལས་ཀྱི་སྤྲུལ་པ།"
 
 #. Asserts that the subject Work has a particular title.
 #. see also: http://purl.bdrc.io/ontology/core/WorkTitle
