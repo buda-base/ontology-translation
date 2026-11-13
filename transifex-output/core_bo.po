@@ -942,7 +942,7 @@ msgstr "པོ་ཏིའི་གྲངས།"
 
 #. Indicates a Person considered to be an Incarnation of this Person
 msgid "bdo:hasIncarnation::rdfs:label"
-msgstr "སྤྲུལ་གཞི།"
+msgstr "སྤྲུལ་པ།"
 
 #. Indicates a paternal aunt of the person
 msgid "bdo:hasPaternalAunt::rdfs:label"
