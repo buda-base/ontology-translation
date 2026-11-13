@@ -1,14 +1,14 @@
-# 
 # Translators:
 # Ngawang Trinley <ngawangtrinley@gmail.com>, 2022
 # Drongbulobsang <drongbulobsang@gmail.com>, 2022
 # Tashi Dhondup <dhonduptiger658@gmail.com>, 2023
+# Karma, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Buddhist Digital Ontology e3c569c\n"
 "Report-Msgid-Bugs-To: https://github.com/buda-base/ontology-translation/issues\n"
-"Last-Translator: Tashi Dhondup <dhonduptiger658@gmail.com>, 2023\n"
+"Last-Translator: Karma, 2026\n"
 "Language-Team: Tibetan (https://app.transifex.com/bdrc/teams/123474/bo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,7 +66,7 @@ msgstr "རྩོམ་རིག་རྣམ་དབྱེ།"
 
 #. facsimile
 msgid "bdr:ObjectTypeFacsimile::rdfs:label"
-msgstr "འདྲ་བཤུས།"
+msgstr "ངོ་བཤུས།"
 
 #. Indicates a school, tradition, or sect that the Person is associated with.
 msgid "bdo:personOfSect::rdfs:label"
