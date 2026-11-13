@@ -394,7 +394,7 @@ msgstr "གོ་ཐོབ་ཀྱི་མཚན་གནས།"
 
 #. This Person is a Speech incarnation of the target Person
 msgid "bdo:incarnationSpeech::rdfs:label"
-msgstr "གསུང་གི་སྤྲུལ་པ།"
+msgstr "གསུང་གི་སྤྲུལ་གཞི།"
 
 #. An event describing the publication of a work
 msgid "bdo:PublishedEvent::rdfs:label"
