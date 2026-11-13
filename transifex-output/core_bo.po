@@ -1203,7 +1203,7 @@ msgstr "ཡོན་ཏན་གྱི་སྤྲུལ་གཞི།"
 
 #. Indicates an incarnation of this Person.
 msgid "bdo:hasIncarnationGeneral::rdfs:label"
-msgstr "སྤྲུལ་གཞི།"
+msgstr "སྤྲུལ་པ།"
 
 #. Reference number in the Bon combined Kanjur and Tenjur
 msgid "bdo:workKaTenSiglaBon::rdfs:label"
