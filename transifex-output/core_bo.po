@@ -436,7 +436,7 @@ msgstr "ཡང་སྲིད།"
 
 #. Indicates a Body incarnation of this Person.
 msgid "bdo:hasIncarnationBody::rdfs:label"
-msgstr "སྐུའི་སྤྲུལ་གཞི།"
+msgstr "སྐུའི་སྤྲུལ་པ།"
 
 #. Indicates a younger brother of the person
 msgid "bdo:hasYoungerBrother::rdfs:label"
