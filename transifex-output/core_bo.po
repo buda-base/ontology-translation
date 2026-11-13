@@ -1199,7 +1199,7 @@ msgstr "མ་དཔེའི་ཡིག་ནོར།"
 
 #. Indicates a Qualities incarnation of this Person.
 msgid "bdo:hasIncarnationQualities::rdfs:label"
-msgstr "ཡོན་ཏན་གྱི་སྤྲུལ་གཞི།"
+msgstr "ཡོན་ཏན་གྱི་སྤྲུལ་པ།"
 
 #. Indicates an incarnation of this Person.
 msgid "bdo:hasIncarnationGeneral::rdfs:label"
