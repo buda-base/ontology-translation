@@ -3988,7 +3988,7 @@ msgstr ""
 #. An instance that has only one copy (ex: a manuscript, an art work, etc.). A
 #. singleton instance may have reproductions
 msgid "bdo:SingletonInstance::rdfs:label"
-msgstr ""
+msgstr "རང་མཚན་པའི་དཔེ་མཚོན།"
 
 #. An instance that has only one copy (ex: a manuscript, an art work, etc.). A
 #. singleton instance may have reproductions
