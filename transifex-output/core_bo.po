@@ -2777,6 +2777,7 @@ msgstr "བཟའ་ཟླ།"
 #. property linking an entity or event to the agents and roles they play
 msgid "bdo:AgentInRole::adm:userTooltip"
 msgstr ""
+"ངོ་བོ་འམ་བྱུང་བ་གང་ཞིག་ལ་བྱེད་པོ་དང་དེ་དག་གི་འགན་འཁྲི་ལ་སྦྲེལ་བའི་ཁྱད་ཆོས།"
 
 #. The Event of a Person establishing residence in a Place such as a
 #. Monastery, Cave, and so on
