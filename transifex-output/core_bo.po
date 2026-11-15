@@ -2610,7 +2610,7 @@ msgstr "ཧིན་སྐད།"
 
 #. This combination is extremely rare but at least one occurence was found.
 msgid "bdr:BoDeva::skos:prefLabel"
-msgstr "དེ་ཝ་ན་ག་རིར་ཕབ་པའི་བོད་སྐད།"
+msgstr "དེ་ཝ་ནཱ་ག་རཱིར་ཕབ་པའི་བོད་སྐད།"
 
 msgid "bdr:Sa::skos:prefLabel"
 msgstr "ལེགས་སྦྱར་སྐད།"
