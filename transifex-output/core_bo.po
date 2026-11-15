@@ -2836,6 +2836,8 @@ msgstr "མི་སྣ་དེའི་ཨ་ནེ།"
 #. otherwise specified the date is reckoned in the Common Era
 msgid "bdo:onDate::adm:userTooltip"
 msgstr ""
+"བྱུང་བ་དེ་ནི་བཀོད་པའི་ལོའམ་ཟླ་ཚེས་དེའི་རིང་ལ་བྱུང་བར་ངེས་ཤིང་། "
+"དམིགས་བསལ་གསལ་བཤད་མེད་ཚེ་ཟླ་ཚེས་དེ་སྤྱི་ལོའི་ལུགས་སུ་རྩིས་དགོས།"
 
 #. This Person is a Speech incarnation of the target Person
 msgid "bdo:incarnationSpeech::adm:userTooltip"
