@@ -448,7 +448,7 @@ msgstr "དངོས་རྫས་འགན་འཛིན་བཤེར་པ
 
 #. status constants for :Entity metadata: released, provisional, etc
 msgid "adm:Status::adm:userTooltip"
-msgstr ""
+msgstr "གནས་སྟངས་སོར་གནས། : གཞི་གྲངས་ཀྱི་ངོ་བོ། : གློད་གྲོལ་དང་གནས་སྐབས་སོགས།"
 
 #. Has value true if the contents of the associated Work are restricted in
 #. China
