@@ -2597,7 +2597,7 @@ msgid "bdr:Ru::skos:prefLabel"
 msgstr "ཨུ་རུ་སུའི་སྐད།"
 
 msgid "bdr:NewDeva::skos:prefLabel"
-msgstr "དེ་ཝ་ན་ག་རིར་ཕབ་པའི་ནེ་བལ་སྐད།"
+msgstr "དེ་ཝ་ནཱ་ག་རཱིར་ཕབ་པའི་ནེ་ཝཱ་རཱི་སྐད།"
 
 msgid "bdr:SaNagari::skos:prefLabel"
 msgstr "ན་ག་རིའི་ཡི་གེར་ཕབ་པའི་ལེགས་སྦྱར་སྐད།"
