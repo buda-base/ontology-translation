@@ -2591,7 +2591,7 @@ msgid "bdr:MnUnspecified::skos:prefLabel"
 msgstr "སོག་སྐད།"
 
 msgid "bdr:SaDeva::skos:prefLabel"
-msgstr "དེ་ཝ་ན་ག་རིར་ཕབ་པའི་ལེགས་སྦྱར་སྐད།"
+msgstr "དེ་ཝ་ནཱ་ག་རཱིར་ཕབ་པའི་ལེགས་སྦྱར་སྐད།"
 
 msgid "bdr:Ru::skos:prefLabel"
 msgstr "ཨུ་རུ་སུའི་སྐད།"
