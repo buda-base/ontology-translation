@@ -2755,6 +2755,8 @@ msgstr "དཔེ་གཞི་འདི་ལས་བྱུང་བའི་
 #. A string indicating a kind of Note. Used only w FEMC taxonomy notes
 msgid "bdo:noteType::adm:userTooltip"
 msgstr ""
+"དྲན་ཐོའི་རིགས་ཤིག་སྟོན་པའི་ཡིག་རྒྱུན་ཞིག། FEMC "
+"རིགས་དབྱེའི་དྲན་ཐོ་ཁོ་ནར་བཀོལ་སྤྱོད་བྱེད།"
 
 #. An instance that is a bundle of unrelated instances that were not designed
 #. to be in the same package. It typically has no associated work.
