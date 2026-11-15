@@ -2750,7 +2750,7 @@ msgstr "སྤུན་ཉེ་འབྲེལ་བར་བརྟེན་ན
 
 #. References an Instance that is a derivative of this Instance.
 msgid "bdo:instanceHasDerivative::adm:userTooltip"
-msgstr ""
+msgstr "དཔེ་གཞི་འདི་ལས་བྱུང་བའི་འཕྲོས་བྱུང་གི་དཔེ་གཞི་ཤིག།"
 
 #. A string indicating a kind of Note. Used only w FEMC taxonomy notes
 msgid "bdo:noteType::adm:userTooltip"
