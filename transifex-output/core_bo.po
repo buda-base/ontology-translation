@@ -2805,7 +2805,7 @@ msgstr "ཡིག་རྐྱང་ཤོག་ལྷེ་གཅིག་གི
 
 #. identifies the agent participating in an :AgentInRole
 msgid "bdo:agent::adm:userTooltip"
-msgstr ""
+msgstr "AgentInRole ཞེས་པའི་ནང་མཉམ་ཞུགས་བྱེད་མཁན་གྱི་བྱེད་པོ་ངོས་འཛིན་པ།"
 
 #. Indicates the time of the event
 msgid "bdo:eventWhen::adm:userTooltip"
