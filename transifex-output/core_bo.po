@@ -4433,6 +4433,8 @@ msgstr ""
 #. see also: http://lexvo.org/ontology#Script
 msgid "bdo:Script::adm:userTooltip"
 msgstr ""
+"སྐད་ཡིག་གང་ཞིག་འབྲི་བྱེད་ཀྱི་ཡིག་གཟུགས། དཔེར་ན། དབུ་ཅན། དབུ་མེད། "
+"དེ་ཝ་ནཱ་ག་རི། ལ་ཏིན་སོགས།"
 
 #. Anchatsakarat, used in Southeast Asia, starting in 691 B.C.E.
 #. see also: http://www.worldcat.org/oclc/33047740
