@@ -2551,7 +2551,7 @@ msgid "bdr:Dz::skos:prefLabel"
 msgstr "རྫོང་ཁ།"
 
 msgid "bdr:NeDeva::skos:prefLabel"
-msgstr "དེ་ཝ་ན་ག་རིར་ཕབ་པའི་བལ་སྐད།"
+msgstr "དེ་ཝ་ནཱ་ག་རཱིར་ཕབ་པའི་བལ་སྐད།"
 
 #. language of a :LangScript
 msgid "bdo:language::rdfs:label"
