@@ -1749,7 +1749,7 @@ msgstr "བལ་པོའི་ལྕགས་ཀྱུ་ཡི་གེ།"
 
 #. see also: http://lexvo.org/id/script/Deva
 msgid "bdr:ScriptDeva::skos:prefLabel"
-msgstr "དེ་ཝ་ན་ག་རིའི་ཡི་གེ།"
+msgstr "དེ་ཝ་ནཱ་ག་རཱིའི་ཡི་གེ།"
 
 #. ISO 15924 "Newa", 333
 msgid "bdr:ScriptNewa::skos:prefLabel"
