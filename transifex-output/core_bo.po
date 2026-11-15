@@ -4061,7 +4061,7 @@ msgstr ""
 
 #. The script (Tibetan, Devanagari, etc.)
 msgid "bdo:script::adm:userTooltip"
-msgstr "ཡིག་གཟུགས། (བོད་ཡིག དེ་ཝ་ན་ག་རིའི་ཡི་གེ་སོགས)"
+msgstr "ཡིག་གཟུགས། (བོད་ཡིག དེ་ཝ་ནཱ་ག་རཱིའི་ཡི་གེ་སོགས)"
 
 #. an otherwise unspecified type of person name
 msgid "bdo:PersonOtherName::adm:userTooltip"
