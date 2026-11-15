@@ -2558,7 +2558,7 @@ msgid "bdo:language::rdfs:label"
 msgstr "སྐད་རིགས།"
 
 msgid "bdr:HiDeva::skos:prefLabel"
-msgstr "དེ་ཝ་ན་ག་རིར་ཕབ་པའི་ཧིན་སྐད།"
+msgstr "དེ་ཝ་ནཱ་ག་རཱིར་ཕབ་པའི་ཧིན་སྐད།"
 
 msgid "bdr:Pi::skos:prefLabel"
 msgstr "པཱ་ལི།"
