@@ -444,7 +444,7 @@ msgstr "NGMPP ཡིས་མཐུན་སྦྱོར་བྱས་པ། �
 
 #. asset manager status constants for images assets
 msgid "adm:ImagesStatus::adm:userTooltip"
-msgstr "དངོས་རྫས་དོ་དམ་བཤེར་པར་དངོས་རྫས་ཀྱི་གནས་སྟངས་སོར་གནས།"
+msgstr "དངོས་རྫས་འགན་འཛིན་བཤེར་པར་དངོས་རྫས་ཀྱི་གནས་སྟངས་སོར་གནས།"
 
 #. status constants for :Entity metadata: released, provisional, etc
 msgid "adm:Status::adm:userTooltip"
