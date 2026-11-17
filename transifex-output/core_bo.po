@@ -2082,7 +2082,7 @@ msgstr "ཨི་ཊ་ལི་སྐད།"
 #. see also: http://lexvo.org/id/iso639-3/bod
 #. see also: https://github.com/buda-base/owl-schema/issues/98
 msgid "bdr:LangBo::skos:prefLabel"
-msgstr "བོད་ཡིག"
+msgstr "བོད་སྐད།"
 
 #. see also: http://lexvo.org/id/iso639-3/oui
 msgid "bdr:LangOui::skos:prefLabel"
