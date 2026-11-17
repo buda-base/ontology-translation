@@ -3839,7 +3839,7 @@ msgstr ""
 
 #. This Person is a Qualities incarnation of the target Person
 msgid "bdo:incarnationQualities::adm:userTooltip"
-msgstr ""
+msgstr "མི་སྣ་དེའི་ཡོན་ཏན་གྱི་སྤྲུལ་སྐུ།"
 
 #. A description of the what, when and where of an event in the life of a
 #. instance
