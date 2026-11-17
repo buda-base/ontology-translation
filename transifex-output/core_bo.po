@@ -473,7 +473,7 @@ msgstr "བཤུ་སྒྲིག་བྱས་པའི་ཁུངས།"
 #. Title that is explanatory. Typically following the main Title Page Title or
 #. Cover Title
 msgid "bdo:WorkSubtitle::rdfs:label"
-msgstr "གཤམ་ཡིག"
+msgstr "ཡན་ལག་མཚན་བྱང་།"
 
 #. Similar to down from this property refers to a sequence of holders from
 #. another Lineage.
