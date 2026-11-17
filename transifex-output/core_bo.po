@@ -58,7 +58,7 @@ msgstr "ཡི་གེར་བཀོད་པ།"
 
 #. An otherwise unspecified type of Person Event
 msgid "bdo:PersonEventNotSpecified::rdfs:label"
-msgstr "གསལ་ཁ་མེད་པའི་གནས་ཚུལ།"
+msgstr "གསལ་ཁ་མེད་པའི་བྱེད་སྒོ།"
 
 #. The referenced Topic is interpreted as a "genre".
 msgid "bdo:workGenre::rdfs:label"
