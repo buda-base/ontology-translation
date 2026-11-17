@@ -382,7 +382,7 @@ msgstr "གནས་གཞི།"
 #. Shey Palace manuscript reference number
 #. see also: https://www.istb.univie.ac.at/kanjur/xml4/sub/sigla.php
 msgid "bdo:workKaTenSiglaZ::rdfs:label"
-msgstr "ཤེལ་མཁར་བྲིས་མའི་དཀར་ཆགས།"
+msgstr "ཤེལ་མཁར་བྲིས་མའི་ཨང་ཀི།"
 
 #. secondary language associated with a work
 msgid "bdo:workOtherLangScript::rdfs:label"
