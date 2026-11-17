@@ -492,7 +492,7 @@ msgstr "ཡིག་འཛིན། OCR"
 #. An ahistorical agent may be a deity or other non-human agent that is said
 #. to exist outside of human history
 msgid "bdo:AhistoricalAgent::rdfs:label"
-msgstr "ཡོད་ཀྱང་ཐུན་མོང་གི་སྣང་ངོར་མ་གྲུབ་པའི་ལྷའི་རིགས།"
+msgstr "ཐུན་མོང་གི་སྣང་ངོར་མ་གྲུབ་པའི་ལྷའི་རིགས།"
 
 #. Indicates an in-law of the person
 msgid "bdo:hasInLaw::rdfs:label"
