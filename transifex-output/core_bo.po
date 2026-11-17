@@ -54,7 +54,7 @@ msgstr "གཤེར་པར་གྱི་པོད།"
 
 #. An event of preparing a written manuscript of a Work
 msgid "bdo:EnscribedEvent::rdfs:label"
-msgstr "བྲིས་པའི་དུས།"
+msgstr "ཡི་གེར་བཀོད་པ།"
 
 #. An otherwise unspecified type of Person Event
 msgid "bdo:PersonEventNotSpecified::rdfs:label"
