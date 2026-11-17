@@ -40,7 +40,7 @@ msgstr "དཔེ་ཆ།"
 #. An Event associated with the Person such as birth, death, ordination, and
 #. so on
 msgid "bdo:PersonEvent::rdfs:label"
-msgstr "མི་སྣ་དང་འབྲེལ་བའི་གནས་ཚུལ།"
+msgstr "མི་སྣའི་བྱེད་སྒོ།"
 
 #. This is the location of the source information for this :Lineage in a
 #. specified gsan / thob yig.
