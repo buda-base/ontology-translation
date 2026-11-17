@@ -70,7 +70,7 @@ msgstr "ངོ་བཤུས།"
 
 #. Indicates a school, tradition, or sect that the Person is associated with.
 msgid "bdo:personOfSect::rdfs:label"
-msgstr "ཆོས་བརྒྱུད།"
+msgstr "ཆོས་བརྒྱུད་ཀྱི་མི་སྣ།"
 
 #. The WorkLocation describes the Work, Volume, Page and so on at which
 #. something of interest occurs, e.g., the beginning or end of a Work that is
