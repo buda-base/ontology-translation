@@ -279,7 +279,7 @@ msgid "bdo:hasWife::rdfs:label"
 msgstr "བདག་མོ།"
 
 msgid "skos:altLabel::rdfs:label"
-msgstr "མཚན་གྱི་རྣམ་གྲངས།"
+msgstr "མིང་བྱང་གི་རྣམ་གྲངས།"
 
 #. An agent as creator establishes a given Agent performing some cretation
 #. rolw w.r.t. a Work
