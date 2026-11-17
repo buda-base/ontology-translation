@@ -50,7 +50,7 @@ msgstr "ཡོང་ཁུངས།"
 
 #. Represents a scanned or otherwise digitized set of page images.
 msgid "bdo:VolumeImageAsset::rdfs:label"
-msgstr "གཤེར་པར་གྱི་པོ་ཏི།"
+msgstr "གཤེར་པར་གྱི་པོད།"
 
 #. An event of preparing a written manuscript of a Work
 msgid "bdo:EnscribedEvent::rdfs:label"
