@@ -117,7 +117,7 @@ msgstr "འཕྲེད་ཐིག"
 
 #. A note regarding a bibliographic feature of the Work
 msgid "bdo:workBiblioNote::rdfs:label"
-msgstr "དཔེ་ཐོའི་ཟིན་ཐོ།"
+msgstr "དཔེ་ཐོའི་ཟིན་བྲིས།"
 
 #. The Event of a Person leaving a Seat
 msgid "bdo:PersonLeavesSeat::rdfs:label"
