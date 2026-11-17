@@ -3956,7 +3956,7 @@ msgstr ""
 
 #. This Person is the next incarnation of the target Person
 msgid "bdo:incarnationYangtse::adm:userTooltip"
-msgstr ""
+msgstr "མི་སྣ་འདི་ནི་མི་སྣ་རྗེས་མ་དེའི་ཡང་སྲིད་ཡིན།"
 
 #. An Item captures structural and administrative metadata associated with a
 #. digital or physical asset
