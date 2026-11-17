@@ -314,7 +314,7 @@ msgstr "ཆོས་བརྒྱུད།"
 
 #. A description of the physical appearance of a Volume of the Item.
 msgid "bdo:volumePhysicalDescription::rdfs:label"
-msgstr "གཟུགས་ཅན་པོ་ཏིའི་རྒྱས་བཤད།"
+msgstr "དཔེ་དེབ་དངོས་པོའི་གསལ་བཤད།"
 
 msgid "skos:hiddenLabel::rdfs:label"
 msgstr "སྦས་པའི་མིང་བྱང་།"
