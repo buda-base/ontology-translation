@@ -3306,7 +3306,7 @@ msgstr ""
 
 #. Indicates a Person considered to be an Incarnation of this Person
 msgid "bdo:hasIncarnation::adm:userTooltip"
-msgstr ""
+msgstr "མི་སྣ་འདིའི་སྤྲུལ་སྐུར་བརྩི་བའི་མི་སྣ་ཞིག་མཚོན།"
 
 #. Indicates an uncle of the person
 msgid "bdo:hasUncle::adm:userTooltip"
