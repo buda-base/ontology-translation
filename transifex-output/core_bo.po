@@ -2820,7 +2820,7 @@ msgstr "ཆོས་བརྒྱུད་འཛིན་མཁན་གྱི་
 #. single agents include ahistorical and historical (human) agents
 msgid "bdo:SingleAgent::adm:userTooltip"
 msgstr ""
-"བྱེད་པོ་རྐྱང་པའི་ཁོངས་སུ་ཐུན་མོང་ལ་མི་སྣང་བ་དང་ལོ་རྒྱུས་ལྡན་པའི་མི་སྣའི་བྱེད་པོ་རྣམས་འདུས།"
+"བྱེད་པོ་རྐྱང་པའི་ཁོངས་སུ་ཐུན་མོང་ལ་མི་སྣང་བ་དང་ལོ་རྒྱུས་ལྡན་པའི་(མི་སྣའི་)བྱེད་པོ་རྣམས་འདུས།"
 
 #. Associates a Note containing: a comment, Work, and location in the Work.
 msgid "bdo:note::adm:userTooltip"
