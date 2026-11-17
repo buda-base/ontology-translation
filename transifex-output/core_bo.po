@@ -333,7 +333,7 @@ msgstr "པོད་མ་ཚང་བ།"
 
 #. A member of an organization by marriage
 msgid "bdo:CorporationMemberByMarriage::rdfs:label"
-msgstr "གཉེན་སྒྲིག་གི་འབྲེལ་བར་བརྟེན་ནས་ཚོགས་མིར་གྱུར་བ།"
+msgstr "གཉེན་སྒྲིག་བྱས་ནས་ཁྱིམ་མིར་གྱུར་བ།"
 
 #. Indicates the material applied on a work (ink, golden leaf, etc.)
 msgid "bdo:appliedMaterial::rdfs:label"
