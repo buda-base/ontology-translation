@@ -129,7 +129,7 @@ msgstr "གཏེར་ལས་བཏོན་དུས།"
 
 #. text of the note
 msgid "bdo:noteText::rdfs:label"
-msgstr "ཡི་གེ།"
+msgstr "ཆོས་ཚན།"
 
 #. This Item represents an occurrence of the referenced PhysicalInstance
 msgid "bdo:itemForInstance::rdfs:label"
