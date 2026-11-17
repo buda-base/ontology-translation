@@ -359,7 +359,7 @@ msgstr "དཀར་ཆག་ཨང་གྲངས།"
 #. A description of the what, when and where of an event in the life of a
 #. instance
 msgid "bdo:workEvent::rdfs:label"
-msgstr "གནས་ཚུལ།"
+msgstr "གལ་ཆེའི་བྱུང་བ།"
 
 #. Refers to the International Standard Book Number for the Work
 msgid "bdo:workIsbn::rdfs:label"
