@@ -4988,7 +4988,7 @@ msgstr "ཡི་ལམ་སྟོན།"
 
 #. modern print, undetermined process
 msgid "bdr:PrintMethod_Modern::skos:prefLabel"
-msgstr "དེབ་གཟུགས།"
+msgstr "གློག་ཀླད་པར་མ།"
 
 #. The manuscript was carved with a stylus cutter (typically the case in the
 #. Southeast Asian context)
