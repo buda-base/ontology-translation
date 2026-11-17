@@ -108,7 +108,7 @@ msgstr "སྐབས་འཕྲལ་ལས་འགན།"
 
 #. Identifies a Place that this Place contains.
 msgid "bdo:placeContains::rdfs:label"
-msgstr "ནང་གསེའི་ས་གནས།"
+msgstr "ནང་དུ་ཚུད་པ།"
 
 #. The latitude of the place, using GPS coordinates (WGS84), formatted as
 #. decimal degrees
