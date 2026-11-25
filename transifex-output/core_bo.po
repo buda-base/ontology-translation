@@ -3060,7 +3060,7 @@ msgstr "ས་ཆ་འདི་ཁོངས་སུ་འདུ་སའི་
 #. An Instance consisting of some form of searchable text
 #. see also: http://purl.bdrc.io/ontology/core/Etext
 msgid "bdo:EtextInstance::adm:userTooltip"
-msgstr ""
+msgstr "འཚོལ་བཤེར་ཐུབ་པའི་ཡིག་རྐྱང་གི་རྣམ་པ་ཅི་རིགས་ལས་གྲུབ་པའི་དཔེ་གཞི་ཞིག།"
 
 #. Title indicated in the margins or page headers of a Work.
 msgid "bdo:RunningTitle::rdfs:label"
