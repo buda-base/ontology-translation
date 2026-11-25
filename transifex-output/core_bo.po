@@ -3003,6 +3003,8 @@ msgstr "མི་སྣ་དེའི་གཅེན་པོ།"
 #. location in the Work
 msgid "bdo:Note::adm:userTooltip"
 msgstr ""
+"བརྗོད་བྱའི་ཐོན་ཁུངས་སྐོར་གྱི་འགྲེལ་བརྗོད་ནི། "
+"བརྩམས་ཆོས་གྱི་ཁུངས་དང་བརྩམས་ཆོས་དེའི་ནང་གི་གནས་ཡུལ་བཅས་ཡོད་སྲིད།"
 
 #. indicates a connection between two bdo:Labels
 msgid "bdo:labelConnection::adm:userTooltip"
