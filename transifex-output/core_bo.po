@@ -3095,6 +3095,10 @@ msgstr "ནང་དོན་ཡོད་ས།"
 #. contained in another Work; or a reference to the source of a Lineage
 msgid "bdo:ContentLocation::adm:userTooltip"
 msgstr ""
+"ནང་དོན་གནས་ཡུལ་གྱིས་དོ་སྣང་བྱ་ཡུལ་གང་ཞིག་ཡོད་སའི་དཔེ་གཞི་དང་། པོད། "
+"ཤོག་གྲངས་སོགས་འགྲེལ་བརྗོད་བྱེད་དེ། དཔེར་ན། "
+"གསུང་རྩོམ་གཞན་ཞིག་གི་ནང་དུ་འདུས་པའི་བརྩམས་ཆོས་ཤིག་གི་དབུ་འམ་མཇུག "
+"།ཡང་ན་ཆོས་བརྒྱུད་ཅིག་གི་ཁུངས་འདྲེན་པ་ལྟ་བུའོ།"
 
 #. name used by the author in the colophons of his works
 msgid "bdo:PersonPenName::adm:userTooltip"
