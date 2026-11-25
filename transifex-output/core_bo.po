@@ -3195,6 +3195,8 @@ msgstr "ཡོང་ཁུངས།"
 #. see also: http://purl.bdrc.io/ontology/core/Lineage
 msgid "bdo:contentLocation::adm:userTooltip"
 msgstr ""
+"འདི་ནི་དམིགས་བསལ་བསྟན་པའི་གསན་ཡིག་གམ་ཐོབ་ཡིག་ཅིག་གི་ནང་དུ། "
+":ཆོས་བརྒྱུད་འདིའི་ཁུངས་ཀྱི་གནས་ཚུལ་ཡོད་སའི་གནས་ཡུལ་ཡིན།"
 
 #. Event occurring upon a divorce of the person
 msgid "bdo:PersonDivorce::adm:userTooltip"
