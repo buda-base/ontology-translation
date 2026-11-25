@@ -2900,6 +2900,7 @@ msgstr "མི་སྣ་དེའི་ཕའི་ཕྱོགས་ཀྱི
 #. Refers to the Tradition that the place event is affiliated with.
 msgid "bdo:placeEventAffiliation::adm:userTooltip"
 msgstr ""
+"གནས་ཀྱི་གལ་ཆེའི་བྱུང་བ་དེ་འབྲེལ་ཡོད་ཆོས་བརྒྱུད་ལ་འབྲེལ་སྦྱོར་བྱེད་ཡོད།"
 
 #. A Person Name is one of the names a Person is historically known by
 msgid "bdo:PersonName::adm:userTooltip"
