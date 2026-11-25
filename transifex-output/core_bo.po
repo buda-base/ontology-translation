@@ -3169,6 +3169,8 @@ msgstr ""
 #. associated Instance was digitized.
 msgid "bdo:ItemMicrofilmAsset::adm:userTooltip"
 msgstr ""
+":ItemMicrofilmAsset "
+"ཞེས་པས་འབྲེལ་ཡོད་དཔེ་གཞི་དེ་གང་ལས་བཤེར་པར་དུ་བསྒྱུར་བའི་དངོས་ཡོད་ཕྲ་མཐོང་སྤྱིན་ཤོག་གི་འགྲེལ་བརྗོད་བྱེད།"
 
 #. Indicates the volume in which the etext is found.
 msgid "bdo:eTextInVolume::adm:userTooltip"
