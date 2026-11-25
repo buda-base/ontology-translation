@@ -3118,7 +3118,7 @@ msgstr "བརྩམས་ཆོས་ཞིག་འབྲི་འགོ་མ
 
 #. This work is a derivative of the referenced work.
 msgid "bdo:workDerivativeOf::adm:userTooltip"
-msgstr "བརྩམས་ཆོས་འདི་ནི་ཁུངས་དྲངས་པའི་བརྩམས་ཆོས་ལས་བྱུང་བ་ཞིག་ཡིན།"
+msgstr "བརྩམས་ཆོས་འདི་ནི་ཁུངས་དྲངས་པའི་བརྩམས་ཆོས་ལས་དྲངས་པ་ཞིག་ཡིན།"
 
 #. This label is a (spelling) correction of the object label
 msgid "bdo:correctionOf::adm:userTooltip"
