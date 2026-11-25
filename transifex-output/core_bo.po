@@ -3046,6 +3046,8 @@ msgstr ""
 #. specified the year is reckoned in the Common Era
 msgid "bdo:onYear::adm:userTooltip"
 msgstr ""
+"བྱུང་བ་དེ་ནི་བཀོད་པའི་ལོ་དེའི་རིང་ལ་བྱུང་བར་ངེས་ཤིང་། "
+"དམིགས་བསལ་གསལ་བཤད་མེད་ཚེ་ལོ་དེ་སྤྱི་ལོའི་ལུགས་སུ་བརྩི་བར་བྱ།"
 
 #. Indicates a Speech incarnation of this Person.
 msgid "bdo:hasIncarnationSpeech::adm:userTooltip"
