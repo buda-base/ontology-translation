@@ -2856,7 +2856,7 @@ msgstr "མི་སྣ་དེའི་ཕ་མའི་གཉེན་ཉེ
 
 #. The referenced Instance is an expression of this Work.
 msgid "bdo:workHasInstance::adm:userTooltip"
-msgstr "ཁུངས་དྲངས་པའི་དཔེ་གཞི་དེ་ནི་བརྩམས་ཆོས་འདིའི་མཚོན་ཚུལ་ཞིག་ཡིན།"
+msgstr "ཁུངས་དྲངས་དཔེ་གཞི་དེ་ནི་བརྩམས་ཆོས་འདིའི་མཚོན་ཚུལ་ཞིག་ཡིན།"
 
 #. A statement of the extent of the instance
 msgid "bdo:instanceExtentStatement::adm:userTooltip"
