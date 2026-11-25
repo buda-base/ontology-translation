@@ -3855,6 +3855,8 @@ msgstr "གནས་ཚུལ།"
 #. instance
 msgid "bdo:instanceEvent::adm:userTooltip"
 msgstr ""
+"དཔེ་གཞི་ཞིག་གི་མི་ཚེའི་ཁྲོད་ཀྱི་བྱུང་བ་གང་ཞིག་གི་ཅི་ཞིག་བྱུང་བ་དང་། "
+"དུས་ནམ་ཞིག་ལ་བྱུང་བ། གནས་གང་དུ་བྱུང་བ་བཅས་ཀྱི་འགྲེལ་བཤད།"
 
 #. Represents a scanned or otherwise digitized set of page images.
 msgid "bdo:ImageGroup::rdfs:label"
