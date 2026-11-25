@@ -3147,6 +3147,7 @@ msgstr "མི་སྣ་དེའི་སྤྲུལ་སྐུ།"
 #. the language tag
 msgid "bdo:translationOf::adm:userTooltip"
 msgstr ""
+"མིང་བྱང་འདི་ནི་སྐད་ཡིག་དབྱེ་རྟགས་ནང་བསྟན་པའི་སྐད་ཡིག་ཏུ་བསྒྱུར་བའི་དགོད་ཡུལ་མིང་བྱང་ཀྱི་འགྱུར་ཡིན།"
 
 #. Subjects and genres of works, just as in a traditional library catalog
 msgid "bdo:Topic::adm:userTooltip"
