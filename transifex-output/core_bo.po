@@ -3018,6 +3018,8 @@ msgstr "མི་སྣ་དེའི་གཅེན་གཅུང་ཞིག
 #. instance
 msgid "bdo:workEvent::adm:userTooltip"
 msgstr ""
+"དཔེ་གཞི་ཞིག་གི་མི་ཚེའི་ཁྲོད་ཀྱི་བྱུང་བ་གང་ཞིག་གི་ཅི་ཞིག་བྱུང་བ་དང་། "
+"དུས་ནམ་ཞིག་ལ་བྱུང་བ། གནས་གང་དུ་བྱུང་བ་བཅས་ཀྱི་འགྲེལ་བཤད།"
 
 #. indicates a Place Event of unknown type!?
 msgid "bdo:PlaceEventNotSpecified::adm:userTooltip"
