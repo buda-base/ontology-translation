@@ -3122,7 +3122,7 @@ msgstr "བརྩམས་ཆོས་འདི་ནི་ཁུངས་དྲ
 
 #. This label is a (spelling) correction of the object label
 msgid "bdo:correctionOf::adm:userTooltip"
-msgstr ""
+msgstr "མཚོན་རྟགས་（དག་ཆའི་）འདི་ནི་དགོད་ཡུལ་མཚོན་རྟགས་ཀྱི་ཞུས་དག་ཡིན།"
 
 #. An event related to a person such as birth, death, ordination, founding
 #. monastery and so on.
